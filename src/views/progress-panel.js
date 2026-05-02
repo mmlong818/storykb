@@ -1,0 +1,49 @@
+import { html, raw, escapeHtml } from "../util.js";
+
+const STAGE_LABELS = {
+  "ingest": "导入",
+  "parse": "解析",
+  "chunk": "切块",
+  "dedupe": "去重",
+  "extract-concepts": "概念抽取",
+  "consolidate": "归并",
+  "synthesize-wiki": "Wiki 合成",
+};
+
+export function renderProgressPanel(progress) {
+  if (!progress?.stage) {
+    return html`<div class="progressPanel idle">分析管线未运行</div>`;
+  }
+  const pct = progress.total ? Math.floor((progress.done / progress.total) * 100) : 0;
+  const stageLabel = STAGE_LABELS[progress.stage] || progress.stage;
+  const elapsedMs = Date.now() - new Date(progress.startedAt).getTime();
+  const rate = progress.done > 0 ? elapsedMs / progress.done : 0;
+  const remaining = progress.total - progress.done;
+  const etaMs = rate * remaining;
+  const errors = progress.errors?.length || 0;
+  return html`
+    <div class="progressPanel running">
+      <div class="progressTop">
+        <strong>${stageLabel}</strong>
+        <span>${progress.done} / ${progress.total} (${pct}%)</span>
+      </div>
+      <div class="progressBar"><div class="progressFill" style="width:${pct}%"></div></div>
+      <div class="progressMeta">
+        <span>已用 ${formatDuration(elapsedMs)}</span>
+        ${remaining > 0 ? html`<span>剩余 ${formatDuration(etaMs)}</span>` : ""}
+        ${errors > 0 ? html`<span class="warn">⚠ ${errors} 错误</span>` : ""}
+      </div>
+      ${progress.current ? html`<div class="progressCurrent">${progress.current}</div>` : ""}
+    </div>
+  `;
+}
+
+function formatDuration(ms) {
+  if (!Number.isFinite(ms) || ms < 0) return "-";
+  const s = Math.floor(ms / 1000);
+  if (s < 60) return `${s}s`;
+  const m = Math.floor(s / 60);
+  if (m < 60) return `${m}m${s % 60}s`;
+  const h = Math.floor(m / 60);
+  return `${h}h${m % 60}m`;
+}
