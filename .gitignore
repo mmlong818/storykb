@@ -21,6 +21,9 @@ database/templates/history/
 database/kb.legacy-demo.json
 database/kb.legacy-demo.js
 
+# Claude Code local settings (not project-level)
+.claude/
+
 # OS / editor
 .DS_Store
 Thumbs.db

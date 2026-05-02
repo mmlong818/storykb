@@ -1,10 +1,16 @@
 {
   "name": "story-kb-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "node runtime/local-server.cjs",
-    "desktop": "cd runtime/electron && npm start"
+    "desktop": "cd runtime/electron && npm start",
+    "analyze": "node runtime/analyzer/run.mjs",
+    "analyze:ingest": "node runtime/analyzer/run.mjs --stages=ingest,parse,chunk,dedupe"
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1"
   }
 }
