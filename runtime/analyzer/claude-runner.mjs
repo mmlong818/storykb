@@ -34,10 +34,10 @@ function spawnOnce(prompt, timeoutMs, extraArgs) {
       stdio: ["pipe", "pipe", "pipe"],
     });
 
-    let stdout = "";
-    let stderr = "";
-    child.stdout.on("data", (chunk) => { stdout += chunk; });
-    child.stderr.on("data", (chunk) => { stderr += chunk; });
+    const stdoutChunks = [];
+    const stderrChunks = [];
+    child.stdout.on("data", (chunk) => { stdoutChunks.push(chunk); });
+    child.stderr.on("data", (chunk) => { stderrChunks.push(chunk); });
 
     const timer = setTimeout(() => {
       child.kill("SIGKILL");
@@ -51,6 +51,8 @@ function spawnOnce(prompt, timeoutMs, extraArgs) {
 
     child.on("close", (code) => {
       clearTimeout(timer);
+      const stdout = Buffer.concat(stdoutChunks).toString("utf8");
+      const stderr = Buffer.concat(stderrChunks).toString("utf8");
       try {
         const meta = parseFirstJson(stdout);
         if (!meta) {
