@@ -6,6 +6,11 @@ import { startStage, tick, endStage, recordError } from "./progress.mjs";
 const TARGET_MIN = 600;
 const TARGET_MAX = 1800;
 const HARD_MAX = 2400;
+const MIN_MEANINGFUL_CHARS = 30;
+
+function meaningfulCharCount(text) {
+  return (text.match(/[\p{Letter}\p{Number}]/gu) || []).length;
+}
 
 export async function chunkAll() {
   const sourceIds = listSourcesNeedingChunking();
@@ -49,10 +54,16 @@ function chunkOne(sourceId) {
 
   const segments = headings.length ? splitByHeadings(text, headings) : [{ heading: null, charStart: 0, charEnd: text.length }];
   const chunks = [];
+  let droppedLowSignal = 0;
   for (const seg of segments) {
     const segText = text.slice(seg.charStart, seg.charEnd);
     const subChunks = splitLongSegment(segText, seg.charStart);
     for (const sc of subChunks) {
+      const meaningful = meaningfulCharCount(sc.text);
+      if (meaningful < MIN_MEANINGFUL_CHARS) {
+        droppedLowSignal += 1;
+        continue;
+      }
       chunks.push({
         id: `${sourceId.slice(0, 12)}-${chunks.length.toString().padStart(5, "0")}`,
         sourceId,
@@ -62,6 +73,7 @@ function chunkOne(sourceId) {
         charEnd: sc.charEnd,
         text: sc.text,
         charLength: sc.text.length,
+        meaningfulChars: meaningful,
       });
     }
   }
@@ -76,9 +88,10 @@ function chunkOne(sourceId) {
     status: "chunked",
     chunkedAt: new Date().toISOString(),
     chunkCount: chunks.length,
+    droppedLowSignal,
   }, null, 2), "utf8");
 
-  return { chunkCount: chunks.length };
+  return { chunkCount: chunks.length, droppedLowSignal };
 }
 
 function splitByHeadings(text, headings) {

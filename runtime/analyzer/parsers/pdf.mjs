@@ -7,14 +7,26 @@ const pdfParse = require("pdf-parse");
 export async function parsePdf(rawPath) {
   const buf = fs.readFileSync(rawPath);
   const pages = [];
-  const result = await pdfParse(buf, {
-    pagerender: async (pageData) => {
-      const textContent = await pageData.getTextContent();
-      const text = textContent.items.map((item) => item.str).join(" ");
+
+  const renderPage = (pageData) => {
+    const renderOptions = { normalizeWhitespace: false, disableCombineTextItems: false };
+    return pageData.getTextContent(renderOptions).then((textContent) => {
+      let lastY;
+      let text = "";
+      for (const item of textContent.items) {
+        if (lastY === undefined || lastY === item.transform[5]) {
+          text += item.str;
+        } else {
+          text += "\n" + item.str;
+        }
+        lastY = item.transform[5];
+      }
       pages.push(text);
       return text + "\n\n";
-    },
-  });
+    });
+  };
+
+  const result = await pdfParse(buf, { pagerender: renderPage });
   const fullText = pages.length ? pages.join("\n\n") : (result.text || "");
   const normalized = fullText.replace(/\r\n?/g, "\n").replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
 

@@ -1,0 +1,1692 @@
+{
+  "generatedAt": "2026-05-02T13:55:32.687Z",
+  "threshold": 3,
+  "totalChunks": 4435,
+  "exactGroups": [
+    {
+      "hash": "cfab1ba8c67c7c03",
+      "members": [
+        {
+          "chunkId": "08ecb629f442-00010",
+          "sourceId": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7"
+        },
+        {
+          "chunkId": "bcd48933677d-00044",
+          "sourceId": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9"
+        }
+      ]
+    },
+    {
+      "hash": "cfab1ba8c67c7c81",
+      "members": [
+        {
+          "chunkId": "08ecb629f442-00011",
+          "sourceId": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7"
+        },
+        {
+          "chunkId": "bcd48933677d-00043",
+          "sourceId": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9"
+        }
+      ]
+    },
+    {
+      "hash": "cfab1ba8c67c7c83",
+      "members": [
+        {
+          "chunkId": "08ecb629f442-00041",
+          "sourceId": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7"
+        },
+        {
+          "chunkId": "08ecb629f442-00042",
+          "sourceId": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7"
+        },
+        {
+          "chunkId": "0bb75d557051-00010",
+          "sourceId": "0bb75d5570510d93b0d8c794829d7af1796756b6d275115079a36c0e0674ade1"
+        },
+        {
+          "chunkId": "bcd48933677d-00052",
+          "sourceId": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9"
+        },
+        {
+          "chunkId": "bcd48933677d-00061",
+          "sourceId": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9"
+        }
+      ]
+    },
+    {
+      "hash": "58b9e70b65a77700",
+      "members": [
+        {
+          "chunkId": "08ecb629f442-00051",
+          "sourceId": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7"
+        },
+        {
+          "chunkId": "31fa937205c3-00133",
+          "sourceId": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2"
+        },
+        {
+          "chunkId": "96f6452a1100-00000",
+          "sourceId": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3"
+        },
+        {
+          "chunkId": "c4d68280468a-00034",
+          "sourceId": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3"
+        },
+        {
+          "chunkId": "c4d68280468a-00062",
+          "sourceId": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3"
+        },
+        {
+          "chunkId": "f5fdbde5e293-00038",
+          "sourceId": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e"
+        },
+        {
+          "chunkId": "f5fdbde5e293-00045",
+          "sourceId": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e"
+        },
+        {
+          "chunkId": "faf0c9cbcde8-00089",
+          "sourceId": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307"
+        }
+      ]
+    }
+  ],
+  "nearPairs": [
+    {
+      "a": "c4d68280468a-00015",
+      "b": "c4d68280468a-00016",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "08ecb629f442-00051",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "31fa937205c3-00133",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "96f6452a1100-00000",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "c4d68280468a-00034",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "c4d68280468a-00062",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "f5fdbde5e293-00038",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "f5fdbde5e293-00045",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00015",
+      "b": "faf0c9cbcde8-00089",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "c4d68280468a-00023",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "08ecb629f442-00051",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "31fa937205c3-00133",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "96f6452a1100-00000",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "c4d68280468a-00034",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "c4d68280468a-00062",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "f5fdbde5e293-00038",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "f5fdbde5e293-00045",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00058",
+      "b": "faf0c9cbcde8-00089",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00023",
+      "b": "bcd48933677d-00011",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00023",
+      "b": "c4d68280468a-00041",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "de8d9165e6a5-00022",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "c4d68280468a-00024",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "08ecb629f442-00051",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "31fa937205c3-00133",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "96f6452a1100-00000",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "c4d68280468a-00034",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "c4d68280468a-00062",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "f5fdbde5e293-00038",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "f5fdbde5e293-00045",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "faf0c9cbcde8-00089",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00011",
+      "b": "c4d68280468a-00041",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00056",
+      "b": "c4d68280468a-00024",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00064",
+      "b": "c4d68280468a-00016",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00064",
+      "b": "c4d68280468a-00059",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00064",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "c4d68280468a-00024",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "c4d68280468a-00067",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "08ecb629f442-00051",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "31fa937205c3-00133",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "96f6452a1100-00000",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "c4d68280468a-00034",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "c4d68280468a-00062",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "f5fdbde5e293-00038",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "f5fdbde5e293-00045",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "faf0c9cbcde8-00089",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "c4d68280468a-00059",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "c4d68280468a-00050",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "d11c98511ace-00058",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "c4d68280468a-00019",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00016",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "c4d68280468a-00067",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "08ecb629f442-00051",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "31fa937205c3-00133",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "96f6452a1100-00000",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "c4d68280468a-00034",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "c4d68280468a-00062",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "f5fdbde5e293-00038",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "f5fdbde5e293-00045",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "faf0c9cbcde8-00089",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "c4d68280468a-00059",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "c4d68280468a-00050",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "d11c98511ace-00058",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00024",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "08ecb629f442-00051",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "31fa937205c3-00133",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "96f6452a1100-00000",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "c4d68280468a-00034",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "c4d68280468a-00062",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "f5fdbde5e293-00038",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "f5fdbde5e293-00045",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "faf0c9cbcde8-00089",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "c4d68280468a-00059",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "c4d68280468a-00050",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "d11c98511ace-00058",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "c4d68280468a-00019",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00067",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "c4d68280468a-00059",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "c4d68280468a-00050",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "d11c98511ace-00058",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "c4d68280468a-00019",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "414229acda52-00033",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "c4d68280468a-00035",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "d11c98511ace-00071",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00051",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "c4d68280468a-00059",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "c4d68280468a-00050",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "d11c98511ace-00058",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "c4d68280468a-00019",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "414229acda52-00033",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "c4d68280468a-00035",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "d11c98511ace-00071",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "31fa937205c3-00133",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "31fa937205c333dc4931a8cd84feaed2378b4401374a5f728a0bb8268a9a8cb2",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "c4d68280468a-00059",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "c4d68280468a-00050",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "d11c98511ace-00058",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "c4d68280468a-00019",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "414229acda52-00033",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "c4d68280468a-00035",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "d11c98511ace-00071",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "96f6452a1100-00000",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "96f6452a11000f60642637ebf01dec05439f6970ea9ff07c21367f7ead15cbf3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "c4d68280468a-00059",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "c4d68280468a-00050",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "d11c98511ace-00058",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "c4d68280468a-00019",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "c4d68280468a-00035",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00034",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "c4d68280468a-00059",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "c4d68280468a-00050",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "d11c98511ace-00058",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "c4d68280468a-00019",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "c4d68280468a-00035",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "c4d68280468a-00062",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "c4d68280468a-00059",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "c4d68280468a-00050",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "d11c98511ace-00058",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "c4d68280468a-00019",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "414229acda52-00033",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "c4d68280468a-00035",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "d11c98511ace-00071",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00038",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "c4d68280468a-00059",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "c4d68280468a-00050",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "d11c98511ace-00058",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "c4d68280468a-00019",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "414229acda52-00033",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "c4d68280468a-00035",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "d11c98511ace-00071",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "f5fdbde5e293-00045",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "c4d68280468a-00059",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "c4d68280468a-00050",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 1
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "d11c98511ace-00058",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "c4d68280468a-00019",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "414229acda52-00033",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 1
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "c4d68280468a-00035",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "f5fdbde5e293-00005",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "d11c98511ace-00071",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 1
+    },
+    {
+      "a": "faf0c9cbcde8-00089",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00059",
+      "b": "c4d68280468a-00050",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00059",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00059",
+      "b": "d11c98511ace-00058",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00059",
+      "b": "c4d68280468a-00019",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00059",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00059",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00059",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00050",
+      "b": "faf0c9cbcde8-00088",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00050",
+      "b": "d11c98511ace-00058",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00050",
+      "b": "c4d68280468a-00019",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00050",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00050",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "c4d68280468a-00050",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "faf0c9cbcde8-00088",
+      "b": "d11c98511ace-00058",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "faf0c9cbcde8-00088",
+      "b": "c4d68280468a-00019",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 1
+    },
+    {
+      "a": "faf0c9cbcde8-00088",
+      "b": "414229acda52-00033",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 2
+    },
+    {
+      "a": "faf0c9cbcde8-00088",
+      "b": "d11c98511ace-00071",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "faf0c9cbcde8-00088",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "faf0c9cbcde8e2821ebe8e4066a2529ffbe941ebc2811988234f7329c6251307",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "d11c98511ace-00058",
+      "b": "c4d68280468a-00019",
+      "aSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "d11c98511ace-00058",
+      "b": "414229acda52-00033",
+      "aSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 2
+    },
+    {
+      "a": "d11c98511ace-00058",
+      "b": "d11c98511ace-00071",
+      "aSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "d11c98511ace-00058",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00019",
+      "b": "414229acda52-00033",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00019",
+      "b": "d11c98511ace-00071",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 3
+    },
+    {
+      "a": "414229acda52-00033",
+      "b": "d11c98511ace-00071",
+      "aSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "bSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "distance": 2
+    },
+    {
+      "a": "414229acda52-00033",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "414229acda52bb5abfa88987e190818408efc37dec5a09a26aed8c4e86078b4d",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "d11c98511ace-00071",
+      "b": "f5fdbde5e293-00018",
+      "aSource": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+      "bSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00041",
+      "b": "c4d68280468a-00022",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 3
+    },
+    {
+      "a": "f5fdbde5e293-00018",
+      "b": "de8d9165e6a5-00061",
+      "aSource": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+      "bSource": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+      "distance": 3
+    },
+    {
+      "a": "de8d9165e6a5-00061",
+      "b": "c4d68280468a-00022",
+      "aSource": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+      "bSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "distance": 2
+    },
+    {
+      "a": "de8d9165e6a5-00061",
+      "b": "de8d9165e6a5-00047",
+      "aSource": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+      "bSource": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+      "distance": 3
+    },
+    {
+      "a": "c4d68280468a-00022",
+      "b": "de8d9165e6a5-00047",
+      "aSource": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+      "bSource": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00059",
+      "b": "08ecb629f442-00011",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 2
+    },
+    {
+      "a": "bcd48933677d-00059",
+      "b": "bcd48933677d-00043",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 2
+    },
+    {
+      "a": "bcd48933677d-00059",
+      "b": "08ecb629f442-00041",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00059",
+      "b": "08ecb629f442-00042",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00059",
+      "b": "0bb75d557051-00010",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "0bb75d5570510d93b0d8c794829d7af1796756b6d275115079a36c0e0674ade1",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00059",
+      "b": "bcd48933677d-00052",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 3
+    },
+    {
+      "a": "bcd48933677d-00059",
+      "b": "bcd48933677d-00061",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 3
+    },
+    {
+      "a": "08ecb629f442-00010",
+      "b": "08ecb629f442-00011",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 2
+    },
+    {
+      "a": "08ecb629f442-00010",
+      "b": "bcd48933677d-00043",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 2
+    },
+    {
+      "a": "08ecb629f442-00010",
+      "b": "08ecb629f442-00041",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00010",
+      "b": "08ecb629f442-00042",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00010",
+      "b": "0bb75d557051-00010",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "0bb75d5570510d93b0d8c794829d7af1796756b6d275115079a36c0e0674ade1",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00010",
+      "b": "bcd48933677d-00052",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00010",
+      "b": "bcd48933677d-00061",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00044",
+      "b": "08ecb629f442-00011",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 2
+    },
+    {
+      "a": "bcd48933677d-00044",
+      "b": "bcd48933677d-00043",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 2
+    },
+    {
+      "a": "bcd48933677d-00044",
+      "b": "08ecb629f442-00041",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00044",
+      "b": "08ecb629f442-00042",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00044",
+      "b": "0bb75d557051-00010",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "0bb75d5570510d93b0d8c794829d7af1796756b6d275115079a36c0e0674ade1",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00044",
+      "b": "bcd48933677d-00052",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00044",
+      "b": "bcd48933677d-00061",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00011",
+      "b": "08ecb629f442-00041",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00011",
+      "b": "08ecb629f442-00042",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00011",
+      "b": "0bb75d557051-00010",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "0bb75d5570510d93b0d8c794829d7af1796756b6d275115079a36c0e0674ade1",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00011",
+      "b": "bcd48933677d-00052",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    },
+    {
+      "a": "08ecb629f442-00011",
+      "b": "bcd48933677d-00061",
+      "aSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00043",
+      "b": "08ecb629f442-00041",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00043",
+      "b": "08ecb629f442-00042",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "08ecb629f44277db34e70deaf64c95e6022cbe9ec32b31a1c02070497e8c6ea7",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00043",
+      "b": "0bb75d557051-00010",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "0bb75d5570510d93b0d8c794829d7af1796756b6d275115079a36c0e0674ade1",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00043",
+      "b": "bcd48933677d-00052",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    },
+    {
+      "a": "bcd48933677d-00043",
+      "b": "bcd48933677d-00061",
+      "aSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "bSource": "bcd48933677d33aa6a5413501ed4c9fa6290cea091cfb63b77534e7beeb48aa9",
+      "distance": 1
+    }
+  ],
+  "summary": {
+    "totalChunks": 4435,
+    "exactDuplicateGroups": 4,
+    "exactDuplicateChunks": 13,
+    "nearDuplicatePairs": 227
+  }
+}
