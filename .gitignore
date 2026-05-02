@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+runtime/edge-test-profile/
+
+# Bundled portable node runtime (re-fetched from nodejs.org per platform)
+runtime/node/bin/node.exe
+runtime/node/bin/node
+runtime/node/
+
+# Analyzer-generated content (large, regenerable)
+database/sources/
+database/chunks/
+database/nodes/
+database/queue/
+database/indexes/*.sqlite
+database/indexes/*.bin
+database/templates/_proposed.json
+database/templates/history/
+
+# Legacy demo backups (keep on disk locally, do not version)
+database/kb.legacy-demo.json
+database/kb.legacy-demo.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.vscode/
+.idea/
+
+# Local server state
+runtime/local-server.pid

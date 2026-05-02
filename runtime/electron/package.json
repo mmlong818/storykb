@@ -1,0 +1,14 @@
+{
+  "name": "story-kb-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^31.7.7"
+  },
+  "devDependencies": {}
+}
