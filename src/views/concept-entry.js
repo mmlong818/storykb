@@ -42,14 +42,6 @@ export function renderConceptEntry(entry, allConceptsById) {
     return `<span class="relatedChip dim">${escapeHtml(name)}</span>`;
   }).join("");
 
-  const evidence = (entry.evidence || []).map((e, i) => `
-    <button class="evidenceItem" data-source-id="${escapeHtml(e.sourceId)}" data-char-start="${e.charStart || 0}" data-char-end="${e.charEnd || 0}">
-      <span class="evIdx">#${i + 1}</span>
-      <span class="evTitle">${escapeHtml(e.sourceTitle || e.sourceId.slice(0, 8))}</span>
-      ${e.heading ? `<span class="evHeading">${escapeHtml(e.heading)}</span>` : ""}
-    </button>
-  `).join("");
-
   return html`
     <article class="conceptEntry">
       <header class="entryHeader">
@@ -65,7 +57,6 @@ export function renderConceptEntry(entry, allConceptsById) {
         ${raw(sectionsHtml || "<p class='empty'>暂无 section 内容。</p>")}
         ${perspectives ? raw(`<section class="wikiSection perspectivesBlock"><h3>来源观点对照</h3>${perspectives}</section>`) : ""}
         ${related ? raw(`<section class="wikiSection"><h3>相关概念</h3><div class="relatedChips">${related}</div></section>`) : ""}
-        ${evidence ? raw(`<section class="wikiSection"><h3>证据来源</h3><div class="evidenceList">${evidence}</div></section>`) : ""}
       </div>
     </article>
   `;
