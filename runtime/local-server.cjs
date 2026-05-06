@@ -121,14 +121,16 @@ function listWiki() {
   const index = readJsonSafe(indexPath);
   if (!index?.concepts) return [];
   const existing = new Set(fs.readdirSync(wikiDir).filter((f) => f.endsWith(".json") && !f.startsWith("_")).map((f) => f.replace(".json", "")));
+  const seen = new Set();
   return index.concepts
-    .filter((c) => existing.has(c.conceptId))
+    .filter((c) => existing.has(c.conceptId) && !seen.has(c.conceptId) && seen.add(c.conceptId))
     .map((c) => ({
       conceptId: c.conceptId,
       canonical_zh: c.canonical_zh,
       canonical_en: c.canonical_en,
       aliases: c.aliases || [],
       types: c.types || [],
+      related_concepts: c.related_concepts || [],
       evidenceCount: c.evidence?.length || 0,
       sourceCount: new Set((c.evidence || []).map((e) => e.sourceId)).size,
     }))
@@ -187,6 +189,23 @@ const server = http.createServer(async (req, res) => {
     }
     if (p === "/api/wiki" && req.method === "GET") {
       sendJson(res, 200, { ok: true, concepts: listWiki() });
+      return;
+    }
+    if (p === "/api/wiki/export.ndjson" && req.method === "GET") {
+      if (!fs.existsSync(wikiDir)) { sendJson(res, 404, { ok: false, error: "no wiki" }); return; }
+      const files = fs.readdirSync(wikiDir).filter((f) => f.endsWith(".json") && !f.startsWith("_"));
+      res.writeHead(200, {
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Content-Disposition": `attachment; filename="storykb-wiki.ndjson"`,
+        "Cache-Control": "no-store",
+      });
+      for (const f of files) {
+        try {
+          const entry = JSON.parse(fs.readFileSync(path.join(wikiDir, f), "utf8"));
+          res.write(JSON.stringify(entry) + "\n");
+        } catch { /* skip malformed */ }
+      }
+      res.end();
       return;
     }
     const wikiMatch = p.match(/^\/api\/wiki\/([a-f0-9]+)$/);
