@@ -15,8 +15,9 @@ export function renderConceptEntry(entry, allConceptsById, showCode = false) {
   if (!entry) {
     return html`<article class="conceptEntry empty">
       <div class="emptyHint">
-        <p>从右侧目录选择概念查看详情</p>
-        <p class="emptyMuted">支持多标签同时打开 · 点击相关概念可跳转</p>
+        <h2 class="welcomeTitle">猫叔的编剧知识库</h2>
+        <p class="welcomeDesc">从编剧书里提炼出来的概念词典<br>收录 517 个核心概念，覆盖故事结构、人物塑造、对白技巧、戏剧理论、流派风格</p>
+        <p class="emptyMuted">从右侧目录选择概念 · 支持多标签 · 点击相关概念可跳转</p>
       </div>
     </article>`;
   }

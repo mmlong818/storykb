@@ -140,9 +140,26 @@ button { cursor: pointer; }
   height: 100vh;
 }
 .conceptEntry.empty {
-  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   text-align: center;
   color: var(--muted);
+}
+.emptyHint { max-width: 420px; }
+.welcomeTitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 16px;
+  letter-spacing: 0.02em;
+}
+.welcomeDesc {
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.8;
+  margin: 0 0 20px;
 }
 .emptyHint p { margin: 4px 0; }
 .emptyMuted { font-size: 12px; color: var(--muted); }
