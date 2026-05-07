@@ -1,0 +1,25 @@
+{
+  "conceptId": "c91661a9a822",
+  "canonical_zh": "歌剧",
+  "reviewedAt": "2026-05-06T06:00:01.118Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提及《白毛女》的编剧为「贺敬之、丁毅」，作曲为「马可、张鲁等」，条目中未列出这些人名，仅写「《白毛女》（1945年）」。",
+      "suggestion": "可补充《白毛女》的完整创作信息：贺敬之、丁毅编剧，马可、张鲁等作曲。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提及《秋子》的编剧为「陈定」，作词为「臧云远、李嘉」，作曲为「黄源洛」，条目中仅写《秋子》（1944年），未列创作人员。",
+      "suggestion": "可补充《秋子》的创作信息，或与《白毛女》同等处理，保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

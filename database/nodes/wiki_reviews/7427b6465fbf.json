@@ -1,0 +1,32 @@
+{
+  "conceptId": "7427b6465fbf",
+  "canonical_zh": "悲剧性缺点",
+  "reviewedAt": "2026-05-05T03:45:49.739Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "该节直接说明「证据中未提及该概念的具体历史起源」，这是对证据缺失的如实标注，本身无误。但此节作为wiki条目的正式章节，内容几乎为空，读者价值极低。",
+      "suggestion": "可将此节合并入definition，或保留极简说明，无需单独成节"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到一个具体的诱发事件示例（女主角开车追尾年轻母亲、小女孩送出舞会礼物），用于说明「另一种生活可能」如何被呈现，但条目examples节未收录此案例。虽非核心案例，但它是证据中唯一详细展开的诱发事件场景。",
+      "suggestion": "可在applications或examples中补充该追尾场景作为诱发事件的具体示范"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确提到「确保你为主人公寻找的新生活是心结的对立面」，强调新生活必须与心结直接对立，否则「毫无意义」。components节描述了旧生活的结构，但未提及「新生活必须是心结对立面」这一约束条件。",
+      "suggestion": "在components或mechanism中补充「新生活须为心结的直接对立面」这一结构要求"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

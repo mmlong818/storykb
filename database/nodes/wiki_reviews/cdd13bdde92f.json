@@ -1,0 +1,25 @@
+{
+  "conceptId": "cdd13bdde92f",
+  "canonical_zh": "人物需求",
+  "reviewedAt": "2026-05-06T00:02:58.031Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《午夜牛郎》乔恩·沃伊特的需求（到纽约找女人吊膀子/赚钱），条目examples未收录该例，但examples已有五个案例，属于选择性取舍，非严重遗漏。",
+      "suggestion": "可补充《午夜牛郎》案例，或保持现状（五例已充分）。"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称该概念由「菲尔德（Syd Field）在其编剧基础理论中系统阐述」——证据来源标题为「电影剧本写作基础.菲尔德_美」，内容确实出自菲尔德，但原文并无「系统阐述」或「起点性要素」等措辞，这是条目自行归纳的定性表述，略有拔高但无明显错误事实。",
+      "suggestion": "可改为「该概念在菲尔德（Syd Field）所著《电影剧本写作基础》中作为构建人物的首要步骤提出」，更贴近原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

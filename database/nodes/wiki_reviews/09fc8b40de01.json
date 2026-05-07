@@ -1,0 +1,25 @@
+{
+  "conceptId": "09fc8b40de01",
+  "canonical_zh": "故事线",
+  "reviewedAt": "2026-05-05T08:17:52.223Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《驯马手莫兰特》原剧作者为「肯尼恩·罗斯（Kenneth Ross）」，条目examples节未提及此信息，但这属于细节补充而非核心错误。",
+      "suggestion": "可在示例中注明原剧作者姓名，增强可信度，但非必须。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中菲尔德以希德尼·鲁麦特改编《网络》为例，说明极少数导演确实能在视觉上强化故事线，条目仅泛称「极少数导演」，未提及该具体案例。但此信息对核心概念非关键。",
+      "suggestion": "可在mechanism或pitfalls中加入鲁麦特/《网络》作为正面例外案例。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,39 @@
+{
+  "conceptId": "27c2d1ede242",
+  "canonical_zh": "情感母题",
+  "reviewedAt": "2026-05-05T03:13:58.900Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文《黑暗荣耀》案例中明确写出反派姓名「朴妍珍」（「东文恩将仇人朴妍珍视为『梦想』」），条目仅写「将仇人视为『梦想』」，省略了人名。",
+      "suggestion": "补充反派姓名：「主角东文恩将仇人朴妍珍视为『梦想』」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文《阳光先生》案例明确点名男女主角「崔宥镇」与「高爱信」，并说明各自的身份（「无国可依的异乡人」「背负使命的孤女」），条目只写「男女主角的爱情核心」，丢失了人物身份信息。",
+      "suggestion": "可补充：「崔宥镇『无国可依的异乡人』与高爱信『背负使命的孤女』的爱情核心……」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据列举《请回答1988》符号道具时包含三件：「煤球炉」「公用电话」「德善的豹纹外套」，条目仅保留前两件，漏掉「德善的豹纹外套」。",
+      "suggestion": "可补充：「『煤球炉』『公用电话』『德善的豹纹外套』成为『80年代邻里情』的情感载体」"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文写「将『韩国校园』替换为『中国乡镇中学』」，条目改写为「将某部作品的『校园』场景替换为『中国乡镇中学』」，省略了「韩国」定语，语义略有弱化但无实质曲解。",
+      "suggestion": "保留「韩国校园」原始表述更准确：「例如将『韩国校园』场景替换为『中国乡镇中学』」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

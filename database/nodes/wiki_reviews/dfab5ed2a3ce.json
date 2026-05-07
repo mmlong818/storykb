@@ -1,0 +1,18 @@
+{
+  "conceptId": "dfab5ed2a3ce",
+  "canonical_zh": "视觉叙事",
+  "reviewedAt": "2026-05-05T17:51:56.858Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「三分钟的场面：其中只用五句对话，三个面部表情、一个人点燃香烟、和墙上挂钟的特写」概括为「仅用少量台词、面部表情和物件特写」，丢失了「五句对话」「三个面部表情」的具体数量，以及「点燃香烟」这一具体细节，将其笼统化为「物件特写」。",
+      "suggestion": "可改为「仅用五句对话、三个面部表情、一个人点燃香烟的动作和墙上挂钟的特写」，与原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

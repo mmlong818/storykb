@@ -1,0 +1,18 @@
+{
+  "conceptId": "72f49f35bedf",
+  "canonical_zh": "视觉印象",
+  "reviewedAt": "2026-05-06T04:20:06.738Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第二段明确说明「视觉印象（Vision）」是译者注，即该术语的界定出现在注释中，而非麦基正文的原创性论述。条目将其表述为「由罗伯特·麦基在其银幕剧作理论著作中提出」略有偏差。",
+      "suggestion": "可补充说明该术语的中文界定来自译注，麦基正文中则以「Vision」为核心概念反复运用。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

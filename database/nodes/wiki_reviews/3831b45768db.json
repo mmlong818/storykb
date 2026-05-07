@@ -1,0 +1,18 @@
+{
+  "conceptId": "3831b45768db",
+  "canonical_zh": "次要情节",
+  "reviewedAt": "2026-05-05T08:40:38.448Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文在《外星人ET》例句中，主句与从句分别对应「主要情节」与「次要情节」，但原文并未明确说明「后半句即为次要情节的概括」这一归属判断，条目直接断言此归属属于合理推断，原文本身只示范了句式工具的填写方式。",
+      "suggestion": "可将「后半句即为次要情节的概括」改为「此句式中『而且』之后的从句通常对应次要情节」，以更忠实于原文示范句式工具的用意。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

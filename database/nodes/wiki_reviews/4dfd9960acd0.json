@@ -1,0 +1,25 @@
+{
+  "conceptId": "4dfd9960acd0",
+  "canonical_zh": "故事背景",
+  "reviewedAt": "2026-05-06T04:08:09.661Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「天花」例子还提到「或者你想让主人公被隔离在某个年代许多年，那么可以将时间设为不远的将来，写一个星际之旅的故事」，条目未收录此第三个子例。",
+      "suggestion": "可在例3后补充「星际之旅」的年代置换示例，或在pitfalls/applications中提及，以完整呈现原文的三组例子。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据《情节与人物》明确列举了「1936年柏林奥林匹克运动会」「水星中心研究站」「18世纪90年代的爱尔兰」作为年代思维实验的具体例子，条目applications仅以抽象描述概括，未呈现这些具体例子。",
+      "suggestion": "可在「年代选择」条目中补充一两个原书列举的具体年代示例，以增强说服力；非必须，酌情处理。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

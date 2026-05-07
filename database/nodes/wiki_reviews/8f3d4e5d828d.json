@@ -1,0 +1,34 @@
+{
+  "conceptId": "8f3d4e5d828d",
+  "canonical_zh": "人物塑造",
+  "reviewedAt": "2026-05-04T17:43:43.118Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目将「听到阿泽说'想你'时的脸红」改写为「听到阿泽表白时脸红」。原证据用词是「想你」（I miss you / I'm thinking of you），属于日常情感表达；「表白」在中文语境中特指正式的爱情告白/表白心意，含义更重，与原文有出入。",
+      "suggestion": "将「听到阿泽表白时脸红」改为「听到阿泽说『想你』时脸红」，与原始证据保持一致。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《鬼怪》邂逅场景的原始证据包含「雪天」和「急着去面试」两个关键场景要素，这些细节恰恰构成意外碰撞的情境基础，条目将其全部省略，仅保留「热闹街头」。",
+      "suggestion": "可补充「雪天街头急着去面试时」等场景细节以保留原始语境，但因属描述性细节，低优先级处理即可。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《请回答1988》证据原文还记录了德善「从讨好他人到自我接纳」的成长弧线，以及「父亲补过生日、阿泽的坚定偏爱」等推动成长的关键事件，条目未予体现。",
+      "suggestion": "可视篇幅需要，选择性补充成长弧线作为电视剧人物塑造「递进积累」机制的佐证，属可选优化。"
+    }
+  ],
+  "corrections": {
+    "examples": "④《请回答1988》中德善「渴望被关注」的性格，通过抢姐姐的生日蛋糕、模仿姐姐穿着、听到阿泽说「想你」时脸红等日常细节在19集篇幅中逐步凸显（三种媒介叙事）。"
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "b4b5ca47dff8",
+  "canonical_zh": "温情题材",
+  "reviewedAt": "2026-05-05T19:30:42.503Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「日常烟火」示例提到「早点铺老板熟练地揉着面团」这一细节，条目examples中未体现老板角色，仅聚焦老奶奶垫付情节，属轻微信息简化，不影响准确性。",
+      "suggestion": "可补充「早点铺老板揉面」细节使示例更完整，但非必须。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「善意传递者」示例还包含「看到路上的垃圾会随手捡起」这一行动，条目未体现，属轻微遗漏。",
+      "suggestion": "可在善意传递者示例中补充「随手捡垃圾」行动。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

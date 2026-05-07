@@ -1,0 +1,25 @@
+{
+  "conceptId": "3f553f600e59",
+  "canonical_zh": "象征",
+  "reviewedAt": "2026-05-05T18:54:45.348Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "来源标题在 source_perspectives 中被记为「20个一句话写故事练习方案」，但证据原文标题为「20 个 一句话写故事（韩剧风格）练习方案」，缺失了「韩剧风格」这一限定语。该限定语说明这些练习案例是韩剧风格的，对理解象征运用的文化语境有一定参考意义。",
+      "suggestion": "将 source_perspectives 中对应条目的 sourceTitle 补全为「20个一句话写故事（韩剧风格）练习方案」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中方案19提供了两个参考案例，条目只采用了第一个（用太奶奶旧纸折纸鹤），未提及第二个案例「把折坏的纸鹤拆开重新整理——折纸和做人一样，错了可以重新来」。该案例提供了象征的另一层涵义（错误与重来的包容），丰富度有所损失，但非必须引用，属轻微遗漏。",
+      "suggestion": "可视篇幅酌情补入第二个案例，以展示象征在同一情境中的多义性"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

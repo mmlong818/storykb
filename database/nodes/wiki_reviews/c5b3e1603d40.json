@@ -1,0 +1,25 @@
+{
+  "conceptId": "c5b3e1603d40",
+  "canonical_zh": "原生家庭",
+  "reviewedAt": "2026-05-05T23:25:00.627Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到「还记得那个在明尼苏达州的北欧人吗？是他的成长环境造就了他」，条目examples未提及此例，虽非核心案例，但与河南女孩案例并列出现在同一段落。",
+      "suggestion": "可选择性补充该例，或保持现状（该例信息量较低，省略合理）。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到「人物是在哪里长大的？她是不是有位在军队里的父亲，因为军队的部署需要，所以两年搬一次家」，暗示迁移频率/不稳定成长环境也属原生家庭要素，条目仅笼统提及「迁移经历」，未突出频繁迁移对认知边界的影响。",
+      "suggestion": "可在成长地域要素中补充「频繁迁移或不稳定成长环境」作为子项。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

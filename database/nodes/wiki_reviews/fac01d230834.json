@@ -1,0 +1,25 @@
+{
+  "conceptId": "fac01d230834",
+  "canonical_zh": "副线",
+  "reviewedAt": "2026-05-05T23:17:53.538Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "《黑暗荣耀》在证据原文中属于「时空叙事的蒙太奇魔法」章节（过去与现在的情感勾连），原文强调的是「时空切换」技法，而非副线结构。条目将其归入副线案例，超出了原始证据的语境界定。",
+      "suggestion": "将《黑暗荣耀》案例移出副线examples，或在说明中注明「此处借用时空叙事手法作类比，原文不直接归入副线分类」"
+    },
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「故事、结构、人物塑造、视觉表现以及副线」，但菲尔德原文第一处列举的是「故事、富于动势的视觉表现、背景、幕后的故事、副线」，第二处才是「故事、结构、人物塑造、视觉表现」（无副线）。条目将两处表述混合，丢失了「背景」「幕后的故事」两个原文元素，同时把「结构、人物塑造」嫁接到含副线的那个列表里。",
+      "suggestion": "分开引用两处原文，或仅保留含副线的那一处：「故事、视觉表现、背景、幕后故事、副线等编织成统一的戏剧整体」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "061e19aeb42d",
+  "canonical_zh": "探险情节",
+  "reviewedAt": "2026-05-05T12:52:56.891Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《海狼》的船描述为「幽灵号帆船」，条目components和applications中均写作「幽灵号帆船」，但examples章节中仅写「带有残暴船长的帆船」，未标注船名「幽灵号」，与其他章节不一致。",
+      "suggestion": "在examples中补充「幽灵号帆船」名称，与applications保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

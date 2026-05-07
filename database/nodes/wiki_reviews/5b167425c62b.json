@@ -1,0 +1,18 @@
+{
+  "conceptId": "5b167425c62b",
+  "canonical_zh": "回报递减定理",
+  "reviewedAt": "2026-05-06T05:40:39.961Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确提到《沉默》的主角是「埃斯特尔和安娜」（英格里德·图林和冈内尔·林德布洛姆），条目仅笼统说「伯格曼《沉默》」，未提演员或具体场景描述，但这属于细节省略而非错误。",
+      "suggestion": "可补充「片中两位女主角的场景积蓄张力」等细节，但并非必须"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

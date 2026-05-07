@@ -1,0 +1,18 @@
+{
+  "conceptId": "5315a1372b63",
+  "canonical_zh": "重大逆转",
+  "reviewedAt": "2026-05-04T21:06:37.414Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中四种双事件节奏的表述是「好转坏、坏转好、坏转更坏、好转更好」，条目中的描述与此一致，但条目将其称为「四种双事件节奏」，原文并无此命名，只是列举了四种情况作为思想实验。这是轻微的概念标签化，不影响准确性。",
+      "suggestion": "可将「四种双事件节奏」改为「四种两事件情境」或直接去掉命名，仅保留列举描述。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

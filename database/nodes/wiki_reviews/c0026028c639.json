@@ -1,0 +1,18 @@
+{
+  "conceptId": "c0026028c639",
+  "canonical_zh": "误解澄清",
+  "reviewedAt": "2026-05-06T04:27:34.933Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写租客说「是我误会您了」，原文为「租客不好意思地说'是我误会您了'」，情绪状态「不好意思地」被省略，略有信息损失，但不构成错误。",
+      "suggestion": "可补充「不好意思地说」以还原原文情感细节。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "8b70cadf257e",
+  "canonical_zh": "整体性",
+  "reviewedAt": "2026-05-05T13:24:40.701Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目将「原理11」表述为「不管它写的是什么都没关系」，但证据原文为「不管它是什么都没关系」——多出「写的」二字，改变了原则的适用范围（原文指任何内容/素材，非仅指「写作内容」）。",
+      "suggestion": "改为原文表述：「如果一个剧本是个人的，是整体的一部分，不管它是什么都没关系。」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《一个叫戈尔达的女人》案例中，证据明确指出来访者身份为「美国参议院军事委员会主席」，条目简化为「美国参议员」，丢失了权力层级信息，削弱了外交博弈语境的精确性。",
+      "suggestion": "改为「美国参议院军事委员会主席」以准确传达原文的权力对比含义。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

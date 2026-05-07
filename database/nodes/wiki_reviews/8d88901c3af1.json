@@ -1,0 +1,25 @@
+{
+  "conceptId": "8d88901c3af1",
+  "canonical_zh": "黑色喜剧",
+  "reviewedAt": "2026-05-04T21:26:20.885Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将《一条叫旺达的鱼》的导演标注为「查尔斯·克瑞奇顿」，此点与证据一致，无误。但条目称「角色肯意外连续杀死老太太的宠物猎狗」，而证据原文仅提及「不小心杀死了老太太的一群宠物小猎狗」，并未说明是「连续」杀死，「连续」一词系条目自行添加，证据中无此表述。",
+      "suggestion": "删去「连续」一词，改为「角色肯意外杀死老太太的宠物小猎狗」"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称干净版本「去掉血迹」获得笑声，但证据原文描述是「只表现了小爪子」的版本，并非仅仅「去掉血迹」——两者侧重点略有不同，原文强调「小爪子」这一画面的保留，而非单纯的删除血迹。",
+      "suggestion": "可改为「仅保留小爪子画面的干净版本获得了观众笑声」，更贴近原文描述"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

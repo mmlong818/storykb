@@ -1,0 +1,32 @@
+{
+  "conceptId": "f8dc65cb3218",
+  "canonical_zh": "逆转",
+  "reviewedAt": "2026-05-06T05:39:19.577Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称苏利文「目睹狱友们对米老鼠卡通片发出的哄堂大笑」后「顿悟」，原文描述是「他的脸色沉了下来」，并非直接的正面顿悟表情；此外条目将放映地点描述为「囚犯营地」，原文为「路易斯安那的沼泽地」监狱，并非「营地」。",
+      "suggestion": "将「误入囚犯营地」改为「被押送至路易斯安那沼泽地监狱」，措辞更贴近原文"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《第六感》作为第二幕「真相大白时刻」的例子，用于对比说明逆转与真相大白并列，条目虽提及两者并列但未提《第六感》，不算严重遗漏，仅供参考。",
+      "suggestion": "可在applications中补充《第六感》作为「真相大白时刻」的对比案例，以强化两种形式的区别"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中引用的「加速动作……」那段话，原文注明出处是琳达·辛格的《一部伟大剧本的诞生》，条目直接将其归属于「编剧步步为营」，未标明转引来源，可能造成归属模糊。",
+      "suggestion": "可注明该引语转引自琳达·辛格《一部伟大剧本的诞生》，由「编剧步步为营」援引"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

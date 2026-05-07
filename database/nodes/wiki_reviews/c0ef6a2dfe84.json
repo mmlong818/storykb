@@ -1,0 +1,18 @@
+{
+  "conceptId": "c0ef6a2dfe84",
+  "canonical_zh": "心路历程",
+  "reviewedAt": "2026-05-05T23:20:28.262Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称韩国编剧实践以「成长弧光化（Character Growth Arc）」表述出现，但证据原文仅写「成长弧光化」，并未给出对应英文术语「Character Growth Arc」。英文括注系条目自行添加。",
+      "suggestion": "删去括号内英文「Character Growth Arc」，或改为「（即角色弧线的成长化处理）」等不涉及英文术语的表述。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

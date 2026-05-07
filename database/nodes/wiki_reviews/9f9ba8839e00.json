@@ -1,0 +1,25 @@
+{
+  "conceptId": "9f9ba8839e00",
+  "canonical_zh": "反派人物",
+  "reviewedAt": "2026-05-05T13:29:35.153Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到《七侠荡寇志》（基于黑泽明《七武士》）作为主角动机的案例，条目examples部分未提及，但该案例主要用于说明主角动机而非反派，遗漏影响轻微。",
+      "suggestion": "可选择性补充，或保持现状——该案例与反派定义关联度低。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「托尔斯泰」被作者引用（「我（还有托尔斯泰）说过」），暗示该观点有文学权威背书，但条目未提及此出处。",
+      "suggestion": "可在pitfalls或examples中注明「善对善」观点有托尔斯泰的文学实践作为佐证，增加可信度。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

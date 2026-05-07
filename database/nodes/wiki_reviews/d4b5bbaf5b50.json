@@ -1,0 +1,18 @@
+{
+  "conceptId": "d4b5bbaf5b50",
+  "canonical_zh": "通俗剧",
+  "reviewedAt": "2026-05-05T22:50:43.687Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文明确写出「斯蒂芬·桑德海姆之《小夜曲》[96]检验了痛苦深沉之情感」，条目将具体剧名《小夜曲》省略，仅写「斯蒂芬·桑德海姆的音乐剧」，丢失了可供读者核查的具体作品信息。",
+      "suggestion": "在「斯蒂芬·桑德海姆的音乐剧」后补入作品名，改为「斯蒂芬·桑德海姆的《小夜曲》检验了痛苦深沉之情感」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

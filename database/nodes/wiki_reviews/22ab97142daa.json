@@ -1,0 +1,18 @@
+{
+  "conceptId": "22ab97142daa",
+  "canonical_zh": "成长目标",
+  "reviewedAt": "2026-05-04T20:43:59.808Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中人设公式示例提到成长目标包含「克服拖延考上目标大学」「在社团中敢表达自己」，条目definition和components中有提及「考上目标大学」，但examples节未列出这两个公式化示例，仅列举了德善、丁新星和林晓雅三例。这属于非关键信息，不影响准确性。",
+      "suggestion": "可在examples中补充证据原文人设公式处提供的通用示例，使内容更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

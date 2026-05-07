@@ -1,0 +1,32 @@
+{
+  "conceptId": "861b30abb8af",
+  "canonical_zh": "情感缺口",
+  "reviewedAt": "2026-05-05T13:23:20.660Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据第二段明确列举了《黑色直播》作为「意外要勾连伏笔」技巧的典型案例——「《黑色直播》中主角爱刷直播的习惯，直接引出神秘直播链接的触发事件」，条目 examples 章节四个案例中完全未收录此例，而该例是证据中唯一专门说明「伏笔勾连」操作逻辑的实战范本。",
+      "suggestion": "在 examples 章节补充第 5 条：**《黑色直播》**（伏笔勾连示范）：主角日常爱刷直播的习惯作为符号化细节，直接成为神秘直播链接这一意外触发事件的关联锚点，示范了「意外必须勾连日常伏笔」的核心机制。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文描述《今天也很可爱的狗》时特别标注男主是「怕狗的男主」（怕狗），这一细节说明意外事件（接吻变狗）对男主同样构成情感勾连，是双向戳中痛点的设计。条目仅写「男主的出现」，丢失了「怕狗」这一使冲突更精准的性格标签。",
+      "suggestion": "将「男主的出现意外触发」改为「怕狗的男主意外触发」，保留证据原有的细节层次。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "examples 第 2 条原文出现「诅 咒」（中间有半角空格），系排版错误，并非证据原文格式，属于字符处理瑕疵。",
+      "suggestion": "将「诅 咒」合并为「诅咒」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

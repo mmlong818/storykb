@@ -1,0 +1,34 @@
+{
+  "conceptId": "0d0fc9623e79",
+  "canonical_zh": "变焦镜头",
+  "reviewedAt": "2026-05-05T03:05:02.473Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "hallucination",
+      "severity": "high",
+      "description": "条目在pitfalls中提到「变焦与摄影机实体推轨的视觉效果存在本质差异：变焦改变焦距导致透视关系压缩或拉伸，而推轨保持透视关系不变」，但证据原文仅定义了变焦镜头的基本功能（하나의 연속동작으로 광각으로부터 망원 쇼트에 이르기까지 변화시키면서 촬영할 수 있는 다양한 초점 길이를 가진 렌즈），完全未涉及推轨（dolly）对比，该内容系无依据添加。",
+      "suggestion": "将pitfalls改为「证据未明确列出常见误区」，或明确标注该对比来自编写者补充而非原始证据。"
+    },
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "low",
+      "description": "evidence中sourceTitle字段出现「专业术语자」，末尾「자」为韩文字符（유니코드 AC00-D7A3范围内），虽然位于证据元数据而非wiki正文，但说明原始数据存在语言污染未被过滤。wiki正文本身无韩文/日文字符，未污染条目内容。",
+      "suggestion": "在数据入库时对sourceTitle字段做韩文/日文字符过滤，将「专业术语자」修正为「专业术语」。"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目提到「操作者通过推拉变焦环实现焦段切换」，证据原文仅说「다양한 초점 길이를 가진 렌즈（具有多种焦距的镜头）」，并未提及「变焦环」这一具体操作部件，属于超出证据范围的细节补充。",
+      "suggestion": "删去「操作者通过推拉变焦环实现焦段切换」或将其标注为编写者补充说明，非来自原始证据。"
+    }
+  ],
+  "corrections": {
+    "pitfalls": "证据未明确列出常见误区。"
+  },
+  "costUsd": 0
+}

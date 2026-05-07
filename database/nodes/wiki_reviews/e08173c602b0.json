@@ -1,0 +1,18 @@
+{
+  "conceptId": "e08173c602b0",
+  "canonical_zh": "悲剧英雄",
+  "reviewedAt": "2026-05-06T05:37:42.095Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《赵氏孤儿》的情节是「程婴把孤儿藏在药箱里想偷偷带出」，条目origins节仅说「体现了另一文化脉络下的英雄气概形态」，未提及具体情节，但examples节有补充，整体不构成遗漏问题，仅略显概括。",
+      "suggestion": "可保持现状，origins节无需展开情节细节，examples节已覆盖。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

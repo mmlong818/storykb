@@ -1,0 +1,18 @@
+{
+  "conceptId": "8fc9556f2368",
+  "canonical_zh": "家庭剧",
+  "reviewedAt": "2026-05-04T21:27:44.856Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins章节直接说明「现有证据未提供历史起源」，这是诚实的处理，但可以更简洁地整合到其他章节，避免给读者留下空洞印象。这不影响准确性。",
+      "suggestion": "可将origins合并到definition末尾一句话说明，或直接省略该字段"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

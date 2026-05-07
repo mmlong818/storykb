@@ -1,0 +1,25 @@
+{
+  "conceptId": "ed28f9fc4e2d",
+  "canonical_zh": "戏剧性",
+  "reviewedAt": "2026-05-05T08:02:17.981Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据注释〔21〕明确指出陈白尘所说的「前辈」是指戏剧家洪深，条目在引用该教诲时未点明此人。虽非核心内容，但属于证据中有据可查的具体信息。",
+      "suggestion": "可在「陈白尘所引前辈教诲」后补充「（该前辈据陈白尘告知为戏剧家洪深）」"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到《中国大百科全书·戏剧卷》所引理论家包括「德国理论家奥·史雷格尔与古·弗莱塔克以及英国作家威廉·阿契尔」，条目在叙述这一混淆案例时未提及具体理论家姓名，略显笼统，但不构成错误。",
+      "suggestion": "可酌情补充「所引奥·史雷格尔、弗莱塔克及威廉·阿契尔等人的论述」以增加精确度"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

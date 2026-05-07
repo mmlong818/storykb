@@ -1,0 +1,25 @@
+{
+  "conceptId": "2a77661d8c49",
+  "canonical_zh": "推理故事",
+  "reviewedAt": "2026-05-05T13:00:25.062Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将《被窃的信件》描述为「已知最早的推理小说之一」，与原文「被很多人视作已知的最早的推理小说」表述基本一致，但「之一」在原文中并未出现，原文更倾向于将其列为最早，而非「之一」。属轻微过度弱化。",
+      "suggestion": "改为「被许多人视作已知最早的推理小说」，去掉「之一」以更忠实原文。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中对《被窃的信件》开篇有明确描述——「从一开始便为读者设置了一个谜题」——这一特点在origins章节未提及，仅在applications章节间接体现。",
+      "suggestion": "可在origins或applications中补充说明该作品从开篇即设谜的结构特征。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

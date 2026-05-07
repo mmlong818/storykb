@@ -1,0 +1,18 @@
+{
+  "conceptId": "38620121ed26",
+  "canonical_zh": "结构主义",
+  "reviewedAt": "2026-05-05T08:41:46.195Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目在examples节中用较长篇幅解释为何不列举案例，并说明迈克尔·斯诺的《波长》属于「结构电影」而非「结构主义批评」。这一辨析本身是正确且有价值的，但该内容放在pitfalls节更为适当，examples节本可简化。",
+      "suggestion": "examples节可简化为一句「证据中未提供具体案例」，将《波长》的概念辨析移至pitfalls节合并。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

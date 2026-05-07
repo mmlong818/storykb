@@ -1,0 +1,25 @@
+{
+  "conceptId": "bab0053f4636",
+  "canonical_zh": "角色设计",
+  "reviewedAt": "2026-05-05T23:08:26.485Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将林晓星职位写为「广告策划」，原文为「广告公司策划」，表述基本一致；但条目将顾延州描述为「29岁设计总监」，原文为「29岁，广告公司设计总监」，均无误。细节：条目称张姐「自身也有工作与家庭的平衡困境」，原文为「也有自己的'职场困境'（如平衡工作与家庭）」，表述对应，无问题。整体examples章节准确。",
+      "suggestion": "无需修改，此条目为低风险观察，可忽略。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文（社会题材证据）中主角陈敏雅的困境包含「对丈夫的'甩手掌柜'行为感到失望」这一情感层面，条目components中的「困境」示例仅列出「因怀孕被调岗到边缘部门、加班严重无法按时接孩子」，未体现对丈夫行为失望的情感困境维度，但此为示例性文字，非结构性遗漏，影响较小。",
+      "suggestion": "可在困境示例中补充「对家庭支持缺失的失望」作为情感困境维度，使示例更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

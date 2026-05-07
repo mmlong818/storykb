@@ -1,0 +1,18 @@
+{
+  "conceptId": "de1b584dc3a2",
+  "canonical_zh": "前提",
+  "reviewedAt": "2026-05-06T04:36:39.198Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称「《经典情节20种》则进一步强调：从前提（情境）入手，而非从结论入手，是避免故事「自动驾驶」、人物沦为符号的关键」——证据原文是「人物沦为符号」这一说法并未直接出现，原文的表述是人物「控制了情形」或故事「处于自动驾驶模式」，「人物沦为符号」是条目的自行延伸。",
+      "suggestion": "将「人物沦为符号」改为「人物控制情形、故事进入自动驾驶」，贴近原文表述"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

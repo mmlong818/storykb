@@ -1,0 +1,25 @@
+{
+  "conceptId": "f31e85c0dfa9",
+  "canonical_zh": "赌注",
+  "reviewedAt": "2026-05-05T08:12:52.596Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「编剧步步为营」的场景示例涉及人物「威尔」和其主导场面，条目仅描述马戈与罗斯的对话，未完整呈现该证据的结构背景（干扰事件、节拍、主导场面等）。但由于这是举例而非定义，省略不影响准确性。",
+      "suggestion": "可补充说明该示例是在「主导场面/节拍」结构框架下讨论赌注，以更贴近原书语境。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到「丹尼·汤玛斯」的引言：「我们不必去挑战人所做的事情，而是挑战我们认为他们会做的事」，条目mechanism部分未引用或体现这一观点，该观点支撑了「赌注的感知维度」这一论断。",
+      "suggestion": "可在mechanism中加一句说明，赌注的有效性依赖于观众/人物对威胁的主观感知，引用丹尼·汤玛斯观点作佐证。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

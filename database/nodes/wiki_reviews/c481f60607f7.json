@@ -1,0 +1,25 @@
+{
+  "conceptId": "c481f60607f7",
+  "canonical_zh": "道德论点",
+  "reviewedAt": "2026-05-05T23:23:33.740Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将《七侠荡寇志》标注为「改编自黑泽明《七武士》」，证据原文是「基于黑泽明所著的《七武士》」，措辞基本一致，但「黑泽明所著」在原文语境中指黑泽明的作品而非「黑泽明所写的原著小说」，条目表述无误；此处仅提示「所著」实为导演/编剧作品，非小说，影响极小。",
+      "suggestion": "可将「改编自黑泽明《七武士》」改为「改编自黑泽明执导的《七武士》」以更精准，但非必须。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins 节声称「证据未直接说明道德论点这一术语的提出者或流派来源」，这是准确的。但证据中明确提到弗朗西斯·培根称复仇为「野蛮的公正」，这是一个有名有姓的引用，条目在 origins 中未提及，虽在其他节中亦未出现，但对术语背景的丰富性有一定补益。",
+      "suggestion": "可在 origins 或 examples 中补充：弗朗西斯·培根将复仇称为「野蛮的公正」，此引用见于证据原文，可为道德论点的道德哲学背景提供佐证。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

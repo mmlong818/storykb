@@ -1,0 +1,39 @@
+{
+  "conceptId": "da699c2139a4",
+  "canonical_zh": "作者论",
+  "reviewedAt": "2026-05-06T00:01:37.657Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将安德烈·巴赞与特吕弗、戈达尔、里维特并列，表述为共同「系统阐述导演作为电影作者的核心地位」。但历史上巴赞作为《电影手册》创始编辑，对其弟子所推行的「作者政策」持有所保留的态度，他的角色更接近导师而非共同倡导者。证据原文（中文来源）仅将这几人并列于1954年《电影手册》的背景下，并未明确表明巴赞与其他三人同等程度地「系统阐述」该理论。",
+      "suggestion": "可将巴赞的角色调整为「以巴赞为核心，特吕弗、戈达尔、里维特等批评家于1954年前后系统发展并推广」，或注明巴赞作为导师的特殊身份，以避免误导。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据（韩文来源「专业术语자」）明确提及斯坦利·库布里克（Stanley Kubrick）作为自认为「作者」的代表性导演（「자신을 저작자라고 생각한 스탠리 큐브릭」），以及约翰·卡萨维茨（존 카사베，即John Cassavetes，文本被截断）。这两位在英语世界作者论影响下最具代表性的导演均未在条目examples部分体现。",
+      "suggestion": "在examples部分补充：「证据还提及斯坦利·库布里克作为自觉以作者身份进行创作的导演代表」。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写道《一个美国人在巴黎》（1951）与「文森特·米内利、吉恤·凯利、莱斯利·卡伦」相关，并将这三人同等列举。但证据原文中，Vincente Minnelli作为导演被单独提名（括号内），Gene Kelly和Leslie Caron是该片主演，三者在作者论语境下身份不同，条目表述为「相关创作者」略显模糊，可能混淆导演与演员的区别。",
+      "suggestion": "明确区分：「导演文森特·米内利，及主演吉恤·凯利、莱斯利·卡伦」，并说明援引该例的具体论证目的。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提及作者论在1960年代影响最为深远（「1960년대에 특히 큰 영향을 미쳤으며」），并推动了法国新浪潮及英美类似电影运动的兴起，条目applications部分未体现这一重要应用背景。",
+      "suggestion": "可在applications末尾补充：「作者论在1960年代影响达到顶峰，在法国催生了新浪潮运动，并在英美引发了相似的创作运动。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

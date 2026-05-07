@@ -1,0 +1,32 @@
+{
+  "conceptId": "835f9aef4a3a",
+  "canonical_zh": "奇观",
+  "reviewedAt": "2026-05-04T21:23:40.504Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目在「奇观的构成要素」中列出「彩色摄影」，但两段证据原文均未明确提及彩色摄影（color photography）作为奇观的组成要素；证据仅提及「big screen」（大银幕）这一技术维度，宽银幕（widescreen）亦未在可读文本中明确出现。将「彩色摄影与宽银幕格式」并列列为要素缺乏直接证据支撑。",
+      "suggestion": "将「彩色摄影与宽银幕格式」改为仅保留「大银幕格式」，或注明系推断性补充而非证据直接陈述。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第二段明确出现「Touch of Evil, 1958」，但条目examples及pitfalls均未提及此片。该片很可能在原文中作为对比案例（非奇观路线）出现，其缺席导致条目对奇观策略的边界描述不够完整。",
+      "suggestion": "若原文将《Touch of Evil》作为低成本、非奇观的对照案例，可在pitfalls或applications中补充一句：「证据中《Touch of Evil》（1958）作为同期低成本制作被对照提及，说明并非所有A级创作者都依赖奇观路径。」"
+    },
+    {
+      "section": "diagnostics",
+      "type": "missing",
+      "severity": "low",
+      "description": "diagnostics字段为空字符串。证据虽未提供系统性诊断框架，但pitfalls中已隐含可转化为诊断标准的内容（如：投入规模是否超出题材本身的视觉需求、是否误将奇观当作叙事替代品），可据此填充。",
+      "suggestion": "可将pitfalls中「资源错配」的逻辑反向提炼为诊断问题：「当影片的视觉规模投入与叙事价值严重不匹配，或院线场景诉求被误用于非院线内容时，奇观策略的应用即存在问题。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

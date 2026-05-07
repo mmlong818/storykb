@@ -1,0 +1,18 @@
+{
+  "conceptId": "f31ca10ef3e5",
+  "canonical_zh": "故事结构",
+  "reviewedAt": "2026-05-06T04:39:36.052Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中麦基引用了斯派克·李对自己创作意图的解释（「他不相信艺术家的角色是为社会最棘手的问题提供准确无误的解决方案」，以及观众对穆奇行为的两种对立反应），条目将这段背景完全省略，直接跳到「多余画面削弱力量」的结论。虽然对核心论点无损，但语境略显单薄。",
+      "suggestion": "可简短补充麦基承认李有意为之（追求模棱两可），但仍认为结构层面的延伸是错误的，使论证更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

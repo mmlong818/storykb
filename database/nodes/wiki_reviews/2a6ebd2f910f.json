@@ -1,0 +1,25 @@
+{
+  "conceptId": "2a6ebd2f910f",
+  "canonical_zh": "道德困境",
+  "reviewedAt": "2026-05-04T20:48:33.332Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到桑迪曾考虑「把孩子送给别人养——但是孩子毕竟也有一半是她的骨肉」，条目examples未体现这一细节，略微削弱了困境的层次感。",
+      "suggestion": "可在桑迪案例后补充一句：她甚至考虑过送养，但孩子毕竟也有一半是她的骨肉，此路同样难以走通。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文强调「两种观点都应让人兴致勃勃（让人引人入胜）」，components第3点将其译为「情感吸引力」，虽意思相近，但「兴致勃勃」在原文有特定强调，可稍加注释以免淡化原意。",
+      "suggestion": "第3点可补充说明：原文用语为「让人兴致勃勃」，即两种立场都须在情感上引发读者强烈投入，而非仅是温和认同。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

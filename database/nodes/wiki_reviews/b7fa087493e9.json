@@ -1,0 +1,25 @@
+{
+  "conceptId": "b7fa087493e9",
+  "canonical_zh": "情节驱动",
+  "reviewedAt": "2026-05-05T23:03:52.064Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「德国纳粹」表述为「德国法西斯」。原文明确使用「德国纳粹步步紧逼的追捕」，两者虽语义相近但措辞不同，且原文后续也用「法西斯分子」，条目在mechanism节用「德国法西斯的追捕」与原文基本吻合，但examples节表述为「德国法西斯的步步逼近」，与原文「德国纳粹步步紧逼的追捕」略有出入。",
+      "suggestion": "统一使用「德国纳粹」或「纳粹」，与原文保持一致"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「缺少任何一项，单纯的人物群像便难以形成驱动力」这一表述是条目自行归纳的结论，证据原文并未以这种方式列举四要素并声明缺一不可。属于合理推论但非原文直接支持。",
+      "suggestion": "可保留该归纳，但措辞上可软化为「这些要素共同构成情节驱动的张力」，避免暗示为原文明确论述"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

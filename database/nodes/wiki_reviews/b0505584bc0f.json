@@ -1,0 +1,25 @@
+{
+  "conceptId": "b0505584bc0f",
+  "canonical_zh": "核心冲突",
+  "reviewedAt": "2026-05-05T19:24:41.984Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目在《奥赛罗》例子中说「其背后即是奥赛罗内心信任与猜疑之间的核心冲突」，但原始证据仅将该问句作为「用问题形式表述故事中心目的」的范例，并未进一步分析其核心冲突的内在维度。这一诠释属于编辑推断，并非证据直接陈述。",
+      "suggestion": "删除对《奥赛罗》核心冲突内容的推断性解读，仅保留「此问句被援引为用问题形式表述故事中心目的的范例」即可。"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将「主角」描述为「故事的行动发起者」，并单独列出「阻碍」作为第4个要素，但证据原文并未以这种结构化方式拆解核心冲突的构成要素，这是编辑归纳，非直接引证。虽属合理整合，仍有超出原文表述之嫌。",
+      "suggestion": "可保留此结构，但在origins或components说明中注明「以下要素系从证据文本归纳整合」，以避免读者误以为原文有明确列举。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

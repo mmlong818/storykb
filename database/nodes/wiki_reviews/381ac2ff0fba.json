@@ -1,0 +1,39 @@
+{
+  "conceptId": "381ac2ff0fba",
+  "canonical_zh": "动作潜文本",
+  "reviewedAt": "2026-05-05T03:18:46.706Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据中明确以「9·11世贸大楼的灾难」作为动作潜文本的典型案例：「在那可怕的一天，摄像机所捕捉到的动作使得所有的语言都变得毫无意义。我们只有看到人们在做什么，我们才明白它真正的含义。」条目examples章节未收录此案例。",
+      "suggestion": "在examples中补充9·11案例，说明其作为「动作使语言失效」的现实佐证地位。"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将《断锁怒潮》母亲的行为描述为「纵身入海」，但证据原文仅说「越过栏杆，为她和孩子选择了死亡」，并未出现「入海」字样，「纵身入海」系编写者推断添加，非证据所载。",
+      "suggestion": "将「以纵身入海的动作为自己和孩子选择死亡」改为「越过栏杆，为自己和孩子选择了死亡」，忠实原文。"
+    },
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "证据原句为「银幕上的动作显示的关于人物及状况的信息，是言语所能简单传达的」（无否定词），条目改写为「是言语难以简单传达的」，加入了「难以」，虽符合上下文语义逻辑，但与原文字面存在出入。",
+      "suggestion": "可保留现有语义方向，但宜注明此处为意译，或改写为「并非言语所能简单传达的」以更贴近原意。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据引用了诗人马斯特斯的话「我们在现实前失语，我们无法开口说话」，用以支撑「强烈情感令人陷入无声、唯有动作」这一核心机制论述，条目未提及此引文，削弱了该论点的文献依据。",
+      "suggestion": "在mechanism章节「当强烈情感使人物陷入无声状态时」一句后，可加入马斯特斯引语作为佐证。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "e514a8a02e8a",
+  "canonical_zh": "成长类故事",
+  "reviewedAt": "2026-05-05T23:12:13.731Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "「尽可能晚地开始讲述」和「善用插叙」这两条写作规则，在原书证据中出现于「你的过去、现在和将来」小节，该小节的直接上下文是在讨论「自我发现类故事」的写作方法，并以《流动推销员之死》为示范案例。wiki将其归入成长类故事的操作要点，存在归属上的偏移——尽管这两条规则在原书中被呈现为通用写作原则，并非严格限定于自我发现类，但将其直接挂靠成长类而不作说明，可能造成误读。",
+      "suggestion": "可保留这两条规则，但在表述时注明「此为通用写作原则，原书在自我发现类章节中以成长类相关示例加以阐释」，或将其移入pitfalls/diagnostics中以弱化归属感。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据在描述「迷茫的年轻主角」人物原型时，明确援引了约翰·斯坦贝克的《飞行》（Flight）作为例证：「正如约翰·斯坦贝克在其《飞行》中所讲述的那样」。wiki的examples节仅收录了《流动推销员之死》，未提及《飞行》。",
+      "suggestion": "可在examples节或components节中补充一句：「证据亦提及约翰·斯坦贝克的《飞行》作为迷茫年轻主角原型的典型案例。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

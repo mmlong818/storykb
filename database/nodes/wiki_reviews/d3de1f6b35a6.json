@@ -1,0 +1,25 @@
+{
+  "conceptId": "d3de1f6b35a6",
+  "canonical_zh": "主情节",
+  "reviewedAt": "2026-05-04T18:26:52.721Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目将《卡萨布兰卡》中的反派军衔写为「斯特拉瑟上校」，但原始证据明确写作「斯特拉瑟大校」（原文：「杀死了斯特拉瑟大校」）。「上校」与「大校」在中文军衔体系中是不同级别，属于具体事实性错误。",
+      "suggestion": "将「斯特拉瑟上校」改为「斯特拉瑟大校」，与证据原文保持一致。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目描述《普通人》中妻子的动作为「走出家门」，但原始证据写作「走出房门」（原文：「突然起身，收拾箱子，走出房门」）。两者语义有细微差别：房门指房间门，家门指宅邸大门，描述的具体动作有所不同。",
+      "suggestion": "将「走出家门」改为「走出房门」，与证据原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

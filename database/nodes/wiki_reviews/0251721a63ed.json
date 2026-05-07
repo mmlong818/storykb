@@ -1,0 +1,18 @@
+{
+  "conceptId": "0251721a63ed",
+  "canonical_zh": "人物引入",
+  "reviewedAt": "2026-05-05T18:39:25.794Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins 章节直接说「证据中未提及该概念的具体起源」，这作为条目内容出现略显奇怪，属于元说明而非实质内容，但不构成准确性错误。",
+      "suggestion": "可将该章节改写为描述人物引入作为叙事手法的一般性背景，而非直接暴露证据局限性。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

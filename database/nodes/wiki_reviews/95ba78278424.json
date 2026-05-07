@@ -1,0 +1,18 @@
+{
+  "conceptId": "95ba78278424",
+  "canonical_zh": "情节点",
+  "reviewedAt": "2026-05-05T01:37:21.692Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据图表显示第二个情节点位于第85-90页，但条目仅描述为「第二幕末尾」，未给出具体页码范围，而第一个情节点给出了精确页码（25-27页）。",
+      "suggestion": "可补充「第二个情节点约出现在第85至90页」以与菲尔德原文图表保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

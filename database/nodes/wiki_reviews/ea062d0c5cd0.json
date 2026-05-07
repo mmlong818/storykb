@@ -1,0 +1,18 @@
+{
+  "conceptId": "ea062d0c5cd0",
+  "canonical_zh": "身份伪装",
+  "reviewedAt": "2026-05-05T07:57:44.530Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目提到「海外归来的技术专家」作为「全新身份」的例子，但证据中该例子属于「渗透布局」公式（实操清单第3步），而非「身份伪装公式」本身的示例。身份伪装公式的官方示例仅为「海归投资人」。",
+      "suggestion": "在components节中，「全新身份」的举例应以「海归投资人」为主例，「海外归来的技术专家」可标注为「渗透布局阶段的延伸应用」，而非并列为components的核心例证。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,32 @@
+{
+  "conceptId": "06bcffbb2e4a",
+  "canonical_zh": "人物复杂性",
+  "reviewedAt": "2026-05-05T18:44:02.246Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中关于周恩来在紫光阁会议的原文为1962年讲话内容（「有人提'高标准'的英雄人物，怎么会有那样的英雄人物？性格是各人不同」），条目已正确引用时间地点，但未体现该原文所强调的「性格各人不同」这一具体论点，仅概括为「防止公式化、概念化」。",
+      "suggestion": "可在origins或pitfalls中补充「性格是各人不同」的原话，使周恩来的具体主张更为完整。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据（麦基来源）中提到阿尔奇·邦克（《全家福》）作为人物复杂性的补充案例，且有较详细分析（「我们中间有谁没有任何偏见」），但条目mechanism及examples均未涉及此案例。",
+      "suggestion": "无需强制加入，但若examples需扩充可考虑补充阿尔奇·邦克案例。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据显示周恩来南开演剧的相关背景（1916年《吾校新剧观》、启蒙主义话剧观）在origins中未体现，条目直接跳至1962年紫光阁会议，略去了其思想形成的历史脉络。",
+      "suggestion": "可简要提及周恩来1916年南开时期的启蒙主义话剧观，以完整呈现其思想发展路径，但非必须修正。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

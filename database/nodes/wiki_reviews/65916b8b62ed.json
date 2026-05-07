@@ -1,0 +1,25 @@
+{
+  "conceptId": "65916b8b62ed",
+  "canonical_zh": "最终状态场景",
+  "reviewedAt": "2026-05-05T19:04:58.480Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到迪耐瑟「癫笑着往自己头上浇油，然后点着自己」，条目写成「撒油点火」，省略了「然后点着自己」的完整动作，细节略有缺失但不影响理解。",
+      "suggestion": "可补全为「癫笑着往自己头上浇油并点火自焚」以更忠实原文。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据明确提到「撕毁护照」是表达「受限感」的极端方式之一，条目在 components 部分未列出，仅在 applications 中提及。components 若要完整呈现「外化表现」的例子，可酌情补充。",
+      "suggestion": "已在 applications 中覆盖，低优先级，可保留现状。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

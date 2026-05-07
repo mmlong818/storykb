@@ -1,0 +1,18 @@
+{
+  "conceptId": "6315e4d56b53",
+  "canonical_zh": "象征",
+  "reviewedAt": "2026-05-05T03:37:14.524Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目写「麦基在论述中援引布努埃尔等电影大师的实践」，「等」字暗示麦基援引了多位导演，但证据正文中仅出现布努埃尔一位，未见其他大师被点名。",
+      "suggestion": "删去「等」字，改为「麦基在论述中以布努埃尔的实践为例」，避免暗示存在证据未提及的其他导演。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

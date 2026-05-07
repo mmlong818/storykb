@@ -1,0 +1,32 @@
+{
+  "conceptId": "6fec93cf448e",
+  "canonical_zh": "悲剧性缺陷",
+  "reviewedAt": "2026-05-05T13:09:31.147Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目提到缺陷「通常表现为贪婪、傲慢或与情欲相关的偏执」，证据原文为「贪婪、傲慢或与性欲相关」，条目将「性欲」改写为「情欲相关的偏执」，属于轻微延伸，非完全幻觉，但「偏执」一词不在原文中。",
+      "suggestion": "将「与情欲相关的偏执」改为「与性欲相关」，更贴近原文"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「奥赛罗竟然欺骗他的妻子，说她所谓的情人已经向自己做了坦白」——原文确有此描述，但条目的examples部分未提及此细节，仅说「相信妻子苔丝狄蒙娜对自己不忠」，省略了原文中奥赛罗主动撒谎这一关键行为细节，属于遗漏而非误译。",
+      "suggestion": "可在examples中补充「奥赛罗甚至向苔丝狄蒙娜谎称其情人已坦白」这一细节，更完整呈现原文内容"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到了霍雷肖·阿尔杰的《衣衫褴褛的狄克》及《运气和勇气》系列作为「崛起」情节的例证，但条目origins部分未提及「盛衰沉浮」包含崛起与衰落两个方向，仅聚焦衰落一侧。这一缺失对理解悲剧性缺陷的完整情节模式有一定影响，但严重性较低。",
+      "suggestion": "可在origins或mechanism中简要提及该情节模式包含崛起与衰落的完整轮回"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

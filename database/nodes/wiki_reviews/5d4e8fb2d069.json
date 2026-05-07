@@ -1,0 +1,18 @@
+{
+  "conceptId": "5d4e8fb2d069",
+  "canonical_zh": "价值变化",
+  "reviewedAt": "2026-05-06T13:00:44.643Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将《华尔街》巴德场景的价值描述为「野心勃勃的正面期待」转向「堕落已然成熟的负面预感」，但原文重点是观众「意识到巴德野心太大、过于贪婪——堕落的时机已经成熟」，是一种认知上的重组与见解，而非单纯情感预感的转变。条目的表述略微简化了「认知重组」这一核心动作。",
+      "suggestion": "可补充「观众回溯办公室场景后完成认知重组，意识到堕落早已酝酿成熟」，突出转折点的认知功能。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

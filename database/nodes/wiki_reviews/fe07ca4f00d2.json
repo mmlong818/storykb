@@ -1,0 +1,25 @@
+{
+  "conceptId": "fe07ca4f00d2",
+  "canonical_zh": "受害者",
+  "reviewedAt": "2026-05-05T23:23:31.802Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将柳德米拉描述为「基辅大公弗拉基米尔的女儿」并称弗拉基米尔「许诺以女儿许配救人者」，与证据一致。但条目将父亲职衔写作「其父大公弗拉基米尔」，证据原文为「基辅大公弗拉基米尔」，省略了「基辅」二字，属轻微遗漏而非严重问题。",
+      "suggestion": "将「其父大公弗拉基米尔」改为「其父基辅大公弗拉基米尔」以更准确还原证据原文。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确举出「从她的商店里偷走了一夸脱的啤酒或是在个人所得税申报表上多申报了扣除额」作为罪行过轻的反例，条目在pitfalls中仅以「区区盗窃」概括，未能呈现证据中生动的具体例子，但核心含义已传达。",
+      "suggestion": "可在pitfalls中补充更具体的例子以增强说服力，但非必须。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

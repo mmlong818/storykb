@@ -1,0 +1,18 @@
+{
+  "conceptId": "b78f6e933254",
+  "canonical_zh": "主角",
+  "reviewedAt": "2026-05-04T21:44:37.391Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将《大白鲨》主角描述为「科学家」，原文证据中描述为「科学家们」并提到他「识别到鲨鱼威胁」，但原文实为「科学家称为主角，他促使当地政府关闭海滩」，角色身份正确，但「识别到鲨鱼威胁并决定关闭海滩」这一表述在条目中略有压缩，原文更强调「认识到严重性并着手解决它」的决策动作。",
+      "suggestion": "可保持现有表述，差异极小，不影响准确性。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

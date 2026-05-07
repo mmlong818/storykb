@@ -1,0 +1,18 @@
+{
+  "conceptId": "bc403d46a024",
+  "canonical_zh": "规则打破公式",
+  "reviewedAt": "2026-05-05T23:11:19.720Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中公路片来源另有「暴雨导致山路塌方→女主滞留山间民宿」的极端天气示例，但该案例属于「极端天气公式」而非「规则打破公式」，条目未收录并无遗漏问题。此处仅标注供参考，实际无需修改。",
+      "suggestion": "无需修改，已正确选取对应公式的示例。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

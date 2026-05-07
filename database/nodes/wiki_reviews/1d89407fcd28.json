@@ -1,0 +1,25 @@
+{
+  "conceptId": "1d89407fcd28",
+  "canonical_zh": "初稿",
+  "reviewedAt": "2026-05-05T03:11:05.051Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称行业惯例页数「通常约一百到一百二十页」，但证据（麦基原文）仅给出「一百零五页」作为读者偏好的具体例子，并未给出「一百到一百二十页」这一区间范围。该区间系条目自行推演，非证据直接支撑。",
+      "suggestion": "改为「页数须符合行业惯例（如麦基所举的一百零五页），避免因格式异常在阅读前便留下业余印象」，或删去具体区间，保留「符合行业惯例」的表述即可。"
+    },
+    {
+      "section": "diagnostics",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "与 components 同源问题：「约一百到一百二十页」的具体区间在证据中无直接依据，仅有「一百零五页」作为例证。",
+      "suggestion": "将「约一百到一百二十页」改为「大致符合行业惯例（以一百零五页左右为参照）」，或直接引用麦基原文中「一百零五页」的表述。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

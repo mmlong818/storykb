@@ -1,0 +1,18 @@
+{
+  "conceptId": "54621a64a0f3",
+  "canonical_zh": "触发事件",
+  "reviewedAt": "2026-05-06T04:12:39.177Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《杀人者》里的尼克·亚当斯所在地点是「密歇根州的小镇」，条目仅写「安宁的小镇生活」，省略了地名细节，但此为次要信息，不影响准确性。",
+      "suggestion": "可补充「密歇根州」以更贴近原文，但并非必须修正。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

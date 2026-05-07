@@ -1,0 +1,32 @@
+{
+  "conceptId": "0141c9e7c3d6",
+  "canonical_zh": "明星载体片",
+  "reviewedAt": "2026-05-05T18:38:16.843Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "第4条「剧本与叙事结构——专门为展示该演员的优势而构建」在证据中并无对应表述。证据仅列出了 Star vehicle 的定义、personality-star 与 actor-star 的区别，未提及剧本/叙事结构作为构成要素。",
+      "suggestion": "可保留此条但标注为「一般行业惯例推论」，或直接删除以忠于证据范围"
+    },
+    {
+      "section": "diagnostics",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "三条诊断问题（替换主演的商业逻辑变化、剧本迎合演员形象等）均为证据之外的推论，证据本身未提供任何诊断标准。",
+      "suggestion": "属合理推论，可保留，但建议在行文中注明「以下为推论性判断框架，非来源原文」"
+    },
+    {
+      "section": "pitfalls",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「观众审美疲劳」「削弱影片的艺术深度」等判断在证据中没有依据，属编辑自行添加的评价性内容。",
+      "suggestion": "可删除或明确标注为编辑推论，避免给读者造成「来源原文有此判断」的误解"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

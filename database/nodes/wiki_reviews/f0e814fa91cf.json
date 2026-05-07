@@ -1,0 +1,18 @@
+{
+  "conceptId": "f0e814fa91cf",
+  "canonical_zh": "感伤主义",
+  "reviewedAt": "2026-05-05T08:08:15.472Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「故作感伤」与「感伤主义」描述为「密切相关但程度更重」，原文表述为「所谓的感伤主义手法，即通过夸大现实情境能够引发的情感来达到感人的目的」——原文将「夸大情感」直接定义为感伤主义本身，并非另立一个更重的独立概念「故作感伤」。条目将二者区分为两个概念，略有偏差。",
+      "suggestion": "可将pitfalls中对「故作感伤」的独立描述合并入感伤主义定义，说明「通过夸大情感强度来达到感人目的」本就是感伤主义的一种表现形式，而非另一层级的概念。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

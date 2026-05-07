@@ -1,0 +1,18 @@
+{
+  "conceptId": "b14cbc45a554",
+  "canonical_zh": "定时炸弹",
+  "reviewedAt": "2026-05-05T19:28:04.979Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "diagnostics",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文区分了两个不同的数量范围：冲突源进攻方式「六到十种」，以及使主人公沮丧焦虑升级的方式「一到六种」。诊断问题3只保留了「六到十种递进式障碍」，将后者（一到六种）遗漏，导致两个概念被合并为一。",
+      "suggestion": "可补充说明：除六到十种障碍事件外，是否还设计了一到六种使主人公内心沮丧焦虑持续升级的方式。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

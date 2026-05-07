@@ -1,0 +1,25 @@
+{
+  "conceptId": "e67ff9fc2241",
+  "canonical_zh": "戏剧需求",
+  "reviewedAt": "2026-05-05T07:53:46.357Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中同时使用《洛奇》作为戏剧需求的典型案例（「他的戏剧'需求'──我们全都可以从《洛奇》学会这一课的」），条目仅以《唐人街》为例，source_perspectives 亦仅提及《唐人街》，未反映书中多案例并举的做法。",
+      "suggestion": "可在 applications 或 examples 中补充《洛奇》案例：洛奇的戏剧需求是证明自己能与世界冠军打满十五回合，书中将其与《唐人街》并列为典型范例。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目列举的情节点未包含「水的主题调查」（吉蒂斯顺着水主题到档案室调查土地所有人）这一在证据中明确描述的小情节点，完整性略有不足。",
+      "suggestion": "可在情节点列举中补充：吉蒂斯顺「水」线索调查西北圣·费南多峡谷土地买卖情况，发现大批土地近月内售出。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

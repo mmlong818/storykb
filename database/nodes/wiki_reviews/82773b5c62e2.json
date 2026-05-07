@@ -1,0 +1,39 @@
+{
+  "conceptId": "82773b5c62e2",
+  "canonical_zh": "人物小传",
+  "reviewedAt": "2026-05-05T13:20:04.475Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "原始证据中《尽善尽美》的人物小传示例明显被截断——原文继续列出了「人物：卡罗」的相关内容，但条目未体现此处存在第二个人物示例（卡罗）。虽然证据被截断无法获取卡罗的完整信息，但条目应注明梅尔文只是书中示例之一。",
+      "suggestion": "可在examples末尾注明「书中还列出了另一角色卡罗的示例表格」，或保持现状并说明仅引用了部分示例"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据「编剧步步为营」中明确提到「用'神奇的如果'来进入人物的大脑」这一替代技巧，并说明人物小传并非唯一方法，编剧应寻找适合自己的方式。条目applications部分未体现「人物小传是多种角色探索方法之一」这一重要语境定位。",
+      "suggestion": "在applications中补充说明：人物小传是多种角色构建工具之一，编剧应根据自身工作习惯选择是否采用"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins字段为空，证据中虽未提供历史起源信息，但该字段空缺属结构性不完整。",
+      "suggestion": "可填入「目前证据未涉及人物小传的历史起源」或直接标注为暂无来源记载"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据「编剧写作练习」中提到应「摒弃冗长简历」，暗示过于依赖完整履历式小传是一种误区，条目pitfalls虽提到繁琐问题，但未明确区分「履历式罗列」与「关键细节聚焦」两种路径的取舍关系。",
+      "suggestion": "可补充：将人物小传写成完整履历档案（而非聚焦关键细节）是常见陷阱之一"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

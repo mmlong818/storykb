@@ -1,0 +1,41 @@
+{
+  "conceptId": "23e86ce0466b",
+  "canonical_zh": "过渡镜头",
+  "reviewedAt": "2026-05-06T12:27:43.835Z",
+  "verdict": "issues_found",
+  "score": 6,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将信息源标注为「影视专业术语词典」，而证据原文来源标题为「专业术语바사」（韩文词典），二者名称不一致，条目未说明来源为韩文资料。",
+      "suggestion": "来源描述应更准确，注明证据来自韩文影视专业术语词典，而非泛称「影视专业词汇体系」。"
+    },
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "high",
+      "description": "evidence 字段中大量包含韩文（가-힣区间字符），如「브릿징 쇼트(bridging shot) 시간이나 장소 혹은 다른 불연속의 도약을 커버하기 위해 사용되는 쇼트」。虽然条目本身未混入韩文，但evidence原始文本含有大量韩文，审核时需确认条目内容是否基于此证据正确提炼，未将韩文词汇混入输出。条目本身语言干净，此问题标记为提醒。",
+      "suggestion": "条目文本本身无韩文混入，但应确保后续更新时不从evidence原文直接复制韩文字符。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据来源为韩文专业术语词典（바사），这是一个重要的来源背景信息，条目的source_perspectives中将其称为「影视专业术语词典」，但未说明该词典为韩文资料，可能误导读者认为这是中文或英文文献。",
+      "suggestion": "source_perspectives中应注明来源为韩文影视专业术语词典。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到「떨어지는 달력의 종이들이나, 기차바퀴를 보여주는 쇼트」，条目已正确翻译为「翻落的日历纸页」和「转动的火车车轮」，无遗漏。此项通过。",
+      "suggestion": "无需修改。"
+    }
+  ],
+  "corrections": {
+    "source_perspectives": "sourceTitle应更正为「韩文影视专业术语词典（바사）」，以准确反映原始证据来源语言和性质。"
+  },
+  "costUsd": 0
+}

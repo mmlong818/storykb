@@ -1,0 +1,18 @@
+{
+  "conceptId": "31dbaf25b231",
+  "canonical_zh": "写意性",
+  "reviewedAt": "2026-05-06T13:10:13.291Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确指出中国戏曲「从戏剧分类学上来说，是可以归入歌剧一类的」，但条目origins及其他章节均未提及这一分类学定位，略有遗漏。",
+      "suggestion": "可在origins中补充一句：从戏剧分类学角度，中国戏曲可归入歌剧范畴，但其艺术构成方式与西方歌剧有根本差异。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

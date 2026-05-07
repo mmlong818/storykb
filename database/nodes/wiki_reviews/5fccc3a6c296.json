@@ -1,0 +1,25 @@
+{
+  "conceptId": "5fccc3a6c296",
+  "canonical_zh": "线索的终点",
+  "reviewedAt": "2026-05-06T13:07:14.256Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到《伸张正义》（阿尔·帕西诺饰演阿瑟·柯克兰）作为正义价值「循环回正面」的对比案例，条目未提及此片，但该案例在原文中仅作对比参照，并非线索终点的核心例证，影响较小。",
+      "suggestion": "如需完整呈现麦基的论述语境，可在examples或mechanism中简短提及《伸张正义》作为正义价值循环回正面的对照案例。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到麦基还列举了「自由」维度的负面之负面（《1984》、自我奴役/毒品酒精），以及「疏远」维度（《怪房客》中的特列尔科夫斯基），条目仅覆盖正义和勇气维度，其他价值维度的例证未纳入。考虑到条目聚焦于典型案例，这一取舍合理，但若要更全面可补充。",
+      "suggestion": "可在applications或examples中添加一句说明：线索终点适用于多种价值维度，麦基亦以自由（《1984》）、交流（《怪房客》）等为例。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

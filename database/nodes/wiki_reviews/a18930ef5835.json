@@ -1,0 +1,32 @@
+{
+  "conceptId": "a18930ef5835",
+  "canonical_zh": "硬汉派侦探类型",
+  "reviewedAt": "2026-05-06T12:53:22.580Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据第二段明确提及钱德勒的《漫长的告别》（The Long Goodbye, 1953），但条目 examples 章节未予收录，该作品是证据列举的代表性书目之一。",
+      "suggestion": "在 examples 中补充：「钱德勒另一代表作《漫长的告别》（The Long Goodbye，1953）亦被证据列为该类型典范。」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第二段提到「1940」「1943」两部影片（疑为《瘦子》系列续集改编），但条目未提及，仅列 1941 年版《马耳他之鹰》及 1946 年版《大眠》。",
+      "suggestion": "可在 examples 末尾以括注形式补充：「证据另提及 1940 年与 1943 年的相关电影改编，具体片名因原始文本 OCR 损毁无法确认。」"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目明确标注《马耳他之鹰》电影版为「1941 年版」，但两段证据原文均只出现小说年份「1930」，未明确写出电影版年份 1941。该年份虽为公认历史事实，但无法直接从所提供证据中找到支撑。",
+      "suggestion": "低风险，可保留，但建议将「1941年版」改为「其后的电影改编」，或在 corrections 中标注该日期源自历史常识而非本来源。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

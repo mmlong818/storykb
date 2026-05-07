@@ -1,0 +1,18 @@
+{
+  "conceptId": "9ec1fb418716",
+  "canonical_zh": "真实情感",
+  "reviewedAt": "2026-05-05T19:21:29.066Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文强调「作者与主题之间的独特关系所激发的情感」（「creating a story that reflects the unique relationship between author and subject」），条目components中虽有提及，但表述略显模糊，「作者与主题之间的独特关系所激发的情感」这一表述在原文中是区分真实情感与感伤主义的核心机制之一，可以更突出。",
+      "suggestion": "可在components中更清晰地说明：真实情感要求作者通过「创作出反映作者与主题之间独特关系的故事」来激发情感，而非借用现成主题。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

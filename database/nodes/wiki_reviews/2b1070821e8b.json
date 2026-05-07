@@ -1,0 +1,25 @@
+{
+  "conceptId": "2b1070821e8b",
+  "canonical_zh": "三角关系",
+  "reviewedAt": "2026-05-05T08:29:56.683Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称波尔蒂将三角关系归纳为「第24种」情境，原文证据中确实标注为「24、上下之争」，这一点准确。但条目称《经典情节20种》将三角关系列为「第5种」，原文证据标题处标注「5. 三角关系」，与条目一致，无问题。此条目整体origins部分准确，仅提示：原文并未明确说明波尔蒂的书中「上下之争」即等同于「三角关系」——波尔蒂的情境更强调权力竞争，不限于情感三角，条目将二者直接等同略显简化，但不构成严重错误。",
+      "suggestion": "可在origins中补充说明，波尔蒂的「上下之争」涵盖更广泛的竞争情境，三角关系是其重要子集而非全部。"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目在examples第2条将虚构案例中的人名写为「阿尔弗雷德（A）—碧翠丝（B）—查克（C）」，与原文「阿尔弗雷德(A)」「碧翠丝(B)」「查克(C)」完全吻合，无问题。第3条「变体C描述『连锁竞争』：甲爱乙，乙爱丙，丙爱丁」——原文为「甲爱乙,乙爱丙,丙爱丁」，条目准确引用。整体examples部分无幻觉。",
+      "suggestion": "无需修改。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

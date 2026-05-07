@@ -1,0 +1,18 @@
+{
+  "conceptId": "d1ca24cdc705",
+  "canonical_zh": "社会剧",
+  "reviewedAt": "2026-05-04T21:51:47.764Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文中有一个生动的细节：重复说教到最后「直到你自己都想端起一把枪来」，说明说教反效果之极端。条目中「观众反而产生抵触」表述了这一意思，但省略了原文的讽刺力度，属轻微遗漏。",
+      "suggestion": "可在mechanism末尾补充：麦基以夸张笔法指出，说教式反战影片的累积效果甚至会让观众「想端起一把枪来」，讽刺性地说明了失衡叙事的反噬之深。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

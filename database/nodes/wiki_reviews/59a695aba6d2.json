@@ -1,0 +1,25 @@
+{
+  "conceptId": "59a695aba6d2",
+  "canonical_zh": "情感软肋",
+  "reviewedAt": "2026-05-05T12:50:31.895Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中对文东恩的短板描述为「不擅长处理亲密关系」，条目examples节未提及此短板，仅描述情感软肋部分，整体尚完整但可更充分呈现原文对比关系。",
+      "suggestion": "可补充「短板为不擅长处理亲密关系」以完整呈现证据中的人设公式示例结构。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins节坦承「现有证据未涉及该概念的理论起源」，此处理诚实透明，无问题，但该节内容较单薄，属信息本身局限，非错误。",
+      "suggestion": "无需修改，已如实说明证据局限。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "96fec20b08ca",
+  "canonical_zh": "舞台调度",
+  "reviewedAt": "2026-05-05T13:30:31.527Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「四姨娘高声喊道制止」，原文为「四姨娘高声喊道：「左贤王！请你息怒吧！」」——条目省略了台词内容，但「制止」一词系概括性改写，并非误译，属轻微简化。",
+      "suggestion": "可保留原台词「左贤王！请你息怒吧！」以提高精确度，但非必须。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文明确给出舞台调度的定义句：「导演会根据构思，对每个演员在舞台上的位置及其相互关系，提出明确要求，这就是舞台调度」，条目definition部分已覆盖此意，但origins节坦言「证据未直接论及起源」属实，无问题。",
+      "suggestion": "无需修改。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

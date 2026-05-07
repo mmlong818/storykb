@@ -1,0 +1,18 @@
+{
+  "conceptId": "4ec9cccf21bc",
+  "canonical_zh": "人物变化",
+  "reviewedAt": "2026-05-05T23:38:29.551Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《吉尔伽美什》《堂吉诃德》《愤怒的葡萄》作为探寻情节的历史案例，条目未提及，但这些并非直接用于论证人物变化，属次要信息。",
+      "suggestion": "如需完善origins或examples，可补充这些经典探寻情节案例，但并非必要。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

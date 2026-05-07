@@ -1,0 +1,18 @@
+{
+  "conceptId": "fc8c0aeda4fd",
+  "canonical_zh": "神奇的如果",
+  "reviewedAt": "2026-05-05T23:21:59.100Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到约翰的三个回应选项为「躲闪然后立刻逃跑」「用力推开我妹妹」「上前紧紧地拥抱着她」，条目将第一个简化为「躲闪逃跑」，第二个简化为「用力推开」，第三个为「上前拥抱」，整体无误但略去了「让她慢慢平静下来」的情感细节。",
+      "suggestion": "可保持现有简化表述，属轻微简化而非错误，无需强制修正。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

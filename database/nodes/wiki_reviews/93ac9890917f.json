@@ -1,0 +1,18 @@
+{
+  "conceptId": "93ac9890917f",
+  "canonical_zh": "舞台调度",
+  "reviewedAt": "2026-05-06T11:47:29.025Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "原文「最早自觉地进行这方面实验的是苏联导演梅耶荷德」中「这方面」指代的是「电影和戏剧更深层次的审美融合」，条目改写为「最早自觉进行舞台调度实验的先驱之一」，将范围从「电影与戏剧融合」扩大为「舞台调度实验」，语义有所扩大，但不构成严重曲解。",
+      "suggestion": "可修改为「最早自觉进行电影与戏剧深层融合实验的先驱之一」，更贴近原文所指范围。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

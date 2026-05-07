@@ -1,0 +1,25 @@
+{
+  "conceptId": "cd7a8ff98e9b",
+  "canonical_zh": "铺垫",
+  "reviewedAt": "2026-05-05T23:59:49.907Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "证据原文写「佛罗多」，条目中写「弗罗多」；证据写「汉·索罗」，条目写「韩·索罗」。虽为译名差异而非实质性错误，但与所引原始来源的用字不一致。",
+      "suggestion": "统一使用证据原文的译名「佛罗多」和「汉·索罗」，或注明两种译名均通用。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将《虚拟根除》描述为「作者自述」，证据原文只说「在我的第一部小说《虚拟根除》中」，并未给出书名《虚拟根除》的英文原名或任何官方出处依据。「虚拟根除」系翻译推断，条目表述为确定书名存在轻微风险。",
+      "suggestion": "可保留但加括注「暂译」或「原文书名未注明」，以示区分。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "f8a165262086",
+  "canonical_zh": "安排",
+  "reviewedAt": "2026-05-06T03:52:14.754Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目在《迷失东京》例子中注明「索菲亚·科波拉电影」，但两段原始证据均未提及导演姓名，仅以「《迷失东京》」指代影片。该信息虽属公知事实，但超出证据范围。",
+      "suggestion": "可删去导演姓名，改为「电影《迷失东京》的开场安排」，保持与证据一致；或在括注中注明来源为通识而非麦基原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,32 @@
+{
+  "conceptId": "a5e35f1d7d16",
+  "canonical_zh": "转折点",
+  "reviewedAt": "2026-05-04T17:53:37.004Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "「灰姑娘两次完成继母考验却遭拒绝」这一具体细节在所提供的证据中完全无法核实——证据数组中没有任何来自「经典情节20种（第二版）」的文本片段，该细节是否出自原书无从确认。",
+      "suggestion": "需补充「经典情节20种（第二版）」原文证据加以核实；若无法核实，应删除「两次完成继母考验却遭拒绝」这一具体表述，仅保留可从其他来源推断的概括性描述。"
+    },
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称「编剧步步为营」「专设『转折点的探戈』章节讨论第一幕、第二幕的结构性转折点运用」，但证据目录显示「转折点的探戈」与「第二幕转折点」是第5章（结构篇）下两个独立小节，并非由「转折点的探戈」单一章节同时覆盖两幕。措辞将两节合并归于一节，有轻微误导。",
+      "suggestion": "改为「『编剧步步为营』在结构篇中分设『转折点的探戈』与『第二幕转折点』两节，分别讨论不同幕次的结构性转折点运用」，与目录原文更吻合。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「对白」一书是source_perspectives之一，但证据数组中没有任何该书的文本片段。条目mechanism节及applications节均引用对白层面的论述，内容本身与麦基整体框架一致，但所标注来源「对白」无法从所提供证据直接核实。",
+      "suggestion": "建议补充「对白」原文证据以确认相关表述，或在未获原文证据前，措辞上标注「据麦基「对白」所述」并保持审慎。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

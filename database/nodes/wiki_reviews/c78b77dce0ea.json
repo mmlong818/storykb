@@ -1,0 +1,27 @@
+{
+  "conceptId": "c78b77dce0ea",
+  "canonical_zh": "切至",
+  "reviewedAt": "2026-05-04T21:48:16.974Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "high",
+      "description": "条目写「安检察官盯视姜律师的瞬间切至停车场」，但原文证据（evidence 1）明确是「안검사가 부장검사를 쳐다보면」，即安检察官望向的是部长检察官，而非姜律师。姜律师此时根本不在该场景（部长检察室）内。",
+      "suggestion": "将「安检察官盯视姜律师」改为「安检察官望向部长检察官」"
+    },
+    {
+      "section": "mechanism",
+      "type": "inconsistency",
+      "severity": "high",
+      "description": "mechanism 节写「安检察官盯视姜律师」，examples 节同一场景却正确写「安检察官抬头望向部长检察官」，两节对同一事件的描述相互矛盾。",
+      "suggestion": "统一为「安检察官望向部长检察官」，与 examples 节及原文保持一致"
+    }
+  ],
+  "corrections": {
+    "mechanism": "切至通过硬切断当前画面、不给观众缓冲时间，强迫注意力瞬间跳跃至新场景。在《委托人》剧本中，切至被密集用于两种机制：一是在对话张力积聚到顶点时突然跳场，让情绪在新空间延续而非消解（如安检察官望向部长检察官的瞬间切至停车场，姜律师独自爆出一句骂词，情绪在新场景释放）；二是在庭审证词与事件当晚回忆之间来回切换，用硬切构建「当下陈述」与「过去真相」的对照蒙太奇，让观众同时接收两层信息。"
+  },
+  "costUsd": 0
+}

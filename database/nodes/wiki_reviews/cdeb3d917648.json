@@ -1,0 +1,18 @@
+{
+  "conceptId": "cdeb3d917648",
+  "canonical_zh": "序幕",
+  "reviewedAt": "2026-05-04T18:20:37.879Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "missing",
+      "severity": "low",
+      "description": "definition 称序幕「通常编号为第0场」，但证据中仅《危险的相亲》使用「# 0. 프롤로그」，《新世界》和《王》均为「1. 프롤로그」，以「第1场」编号的情况同样常见。origins 节已正确列出「0. 序幕」或「1. 序幕」两种形式，definition 与之存在轻微不一致。",
+      "suggestion": "将 definition 中「通常编号为第0场」改为「通常编号为第0场或第1场」，与 origins 节保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

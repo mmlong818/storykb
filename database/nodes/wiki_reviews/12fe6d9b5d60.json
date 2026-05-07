@@ -1,0 +1,25 @@
+{
+  "conceptId": "12fe6d9b5d60",
+  "canonical_zh": "戏曲",
+  "reviewedAt": "2026-05-06T13:08:46.504Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确提到戏曲的艺术手段包括「唱、念、做、打」，条目components节仅概括为「文学、音乐、舞蹈及表演」，未体现这一具体表述。",
+      "suggestion": "可补充「唱、念、做、打」作为戏曲综合性艺术手段的具体说明。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到戏曲「表演、唱腔上的程式化与写意性，那更是西方歌剧所难以比拟的」，这是区分戏曲与西方歌剧的重要特征，条目mechanism节未涉及。",
+      "suggestion": "可在mechanism节补充程式化与写意性作为戏曲运作机制的重要特征。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

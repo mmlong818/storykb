@@ -1,0 +1,18 @@
+{
+  "conceptId": "0aeee32be99f",
+  "canonical_zh": "间离效果",
+  "reviewedAt": "2026-05-06T14:34:43.907Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将黑格尔的表述归为「黑格尔所总结的」，原文只是说「黑格尔上承亚里士多德《诗学》，将『诗』分为叙事的、抒情的、戏剧的三类，并指出戏剧是叙事诗的客观性原则与抒情诗的主体性原则的统一」，这是对的；但条目后紧接着说布莱希特「批判共鸣视为有利于资产阶级个人主义的机制」，语序和原文一致，无问题。整体无实质误差，仅措辞稍显冗余。",
+      "suggestion": "可保持原文，无需强制修改。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

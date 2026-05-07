@@ -1,0 +1,25 @@
+{
+  "conceptId": "b4e4bc22f687",
+  "canonical_zh": "期待视野",
+  "reviewedAt": "2026-05-05T19:33:44.537Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目在mechanism节写道「阅读就是剧本的潜在结构与受众内心的期待视野相遇合」，但原文实际写的是「召唤结构」而非「期待视野」：「阅读就是剧本的潜在结构跟读者内心的召唤结构相遇合」。期待视野与召唤结构是伊瑟尔和姚斯各自的不同概念，混用会造成误导。",
+      "suggestion": "改为「阅读就是剧本的潜在结构与读者内心的期待视野（或召唤结构）相遇合」，或保留原文措辞「召唤结构」并注明此处原文用词。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins节仅罗列四位学者，但未说明这四个概念在原文中被并列的语境——原文明确指出它们都是对「先前审美经验的组织形态」的不同命名，且原文强调「称谓各异，性质一也」。条目虽在pitfalls中提到「性质相通」，但origins节缺少这一关键定性表述。",
+      "suggestion": "在origins节补充：原文明确指出四者「称谓各异，性质一也」，均指向受众先前审美经验的组织形态。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "39f019e64b03",
+  "canonical_zh": "再创造",
+  "reviewedAt": "2026-05-06T14:33:26.899Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文明确列举了《征服者佩尔》《危险关系》作为「再创造从根本上背离原作但电影非常优秀」的正面案例，与《红字》《夜都迷情》形成对比论证。条目examples节仅收录了反面案例，遗漏了这两个正面的「背离原作」成功案例，导致麦基的对比论证逻辑在条目中残缺。",
+      "suggestion": "在examples节的反面案例之前，补充《征服者佩尔》《危险关系》作为「背离原作但电影优秀」的正面案例，呈现麦基的完整论证结构。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写道「被认为是大卫·里恩最优秀的影片」，但证据原文是麦基的第一人称判断「据我判断，是大卫·里恩最优秀的影片」。将个人判断改写为泛指的「被认为是」，弱化了麦基的主观立场，并暗示这是普遍共识。",
+      "suggestion": "改为「麦基认为这是大卫·里恩最优秀的影片」或「在麦基看来，是大卫·里恩最优秀的影片」，保留其个人判断的性质。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

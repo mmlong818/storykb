@@ -1,0 +1,25 @@
+{
+  "conceptId": "fcaafa3ba791",
+  "canonical_zh": "人设塑造",
+  "reviewedAt": "2026-05-05T02:58:29.052Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "案例四（公式34）证据原文在「偷偷买」之后截断，条目如实标注了「证据原文在此截断，示例不完整」，处理得当，但未说明截断处可能的内容（如「偷偷买礼物」等），读者可能对截断原因感到困惑。",
+      "suggestion": "保持现有标注方式即可，或补充说明「因原始文档分页导致截断」以消除歧义。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据「温情题材」来源明确列出该方法适配「电影剧本、小说、散文、短视频脚本」四种创作场景，条目applications节中列举时遗漏了「散文」这一适用场景。",
+      "suggestion": "在适用场景列表中补充「散文」，与原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

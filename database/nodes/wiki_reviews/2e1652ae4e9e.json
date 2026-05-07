@@ -1,0 +1,18 @@
+{
+  "conceptId": "2e1652ae4e9e",
+  "canonical_zh": "常态",
+  "reviewedAt": "2026-05-05T08:32:47.960Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中列出了序幕不该有的其他具体情况（风格基调不一致、仅为预叙、重复其他内容），条目未提及这些细节，但这属于次要信息，不影响核心准确性。",
+      "suggestion": "可在pitfalls中补充：写得差的序幕具体包括风格与全书不一致、仅作预叙、内容重复等情形，与「扫清路障」型序幕并列说明。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

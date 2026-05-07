@@ -1,0 +1,25 @@
+{
+  "conceptId": "a16e3fd4c18f",
+  "canonical_zh": "黑色电影",
+  "reviewedAt": "2026-05-04T17:49:40.283Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据R39明确记载劳伦斯·卡斯丹1985年执导的影片片名为「Silverado」，但条目仅写「劳伦斯·卡斯丹（Lawrence Kasdan）1985年执导的影片」，未列出具体片名，导致读者无从核查，且作为跨类型融合的例证，片名是关键信息。",
+      "suggestion": "将「劳伦斯·卡斯丹（Lawrence Kasdan）1985年执导的影片」改为「劳伦斯·卡斯丹（Lawrence Kasdan）执导的《银色城堡》（Silverado，1985）」"
+    },
+    {
+      "section": "diagnostics",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「腐败代理人」无直接证据支撑。证据R76中提到的是《杀手》（The Killers，1946）中的「保险代理人」（insurance agent）角色设定，原文并未描述该角色「腐败」；条目将其概括为黑色电影典型人物类型之一的「腐败代理人」属于主观推断，超出了证据范围。",
+      "suggestion": "删去「腐败代理人」，或改为「保险代理人」并注明出自《杀手》具体情节，而非作为通用类型特征列出。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "f67e3858f3f6",
+  "canonical_zh": "最终状态",
+  "reviewedAt": "2026-05-05T18:07:11.193Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目写「他离开故乡时还是一个令人生厌的孤儿」，但原文证据明确是「帕格从科勒旺消失的时候还是一个令人生厌的孤儿」。科勒旺（Kelewan）是帕格被掳去的异界，并非他的故乡；他的故乡是美凯米亚（Midkemia）的克里狄镇。「离开故乡」与「离开科勒旺」含义相反——前者暗示他从家乡出发，后者才是事实：他从异界返回家乡。examples 节同一段落已正确写作「从科勒旺归来」，两节因此产生隐性矛盾。",
+      "suggestion": "将 mechanism 节中「他离开故乡时还是一个令人生厌的孤儿」改为「他在科勒旺时还是一个令人生厌的孤儿奴隶，归返美凯米亚后却已判若两人」，与证据原文及 examples 节保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

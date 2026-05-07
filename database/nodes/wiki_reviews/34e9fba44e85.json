@@ -1,0 +1,25 @@
+{
+  "conceptId": "34e9fba44e85",
+  "canonical_zh": "双向交流性",
+  "reviewedAt": "2026-05-06T05:58:32.518Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《牡丹亭》（汤显祖）兼具文学性与表演性，条目在examples中仅将其归入「文学性」对立面而未直接列出，但实际上原文是「既经得起读，也经得起演」，并非纯文学性代表。条目未提《牡丹亭》，略有遗漏，但并未造成误导。",
+      "suggestion": "可在examples中补充《牡丹亭》作为文学性与表演性兼备的案例，与《天女散花》形成更完整的对比。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将易卜生戏剧案例描述为「以文学性和思想深度为重」，原文还提及象征主义剧《海上夫人》《当我们死而复醒时》，条目仅列出《玩偶之家》《人民公敌》，但这是合理的简化，非误译。",
+      "suggestion": "无需修改，当前表述已足够准确。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

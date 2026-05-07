@@ -1,0 +1,25 @@
+{
+  "conceptId": "0d9d2a2a0b47",
+  "canonical_zh": "多线叙事",
+  "reviewedAt": "2026-05-05T08:20:03.574Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "证据将「时空叙事」（蒙太奇魔法：过去与现在的情感勾连）作为与「多线叙事齿轮效应」并列的独立技法板块加以阐述，而非多线叙事的内部子要素。条目将其纳入components第（3）项，隐含地将其定位为多线叙事的构成要素之一，存在轻微的概念归属偏移。",
+      "suggestion": "可在components中保留时空维度的说明，但注明「时空蒙太奇是多线叙事在时间轴上的延伸形式」，与mechanism中的表述保持一致，避免读者误以为所有多线叙事必然包含闪回结构。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第一段明确提及《太阳的后裔》（柳时镇与姜暮烟）及《黑暗荣耀》中东文恩与周汝正的情感关系发展，属于来源内容。条目examples部分未纳入《太阳的后裔》案例。考虑到该案例在证据中主要用于说明「情感进阶式表达」而非多线叙事结构，遗漏属合理的主题聚焦，但仍属可核查的缺省。",
+      "suggestion": "若条目定位严格限定于多线叙事结构技法，则无需补充；若希望体现来源全貌，可在applications或examples中以一句注脚提及《太阳的后裔》主副线的情感升华机制。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,20 @@
+{
+  "conceptId": "99a52a46e5fc",
+  "canonical_zh": "反结构",
+  "reviewedAt": "2026-05-04T21:32:44.553Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目将 Ernst Toller 译为「恩斯特·托勒」，但原始证据原文为「恩斯特 · 托勒尔」，末字「尔」被省略，导致人名不完整且与证据不符。",
+      "suggestion": "将「恩斯特·托勒」改为「恩斯特·托勒尔」以与原文一致。"
+    }
+  ],
+  "corrections": {
+    "origins": "反结构的冲动发端于二十世纪初，与表现主义（Expressionism）、达达主义（Dadaism）、超现实主义（Surrealism）、意识流（stream of consciousness）、荒诞派戏剧及反小说等先锋运动同步兴起。奥古斯特·斯特林堡、恩斯特·托勒尔、弗吉尼亚·伍尔芙、詹姆斯·乔伊斯、塞缪尔·贝克特、威廉·S·巴勒斯等作家均是这一倾向的代表人物。麦基指出，这些运动在技巧上有所差异，但结果殊途同归：割断艺术家与外界现实的联系，进而割断艺术家与大众观众的关联。反结构作为电影形式的对应物，是上述文学先锋运动在银幕上的延伸。"
+  },
+  "costUsd": 0
+}

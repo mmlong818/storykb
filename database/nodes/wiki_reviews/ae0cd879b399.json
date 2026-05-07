@@ -1,0 +1,18 @@
+{
+  "conceptId": "ae0cd879b399",
+  "canonical_zh": "质朴戏剧",
+  "reviewedAt": "2026-05-05T13:39:01.650Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文明确列出格洛托夫斯基在戏剧实验所期间执导的四部作品：「陆续以新的戏剧观念执导了《该隐》、《先人祭》、《卫城》、《忠诚的王子》等戏」，条目仅提及《该隐》一部，遗漏了其余三部有名目的代表作品。",
+      "suggestion": "将examples节改为列出全部四部明确提及的作品：《该隐》、《先人祭》、《卫城》、《忠诚的王子》，以更完整地呈现证据所载信息。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

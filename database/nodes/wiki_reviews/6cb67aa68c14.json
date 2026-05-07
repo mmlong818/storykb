@@ -1,0 +1,25 @@
+{
+  "conceptId": "6cb67aa68c14",
+  "canonical_zh": "观众共鸣",
+  "reviewedAt": "2026-05-05T13:07:56.811Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「他不是在表演李尔，他本身就是李尔」描述为「反面案例」，但原文是布莱希特引用这句话作为「毁灭性的评语」来批判演员完全化身为角色的做法，语义相符，但「反面案例」这一措辞可能引起歧义——究竟是谁的反面案例不够清晰。",
+      "suggestion": "改为「布莱希特将其引为演员沦陷于共鸣机制的典型负面评语」，更准确地传达原文立场。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第十二段明确提到「享受我们的全部风格，开始变得不合时宜了」，指向共鸣法已不适合当代戏剧，条目origins部分未体现这一重要判断。",
+      "suggestion": "可在origins末尾补充：布莱希特认为依赖共鸣法的旧有娱乐风格「开始变得不合时宜」，需被新的当代戏剧形式取代。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

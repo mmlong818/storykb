@@ -1,0 +1,25 @@
+{
+  "conceptId": "e1cb67dce96d",
+  "canonical_zh": "变形/转变情节",
+  "reviewedAt": "2026-05-05T17:57:35.988Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据备忘录第5条明确指出「这类情节的关键之处便是展现由动物变回人形的过程」，条目components部分未提及此关键要素。",
+      "suggestion": "在变形情节要素中补充「由动物/异形回归人形」作为核心展现目标"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中卢耶波维奇说的是「整个世界、我整个人生都演变成了莫名其妙、毫无目的的笑话！」，条目examples未引用这句关键台词，仅引用了「我太傻了」，导致顿悟的层次感不够完整。",
+      "suggestion": "可补充「整个世界、我整个人生都演变成了莫名其妙、毫无目的的笑话」这一台词，以丰富顿悟的呈现"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

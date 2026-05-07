@@ -1,0 +1,25 @@
+{
+  "conceptId": "5e38607a28fb",
+  "canonical_zh": "步骤大纲",
+  "reviewedAt": "2026-05-06T05:49:44.532Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目在「贾华拉的改编实践」处描述「她先从原著小说拉出步骤大纲，再与导演詹姆斯·伊沃里合作」，暗示她是先独立完成大纲再与伊沃里合作，但原文只是说她和伊沃里都把自己局限于社会小说家的作品，并未描述两人合作流程的先后顺序。",
+      "suggestion": "删除「先…再与导演…合作」的流程性表述，改为「她与导演詹姆斯·伊沃里合作，将琼·里斯、E. M. 福斯特、亨利·詹姆斯等社会小说家的作品搬上银幕」"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文明确说明卡片规格是「三乘五的卡片」（3×5英寸），条目未提及这一具体细节，虽非核心信息，但属于原文可量化的细节。",
+      "suggestion": "可在origins或components中补充「三乘五英寸卡片」这一具体形式描述"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

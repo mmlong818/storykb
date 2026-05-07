@@ -1,0 +1,18 @@
+{
+  "conceptId": "f43b7af7ed74",
+  "canonical_zh": "符号学",
+  "reviewedAt": "2026-05-06T16:07:52.356Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中关于「구조주의」的条目明确提到：结构主义原则部分受到人类学家克劳德·列维-斯特劳斯（Claude Lévi-Strauss）的研究影响，且结构主义还与「작가주의 비평」（作者主义批评）存在关联。wiki条目的applications与pitfalls章节虽然正确区分了符号学与结构主义，但完全未提及列维-斯特劳斯或作者主义批评这两个背景信息。",
+      "suggestion": "可在applications章节补充一句：「结构主义还与作者主义批评相关，其方法论亦受列维-斯特劳斯人类学研究的影响」，以提供更完整的理论背景。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

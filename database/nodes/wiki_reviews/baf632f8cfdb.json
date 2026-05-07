@@ -1,0 +1,48 @@
+{
+  "conceptId": "baf632f8cfdb",
+  "canonical_zh": "反应镜头",
+  "reviewedAt": "2026-05-06T12:18:36.591Z",
+  "verdict": "issues_found",
+  "score": 6,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "high",
+      "description": "证据原文为韩文（가-힣字符），sourceTitle 字段中含「专业术语다」，「다」为韩文字符，且证据正文全部为韩文，说明原始来源是韩文词典，条目本身虽无韩文，但 source_perspectives 的 sourceTitle 「专业术语다」末尾含韩文字符「다」，属于语言污染。",
+      "suggestion": "将 sourceTitle「专业术语다」中的韩文字符「다」去除，改为「专业术语词典」或对应的中文标题。"
+    },
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目 mechanism 节提到「连续性剪辑的约定：观众默认相邻镜头之间存在时间与空间上的关联」，此内容在证据中完全未出现。证据仅简洁定义「앞의 쇼트에 대한 배우의 반응을 포착한 쇼트 또는 편집」（捕捉演员对前一镜头反应的镜头或剪辑），并无关于「连续性剪辑约定」或「时间空间关联」的任何论述。",
+      "suggestion": "删除或标注该段为编者推断，而非来自证据的原始内容，或仅保留「通过剪辑将刺激与反应并置」的基本描述。"
+    },
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目 applications 节提到「编剧可通过场景注释或动作行提示导演安排反应镜头」以及「它是连续性剪辑体系中的基本单元之一」，这些内容在证据中均无对应文字，属于编者外加的推断。",
+      "suggestion": "此类内容若无证据支撑，应删除或明确标注为编者推断。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "pitfalls 节全部内容（包括「节奏拖沓」「视觉风格不一致」等）均不来自证据，证据仅做术语定义，未涉及使用误区。",
+      "suggestion": "若保留此节，应注明为编者根据技术逻辑归纳，而非源自所引证据。"
+    },
+    {
+      "section": "diagnostics",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "diagnostics 节内容同样超出证据范围，证据未提供任何诊断性建议，属编者自行添加。",
+      "suggestion": "若保留此节，应注明为编者归纳，非证据原文内容。"
+    }
+  ],
+  "corrections": {
+    "source_perspectives": "将 sourceTitle 由「专业术语다」改为「专业术语词典」，消除韩文字符污染。"
+  },
+  "costUsd": 0
+}

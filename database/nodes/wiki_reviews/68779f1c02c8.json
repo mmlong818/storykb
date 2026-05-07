@@ -1,0 +1,25 @@
+{
+  "conceptId": "68779f1c02c8",
+  "canonical_zh": "崛起与衰落",
+  "reviewedAt": "2026-05-05T19:06:27.049Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到主角「往往会因为过度地以自我为中心而饱受痛苦」，这一细节在components中未体现。",
+      "suggestion": "可在「悲剧性缺陷或优良品德」一项中补充：主角常因过度自我为中心而付出代价。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中霍雷肖·阿尔杰故事的主人公描述为「擦鞋匠或报童」，条目examples章节有提及，但origins章节未包含此细节，略显不完整。",
+      "suggestion": "origins中提及阿尔杰系列时可加注「主角为擦鞋匠或报童」以呼应原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

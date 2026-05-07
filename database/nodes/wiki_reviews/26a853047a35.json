@@ -1,0 +1,25 @@
+{
+  "conceptId": "26a853047a35",
+  "canonical_zh": "肥皂剧",
+  "reviewedAt": "2026-05-04T20:47:08.472Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文明确提到肥皂剧人物「没有内心或个人外冲突」，且「得不到想要的东西时就会感到痛苦」，条目components部分未提及「痛苦」这一情感特征，仅提到「非二难困境人物」。",
+      "suggestion": "可在components第5点补充：人物在无法得偿所愿时会感到痛苦，但这种痛苦不来自内心两难，而是来自人际受阻。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "第二来源「电影类型与类型电影」的证据文本高度破碎（疑为OCR乱码），实际上无法从中提取任何可靠的具体论点。条目origins声称该来源「侧重于类型之间的谱系关联」，这是合理推断，但无法从现有证据文本中得到充分支撑。source_perspectives的描述基本属于推断性概括，非严重问题。",
+      "suggestion": "如该来源信息不可靠，可在origins中降低对该来源的引用权重，或注明「依据有限」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "0f819afc1c95",
+  "canonical_zh": "情感锚点",
+  "reviewedAt": "2026-05-06T03:56:09.280Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将快节奏部分的对象描述为「破坏对方婚姻」，证据原文为「破坏妍珍的婚姻」，人名「妍珍」被省略，属轻微信息丢失而非幻觉，但「曝光霸凌视频」原文为「曝光妍珍的霸凌视频」，具体对象同样被模糊化。",
+      "suggestion": "可保留现有表述，或补充「妍珍」姓名使表述更准确，无需大幅修改。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第二条来源提及「苏贤京作品」及《我的黄金光辉人生》作为长篇剧变体案例，条目的origins与applications均未提及，仅以「如五段式」一笔带过，缺少具体来源例证的呼应。",
+      "suggestion": "可在applications或origins中酌情提及五段式适用场景（如家庭伦理剧50集以上），以增加证据落地感，但非必须。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

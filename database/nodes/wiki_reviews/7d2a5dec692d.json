@@ -1,0 +1,25 @@
+{
+  "conceptId": "7d2a5dec692d",
+  "canonical_zh": "麦加芬母题",
+  "reviewedAt": "2026-05-05T13:15:58.718Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称麦加芬概念「见于其多部电影的创作讨论中」，但证据原文仅说「阿尔弗雷德·希区柯克常常谈起他电影中的麦加芬母题」，并未指明是「创作讨论」这一具体语境，也未说明是在多部电影各自的创作场合分别谈及。",
+      "suggestion": "改为「见于希区柯克本人的多次公开谈话或访谈」，或直接删去语境描述，保持与证据一致的模糊表述。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据在讨论解救情节的受害者作为麦加芬时，除《公主新娘》中的公主外，还以「长发公主」（Rapunzel）为例说明我们对受害者所知甚少（「我们知道长发公主有一头美丽的长发，但是我们还知道她的什么？」）。条目examples节未提及这一例证。",
+      "suggestion": "可在《公主新娘》例证后补充：「证据中另以长发公主为例，同样说明受害者作为麦加芬母题时读者对其内心的一无所知。」（低优先级，可不补）"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

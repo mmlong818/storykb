@@ -1,0 +1,32 @@
+{
+  "conceptId": "1e0c0977e1bd",
+  "canonical_zh": "人物定型化",
+  "reviewedAt": "2026-05-05T23:29:35.091Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据明确列举了「冷酷的商人、心地善良的爱尔兰牧师、喜好啤酒的戴安全帽的建筑工人、照章办事的死板警察、智力低下的金发女郎、有着一颗金子般的心的妓女」等具体定型人物案例，条目未体现任何具体示例，略显抽象。",
+      "suggestion": "在pitfalls或components中补充上述具体定型人物类型示例，以增强可操作性。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确给出了避免定型化的两个理由（第一：降低人文精神并制造俗滥影片；第二：使电影令人厌烦），条目applications部分未体现这一结构化论述。",
+      "suggestion": "可在applications或definition中补充麦基所列的两个避免定型化的理由，使论点更有层次。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目origins写「证据中未明确提及该概念的学术起源或流派背景」，但证据中有明确的「谨慎人规则（Prudent Person Principle）/ 原理25」的表述，虽与定型化非直接相关，但属于同一章节内容，条目可更准确说明证据范围。",
+      "suggestion": "origins措辞已足够谨慎，此项为低优先级，可忽略。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

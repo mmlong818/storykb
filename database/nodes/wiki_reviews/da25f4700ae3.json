@@ -1,0 +1,25 @@
+{
+  "conceptId": "da25f4700ae3",
+  "canonical_zh": "节奏",
+  "reviewedAt": "2026-05-04T21:54:07.328Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目描述《亡命天涯》为「急剧起伏后加速冲顶」，但原文为「将紧张雕琢成峭拔的峰峦，然后稍稍下降，最后加速达到顶峰」。「稍稍下降」（slight descent）被改写成「急剧起伏」，含义相反——原文强调的是峭峰之后的微幅回落，而非剧烈波动。",
+      "suggestion": "改为「将紧张雕琢成峭拔的峰峦，稍稍下降后加速冲顶」，与原文「稍稍下降，最后加速达到顶峰」保持一致"
+    },
+    {
+      "section": "definition",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「在故事中被浓缩为可控的戏剧韵律」这一表述在麦基原文中无对应文字。原文仅说「这一紧张与松弛之间的交替便是生活的脉搏」，并未提及「浓缩」或「可控的戏剧韵律」等概念。",
+      "suggestion": "删除「被浓缩为可控的戏剧韵律」，改为直接引用原义：「日常生活中的紧绷与放松循环在故事中同样悸动」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

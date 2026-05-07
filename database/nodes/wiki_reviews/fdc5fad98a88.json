@@ -1,0 +1,25 @@
+{
+  "conceptId": "fdc5fad98a88",
+  "canonical_zh": "最小主义",
+  "reviewedAt": "2026-05-05T03:03:52.029Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将罗布特-格里耶称为「法国作家」，但证据原文仅写「罗布特－格里耶」，未标注其国籍。「法国」系条目自行添加，超出证据范围。",
+      "suggestion": "删去「法国」，改为「作家罗布特-格里耶」，或保留但注明系背景知识补充，非来自原文证据。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据脚注同时列出两部词典来源：《简明不列颠百科全书》卷九第605页，以及《Webster's Encyclopedic Unabridged Dictionary of the English Language》第1225页。条目仅引用前者，漏掉了后者。",
+      "suggestion": "可在括注中补充「另见Webster's Encyclopedic Unabridged Dictionary第1225页」，使文献依据更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

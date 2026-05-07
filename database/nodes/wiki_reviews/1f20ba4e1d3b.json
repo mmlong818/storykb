@@ -1,0 +1,25 @@
+{
+  "conceptId": "1f20ba4e1d3b",
+  "canonical_zh": "信息不对称",
+  "reviewedAt": "2026-05-05T23:31:07.336Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到「顾延州帮晓星改策划案」「记得晓星的小习惯」「手指触碰」「耳朵泛红」等具体细节作为信息不对称的情感传递案例，条目在applications第3点有所涵盖，但examples段落仅列出两个例子，未将这些具名细节纳入示例，略显单薄。",
+      "suggestion": "可在examples第2点补充「顾延州记得晓星小习惯、手指触碰、耳朵泛红」等具体细节作为职场爱情信息差的例证，与证据原文保持一致。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到「角色惊恐的表情」作为侧面暗示手段之一，条目components第2点列举了「晃动的树枝、角色的惊恐表情、无法说出口的关心」，表情已有涵盖，但「无法说出口的关心」并非证据原文中的表述，属于条目编者的合理延伸而非幻觉，影响极小。",
+      "suggestion": "无需修改，属于合理概括。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

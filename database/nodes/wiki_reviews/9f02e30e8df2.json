@@ -1,0 +1,18 @@
+{
+  "conceptId": "9f02e30e8df2",
+  "canonical_zh": "铺垫细节",
+  "reviewedAt": "2026-05-05T13:28:05.234Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确提到文东恩「习惯用冷水洗手缓解创伤记忆」这一铺垫细节，条目examples章节未收录该细节，略有遗漏。",
+      "suggestion": "可在文东恩案例中补充「用冷水洗手缓解创伤记忆」作为铺垫细节之一，使案例更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

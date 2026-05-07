@@ -1,0 +1,18 @@
+{
+  "conceptId": "33dc50b9f33d",
+  "canonical_zh": "故事",
+  "reviewedAt": "2026-05-05T08:34:18.449Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目在《鲸鱼丈夫》反例中提到「被证据引用为缺乏情节逻辑的反例」，但证据原文是将它与《噎住的杜宾犬》对比，说明后者才是有因果逻辑的正面案例。条目完全未提及《噎住的杜宾犬》这个对照故事，导致读者无法理解为何《鲸鱼丈夫》被视为反例。",
+      "suggestion": "在examples或diagnostics中简要提及《噎住的杜宾犬》作为正面对照，说明其「谁+什么+为什么」三要素俱全，形成对比。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

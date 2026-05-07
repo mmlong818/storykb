@@ -1,0 +1,18 @@
+{
+  "conceptId": "26395e0fa081",
+  "canonical_zh": "现场直观性",
+  "reviewedAt": "2026-05-06T05:57:02.927Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目将「现场直观性」的提炼归因于「学界」的追问，但证据原文语境是作者在系统讲授戏剧传播方式特征时自然引出，并无「学界追问」的描述，措辞略有拔高。",
+      "suggestion": "改为「在对戏剧传播方式进行系统归纳时，学者开始追问……」或直接去掉「学界」的主体，改为被动陈述即可。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

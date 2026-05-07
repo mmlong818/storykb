@@ -1,0 +1,18 @@
+{
+  "conceptId": "286947602ec4",
+  "canonical_zh": "倒退法",
+  "reviewedAt": "2026-05-05T08:28:24.535Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "劳拉案例中，条目写「劳拉必须决定要不要为他站出来、把心交给他」，原文还补充了「这是她以前做不到的」这一关键情感背景，条目未体现，略微削弱了关键时刻的心理张力。",
+      "suggestion": "可在关键时刻描述后补充「——这是她以前做不到的事」，更忠实于原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

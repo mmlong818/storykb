@@ -1,0 +1,25 @@
+{
+  "conceptId": "a801c7dd50b6",
+  "canonical_zh": "冲突层面",
+  "reviewedAt": "2026-05-04T17:59:31.331Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目末句「三种形态虽各有规模要求，但都因仅停留在单一层面而无法实现多维张力」系编写者对麦基论述的推断性概括，证据原文并未出现「多维张力」一词，亦未直接以此短语总结三种纠葛形态的共同缺陷——原文仅分别描述其各自代价，并无整体归纳句。",
+      "suggestion": "可删除该总结句，或改写为「麦基分别指出三种形态的结构代价，暗示多层面设计对有限篇幅电影的必要性」，以区分作者原意与编写者推断。"
+    },
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「危险街道」，证据原文为「危险的城市街道」，将「城市」二字省略，语义略有收窄（原文强调城市环境语境）。",
+      "suggestion": "改为「危险的城市街道」以贴合原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

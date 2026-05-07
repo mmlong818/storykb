@@ -1,0 +1,25 @@
+{
+  "conceptId": "ef3b347ad575",
+  "canonical_zh": "改编",
+  "reviewedAt": "2026-05-05T08:05:42.440Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目写「卡尔·福尔曼的改编剧本被认为是导演大卫·里恩最优秀的作品之一」，但原文是「卡尔·福尔曼的改编剧本，据我判断，是大卫·里恩最优秀的影片」——原文是麦基本人的主观判断（「据我判断」），且用的是最高级「最优秀的影片」而非「之一」。条目将个人判断改成了客观共识，并加入「之一」软化了原意。",
+      "suggestion": "改为「卡尔·福尔曼的改编剧本，在麦基看来是大卫·里恩最优秀的影片」，保留主观判断属性，去掉「之一」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目介绍《朱莉亚》改编案例时，未提及原著作者莉莲·海尔曼（Lillian Hellman）。原文明确写「从莉莲·海尔曼的『自白』中的一个插曲」，原著出处是溯源改编素材的重要信息。",
+      "suggestion": "在《朱莉亚》案例中补充「原著作者莉莲·海尔曼」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

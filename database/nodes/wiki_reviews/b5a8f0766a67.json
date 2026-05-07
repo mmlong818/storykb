@@ -1,0 +1,25 @@
+{
+  "conceptId": "b5a8f0766a67",
+  "canonical_zh": "心结",
+  "reviewedAt": "2026-05-05T19:39:39.659Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "第3条艾纳的例子条目注明「证据引用至此截断，细节不完整」，这是诚实的处理，但原文证据中确实只有「马克·史普拉格的小说《未竟一生》中，主人公艾纳在农场过着孤苦的生」，条目如实反映了截断情况，无问题。",
+      "suggestion": "可考虑删除该例或标注为「原文不完整，仅作参考」，但现有处理方式已属诚实，不强制修改。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文证据中提到《比赛计划》（The Game Plan）作为迪士尼电影例子，条目在origins部分未提及，但该例已在components和examples中出现，无实质遗漏。",
+      "suggestion": "无需修改，信息已在其他章节体现。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

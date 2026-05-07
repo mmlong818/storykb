@@ -1,0 +1,18 @@
+{
+  "conceptId": "fa756e480869",
+  "canonical_zh": "人物分层",
+  "reviewedAt": "2026-05-05T02:55:29.931Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到了其他两本参考书：维多利亚·施密特的《经典人物原型45种》和琳达·埃德尔斯坦博士的《性格特征写作指南》，条目在components和applications章节均未提及这些替代工具，仅提到「原型系统等」一笔带过，略显不完整。",
+      "suggestion": "在applications章节可补充：「书中还推荐维多利亚·施密特的《经典人物原型45种》和琳达·埃德尔斯坦博士的《性格特征写作指南》作为核心性格的备选参考框架。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "797ab201853b",
+  "canonical_zh": "分晓",
+  "reviewedAt": "2026-05-04T21:20:19.158Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目写苏利文「决定假供谋杀以重返法庭和媒体视野」，原文更完整的表述是「交代了一起他并没有犯下的谋杀罪，以便能够回到法庭和新闻记者的镁光灯中，于是制片厂的老板们及其名牌律师便可以设法营救他」。条目省略了「制片厂老板与律师营救」这一关键因果链，使得该分晓的逻辑略显跳跃。",
+      "suggestion": "可补充「从而让制片厂老板和律师介入营救」以完整呈现麦基的原文逻辑"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

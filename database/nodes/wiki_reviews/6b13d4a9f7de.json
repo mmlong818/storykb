@@ -1,0 +1,25 @@
+{
+  "conceptId": "6b13d4a9f7de",
+  "canonical_zh": "三角设计",
+  "reviewedAt": "2026-05-06T13:02:59.771Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将《销魂三人组》中多娜的旧丈夫描述为「安全忠诚但索然无趣」，原文是「热情、忠诚，具有安全感，但没有情趣」。条目省略了「热情」这一正面特质，稍微削弱了两难之境的张力描述。",
+      "suggestion": "改为「热情忠诚、具有安全感但没有情趣」以更准确反映原文。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目称多娜「选择二者兼得，展现了两难之境的极端张力」，原文是「她做出了一个明智的决定：二者兼得」，且麦基的整体语境是将此作为「最令人无可奈何的两难之境」的案例，并非专门强调「极端张力」。措辞基本准确但语气略有偏差。",
+      "suggestion": "可保持原文语气，改为「她做出了一个明智的决定：二者兼得，展示了最令人无可奈何的两难之境。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

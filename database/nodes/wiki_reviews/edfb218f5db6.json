@@ -1,0 +1,18 @@
+{
+  "conceptId": "edfb218f5db6",
+  "canonical_zh": "误会冲突",
+  "reviewedAt": "2026-05-05T23:14:28.792Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《触及真心》化解场景还提到「女生笑着拍他的手」这一细节，条目examples未提及，但整体描述准确，属次要遗漏。",
+      "suggestion": "可在化解描述中补充「女生笑着拍手」的细节，使案例更完整，但非必须。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

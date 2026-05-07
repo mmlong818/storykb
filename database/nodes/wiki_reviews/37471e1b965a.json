@@ -1,0 +1,18 @@
+{
+  "conceptId": "37471e1b965a",
+  "canonical_zh": "情节转折点",
+  "reviewedAt": "2026-05-05T08:38:45.156Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到剧本行业标准长度曾为120页，现趋向100-110页，条目仅以100页为基准举例，未提及这一背景信息。",
+      "suggestion": "可在mechanism中补充说明「行业标准曾为120页，现趋向100-110页」的背景，使参照框架更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

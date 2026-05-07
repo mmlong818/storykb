@@ -1,0 +1,25 @@
+{
+  "conceptId": "39508c44d0fb",
+  "canonical_zh": "两难之境",
+  "reviewedAt": "2026-05-06T05:43:41.236Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称汉字「危机」的双重性解读来自麦基，原文确实如此，但条目将「危险意味着错误选择将造成不可挽回的失去；机会意味着正确选择将使人如愿以偿」作为「机制」章节的核心论据，略显过度引申——原文中该解读是对「危机」概念的语言学注解，并非对「两难之境运作机制」的专项阐述。轻微误置，不影响准确性。",
+      "suggestion": "可将汉字解读移至definition或作为mechanism的补充背景，而非核心论据"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文强调「危机是故事的必备场景」（从激励事件开始观众就一直在期待），条目pitfalls部分提到了位置错误的问题，但未明确指出「危机场景缺失」本身也是常见误区之一。",
+      "suggestion": "可在pitfalls中补充「完全省略危机场景」作为误区之一"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

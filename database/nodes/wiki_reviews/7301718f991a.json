@@ -1,0 +1,18 @@
+{
+  "conceptId": "7301718f991a",
+  "canonical_zh": "突转",
+  "reviewedAt": "2026-05-06T06:04:41.209Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将弗莱塔克五段法中突转对应的位置描述为「顶点之后的下落或反复阶段的开端」，原文为「下落或反复（包括反动作的开始和最后的悬念）」，条目表述基本准确但略有简化，未提及「最后的悬念」部分。",
+      "suggestion": "可补充「包括反动作的开始和最后的悬念」以更忠实原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

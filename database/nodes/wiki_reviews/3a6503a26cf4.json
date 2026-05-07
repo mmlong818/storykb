@@ -1,0 +1,18 @@
+{
+  "conceptId": "3a6503a26cf4",
+  "canonical_zh": "关键时刻",
+  "reviewedAt": "2026-05-05T18:49:52.243Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文将「初始状态」与「心结」合并为一个阶段（「初始状态（包括心结）」），条目components中单独列出「心结」而未提及「初始状态」这一上位概念，表述略有偏差。",
+      "suggestion": "可将第一个阶段表述为「初始状态（含心结）」以与原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

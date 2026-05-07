@@ -1,0 +1,41 @@
+{
+  "conceptId": "97894897e50e",
+  "canonical_zh": "故事梗概",
+  "reviewedAt": "2026-05-05T13:32:29.738Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "「编剧在向制片人推销项目时，以梗概替代完整剧本进行初步沟通」这一应用场景在两份证据中均无依据。韩国术语源仅提及 Reading Department 为导演和制片人提供快速信息；麦基源亦未提及此场景。",
+      "suggestion": "删除此条，或将其标注为推断而非证据支持的事实"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「'梗概'一词由英文术语 Synopsis 音译而来」——证据中并无词源说明，韩国术语源仅给出定义，未涉及汉语词汇的音译来源。",
+      "suggestion": "改为「在影视工业语境中，Synopsis 通常译作'梗概'」，或直接省略词源表述"
+    },
+    {
+      "section": "definition",
+      "type": "missing",
+      "severity": "medium",
+      "description": "麦基证据中存在「/ 大纲与梗概 /」专节，明确指出「大纲并不是故事梗概或简介」，即梗概与大纲是两种不同文件。而 source_perspectives 中对该来源的评述写道「该来源所引段落并未直接论及故事梗概」，与实际证据内容相悖——证据里确有关于梗概的直接论述，只是文本被截断。该区分信息在定义与机制两节均未得到体现。",
+      "suggestion": "在 definition 或 mechanism 中补充「梗概不同于大纲（Outline）」这一区分，并将 source_perspectives 中对麦基来源的评述更正为「该来源含有关于梗概与大纲区别的直接论述，但引用文本被截断，仅保留了写作习惯部分」"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "麦基来源虽然文本被截断，但「大纲与梗概」专节已暗示两者混淆是一种常见误区（大纲 ≠ 梗概）。当前 pitfalls 完全依赖推断，未引用这一最接近的证据线索。",
+      "suggestion": "可补充「将梗概与大纲（Outline）混同是典型误区——麦基明确指出两者并非同一文件类型」"
+    }
+  ],
+  "corrections": {
+    "applications": "故事梗概主要应用于以下场景：其一，影视开发前期，制作公司阅读部门将文学作品或戏剧改编为可供导演与制片人快速评估的简报；其二，项目立项评审阶段，导演与制片人通过梗概快速筛选候选故事，无需通读原始素材即可把握故事要义。"
+  },
+  "costUsd": 0
+}

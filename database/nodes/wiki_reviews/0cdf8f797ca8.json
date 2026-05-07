@@ -1,0 +1,18 @@
+{
+  "conceptId": "0cdf8f797ca8",
+  "canonical_zh": "危机",
+  "reviewedAt": "2026-05-04T20:34:37.641Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将《温柔的怜悯》描述为「改编自霍顿·福特编剧的故事」，但证据原文仅说「霍顿·福特写出的是这样一个剧本」，并未提及「改编」。《温柔的怜悯》是霍顿·福特的原创剧本，非改编作品，「改编自」的表述引入了证据中不存在的信息。",
+      "suggestion": "将「改编自霍顿·福特编剧的故事」改为「霍顿·福特编剧」，去掉「改编自」的限定。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

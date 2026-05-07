@@ -1,0 +1,25 @@
+{
+  "conceptId": "705eb791c4a6",
+  "canonical_zh": "心路历程",
+  "reviewedAt": "2026-05-05T03:42:46.673Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中场景案例为「罗迪欧大道」（Rodeo Drive），条目写作「罗迪欧大道」正确，但未提及「洛杉矶市最高档的服饰商业街」这一限定语，略去了原文的地理说明，信息完整度稍低。",
+      "suggestion": "可补充「洛杉矶罗迪欧大道」以与原文一致，但非严重问题。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据明确提到「作者不希望自己的作品充斥着一连串的内心独白，而是想通过各种人物、背景以及场景来表达心理活动」，条目在mechanism节未体现，该观点被移至pitfalls节，导致mechanism节对「间接外化」机制的说明不够完整。",
+      "suggestion": "在mechanism节补充一句：内在外化应通过人物、背景与场景间接实现，而非直接内心独白。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

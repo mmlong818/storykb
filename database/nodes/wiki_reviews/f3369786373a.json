@@ -1,0 +1,18 @@
+{
+  "conceptId": "f3369786373a",
+  "canonical_zh": "帮手角色",
+  "reviewedAt": "2026-05-06T03:50:27.045Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文将「朋友群体」（吉尔伽美什/恩奇都等）与「帮手角色」作为两个并列概念分开介绍，条目在 components 中提到两者有交集但不完全重合，这一表述合理。但条目未明确指出证据中「朋友」是在激励事件发生后、第一幕靠后才出场这一细节，而证据对此有明确说明（「这些朋友通常都是在第一幕靠后部分才出场的（激励事件引发的结果）」）。",
+      "suggestion": "可在 components 或 mechanism 中补充：朋友群体同样在第一幕靠后部分（激励事件之后）出场，与帮手角色的登场时机逻辑一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

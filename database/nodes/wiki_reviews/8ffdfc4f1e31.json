@@ -1,0 +1,18 @@
+{
+  "conceptId": "8ffdfc4f1e31",
+  "canonical_zh": "戏剧性前提",
+  "reviewedAt": "2026-05-05T01:38:15.916Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "inconsistency",
+      "severity": "low",
+      "description": "mechanism 节引述《女人香》核心问题时写作「这个学生能帮助这位军官面对现实生活中的残酷吗？」，省略了「和处理」二字；而 examples 节同一问题正确引用为「面对和处理现实生活中的残酷」，两处表述不一致。证据原文三次出现均含「面对和处理」。",
+      "suggestion": "将 mechanism 节中该问题补全为「这个学生能帮助这位军官面对和处理现实生活中的残酷吗？」，与 examples 节及原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

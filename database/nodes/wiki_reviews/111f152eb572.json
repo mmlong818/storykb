@@ -1,0 +1,41 @@
+{
+  "conceptId": "111f152eb572",
+  "canonical_zh": "场面调度",
+  "reviewedAt": "2026-05-05T12:56:29.084Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "证据原文描述阿兰·德隆所饰角色时使用了「tender-hearted」（温柔多情/心软），但条目将其译为「内敛气质」。「tender-hearted」与「内敛」（reserved/introverted）含义有明显出入，前者强调情感上的柔软，后者强调性格上的收敛克制。",
+      "suggestion": "将「传递出人物的内敛气质」改为「传递出人物外冷内热、隐而不发的内在柔情」或「呈现出人物表面冷峻而内心温柔多情的气质对比」，更贴近原文「tender-hearted」的含义。"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称《独行杀手》（Le Samouraï）年份为1965年，但该片实际公映于1967年。证据原文因OCR损坏写作「Le Samourai, 1965」，条目直接沿用了疑似OCR错误的年份，未加核实。",
+      "suggestion": "将「1965」更正为「1967」，或在无法核实时去掉年份标注，避免引入已知错误信息。"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称「以克劳德·勒鲁什（Claude Lelouch）等导演为代表的欧洲电影实践，将场面调度推至风格化表达的前沿」，将勒鲁什定位为推动场面调度理论化的代表性人物。证据原文仅提及勒鲁什在20世纪60年代引发关注，并未明确说明其是「将场面调度推至前沿」的核心人物，此处存在轻微拔高与过度推论。",
+      "suggestion": "改为「以克劳德·勒鲁什等导演为代表，20世纪60年代欧洲电影在场面调度的风格化运用上引发广泛关注」，表述更忠实于证据。"
+    },
+    {
+      "section": "definition",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据（东国大学课程）明确区分了两个层次：其一是「각본에 쓰여진 추상적이고 잠재적인 이미지를 감독의 각본분석에 기초하여 실제로 가시화된 이미지로 바꾸는 과정」（依据导演的剧本分析将抽象潜在意象转化为可见意象的过程），其中特别强调「감독의 각본분석에 기초하여（基于导演的剧本分析）」这一前提条件；条目定义部分未提及「导演剧本分析」作为转化前提，略有遗漏。",
+      "suggestion": "在定义中补充「这一转化过程以导演对剧本的分析为基础」，使定义更完整。"
+    }
+  ],
+  "corrections": {
+    "examples": "证据中涉及的案例：让-皮埃尔·梅尔维尔（Jean-Pierre Melville）执导、阿兰·德隆（Alain Delon）主演的《独行杀手》（Le Samouraï，1967），以精炼的场面调度呈现出人物外冷内热、隐而不发的内在柔情，被视为类型片视觉风格的经典范本；马丁·斯科塞斯（Martin Scorsese）的《出租车司机》（Taxi Driver，1976）与沃尔特·希尔（Walter Hill）的《独行侠》（The Driver，1978），作为风格化场面调度在不同语境下运用的对照案例被并列提及；克劳德·勒鲁什则在20世纪60年代以其场面调度风格引发关注，被作为欧洲作者导演的代表性案例。"
+  },
+  "costUsd": 0
+}

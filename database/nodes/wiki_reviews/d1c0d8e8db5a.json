@@ -1,0 +1,41 @@
+{
+  "conceptId": "d1c0d8e8db5a",
+  "canonical_zh": "纽约独立电影",
+  "reviewedAt": "2026-05-06T00:12:38.885Z",
+  "verdict": "issues_found",
+  "score": 6,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "language",
+      "severity": "high",
+      "description": "条目在科恩兄弟段落中直接嵌入了韩文原文：「장르와 사조에 대한 종횡무진（跨越类型与思潮）」，其中「장르와 사조에 대한 종횡무진」为未翻译的韩文字符，违反语言规范。",
+      "suggestion": "删除韩文，仅保留中文译文，改为：科恩兄弟（Coen Brothers）以「跨越类型与思潮」著称。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文在介绍「뉴욕 인디」导演时，约翰·塞尔斯（John Sayles，존 세일즈）被首先提及（「우리가 실제적으로 '뉴욕 인디'라고 하면 존 세일즈(Jo...」），但条目examples段落完全未提及此人，而他在证据中是作为「纽约独立电影」代表人物被列出的。",
+      "suggestion": "在examples段落补充约翰·塞尔斯（John Sayles）作为纽约独立电影代表导演之一，说明其在证据中被首列的地位。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到科恩兄弟曾与恐怖片专家山姆·雷米（Sam Raimi，샘 레이미）合作，这是理解科恩兄弟早期创作背景的重要信息，条目未予提及。",
+      "suggestion": "可在科恩兄弟段落补充一句，说明其早期曾与山姆·雷米合作，有助于勾勒其与独立制作圈的关联。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中斯派克·李段落明确提到他以马尔科姆·X的「不妥协信息」对抗马丁·路德·金的非暴力主义，并指出其创作核心矛盾在于中产阶级黑人与底层黑人「两极化」问题，这是理解其愤怒表达的背景，条目未体现。",
+      "suggestion": "可在斯派克·李段落补充其政治立场背景（马尔科姆·X vs 金博士），有助于说明其「充满愤怒」的来源。"
+    }
+  ],
+  "corrections": {
+    "examples": "伍迪·艾伦（Woody Allen）是公认的纽约本土创作者，其作品贯穿美国东部知识传统，充满冷嘲式社会批判（涵盖宗教、政治、美国现代史等议题）；但原文特别指出，「纽约独立电影」这一标签对他而言并不十分贴切——他的艺术影响力已超出「独立」二字所能容纳的范畴。科波拉（Francis F. Coppola）与斯科塞斯（Martin Scorsese）同属经由罗杰·科曼（Roger Corman）低成本B级片体系训练出来的一代，三人合作拍摄的《纽约故事》（New York Story）体现了这批纽约本土导演的情感归属。斯派克·李（Spike Lee）以充满愤怒的种族议题创作开创了黑人电影这一亚类型，其精神接班人包括约翰·辛格尔顿（John Singleton）、休斯兄弟（Hughes Brothers）及比尔·杜克（Bill Duke）。吉姆·贾木许（Jim Jarmusch）凭借《天堂陌影》（Stranger Than Paradise，1984）崭露头角；其师承维姆·文德斯（Wim Wenders），在纽约独立电影框架内始终保持对欧洲电影现代主义与日本电影美学（尤其是小津安二郎镜头语言）的独特追求，并与文德斯一道接受「天才性与风格主义并存」的创作检验。科恩兄弟（Coen Brothers）以「跨越类型与思潮」著称，凭借《霍德萨克代理》（The Hudsucker Proxy）入选戛纳电影节，但他们本人并不将「独立精神」视为不可逾越的边界——在其眼中，「独立精神」本身就是虚构。圣丹斯系出身的导演包括：哈尔·哈特利（Hal Hartley，以马克思主义为创作基础，代表作《不可置信的真相》《简单的人》）、汤姆·迪西洛（Tom Dicillo，曾任《天堂陌影》摄影师）、昆汀·塔伦蒂诺（Quentin Tarantino，代表作《落水狗》）以及尼克·戈麦斯（Nick Gomez）——塔伦蒂诺与戈麦斯并称为暴力电影双壁。"
+  },
+  "costUsd": 0
+}

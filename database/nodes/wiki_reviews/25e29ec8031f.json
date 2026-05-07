@@ -1,0 +1,18 @@
+{
+  "conceptId": "25e29ec8031f",
+  "canonical_zh": "冲突触发",
+  "reviewedAt": "2026-05-05T08:27:24.127Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "examples 节声称「证据中提到以下案例」共四例，但证据一在日常节点实操技巧中还提及《背着善宰跑》（女主绑紧的书包带暗示想改变命运的执念）。该例虽属日常节点技巧范畴而非意外触发，但既然 examples 节以「证据中提到以下案例」为引言，读者可能误认为已穷举证据中全部案例。",
+      "suggestion": "将引言改为「证据中用于说明冲突触发的案例如下」，以准确界定范围，避免误导性的全称暗示。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

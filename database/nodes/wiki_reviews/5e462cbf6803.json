@@ -1,0 +1,25 @@
+{
+  "conceptId": "5e462cbf6803",
+  "canonical_zh": "角色塑造",
+  "reviewedAt": "2026-05-05T03:32:14.397Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「圣经所言『不听其言而观其行』」，原文为「圣经就说过，了解一个人要『不听其言而观其行』」，表述一致，无问题。但pitfalls中将此归为「误认为语言可以完全表达角色」的论据，逻辑稍有出入——原文语境是说语言只能表达「好像如此」，行动才能彰显真相，条目表述基本准确但略显跳跃。",
+      "suggestion": "可保持现状，severity低，无需强制修改。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文动词示例还包括「闲逛」「拖着自己走」，条目examples列举了「漫步」「华尔兹般滑过」「慢吞吞走」「昂首阔步」，遗漏了「闲逛」和「拖着自己走」两项。",
+      "suggestion": "可在动词示例中补充「闲逛」「拖着自己走」，使列举更完整，但非关键性遗漏。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

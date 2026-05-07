@@ -1,0 +1,18 @@
+{
+  "conceptId": "687e28f37866",
+  "canonical_zh": "人物作用力",
+  "reviewedAt": "2026-05-06T04:17:10.026Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将亨利·詹姆斯的引言表述为「人物只有在行动时才成其为人物，而人物的行动即构成情节」，原文为「当人物有所举动的时候，他才是人物，而人物的举动就成了情节」，二者语义基本一致，但条目略作了意译，未造成误导。",
+      "suggestion": "可保持现有表述，或更贴近原文改为「当人物有所举动时，他才是人物；而人物的举动便构成了情节」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

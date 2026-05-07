@@ -1,0 +1,32 @@
+{
+  "conceptId": "9bb8fafa87e4",
+  "canonical_zh": "第二幕转折点",
+  "reviewedAt": "2026-05-05T19:20:29.766Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目将「第二幕转折点」的概念归属为「由琳达·辛格在《一部伟大剧本的诞生》中明确阐述」，但证据文本的实际来源是《编剧步步为营》，该书作者援引了琳达·辛格的观点作为补充定义。两者关系是「一书引用另一书」，而非琳达·辛格是该概念的原始阐述者。",
+      "suggestion": "改为：该概念在《编剧步步为营》中得到系统阐述，书中引用了琳达·辛格《一部伟大剧本的诞生》对第二幕转折点的功能定义，将其描述为……"
+    },
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「转折点后须安排短暂的节奏放缓」归结为第二幕转折点的专属应用建议，但证据原文中这段话（「在戏剧高潮的后面，永远需要跟随着一些平静的时刻」）是对所有戏剧高潮的通用建议，并非专门针对第二幕转折点。这是一定程度上的语境移位。",
+      "suggestion": "注明该节奏缓冲建议适用于所有戏剧高潮之后，而非仅限于第二幕转折点，或保留原有表述但增加「如同所有戏剧高潮后的通行做法」等限定语。"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称琳达·辛格为「编剧理论家」，但证据原文中并未出现对其身份的任何描述，仅出现了人名「琳达·辛格」。",
+      "suggestion": "删除「编剧理论家」头衔，或在确有外部依据后再加入。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

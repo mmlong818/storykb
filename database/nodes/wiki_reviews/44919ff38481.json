@@ -1,0 +1,25 @@
+{
+  "conceptId": "44919ff38481",
+  "canonical_zh": "局部张力",
+  "reviewedAt": "2026-05-05T23:37:02.922Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目将「局部张力」译为「局部压力」的对应关系未做说明——证据原文使用「局部压力」，条目标题用「局部张力」，两词混用但未加说明，可能造成读者困惑。",
+      "suggestion": "在definition中注明原文术语为「局部压力」，条目统一采用「局部张力」系编者译名选择。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第二段提到深层张力的灰色地带特性时，以「印第安纳·琼斯」和「詹姆斯·邦德」为例说明善恶二元对立的局限，条目pitfalls未体现这一具体例证，虽非关键信息，但属证据中明确提及的内容。",
+      "suggestion": "可在pitfalls中补充：证据以好莱坞动作片（如印第安纳·琼斯）为反例，说明纯外部对抗（好人打坏人）缺乏真正挑战，不构成深层张力。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

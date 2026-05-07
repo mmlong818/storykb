@@ -1,0 +1,25 @@
+{
+  "conceptId": "2234a7a12236",
+  "canonical_zh": "故事三角",
+  "reviewedAt": "2026-05-04T20:42:37.538Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据明确指出「非情节」被置于故事三角之外（「它们被置于故事三角之外」），而条目中将非情节描述为「三角底部存在一条非情节地带」，暗示非情节仍在三角内部，与原文有出入。",
+      "suggestion": "将非情节的描述修改为「位于故事三角之外的区域，而非三角内部的底线地带」，并说明它属于更宽泛的「叙事影片」范畴而非故事范畴。"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目中提到「阿兰·罗布特-格里耶的反情节作品」，但证据原文特别提及《去年在马里昂巴德》（1961年）为其具体作品，条目未提及此片名，虽非严格幻觉，但若条目意在举例其代表作，省略该片名属于信息遗漏。",
+      "suggestion": "可在罗布特-格里耶的案例中补充《去年在马里昂巴德》作为具体例证，以与原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

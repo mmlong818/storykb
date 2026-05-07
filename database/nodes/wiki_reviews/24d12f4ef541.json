@@ -1,0 +1,25 @@
+{
+  "conceptId": "24d12f4ef541",
+  "canonical_zh": "象征主义",
+  "reviewedAt": "2026-05-05T12:59:24.932Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文在提及阿波利奈尔时紧接着还列出了「科克托」（「法国的超现实主义（surrealism）剧作家阿波利奈尔（G．Apollinaire，1880—1918）和科克托」），条目examples段落仅提阿波利奈尔，未提科克托。证据文本虽在此处截断，但科克托已被明确列为欧洲象征主义不同表现的另一法国代表人物。",
+      "suggestion": "在examples段末补充科克托，写法可为：「……阿波利奈尔（1880—1918）及科克托亦属欧洲各国象征主义不同表现的组成部分。」待原始证据完整文字确认后再调整细节。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "applications段落提到田汉等人的象征主义选择与西方思潮「顺向对位」，但省略了证据中同等重要的结果信息：「他们在第一度「西潮」中却没有得到好的历史机遇，未能成大的气候」。这一「未得好的历史机遇」的历史判断在source_perspectives中有所体现，但在applications正文中完全缺席，可能导致读者误以为田汉路线当时取得了正面成果。",
+      "suggestion": "在applications段对应处补充：「然而该路线在第一度「西潮」中并未得到好的历史机遇，未能成大的气候。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

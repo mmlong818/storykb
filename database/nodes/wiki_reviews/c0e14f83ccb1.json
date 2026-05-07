@@ -1,0 +1,18 @@
+{
+  "conceptId": "c0e14f83ccb1",
+  "canonical_zh": "伸出式舞台",
+  "reviewedAt": "2026-05-06T11:44:07.922Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到「有的露天，有的上覆顶盖」，条目中只提到「部分历史形制上覆顶盖」，未提及露天形制的对比，虽非关键遗漏，但稍有简化。",
+      "suggestion": "可补充「有的为露天形式，有的上覆顶盖」以更完整反映原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

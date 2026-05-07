@@ -1,0 +1,25 @@
+{
+  "conceptId": "ecef061df8eb",
+  "canonical_zh": "代际冲突",
+  "reviewedAt": "2026-05-05T08:00:50.856Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确提到「育儿方式冲突公式」（儿媳不让孩子吃零食 + 婆婆偷偷给孙子塞糖）作为代际冲突的典型案例，条目examples部分未收录此案例，仅覆盖了婚恋、习惯、意外、长辈弧光、闪回五类。",
+      "suggestion": "可在examples中补充育儿方式冲突案例，或在applications中提及婆媳育儿冲突作为「婚恋观念冲突+婆媳关系冲突」之外的另一类主干公式。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文在实操练习中明确提到：练习1要求用氛围铺垫类公式写800字家庭日常、练习3为冲突设计「情感缓和」过程——其中「情感递进」维度（细节关怀+坦诚沟通）作为第三步组合的一部分，条目applications仅提到「情感递进」维度名称，未展开其作为化解路径与婚恋冲突配套使用的具体逻辑。severity评为低，因pitfalls第4点已覆盖情感递进缺失的问题。",
+      "suggestion": "在applications第二步「选公式」中补充情感递进类公式的作用：冲突后接「情感缓和」，体现家庭温暖与矛盾共存的复合状态。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

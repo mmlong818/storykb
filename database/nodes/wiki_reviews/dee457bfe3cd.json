@@ -1,0 +1,18 @@
+{
+  "conceptId": "dee457bfe3cd",
+  "canonical_zh": "人物声音",
+  "reviewedAt": "2026-05-05T23:10:00.360Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中堂·吉诃德的原文台词是「看那儿，我的朋友桑丘·潘沙，三十多个巨型怪兽出现在我们面前」，条目将其概括为「将其视为『巨型怪兽』，宣称这是『正义的战争』」，压缩了原文细节但未造成误导，属于正常概括。桑丘的回应「那不是巨人是风车」也是对原文的合理简化。整体无误。",
+      "suggestion": "可保留现有写法，或酌情补充原文引语以增加真实感。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

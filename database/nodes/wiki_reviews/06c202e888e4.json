@@ -1,0 +1,18 @@
+{
+  "conceptId": "06c202e888e4",
+  "canonical_zh": "谨慎人原则",
+  "reviewedAt": "2026-05-05T23:26:31.422Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目examples章节未提及行李员闯入这一情节转折——证据原文中赫布进入洗手间后房间发生骚乱、劳拉被杀、行李员目击赫布持枪的场景，是「小便」这一合理行为所引发的戏剧性后果，构成该原则在叙事功能上的完整说明。",
+      "suggestion": "可在第2个案例末尾补充：正是这一「合理的短暂停顿」使赫布不在场，从而引发了骚乱与误解，体现原则如何同时服务于情节逻辑与戏剧张力。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

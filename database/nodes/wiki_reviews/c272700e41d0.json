@@ -1,0 +1,18 @@
+{
+  "conceptId": "c272700e41d0",
+  "canonical_zh": "关键时刻",
+  "reviewedAt": "2026-05-05T23:22:00.533Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《未竟一生》作为「为什么是现在」的例子（祖父与孙女的关键时刻），条目examples部分未收录此案例，仅收录了《魔戒》《星战》《似是故人来》三个例子。",
+      "suggestion": "可在examples中补充《未竟一生》的简短说明，或在diagnostics/mechanism中引用该例增强说服力，但因其在原文中仅作为简短举例，遗漏属低严重度。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

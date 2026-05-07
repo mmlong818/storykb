@@ -1,0 +1,32 @@
+{
+  "conceptId": "ed94b13162d4",
+  "canonical_zh": "核心性格",
+  "reviewedAt": "2026-05-05T08:03:51.768Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "证据原文称该量表为「麦布二氏制定的人格类型量表」（即Myers-Briggs），条目将其译为「迈尔斯-布里格斯人格类型量表（Myers-Briggs Type Indicator）」，拼写本身无误，但「麦布二氏」是书中使用的中文译名，条目改用另一译法，与原著术语不一致，可能造成引用混乱。",
+      "suggestion": "在首次提及时标注原著译名「麦布二氏人格类型量表」，括号内附英文全称及缩写MBTI。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「灾难性事件」章节明确指出：「你的双胞胎人物可能会对人生重大事件做出类似的反应，但这些重大事件会从根本上改变人物。」条目对此有所涉及，但未明确说明灾难性事件的定义——「对人物的人生产生重大影响的事件，这个事件对人物的性格形成一直发挥作用，直到小说开始的那一刻」。",
+      "suggestion": "在mechanism节补充对「灾难性事件」的简短定义，引用原文表述。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中双胞胎思想实验还涉及「没有被拐卖的那一位会坦然步入婚姻，而受伤的兄弟总把女孩吓跑」这一对比细节，条目仅描述了被拐卖者一方，未呈现两者对照的完整叙述。",
+      "suggestion": "在examples节补充健康成长一方的结局对比，以完整呈现原文的双向对照逻辑。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

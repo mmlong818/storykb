@@ -1,0 +1,18 @@
+{
+  "conceptId": "d2d446ffca0f",
+  "canonical_zh": "障碍",
+  "reviewedAt": "2026-05-05T23:50:09.961Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中「局部压力」示例明确提到「任何去过像匿名戒酒所那种地方的人都知道这不可能是真的」，条目在examples中未体现这一细节——即「局部压力版」故事的问题在于其不真实性/不可信，这是原文论证的重要支撑点。",
+      "suggestion": "在示例中补充说明：局部压力版本不仅缺乏深度，其康复过程本身也不真实，这正是原文批评其不足的逻辑之一。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "fe77c59c3f71",
+  "canonical_zh": "结构",
+  "reviewedAt": "2026-05-04T20:31:30.554Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将水门事件改编电影称为「《总统的秘密》」，但证据（菲尔德原文）全程未提供该片的中文译名，仅以剧情（戈尔德曼、哈德曼、武德沃得/罗伯特·雷德福、伯恩斯坦/达斯汀·霍夫曼、水门大楼）描述。该片英文原名为 All the President's Men，通行中文译名为「惊天大阴谋」或「总统班底」；「总统的秘密」并非公认译名，且与英文原名含义（「总统的所有人马」）存在偏差，属无证据支撑的自创译名。",
+      "suggestion": "改为「《惊天大阴谋》（All the President's Men，根据水门事件改编）」，或直接以「根据水门事件改编的影片」表述，避免使用未获证据支持的中文片名。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

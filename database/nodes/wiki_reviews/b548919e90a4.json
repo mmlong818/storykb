@@ -1,0 +1,25 @@
+{
+  "conceptId": "b548919e90a4",
+  "canonical_zh": "核心冲突",
+  "reviewedAt": "2026-05-05T19:36:41.421Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目将威廉·弗罗格（William Froug）的名字译为「威廉·弗罗格」，证据原文为「威廉·弗罗格」，一致；但条目称「琳达·辛格与威廉·弗罗格等编剧理论家对三段式结构的争议」，原文实为琳达·辛格「完全遵循三段式的范例」而弗罗格「说这会使剧本变得既无聊又沉闷」，二人立场相反，条目用「争议」概括尚可，但未说明二者立场方向，稍有模糊。",
+      "suggestion": "可补充说明琳达·辛格支持三段式、弗罗格反对，以更准确反映原文语义。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「乔与苏」示例里，原文有「戏剧问题：乔是一个工作狂，虽然他很爱妻子苏，但很少有时间来陪她」这一背景细节，条目examples节未提及乔是工作狂这一人物设定，略有遗漏，但不影响核心冲突说明。",
+      "suggestion": "可在examples中补充「乔是工作狂、疏于陪伴」作为干扰事件的背景铺垫，使案例更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "dea5b2c75453",
+  "canonical_zh": "场面",
+  "reviewedAt": "2026-05-06T00:11:29.824Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称「乔治与希利在车厢内经历了从迷惑、安慰到第一次真诚表露感情的过程」，其中「迷惑」一词的对应原文是乔治看见了某件令他困惑的事（「我看得清清楚楚」暗示某种幻象）。但条目并未说明这一前因，直接跳到「迷惑」可能让读者误解场面起点。原文中场面是乔治受到某种神秘经历困扰后，希利安慰他、两人最终亲密的过程，「迷惑」语义准确但缺乏语境交代。",
+      "suggestion": "可补充说明「迷惑」来源于乔治的某种幻象体验，使场面起点描述更准确。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文练习部分明确指出「戏就是冲突，要把它找出来」，条目components已收录，但原文还强调「产生戏」（即产生戏剧性）与「规模」并列，条目表述「创造冲突和规模的成分或元素」已涵盖，无严重遗漏。",
+      "suggestion": "无需修改。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

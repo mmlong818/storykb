@@ -1,0 +1,18 @@
+{
+  "conceptId": "dbdee0ff23cb",
+  "canonical_zh": "画外音",
+  "reviewedAt": "2026-05-06T00:09:09.549Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《委托人》证据显示，声音延续跨越两次「Cut to」：先从부장검사室切至법원주차장，再从주차장切至도로（테헤란路），最后切至여배우오피스텔주차场；条目仅描述为「新场景建立的同时……前一场景对话继续」，未能体现多段连续转场的结构特点。",
+      "suggestion": "可补充说明该桥接声音跨越多个连续场景，体现更复杂的声画结构运用。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

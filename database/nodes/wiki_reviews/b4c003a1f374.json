@@ -1,0 +1,25 @@
+{
+  "conceptId": "b4c003a1f374",
+  "canonical_zh": "逃跑情节",
+  "reviewedAt": "2026-05-05T19:32:13.834Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目在电影案例中列入了《人体入侵者》，但证据原文确实提及该片（「《逃离恶魔岛》、《人体入侵者》、《胜利大逃亡》以及《战地军魂》」），条目examples章节却未列出《人体入侵者》，这本身不是幻觉；但需确认：条目examples第5条仅列「《逃离恶魔岛》《胜利大逃亡》《战地军魂》」，遗漏了证据中明确列举的《人体入侵者》。",
+      "suggestion": "在examples第5条中补充《人体入侵者》，与证据保持完整对应"
+    },
+    {
+      "section": "diagnostics",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据备忘录第7条「在剧情的前两个阶段，反派人物控制了主人公；在最后一个阶段，主人公控制了局面」中「反派控制」这一视角在diagnostics中未单独体现，仅在mechanism中有所涉及。",
+      "suggestion": "可在diagnostics中增加一条：「前两阶段是否明确呈现了反派对主人公的控制？」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

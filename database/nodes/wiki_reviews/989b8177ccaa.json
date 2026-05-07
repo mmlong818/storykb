@@ -1,0 +1,39 @@
+{
+  "conceptId": "989b8177ccaa",
+  "canonical_zh": "戏剧性结构",
+  "reviewedAt": "2026-05-05T13:22:54.374Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将「钩住动作并将其转向另一个方向」作为情节点的引用式定义，但提供的全部证据文本中均未出现此表述。证据仅描述情节点的功能效果（「把故事引入到结局部分」），并未使用这一措辞。",
+      "suggestion": "删去引号，改为意译：「情节点是将三幕连接为有机整体的关键事件，负责将故事从一个阶段推入下一阶段」，或标注该表述来源于证据文本之外的原书章节。"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "原文出现「至少两个核心角色角色」，「角色」二字重复，属笔误。证据原文为「至少要有两个角色」，并无重复。",
+      "suggestion": "删去重复的「角色」，改为「至少两个核心角色：引导动作发展的主角，以及接收并对抗主角动作的对手」。"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称菲尔德「将其命名为『示例』（Paradigm）」，括号内补充了英文原词。证据全程使用「示例」一词，但所提供的证据片段中并未出现「Paradigm」这一英文术语，亦未明确说明是菲尔德本人为其「命名」。",
+      "suggestion": "去掉括号内的（Paradigm），或标注此为译者/编者注，避免暗示证据直接支持该英文对应词。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目描述《唐人街》情节点：「确认它不属于死者」。证据原文为「知道它不是墨尔雷的就是属于那个谋杀者的」，表达的是「要么不属于死者，要么属于凶手」的推断，而非已「确认不属于死者」的确定结论。条目将推断改写为确认，存在细微语义偏差。",
+      "suggestion": "改为「发现眼镜不属于墨尔雷，或属于谋杀者，由此将故事引入结局」，保留原文的推断性语气。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

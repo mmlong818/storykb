@@ -1,0 +1,18 @@
+{
+  "conceptId": "2b8c5b2f8397",
+  "canonical_zh": "高潮设计",
+  "reviewedAt": "2026-05-06T04:00:37.382Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据爱情来源中提到结局细节：「女主发现男主偷偷学做她喜欢的菜」「男主看到女主在笔记本上写『和他在一起的每一天都很开心』」，条目examples及applications均未体现这些具体结局细节技巧，但这属于补充性信息，非核心遗漏。",
+      "suggestion": "可在applications爱情题材条目中补充「结局以生活细节收尾」的说明，如男主偷学女主爱吃的菜等温馨细节。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

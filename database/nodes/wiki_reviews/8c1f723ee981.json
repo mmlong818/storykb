@@ -1,0 +1,27 @@
+{
+  "conceptId": "8c1f723ee981",
+  "canonical_zh": "追逐序列",
+  "reviewedAt": "2026-05-06T05:46:58.420Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "high",
+      "description": "「骨巷」在中文中毫无意义（字面为「骨头巷子」），系将韩文원문 골목（小巷/窄巷）的发音音译为汉字「骨」所致。原文为「차가 다니지 못하는 골목길」，正确汉译应为「车辆无法通行的小巷/窄巷」。",
+      "suggestion": "将「骨巷」改为「窄巷」或「小巷」，与examples节中已正确使用的「小巷」保持一致。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "「一记侧踢」对应原文「이단 옆차기」，该词特指「二段（跳跃式）侧踢」，即腾空飞踢，并非普通侧踢。「侧踢」丢失了「跳跃/腾空」这一关键动作信息。",
+      "suggestion": "改为「一记腾空侧踢」或「飞踢」，更忠实于원문「이단 옆차기」的含义。"
+    }
+  ],
+  "corrections": {
+    "components": "追逐序列通常由以下要素构成：追逐者与逃跑者的空间对位关系；地形与障碍物（窄巷、交叉路口、积水地面等）对节奏的分割；追与逃双方的分头行动与重新汇合；以及因地形线索（如地面水花的晃动）引发的方向判断时刻。这些要素共同构造出持续升级的紧张感。"
+  },
+  "costUsd": 0
+}

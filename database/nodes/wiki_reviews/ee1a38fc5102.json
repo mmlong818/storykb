@@ -1,0 +1,27 @@
+{
+  "conceptId": "ee1a38fc5102",
+  "canonical_zh": "史诗片",
+  "reviewedAt": "2026-05-05T18:03:14.690Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "mistranslation",
+      "severity": "high",
+      "description": "原文韩文为「웅장하고 달콤한 주제」，「달콤한」意为「甜美的/美好的」，条目definition将其译为「宏大壮丽」，「壮丽」对应的是「웅장한」，误将「달콤한（甜美）」的含义丢失并替换为同义重复。source_perspectives中正确写作「主题宏大甜美」，与definition矛盾。",
+      "suggestion": "将「宏大壮丽的主题」改为「宏大甜美的主题」，与原文及source_perspectives保持一致"
+    },
+    {
+      "section": "definition",
+      "type": "inconsistency",
+      "severity": "medium",
+      "description": "definition节写「宏大壮丽的主题」，而source_perspectives节同一来源的描述写「主题宏大甜美」，两处对同一术语翻译不一致，存在内部矛盾。",
+      "suggestion": "统一使用「宏大甜美的主题」以符合原文「웅장하고 달콤한」"
+    }
+  ],
+  "corrections": {
+    "definition": "史诗片（Epic）是以英雄主义事件为核心，以宏大甜美的主题加以呈现的电影类型。主人公通常是某一文化——民族的、宗教的或地域的——的理想典范，故事所关涉的往往超越日常生活，带有庄严崇高的气质。"
+  },
+  "costUsd": 0
+}

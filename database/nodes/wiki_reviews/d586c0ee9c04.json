@@ -1,0 +1,18 @@
+{
+  "conceptId": "d586c0ee9c04",
+  "canonical_zh": "台词",
+  "reviewedAt": "2026-05-06T11:49:03.922Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写道「仅回答「很短暂」两字」，但「很短暂」实为三个汉字（很、短、暂），并非两字。麦基原文亦写「只用了一个词」，指的是英文原版的单词「brief」，中文译作三字。「两字」与实际字数不符。",
+      "suggestion": "改为「仅回答「很短暂」三字」，或去掉字数描述，改为「仅以「很短暂」一语作答」，与麦基原文「只用了一个词」的精神保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

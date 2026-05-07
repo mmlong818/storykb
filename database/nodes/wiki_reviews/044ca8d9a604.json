@@ -1,0 +1,18 @@
+{
+  "conceptId": "044ca8d9a604",
+  "canonical_zh": "双线并行",
+  "reviewedAt": "2026-05-06T03:54:35.868Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中校园题材举例包含「图书馆复习，主角因走神被朋友调侃」这一场景，条目examples未收录，但非关键信息。",
+      "suggestion": "可补充「图书馆复习走神被调侃」作为日常线第三个例子，使示例更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

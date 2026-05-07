@@ -1,0 +1,25 @@
+{
+  "conceptId": "3c27ea27349b",
+  "canonical_zh": "浪漫喜剧",
+  "reviewedAt": "2026-05-04T20:56:43.633Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "「黛博拉·科尔」对应的英文原名为 Deborah Kerr，其标准中文译名通常为「黛博拉·克尔」（Kerr → 克尔），而非「科尔」。证据原文仅写「Deborah Kerr」，条目将 Kerr 译为「科尔」与通行译法不符。",
+      "suggestion": "将「黛博拉·科尔」改为「黛博拉·克尔」以符合该演员的通行中文译名。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据来源「电影类型与类型电影」明确列出浪漫喜剧（romantic comedy）这一术语本身，条目 origins 部分对「浪漫喜剧」作为独立类型术语的确立时间与命名来源未作说明，仅泛述「逐步确立」，稍欠具体。但鉴于证据原文 OCR 严重损坏，信息本身不够清晰，此处仅作提示。",
+      "suggestion": "如需补充，可在 origins 末尾注明该术语（romantic comedy）在好莱坞片厂时期正式确立为类型标签这一背景，但需以证据为限，不应过度推断。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

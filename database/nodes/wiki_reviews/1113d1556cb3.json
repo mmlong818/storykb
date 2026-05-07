@@ -1,0 +1,18 @@
+{
+  "conceptId": "1113d1556cb3",
+  "canonical_zh": "拱框式舞台",
+  "reviewedAt": "2026-05-06T11:42:37.935Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到拱框式舞台成为主流的「主要原因」是「戏剧观念的变迁」和「人体形态的限制」，以及透视规律的发现，条目origins部分未体现这一因果解释。",
+      "suggestion": "可在origins或mechanism末尾补充一句：拱框式舞台得以成为主流，主要源于戏剧观念的变迁（写实主义兴起）与人体形态的限制，以及透视规律的发现。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

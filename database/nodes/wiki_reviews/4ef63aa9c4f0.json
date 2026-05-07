@@ -1,0 +1,18 @@
+{
+  "conceptId": "4ef63aa9c4f0",
+  "canonical_zh": "校园戏剧",
+  "reviewedAt": "2026-05-05T03:24:35.287Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称欧美大学将「人文与艺术课程（包含戏剧）纳入必修体系」，证据原文仅说哈佛规定学生须修满一定人文和艺术类学分，牛津有人文课程，并未明确点出「戏剧」课程被列为必修。",
+      "suggestion": "改为「人文与艺术课程纳入教学体系并设有学分要求」，不特别强调戏剧为必修。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

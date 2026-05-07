@@ -1,0 +1,25 @@
+{
+  "conceptId": "6a3c742fb2bf",
+  "canonical_zh": "警世故事",
+  "reviewedAt": "2026-05-06T04:19:09.720Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将王后故事标注为「格林童话风格的故事」，但提供的证据文本中并未出现「格林」「格林童话」或任何作者/书名标注，仅描述了故事情节本身（圣母、禁忌之门、王后、三个孩子）。此标签系编者推断，非证据所支持。",
+      "suggestion": "改为「一则关于王后的民间故事」或「一则以圣母惩戒为框架的故事」，避免引入证据未明示的来源标签；或补充注明来源为格林童话《玛利亚的孩子》（Marienkind）。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins 字段为空。证据来源虽未专门讨论警世故事的历史起源，但提及欧里庇得斯《美狄亚》作为古希腊典型案例，这本身可构成简短起源说明的依据。",
+      "suggestion": "如确实无充分证据，保持空字段是安全做法，无需强行填写；但可酌情添加「可溯至古希腊悲剧传统」一句，以《美狄亚》为例证，并注明依据有限。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

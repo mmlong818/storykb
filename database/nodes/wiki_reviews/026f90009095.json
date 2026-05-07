@@ -1,0 +1,32 @@
+{
+  "conceptId": "026f90009095",
+  "canonical_zh": "主题／基本动作等式",
+  "reviewedAt": "2026-05-05T18:41:22.166Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确给出一个精炼的等式公式：「主题 → 基本动作 = 反应（情感引导行为，进而引起反应。）」，这是对运作机制最直接的概括，条目mechanism节未收录该公式。",
+      "suggestion": "在mechanism节末尾补充：「书中将此归纳为：主题 → 基本动作 = 反应，即情感引导行为，行为进而引起反应。」"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据在指出「谋杀 → 杀死」错误后，立即给出修正示范「仇恨 → 杀害」，说明正确做法是将行为位置替换为真正的情感。条目仅呈现了错误案例，未提及该修正示例，使读者缺少「如何修正」的对照。",
+      "suggestion": "在错误案例「谋杀 → 杀死」后补充：「正确写法应将行为替换为情感，例如『仇恨 → 杀害』。」"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "examples节开头写「证据中提供以下案例」，这是一种元引用表述（直接指向「证据」文本），不符合wiki条目的规范写法，且容易使读者误以为这些案例仅来自引用文献而非已验证的教学范例。",
+      "suggestion": "将「证据中提供以下案例：」改为「以下为书中给出的具体案例：」或直接删去该引导语，使条目语气自洽。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "98b125b99e77",
+  "canonical_zh": "二度创作",
+  "reviewedAt": "2026-05-05T03:48:23.585Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称电影《霸王别姬》「展示了戏曲演员习得程式、再将程式转化为具体戏剧动作的二度创作路径」，但原文仅说该电影「真实地再现了旧式『打戏』教育的残酷性」，并未将其定性为二度创作路径的例证。",
+      "suggestion": "将《霸王别姬》的表述限定为「再现了旧式『打戏』教育的残酷性」，不宜引申为二度创作路径的说明例证。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文引用了托尔斯泰关于《黑暗的势力》创作体会的大段引文，用以说明剧本写作须追求舞台性（「刻出浮雕」而非「着色」），这是理解「文学性与舞台性双重性」概念的重要背景，条目未作任何体现。",
+      "suggestion": "可在 origins 或 mechanism 中简要提及剧本写作须赋予人物「动作性」这一双重性来源，以补充概念背景。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

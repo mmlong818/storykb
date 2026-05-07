@@ -1,0 +1,32 @@
+{
+  "conceptId": "1f73ddc08a23",
+  "canonical_zh": "黑人电影",
+  "reviewedAt": "2026-05-06T03:58:21.738Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目描述视觉风格为「高饱和度、原色调的画面语言」，其中「高饱和度」系自行添加，原文证据仅提及「원색적인 화면（原色调画面）」，并以「패션 잡지만큼이나（如时尚杂志般）」作类比，未出现「高饱和度」的表述。",
+      "suggestion": "删去「高饱和度」，改为「以时尚杂志般的原色调画面语言为视觉特征」，与证据保持一致。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据明确提到纽约独立电影由约翰·赛尔斯（John Sayles）「배태」（孕育/奠基），斯派克·李在此谱系中是继承者，条目在origins中将斯派克·李直接描述为「奠基人物」，忽略了约翰·赛尔斯作为纽约独立运动前辈的背景语境。",
+      "suggestion": "可补充一句：约翰·赛尔斯是纽约独立精神的前辈人物，斯派克·李在此基础上将黑人电影确立为独立类型。"
+    },
+    {
+      "section": "definition",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目definition称该类型「由黑人导演主导创作」，但原文证据并未以「由黑人导演主导」作为类型定义，而是通过斯派克·李的具体实践来描述这一类型的形成，「主导创作」是条目的推断性概括，略有过度诠释。",
+      "suggestion": "可改为「以黑人视角切入种族议题，通常由黑人导演执导」，使表述更贴近证据的归纳方式而非规范性定义。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

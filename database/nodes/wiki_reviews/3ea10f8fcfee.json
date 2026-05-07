@@ -1,0 +1,25 @@
+{
+  "conceptId": "3ea10f8fcfee",
+  "canonical_zh": "情节地图",
+  "reviewedAt": "2026-05-05T08:43:20.621Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称主角应对方式为「六种左右」，原文仅说「冲突源要以什么样的方式开始进攻主角的内心，想出六到十种方式」，对应的是冲突进攻方式数量，而非主角反应数量；将六到十种进攻方式误绑定为「六种左右应对方式」略有偏差。",
+      "suggestion": "将「六种左右应对方式」改为「多种应对方式（对应冲突源的六到十次进攻）」，与原文保持一致。"
+    },
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "升级节点描述「设计一到六个」，原文为「设计出一到六种方式使主人公的沮丧焦虑不断升级」，原文强调的是「方式」而非「关键时刻/节点」，措辞稍有偏移，但语义基本吻合。",
+      "suggestion": "将「一到六个关键时刻」改为「一到六种使主角焦虑沮丧升级的方式」更贴近原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

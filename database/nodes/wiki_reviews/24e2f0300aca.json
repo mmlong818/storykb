@@ -1,0 +1,18 @@
+{
+  "conceptId": "24e2f0300aca",
+  "canonical_zh": "主辅关系",
+  "reviewedAt": "2026-05-05T23:32:28.450Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins字段为空，但来源标题明确标注「韩国编剧的核心把控技巧」，可补充来源背景说明",
+      "suggestion": "可注明该概念源自韩影视剧本分析实践，或保持空白均可，不影响核心内容准确性"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

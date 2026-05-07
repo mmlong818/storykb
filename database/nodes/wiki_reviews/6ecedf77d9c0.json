@@ -1,0 +1,18 @@
+{
+  "conceptId": "6ecedf77d9c0",
+  "canonical_zh": "激化阶段",
+  "reviewedAt": "2026-05-05T19:07:52.570Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将书名写为《似是故人来》，证据原文写的是《似是故来人》（「煽风点火者」段落标题处）。两者仅语序不同，但应与原文保持一致。",
+      "suggestion": "将 examples 及 source_perspectives 中的书名统一改为《似是故来人》"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

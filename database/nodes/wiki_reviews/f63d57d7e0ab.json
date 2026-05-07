@@ -1,0 +1,25 @@
+{
+  "conceptId": "f63d57d7e0ab",
+  "canonical_zh": "障碍设置",
+  "reviewedAt": "2026-05-05T18:06:22.008Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将《绿野仙踪》中的阻碍描述为「树妖」，证据原文是「可怕的树妖」，表述基本一致；但条目将多萝西的三位伙伴描述为「三位伙伴」未指名，而证据明确提及「稻草人、铁皮樵夫、懦弱的狮子」。此为轻微遗漏而非幻觉，影响不大。",
+      "suggestion": "可在examples中补充三位伙伴的具体名称以与证据保持一致"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中麦基引述这位「教电影写作的老师」的说法出现在《物质享受》剧本分析的具体语境中（即行李员内裤场景之后），条目仅说「流传于编剧教学圈的经验之谈」，未体现这一引用发生在示范剧本创作讨论的具体语境。对理解影响不大，但背景略有损失。",
+      "suggestion": "可补充「麦基在分析示范剧本《物质享受》时引述」以增加语境准确性"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "e161b270b8b7",
+  "canonical_zh": "反情节",
+  "reviewedAt": "2026-05-05T17:56:27.566Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "原文用词为「实际生活」（「这种方式的电影不是'实际生活'的比喻」），条目改写为「现实生活」。虽含义相近，但原文「实际生活」与「想象生活」形成的对仗更为精准，改写后语感有所偏移。",
+      "suggestion": "将「现实生活」改回「实际生活」以保留原文对仗：「它不以『实际生活』为比喻，而是以『想象生活』为比喻」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确说明巴黎夫妇谋害姑妈的动机是「以骗取她的保险金」，条目仅写「企图谋杀姑妈」，遗漏了保险金动机这一具体细节，使角色行为动机不够完整。",
+      "suggestion": "补充动机：改为「决定谋害其年迈的姑妈以骗取保险金」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

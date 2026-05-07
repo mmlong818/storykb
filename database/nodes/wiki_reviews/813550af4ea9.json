@@ -1,0 +1,32 @@
+{
+  "conceptId": "813550af4ea9",
+  "canonical_zh": "戏剧结构",
+  "reviewedAt": "2026-05-06T11:39:46.250Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "medium",
+      "description": "韩文原始证据（专业术语）列出六个要素：① 발단(exposition) ② 전개(inciting action) ③ 상승(rising action) ④ 클라이맥스(climax) ⑤ 하강(falling action) ⑥ 대단원(denouement)。条目将六要素压缩为五个，完全删去了「⑤ 하강(falling action，下降动作）」这一独立阶段——即高潮之后、大团圆之前发生的事件与情节。原文明确写道「클라이맥스 이후에 일어나는 사건과 에피소드」，属于结构组成的独立环节，并非可以省略的过渡。",
+      "suggestion": "在高潮（④）之后补充「⑤ 下降动作（falling action）：高潮之后发生的事件与情节，戏剧张力逐步平息」，再列「⑥ 大团圆 / 结局（denouement）」。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文对「클라이맥스」的描述包含：「보통 주요 등장 인물에게 커다란 위기가 닥치고 극적 갈등의 결과에 영향을 끼칠 중대한 결정이 내려질 때 발생한다（通常在主要人物面临重大危机、做出影响戏剧冲突结果的重要决定时发生）」。条目对高潮的定义仅写「最紧张、最具戏剧性的顶点」，未体现「重大危机」和「关键决定」两个具体特征。",
+      "suggestion": "可补充：「高潮通常在主要人物面临重大危机、并做出影响冲突结果的关键决定时到达」。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "中文证据对《玩偶之家》结构的完整描述是「第三幕，戏剧冲突达到高潮……接着，在第三幕后部，一切「问题」大白于天下，各种人物均得到应有的结局」，即高潮与结尾均在第三幕内。条目写「第二幕……矛盾激化；第三幕达到冲突高潮并完成结局」，表述与原文基本一致，但「第三幕后部」这一细节被合并，略有简化，尚不构成误译，仅供参考。",
+      "suggestion": "可将「第三幕」细化为「第三幕前段达到高潮，后段完成结局」，更忠实于原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

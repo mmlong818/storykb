@@ -1,0 +1,18 @@
+{
+  "conceptId": "3cbdb250c1f0",
+  "canonical_zh": "旁白",
+  "reviewedAt": "2026-05-06T04:05:25.577Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目将旁白来源描述为「男主角」，但证据原文仅标注「동희의 인터뷰 나레이션이 깔린다」，未明确标注동희的性别或主/配角地位。条目的判断本身可能正确，但证据中并无明确依据。",
+      "suggestion": "可改为「主角동희的访谈旁白」，避免无依据地加入「男」的性别限定"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

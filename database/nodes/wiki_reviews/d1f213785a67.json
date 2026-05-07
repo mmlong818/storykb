@@ -1,0 +1,25 @@
+{
+  "conceptId": "d1f213785a67",
+  "canonical_zh": "视觉符号",
+  "reviewedAt": "2026-05-05T23:48:45.805Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《机智的医生生活》的蔡颂华办公室道具（「堆积的医学书籍、贴满便签的日历、角落的咖啡机」）被条目省略，仅保留了「手术前按手」的动作。这是较完整的视觉符号案例，但条目只取了动作部分。",
+      "suggestion": "可在第4条补充办公室道具细节，以更完整呈现电视剧场景化视觉符号的多层次性。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《爱乐之城》角色名为「米娅」（Mia）和「塞巴斯蒂安」（Sebastian），条目未提及人名，仅描述色彩含义。虽未造成误导，但与原文细节略有出入（原文明确提到角色名）。",
+      "suggestion": "属于合理简化，无需强制修正；如需提升严谨性，可在括号内注明角色名。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "19451528c91c",
+  "canonical_zh": "人物驱动",
+  "reviewedAt": "2026-05-05T08:22:15.038Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到了「哈利·托特达夫」作为情节驱动作家的代表之一（与丹·布朗并列），条目origins章节仅提及丹·布朗，未提及托特达夫。虽非关键信息，但属于证据中的明确列举。",
+      "suggestion": "可在丹·布朗之后补充「哈利·托特达夫等情节导向的畅销书作家」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

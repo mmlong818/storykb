@@ -1,0 +1,25 @@
+{
+  "conceptId": "d2e341eb5b45",
+  "canonical_zh": "情感伏笔",
+  "reviewedAt": "2026-05-05T23:51:42.778Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中父亲答应带女儿去游乐园的原因是「庆祝生日」，条目中写为「去游乐园」，省略了「庆祝生日」这一情感细节，略微削弱了伏笔的情感浓度。",
+      "suggestion": "可补充「庆祝生日」：「父亲答应带女儿去游乐园庆祝生日」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中《听见你的声音》提到男主「因能听见他人心声被同学排斥，过着孤独的生活」，条目例子未体现这一背景，导致「守护女主」情感伏笔的成立逻辑略显单薄。",
+      "suggestion": "可在例子中补充男主孤独处境的背景，以呈现情感联结建立的完整语境。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

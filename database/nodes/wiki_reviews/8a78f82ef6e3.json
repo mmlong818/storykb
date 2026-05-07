@@ -1,0 +1,25 @@
+{
+  "conceptId": "8a78f82ef6e3",
+  "canonical_zh": "触觉细节",
+  "reviewedAt": "2026-05-05T19:13:59.622Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到姜暮烟「将头深深埋在柳时镇的怀中」，条目仅写「有力的双臂与身体相依」，遗漏了姜暮烟主动埋头这一细节，但整体意思未失真。",
+      "suggestion": "可补充「姜暮烟将头埋入柳时镇怀中」使描写更完整，但非必须。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据明确提及演员名（孔刘饰金信、金高银饰池恩倬、宋仲基饰柳时镇、宋慧乔饰姜暮烟、玄彬饰金洙元、河智苑饰吉罗琳），条目未包含演员信息，但wiki条目通常不要求此类信息，属风格选择而非错误。",
+      "suggestion": "如需补充可加括号注明演员，否则可保持现状。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

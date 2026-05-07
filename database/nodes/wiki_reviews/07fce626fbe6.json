@@ -1,0 +1,25 @@
+{
+  "conceptId": "07fce626fbe6",
+  "canonical_zh": "交叉剪辑",
+  "reviewedAt": "2026-05-05T08:13:59.523Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "inconsistency",
+      "severity": "medium",
+      "description": "examples 节说「剧本明确标注「Inter Cut」，将两个空间的影像交替呈现……同时进行的剧场打击乐表演」，并将其作为交叉剪辑的示范案例；但 pitfalls 节明确区分了 Intercut（无时间关联）与 Cross Cutting（隐含同时性），这两处相互矛盾——同一个「Inter Cut」标注被 examples 解读为同步事件，却又在 pitfalls 中被定性为不强调同时性的不同概念。证据原文「교실 내의 배경음악이 될 듯한 난타 공연이 벌어지고 있다」仅说「仿佛成为教室背景音乐的난타演出正在进行」，并未明确两者时间同步，wiki 在 examples 中断言「同时进行」缺乏证据支撑。",
+      "suggestion": "examples 节应删去「同时进行」的断言，改为描述剧本通过「Inter Cut」将教室冲突与난타演出并置以产生节奏呼应；或在 examples 节末尾加一句说明：此处「Inter Cut」在剧本语境下被用作交叉剪辑的创作指示，与严格定义的「间隔编辑」之区别参见 pitfalls 节。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文「교실 내의 배경음악이 될 듯한 난타 공연」（仿佛成为教室背景音乐的난타演出）含有重要的叙事意图说明——两段影像的连接逻辑是「音效上的融合/背景音乐感」，而非单纯的视觉并置。条目仅说「听觉与视觉上的双重张力」，对编剧在此处使用「Inter Cut」的具体创作意图（以场外音效为教室内情绪配乐）有所淡化。",
+      "suggestion": "可补充「剧本注释暗示场外난타演出的击打声仿佛成为教室内混乱的背景音轨，两者在听觉层面形成叙事融合」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

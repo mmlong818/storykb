@@ -1,0 +1,32 @@
+{
+  "conceptId": "b6beb073582e",
+  "canonical_zh": "对手戏",
+  "reviewedAt": "2026-05-05T19:44:46.265Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文写道「每个蒙哥马利都会遭遇隆美尔」，以此作为对手戏普遍性的补充例证，条目未收录该典故。",
+      "suggestion": "可在示例列表末尾补充：「蒙哥马利与隆美尔——每个强者都会遇见势均力敌的对手」作为历史类对手戏的代表性注脚。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到《宾虚》是「首批在美国被允许私家收藏的故事小说，同时也是第一部由西尔斯目录收录的小说」，条目对此未作体现，该信息有助于说明该作品的历史重要性。",
+      "suggestion": "可在《宾虚》介绍中补充其作为「首部入选西尔斯目录的小说」这一历史地位，以强化其作为对手戏标杆范本的文化背景。"
+    },
+    {
+      "section": "definition",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中原句为「赢得一场象棋比赛的胜利」，条目改写为「赢得一场比赛的胜利」，删去了「象棋」的具体限定，虽不影响整体含义，但失去了原文举例的具体性。",
+      "suggestion": "可还原为「赢得一场象棋比赛的胜利」以保留原文的举例精度。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

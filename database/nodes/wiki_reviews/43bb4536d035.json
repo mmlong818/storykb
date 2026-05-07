@@ -1,0 +1,18 @@
+{
+  "conceptId": "43bb4536d035",
+  "canonical_zh": "人物性格一致性",
+  "reviewedAt": "2026-05-06T05:51:21.855Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中「怯懦式掩盖」有具体案例支撑——《唐人街》（Chinatown）中艾达·赛森斯（Ida Sessions）知晓不该知晓的内情，麦基指出作者靠「时间冲淡」让观众忘记该细节，以此说明掩盖式处理的实际运作方式。条目仅抽象描述了「快节奏或信息量冲淡注意力」的策略，未提及该具体案例，略显空泛。",
+      "suggestion": "可在pitfalls中补充：「例如《唐人街》中艾达·赛森斯掌握了不该掌握的信息，作者选择在一个半小时后才揭示她已死亡，依赖观众遗忘来模糊漏洞——麦基以此为反面示例，说明掩盖策略的脆弱性。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

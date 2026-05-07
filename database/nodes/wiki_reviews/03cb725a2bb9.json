@@ -1,0 +1,18 @@
+{
+  "conceptId": "03cb725a2bb9",
+  "canonical_zh": "MBTI人格类型",
+  "reviewedAt": "2026-05-05T08:08:46.571Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「Sensing」译为「理性」，但Sensing的标准中文译名为「感觉/实感」，与「理性」含义不同。证据原文写「理性(Sensing，S)或直觉(Intuition，N)」，此为原书的翻译选择，条目直接沿用了原书译法，并非条目本身的错误，但值得注意该译法与MBTI常见中文术语有偏差。",
+      "suggestion": "可在括号内保留原书译法，并附注标准译名，如「理性（Sensing，S，通称「感觉」）」，以避免混淆。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "08aae17a5ebe",
+  "canonical_zh": "建置",
+  "reviewedAt": "2026-05-05T08:14:54.731Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目称前10页建置了「主人公侦探的身份与性格」，但原文证据仅写「汤纳是如何建置他的主人公」，未明确提及「性格」这一维度；原文更侧重「戏剧前提」和「戏剧情境」两项，轻描「人物性格」。属于轻微延伸，非严重问题。",
+      "suggestion": "可将「身份与性格」改为「身份与处境」，更贴近原文「建置主人公」的表述，避免无据扩充。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "pitfalls 节已明确声明是从论述中「推断」而来，非菲尔德直接列出，这种透明度是合理的。但条目正文并未提示读者该节为编者推论，若读者将其与其他节同等视为原著观点可能产生误解。",
+      "suggestion": "在 pitfalls 节首句加一个括注，如「（以下为基于菲尔德论述的推论，非原著直接列举）」，与其他节有所区隔。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

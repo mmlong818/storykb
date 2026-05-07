@@ -1,0 +1,39 @@
+{
+  "conceptId": "fd6ca1b8c78f",
+  "canonical_zh": "三幕结构",
+  "reviewedAt": "2026-05-05T03:01:14.555Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称第三幕「约占20—25%」，但提供的证据中仅有韩剧来源明确写出「20% 篇幅」，麦基原文在提供的证据片段中只给出第一幕25%后即截断，并未出现第三幕25%的上限。「20—25%」的范围上限「25%」无直接证据支撑。",
+      "suggestion": "若无法确认麦基原文中第三幕比例，可将表述改为「韩剧实践版本约占20%，总体而言约占20%左右」，或仅援引有据可查的韩剧来源数字。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "麦基证据原文明确列举了一幕与两幕形式的具体代表作：两幕形式包括「情境喜剧、中篇小说或一小时戏剧，如安东尼·谢弗的《黑色喜剧》和奥古斯特·斯特林堡的《朱丽小姐》」，条目在 components 和 applications 中均未体现这两个具名例子。",
+      "suggestion": "可在 applications 或 origins 中补充：「麦基以安东尼·谢弗《黑色喜剧》、斯特林堡《朱丽小姐》为两幕形式的典型案例」，以体现证据中的完整论证链。"
+    },
+    {
+      "section": "diagnostics",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据《电影剧作者疑难问题解决指南》列出了完整的「情节症状」清单（如「故事是由文字讲出来的，不是由画面讲述的」「主要人物太被动」「人物过多了」等），条目仅从中提取了「第一幕太长」一条用于 pitfalls，diagnostics 节对该清单的覆盖亦仅摘取了诊断步骤框架，整体症状列表未体现。",
+      "suggestion": "diagnostics 节可增加一句：「该指南还列出了20余条常见情节症状（如主要人物过于被动、人物过多、故事缺乏紧张感等），可按清单逐项排查。」"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "麦基证据原文在举完四种两转折节奏后，还补充了「即使第二个事件把所有人都杀光……那还是不够」这一极端情形，用以强调即便以死亡收场也无法替代第三次逆转。条目未体现这一论证，略微削弱了麦基论证的完整性。",
+      "suggestion": "可在 mechanism 中补充：「麦基甚至指出，即便第二个事件让所有人物死亡，观众仍会追问「然后呢」——第三个逆转的缺失无法被任何单一事件补救。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "ca51f2c7d46a",
+  "canonical_zh": "成长弧光",
+  "reviewedAt": "2026-05-05T23:59:08.090Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据在「反派动态变化的效果」处明确提及「强化恶有恶报主题」，条目examples与applications均未直接呈现该主题表述，仅以「深化复仇与救赎主题」代替。两者虽有交叉，但「恶有恶报」是原文对反派弧光效果的专项概括，属于有独立意义的信息点。",
+      "suggestion": "可在朴妍珍或崔惠廷的示例描述末尾补充：「反派动态变化亦强化「恶有恶报」主题」。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中有一行「朴妍珍从霸凌受害者蜕变为冷静复仇者，以法律为刃重塑人生」，条目未将此内容归入任何角色描述。该句在原文语境下指向模糊（可能是原始资料将文东恩与朴妍珍混淆），条目选择忽略此句是正确处理，但若审核视角认为需交代来源歧义，可酌情说明。",
+      "suggestion": "此句极可能是来源材料的笔误（应指文东恩而非朴妍珍），条目未引用是合理取舍，无需修改。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

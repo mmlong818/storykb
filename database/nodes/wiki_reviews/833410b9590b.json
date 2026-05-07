@@ -1,0 +1,39 @@
+{
+  "conceptId": "833410b9590b",
+  "canonical_zh": "叙事节奏",
+  "reviewedAt": "2026-05-05T01:33:04.089Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将《摩天楼》第二层小危机描述为「消防通道指示灯接触不良」，但原文证据为「大楼消防通道指示灯突然闪烁，保安检查发现线路接触不良，仅用胶带临时固定」——条目省略了「用胶带临时固定」这一关键细节，使得「被角色轻视」的特质表达不够完整。属于遗漏而非幻觉，降级处理。",
+      "suggestion": "在《摩天楼》案例描述中补充「仅用胶带临时固定，计划明天再修」的细节，以完整呈现「被忽视的隐患」机制。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《黑暗荣耀》案例明确提及「文东恩发现朴妍珍的新把柄」作为每集结尾小悬念的具体例子，条目未引用此具体细节，仅泛化为「留小悬念」。",
+      "suggestion": "可补充括号说明：「每集结尾留小悬念（如文东恩发现朴妍珍的新把柄）」，使案例更具说服力。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《寄生虫》开篇10分钟的具体情节为「基宇伪造文凭、全家设计进入朴社长家」，条目仅写「建置贫富冲突」，未说明具体情节内容，损失了证据的具体性。",
+      "suggestion": "补充《寄生虫》开篇情节的具体描述：「通过基宇伪造文凭、全家设计进入朴社长家两个情节快速建置贫富差距冲突」。"
+    },
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目mechanism节称「广告牌松动」，但原文证据写的是「大楼外广告牌被风吹得晃动，工作人员却认为『广告牌很结实，不会掉下来』，未采取加固措施」——条目components节写「广告牌未加固」是准确的，但mechanism节用「广告牌松动」表述略有偏差（松动暗示已损坏，而原文是未加固的隐患）。",
+      "suggestion": "将mechanism节中「广告牌松动」改为「广告牌未加固」以与原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

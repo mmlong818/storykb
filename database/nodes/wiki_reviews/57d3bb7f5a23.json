@@ -1,0 +1,18 @@
+{
+  "conceptId": "57d3bb7f5a23",
+  "canonical_zh": "社会问题剧",
+  "reviewedAt": "2026-05-05T18:59:21.444Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目写「举着「革命」和「现代」的旗号」，但原文证据仅明确说「「样板戏」也举着「现代」的旗号，号称「现代戏」」，并未在此处提及「革命」旗号（「革命」只出现在「革命样板戏」这一名称中，语境不同）。将「革命」与「现代」并列为样板戏所举之旗，属于对原文的轻微扩展。",
+      "suggestion": "改为「举着「现代」的旗号，号称「现代戏」」，与原文保持一致；若要保留「革命」，需说明其仅为名称而非明确标榜的口号。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

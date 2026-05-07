@@ -1,0 +1,32 @@
+{
+  "conceptId": "9b194aab7e59",
+  "canonical_zh": "哑剧",
+  "reviewedAt": "2026-05-06T06:01:37.345Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "language",
+      "severity": "low",
+      "description": "证据来源「专业术语韩国1」的原文含有大量韩文字符（가-힣），但条目正文中未混入韩文，仅source_perspectives中提及该来源名称含「韩国」字样，条目内容本身无语言问题。",
+      "suggestion": "无需修改条目正文，已处理正常。"
+    },
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目称「与闹剧（Farce）等类型并列」，证据原文「파스(Farce) 소극」中「소극」意为「小剧/笑剧」，并非闹剧的完整对应翻译，且原文列举的是影视摄影术语词典条目，并非专门的戏剧类型分类。将其表述为「与闹剧等类型并列」略有夸大其类型分类意义。",
+      "suggestion": "可改为「在影视编剧术语词典中，哑剧（Pantomime）被简洁收录为无言剧、默剧，与其他影视术语并列」，去掉「与闹剧等类型并列」的表述。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "examples字段为空，证据中虽未提供具体哑剧作品案例，但公元前420年古希腊酒神婚礼哑舞已是一个具体例子，可在此处补充。",
+      "suggestion": "可将公元前420年古希腊酒神婚礼哑舞表演作为最早案例填入examples。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

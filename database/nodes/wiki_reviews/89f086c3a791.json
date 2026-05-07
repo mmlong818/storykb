@@ -1,0 +1,25 @@
+{
+  "conceptId": "89f086c3a791",
+  "canonical_zh": "钩子",
+  "reviewedAt": "2026-05-05T01:34:27.798Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将「水门事件」例子描述为「菲尔德的课堂创作示例」，并称「学生们为角色萨拉构建剧本时，有人提出『水门事件』可作为一个强有力的钩子」——这与原文基本吻合。但条目说「菲尔德将其称为『一个很有潜力的钩子』」，原文实际写的是「这在我们那个还没有创作出来的、没有讲出来的、没有确定的故事中是一个很有潜力的『钩子』」，引号内措辞略有简化但无实质误差。整体准确，无需修正。",
+      "suggestion": "可保留现有表述，无需修改。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文「编剧步步为营」明确提到剧本长度标准从120页向100-110页演变，这一背景信息有助于理解转折点位置的相对性，但条目未提及。影响较小，非核心信息。",
+      "suggestion": "可在origins或applications中补充一句：「行业标准剧本长度已从120页向100-110页演变，转折点位置随之调整」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

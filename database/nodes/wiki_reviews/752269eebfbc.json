@@ -1,0 +1,32 @@
+{
+  "conceptId": "752269eebfbc",
+  "canonical_zh": "K-类型戏剧",
+  "reviewedAt": "2026-05-06T14:45:40.270Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文明确提到魏玛共和国案例的前提是「查询宪法第218条之后」，这是该事件发生的法律背景，wiki条目完全略去此细节，仅笼统称「情感动员」，实际上原文并未强调「情感动员」是手段，而是查询宪法条文后争取权益。",
+      "suggestion": "在applications节补充「在查询宪法第218条之后」这一关键背景，避免将该案例的成因单纯归结为情感动员。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文「情人们把小小的工资口袋交给他们的太太」中「小小的」（klein）是布莱希特刻意选用的词，带有讽刺性的阶级质感，wiki引用时省略为「工资口袋」，细节略有损失。",
+      "suggestion": "引用时可保留「小小的工资口袋」以忠实原文语气。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "魏玛共和国案例在examples节同样未体现「查询宪法第218条」这一前提，与applications节存在相同问题。",
+      "suggestion": "在案例描述中加入「在查询宪法第218条之后」的前置说明。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

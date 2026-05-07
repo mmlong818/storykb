@@ -1,0 +1,18 @@
+{
+  "conceptId": "cb04f28769a9",
+  "canonical_zh": "情感和解",
+  "reviewedAt": "2026-05-06T04:30:34.803Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到「子女向母亲聊起自己的感情规划」，条目例1简化为「情感规划」，略去了「感情」的具体含义，但不影响核心内容。",
+      "suggestion": "可将「情感规划」改为「感情规划」以更贴近原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

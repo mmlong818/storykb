@@ -1,0 +1,32 @@
+{
+  "conceptId": "077e39eeb96f",
+  "canonical_zh": "阻碍",
+  "reviewedAt": "2026-05-05T08:12:10.009Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中出现了「拦路石」（■ 拦路石）作为该概念的章节标题，是书中对该术语的中文译名之一，条目未记录此别称。",
+      "suggestion": "在定义或 canonical_zh 字段补充「拦路石」为该概念的别名，例如：「又称拦路石（Obstacle）」。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据对《荒岛余生》的分析中专门讨论了排球「威尔逊」作为人格化替代人物的特殊处理，并指出这种写法风险极高（需要汤姆·汉克斯级别的演员支持），是证据中具有实操指导意义的内容，条目完全未提及。",
+      "suggestion": "可在 examples 或 pitfalls 中补充：孤岛故事若对手缺失，编剧会借助人格化道具（如「威尔逊」）来制造互动，但此法风险极高，依赖顶级演员的表现力。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将约翰·阿林顿的角色描述为「试图揭露其秘密或阻止暴力的人物」。证据原文是「谁发现了杰基尔医生的秘密并且要泄露出去？哪个人物试图去阻止海德的暴力？」——两者是并列的诊断问题，作者用「我会投票选择」来表明约翰·阿林顿是他个人倾向的答案，并非书中确定性结论。条目表述略显确定，掩盖了原文的推测语气。",
+      "suggestion": "将「真正的对手应是…（如其友人约翰·阿林顿）」改为「作者倾向于认为真正的对手是约翰·阿林顿（发现并可能揭露秘密、试图阻止暴力的人物），但不同版本中该角色有所替换」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

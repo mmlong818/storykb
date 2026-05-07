@@ -1,0 +1,25 @@
+{
+  "conceptId": "89e8588d9e66",
+  "canonical_zh": "节奏",
+  "reviewedAt": "2026-05-06T04:26:30.903Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称好莱坞浪漫喜剧「以快速对白和紧凑情节著称」，但两条证据均未提及「快速对白」这一具体特征。「电影类型与类型电影」证据虽提及该类型对节奏的运用，但因OCR严重损坏，无法确认原文有此表述；「专业术语韩国1」仅定义了速度感概念，更无此内容。",
+      "suggestion": "删去「以快速对白和紧凑情节著称」，改为「该类型在节奏控制方面尤为成熟」，或仅引用证据可支撑的学者研究结论。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据明确列出了伊丽莎白·肯德尔著作的完整书名《The Runaway Bride: Hollywood Romantic Comedy of the 1930s》（New York: Anchor, 1990）及斯坦利·卡维尔著作《Pursuit of Happiness: The Hollywood Comedy of Remarriage》（Cambridge: Harvard University Press, 1981）的出版信息，条目未收录书名，对需要溯源的读者略有不便。",
+      "suggestion": "可在括注中补充书名，例如「伊丽莎白·肯德尔（《The Runaway Bride》）」，以便读者核查原始来源。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

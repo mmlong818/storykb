@@ -1,0 +1,55 @@
+{
+  "conceptId": "b72d80fcfd71",
+  "canonical_zh": "激进蒙太奇",
+  "reviewedAt": "2026-05-06T12:24:32.362Z",
+  "verdict": "issues_found",
+  "score": 6,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "high",
+      "description": "evidence 的 sourceTitle 字段含有韩文「라마」（专业术语라마），条目的 source_perspectives 也继承了该字段。虽然正文条目本身无韩文，但原始证据文本全部为韩文（가-힣字符大量存在），审核系统需记录此问题。",
+      "suggestion": "sourceTitle 应修正为纯中文或英文，去除韩文字符「라마」"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文仅说「소련의 영화감독 에이젠스타인이 주창한 편집방법（苏联电影导演爱森斯坦所倡导的剪辑方法）」，并未提及「苏联蒙太奇学派」这一更大的理论背景。条目在 origins 中添加了「属于苏联蒙太奇学派的核心理论之一」，此内容证据中无支撑。",
+      "suggestion": "删除「属于苏联蒙太奇学派的核心理论之一」，或将其标注为编辑补充而非来源所载"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "证据原文只描述了「각각의 쇼트가 상징적 관계에 의해 연결（各镜头通过象征性关系连接）」和「극적 충돌을 창출하기 위해 쇼트들을 병치（为制造戏剧性冲突而并置镜头）」两个要点。条目 components 中将其拆解为三个构成要素（独立的镜头单元、象征性关系、并置结构），其中「独立的镜头单元（各镜头本身可独立成立）」这一表述在证据中并无依据。",
+      "suggestion": "删除或弱化「各镜头本身可独立成立」的表述，保留象征性关系和并置结构两个有据可查的要素"
+    },
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目 mechanism 中「借助视觉意象的冲突激发观众的主动解读」和「镜头的连接依据象征关系而非叙事顺序」等表述超出了证据所载内容。证据仅提及象征性关系连接和制造戏剧性冲突，未涉及「观众主动解读」或「叙事顺序」的对比。",
+      "suggestion": "将 mechanism 精简为证据可支撑的内容：镜头通过象征性关系（非因果逻辑）并置，以产生戏剧性冲突"
+    },
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "applications 节中「编剧或导演希望通过视觉并置而非台词直接表达人物性格、社会评论或主题」的表述，在证据中没有对应支撑。证据未提及台词对比、社会评论等应用场景。",
+      "suggestion": "applications 应基于证据所提供的「制造戏剧性冲突」和「象征性表达人物性格（如吹牛者示例）」来表述，移除无据的扩展"
+    },
+    {
+      "section": "pitfalls",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "pitfalls 节中「过度依赖激进蒙太奇而忽视基本叙事逻辑，可能使作品陷入形式主义而失去情感共鸣」完全是编辑推断，证据中无任何对应内容。",
+      "suggestion": "将 pitfalls 限定在可从证据推导的范围内，或明确标注为编辑推断"
+    }
+  ],
+  "corrections": {
+    "origins": "激进蒙太奇由苏联电影导演爱森斯坦（Sergei Eisenstein）所倡导，是一种基于象征性关系连接镜头的剪辑方法。"
+  },
+  "costUsd": 0
+}

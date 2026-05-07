@@ -1,0 +1,25 @@
+{
+  "conceptId": "38fbd9a67430",
+  "canonical_zh": "闹剧",
+  "reviewedAt": "2026-05-05T03:19:40.923Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将尼柯尔称为「英国戏剧理论家」，原文称其为「英国戏剧家」（原文：「英国戏剧家尼柯尔」）。两者含义相近但原文用词为「戏剧家」而非「戏剧理论家」。",
+      "suggestion": "改为「英国戏剧家尼柯尔」以忠实原文，或保留「理论家」但注明系编者概括。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称布罗凯特书名未在证据中明确列出，证据原文为《世界戏剧艺术欣赏——世界戏剧史》，条目未提及书名，属于遗漏而非幻觉，影响较小。布罗凯特生卒年「1923—」与原文一致，无问题。",
+      "suggestion": "可补充布罗凯特的书名《世界戏剧艺术欣赏——世界戏剧史》以增加来源透明度，但非必须。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

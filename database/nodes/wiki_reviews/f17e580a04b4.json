@@ -1,0 +1,25 @@
+{
+  "conceptId": "f17e580a04b4",
+  "canonical_zh": "深层结构",
+  "reviewedAt": "2026-05-05T08:10:13.363Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确提及「《历史丑角》或《黑影》中的浪漫故事」作为对比案例，条目仅泛称「通俗浪漫故事」，未保留书名。原文：「但是阿尔贝·加缪的作品和《历史丑角》或《黑影》中的浪漫故事就有着天壤之别了」",
+      "suggestion": "在加缪条目中补充具体书名，改为「与《历史丑角》《黑影》等通俗浪漫故事形成对比」"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文将「最精彩的故事不是『善对恶』，而是『善对善』」归于托尔斯泰的示范（「托尔斯泰完美地展现了这一点」），条目仅写「书中指出」，丢失了托尔斯泰这一具体来源归因。",
+      "suggestion": "可改为「书中援引托尔斯泰的实践指出，最精彩的故事不是『善对恶』，而是『善对善』」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

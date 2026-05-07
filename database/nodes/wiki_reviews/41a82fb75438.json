@@ -1,0 +1,25 @@
+{
+  "conceptId": "41a82fb75438",
+  "canonical_zh": "犯罪故事",
+  "reviewedAt": "2026-05-04T21:00:46.559Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第二段以《克莱默夫妇》为例说明「见解时刻」机制，条目examples节未提及该案例，仅提及衣橱尸体的假设性场景。虽然《克莱默夫妇》并非犯罪故事案例，而是用于说明「见解增加好奇心」的通用示例，遗漏影响不大。",
+      "suggestion": "可在applications或examples节补充说明：麦基亦以《克莱默夫妇》为例演示「见解时刻」机制，但该片本身并非犯罪故事，此机制对所有类型均适用，在犯罪故事中表现最为明显。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文将「见解（insight）增加好奇心」作为独立机制阐述：观众在「理解的一闪念」中重新组合已有信息，获得深入理解后好奇心反而放大，引出「接下来将会发生什么」的追问。条目mechanism节将此机制归入applications节处理，mechanism节本身未完整呈现「见解→好奇心放大」这一二阶效应。",
+      "suggestion": "在mechanism节补充：见解时刻并非消除鸿沟，而是将好奇心放大为新一轮追问，形成「鸿沟→疑问→见解→更大好奇心」的螺旋结构。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "e71803a51e7a",
+  "canonical_zh": "戏剧问题",
+  "reviewedAt": "2026-05-05T07:55:15.217Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《罗密欧与朱丽叶》段落中，证据明确提到朱丽叶表哥的名字「提巴特」（Tybalt），条目仅以「朱丽叶表哥」代称，未予具名。虽不影响核心论述，但原文信息有所省略。",
+      "suggestion": "可补充「提巴特（Tybalt）」以与原文保持一致，但非必须。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文特别指出《死囚168小时》中「这个修女才是电影中心人物」，强调修女在叙事重心上的特殊地位；条目仅将其定性为结构意义上的对手，未体现这一叙事层面的说明。",
+      "suggestion": "可在《死囚168小时》段落末补充说明：修女虽是结构对手，但同时是电影的叙事中心人物，二者并不矛盾。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

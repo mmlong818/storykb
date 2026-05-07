@@ -1,0 +1,25 @@
+{
+  "conceptId": "1eefb92d62a8",
+  "canonical_zh": "人物弧线",
+  "reviewedAt": "2026-05-04T20:38:08.617Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "origins 节声称「据麦基（Robert McKee）的注释，'弧光（Arc）'一词源自'故事弧光（Story Arc）'，最初指电视剧、连载小说、动漫等分集媒体中跨越多集、绵延展开的故事线，以电视肥皂剧中最为多见……因1980年代对经典美剧的相关评论而逐渐普及」——但 evidence 数组中并未提供麦基《故事》一书的任何原文摘录，仅在 source_perspectives 中列出该书标题。词源细节（肥皂剧、1980年代、逐渐收窄含义等）均无法从已给证据中核实，属于证据缺失下的强断言。",
+      "suggestion": "将麦基词源内容表述为「据麦基在《故事》中的考据」并保持措辞谨慎，或删去「1980年代」「电视肥皂剧」等无法从现有证据核实的具体细节，改为更宽泛的表述，待补充麦基原文摘录后再还原细节。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "「韩国编剧埋伏笔的核心技巧」被列为 source_perspectives 之一，但 evidence 数组中同样缺少该来源的原文摘录，导致 origins 及 mechanism 中凡涉及「行为型伏笔」叙述均无法与原始证据交叉核验。",
+      "suggestion": "补充「韩国编剧埋伏笔的核心技巧」原文摘录进入 evidence，或在对应叙述处标注该内容来源待补全。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

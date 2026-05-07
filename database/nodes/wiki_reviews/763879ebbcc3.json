@@ -1,0 +1,25 @@
+{
+  "conceptId": "763879ebbcc3",
+  "canonical_zh": "戏剧批评",
+  "reviewedAt": "2026-05-05T19:09:31.646Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中别林斯基的观点出现在「origins」相关段落之后，条目将其归入「mechanism」章节，位置合理，但origins章节未提及别林斯基与「平等对话」关系的历史脉络——证据原文将「中国现代戏剧批评的历史，就是从跟创作及演出的平等对话开始的」与欧阳予倩并列叙述，条目在origins中仅提欧阳予倩，别林斯基的铺垫被移至mechanism，导致origins中「平等对话关系」的来源略显突兀。",
+      "suggestion": "可在origins末尾补充一句：别林斯基关于「艺术创作与理论批评都是对现实的认识，二者是平等的对话关系」的论断，为中国现代戏剧批评的平等对话传统提供了理论支撑。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文引用「片面的鉴赏力等于没有鉴赏力」来自莱辛《汉堡剧评》第一篇，条目mechanism章节末尾提到「如同痴人说梦」是针对只评剧本的批评，但「片面的鉴赏力等于没有鉴赏力」这一核心表述在mechanism中未出现，仅在examples中体现，两处略有割裂。",
+      "suggestion": "在mechanism中适当引用「片面的鉴赏力等于没有鉴赏力」以强化论点，或在examples中注明该引文是对mechanism逻辑的经典印证。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

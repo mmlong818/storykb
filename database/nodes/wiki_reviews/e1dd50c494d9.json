@@ -1,0 +1,35 @@
+{
+  "conceptId": "e1dd50c494d9",
+  "canonical_zh": "法国新浪潮",
+  "reviewedAt": "2026-05-05T17:59:31.652Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "high",
+      "description": "证据第二条明确列出四位代表导演：「장-뤽 고다르 Jean-Luc Godard, 프랑소와 트뤼포 Francois Truffaut, 끌로드 샤브롤 Claude Chabrol, 알랭 레네 등의 감독들에 의해 주도되었다」，即戈达尔、特吕弗、夏布洛尔、以及阿兰·雷乃（Alain Resnais）。条目仅列出前三位，遗漏了阿兰·雷乃。",
+      "suggestion": "在 origins 及 examples 中补充阿兰·雷乃（Alain Resnais）为代表人物之一。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "high",
+      "description": "与 origins 同理，examples 章节列举代表人物时同样缺失阿兰·雷乃，但证据原文明确将其与其他三位并列。",
+      "suggestion": "在 examples 中补充：「证据明确提及的代表人物为让-吕克·戈达尔、弗朗索瓦·特吕弗、克劳德·夏布洛尔与阿兰·雷乃（Alain Resnais）。」"
+    },
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称「包括美国独立电影浪潮在内的多个流派均可追溯其影响」，但证据仅在同一词典的另一条目（뉴웨이브）上下文中并列提及科恩兄弟、塔伦蒂诺等美国独立导演，并未明确陈述法国新浪潮对美国独立电影具有直接影响关系。此结论由编辑推断，并非证据所述。",
+      "suggestion": "将 applications 中关于美国独立电影影响的表述改为有据可查的内容，或注明「证据未直接陈述此影响关系」，避免过度推断。"
+    }
+  ],
+  "corrections": {
+    "origins": "约自1957年起源于法国，由让-吕克·戈达尔（Jean-Luc Godard）、弗朗索瓦·特吕弗（François Truffaut）、克劳德·夏布洛尔（Claude Chabrol）、阿兰·雷乃（Alain Resnais）等导演代表，根植于对电影艺术的犀利批判性关注。",
+    "examples": "证据中明确提及的代表人物为让-吕克·戈达尔、弗朗索瓦·特吕弗、克劳德·夏布洛尔与阿兰·雷乃，但未列举具体片目。"
+  },
+  "costUsd": 0
+}

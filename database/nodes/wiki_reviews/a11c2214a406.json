@@ -1,0 +1,18 @@
+{
+  "conceptId": "a11c2214a406",
+  "canonical_zh": "解谜情节",
+  "reviewedAt": "2026-05-05T23:46:00.649Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「线索的质量决定了谜题的挑战性与趣味性——过于明显则失去张力，过于隐晦则令人沮丧」——证据原文仅说「最好是能让谜题富有挑战性因而也更有趣的线索」，并未提及「过于隐晦令人沮丧」这一反面。属于合理推论但超出原文范围的延伸。",
+      "suggestion": "删去「过于隐晦则令人沮丧」，或改写为「作者须提供能让谜题富有挑战性因而也更有趣的线索」，贴近原文表述。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

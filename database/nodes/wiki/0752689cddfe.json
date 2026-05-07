@@ -1,0 +1,51 @@
+{
+  "conceptId": "0752689cddfe",
+  "canonical_zh": "配角",
+  "canonical_en": "Character Roles",
+  "aliases": [],
+  "types": [
+    "角色概念"
+  ],
+  "sections": {
+    "definition": "配角（Character Roles）指电影中吸引力与名声不及主演级别的次要角色扮演者。配角在叙事中承担辅助功能，为主角的故事线提供支撑，但其本身的明星效应与商业号召力相对有限。",
+    "origins": "现有证据未提及该概念的具体起源或流派背景。",
+    "components": "现有证据仅给出简明定义，未细分配角的构成要素。",
+    "mechanism": "配角通过在剧情中扮演辅助角色来推动叙事，其吸引力与知名度低于主演，定位上服务于整体故事而非独立的明星形象。",
+    "applications": "配角广泛存在于各类电影中，是区分主演与次要演员层级的基本概念，常用于制作、选角及片单分工等实际操作场景。",
+    "examples": "现有证据未列举具体影片案例。",
+    "diagnostics": "判断一个角色是否属于配角，可参考以下问题：该角色的知名度与商业号召力是否明显低于主演？其在叙事中是否以辅助功能为主而非独立驱动情节？",
+    "pitfalls": "现有证据未涉及相关误区或失败模式。"
+  },
+  "source_perspectives": [
+    {
+      "sourceTitle": "专业术语（电影词典）",
+      "view": "该来源以词典条目形式给出简洁定义：配角指电影中知名度与吸引力低于主演级别的次要角色。定义简明，侧重于与主演的相对地位对比，未展开讨论配角的叙事功能或类型细分。"
+    }
+  ],
+  "related_concepts": [
+    "主演",
+    "制作价值",
+    "选角",
+    "叙事功能"
+  ],
+  "evidence": [
+    {
+      "sourceId": "c64d5200e4e91e35921b6088fa810487deb9682d22462b005b2cb94a8e54adc8",
+      "chunkId": "c64d5200e4e9-00004",
+      "sourceTitle": "专业术语자",
+      "heading": null,
+      "charStart": 6451,
+      "charEnd": 7032
+    },
+    {
+      "sourceId": "f3fe052bd7c9fa9e894c5fcba12607780a71cb555f6f733c546c5e83f799ecf5",
+      "chunkId": "f3fe052bd7c9-00002",
+      "sourceTitle": "专业术语자",
+      "heading": null,
+      "charStart": 3600,
+      "charEnd": 4491
+    }
+  ],
+  "generatedAt": "2026-05-05T01:34:19.589Z",
+  "lastReviewedAt": "2026-05-05T03:00:01.354Z"
+}

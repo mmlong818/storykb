@@ -1,0 +1,25 @@
+{
+  "conceptId": "59f7d7c97d83",
+  "canonical_zh": "荒诞派戏剧",
+  "reviewedAt": "2026-05-05T19:00:29.330Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文描述《等待戈多》人物为「不敢有思想」，条目简化为「无思想」，丢失了「不敢」这一细微但有意义的限定。原文：「无行动、无思想 —— 不敢有思想」",
+      "suggestion": "可在examples中补充「不敢有思想」的表述，以更准确还原原文含义"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到「被历史捉弄的人既产生了悲观思想，也产生了对命运的喜剧式的无奈，故而才有了寓悲于喜、以喜写悲的荒诞派戏剧」，条目未体现「历史玩笑」这一荒诞派戏剧产生的深层根源表述",
+      "suggestion": "可在mechanism或origins中适当补充关于「历史玩笑」与荒诞派关联的内容，但非高优先级"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

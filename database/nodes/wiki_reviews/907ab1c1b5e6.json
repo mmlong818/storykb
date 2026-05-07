@@ -1,0 +1,18 @@
+{
+  "conceptId": "907ab1c1b5e6",
+  "canonical_zh": "硬切",
+  "reviewedAt": "2026-05-05T23:01:13.134Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「我的婚礼」CUT TO 后的画面描述为「轮椅晃动的车轮声」，将视觉元素与声音混为一体。原文为「흔들리는 바퀴（晃动的车轮，视觉）」和「들려오는 우연의 끙끙대는 소리（传来的优然的呻吟声，听觉）」——两者是并列的独立元素，前者为画面，后者为声音；原文并未明确说明有「车轮发出的声音」，声音部分实为角色的呻吟声，而非车轮声。",
+      "suggestion": "将「轮椅晃动的车轮声」改为「晃动的轮椅车轮（画面）与优然的挣扎呻吟声」，分别对应原文的视觉与声音描述，避免两者混淆。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

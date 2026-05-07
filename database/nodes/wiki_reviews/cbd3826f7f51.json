@@ -1,0 +1,25 @@
+{
+  "conceptId": "cbd3826f7f51",
+  "canonical_zh": "激化阶段",
+  "reviewedAt": "2026-05-04T21:48:54.270Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「心结」描述为「有害的、若不被救赎就将导致毁灭的『罪』」，原文确实用了「罪」这个词，但条目将其定义嵌入mechanism段落时语境稍显突兀，且「某种形式的毁灭」在条目中被省略，略微弱化了原文强调的严重性。原文：「主人公被一种有害的『罪』折磨，如果不被救赎，这种『罪』将导致他走向某种形式的毁灭」",
+      "suggestion": "可补充「某种形式的毁灭」以保持原文力度"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中还提及第四部小说《行动：火把》作为情节循环的另一种实现方式（用回忆而非场景重构），条目examples仅提及《土拨鼠日》和《致命缺陷》，未涵盖这一补充案例。不过该案例主要说明情节循环变体，与激化阶段核心概念关联较弱，影响有限。",
+      "suggestion": "若条目需覆盖情节循环的全貌，可酌情在examples末尾补充《行动：火把》案例"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

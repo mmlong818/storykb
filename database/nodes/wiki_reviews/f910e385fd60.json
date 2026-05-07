@@ -1,0 +1,32 @@
+{
+  "conceptId": "f910e385fd60",
+  "canonical_zh": "大众戏剧",
+  "reviewedAt": "2026-05-05T02:54:01.365Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目称文学性歌舞剧「几乎没有一根连贯的叙事主线」，原文为「几乎没有一根'红线'」，「红线」是原文直接用词，条目释义准确但略去了引号强调的特殊性，问题轻微。",
+      "suggestion": "可保留「红线」原词并加引号，与原文更贴近。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文明确提到「大众戏剧从来不曾像民歌那样高尚」，条目origins部分未体现这一比较判断，仅说歌舞剧与大众戏剧的关系犹如流行曲与民歌，缺少布莱希特对大众戏剧地位的明确贬抑表述。",
+      "suggestion": "可补充：布莱希特指出大众戏剧从来不曾像民歌那样高尚。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目称这些剧本「避免了古老大众戏剧的惯常剧情和公式化人物形象」，原文还有「它仍然胜过浪漫派一筹」，条目未体现这一与浪漫派的比较，导致对文学性歌舞剧评价不够完整。",
+      "suggestion": "可补充：布莱希特认为这些剧本仍然胜过浪漫派一筹。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

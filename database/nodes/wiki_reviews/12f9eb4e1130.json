@@ -1,0 +1,41 @@
+{
+  "conceptId": "12f9eb4e1130",
+  "canonical_zh": "宽松改编",
+  "reviewedAt": "2026-05-06T12:15:40.470Z",
+  "verdict": "issues_found",
+  "score": 6,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "high",
+      "description": "sourceTitle字段值「专业术语다」末尾含有韩文字符「다」，虽出现在证据元数据而非条目正文，但条目的source_perspectives中也引用了该标题「专业术语」（已去掉「다」），evidence字段原始文本则大量包含韩文（가-힣范围字符），如「모든 필요한 시각정보를 프레임 내에 삽입하여」等。",
+      "suggestion": "sourceTitle应清理为「专业术语」，去除尾部韩文字符「다」；evidence原始文本为韩文词典，属于来源语言，但不应在条目正文任何section中出现韩文字符"
+    },
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目mechanism中写道「改编者并不以忠实复现原作情节、人物或主题为目标」，并提及「结构、叙事或风格上可与原作产生较大偏离」。原始证据仅给出：「다른 매체(보통 문학)에 기초한 영화로 두 매체 사이의 표면적 유사성만이 있을뿐임」（以其他媒介/通常为文学为基础的电影，两媒介之间仅有表面相似性）。「情节、人物、主题」「结构、叙事、风格」等具体维度均为证据中未提及的推演内容。",
+      "suggestion": "mechanism应紧扣证据表述，仅说明改编作品与原作之间仅保留表面相似性，不引申列举证据未提及的具体维度"
+    },
+    {
+      "section": "diagnostics",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "diagnostics中举例「如人物名称、背景设定等」作为表面相似性的具体类型，但证据原文未提及任何具体的相似性类型，这属于证据外推断。",
+      "suggestion": "删除「如人物名称、背景设定等」括号内容，或明确标注为编写者补充推断而非来源信息"
+    },
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "low",
+      "description": "evidence中的文本内容几乎全为韩文，包含大量가-힣范围字符。虽然这是原始来源语言，条目正文未直接引用，但source_perspectives的view字段描述与证据对照时需注意：证据为韩文词典，source_perspectives将其描述为「专业术语词典」是合理的，但未说明原文为韩文，略有信息不透明之处。",
+      "suggestion": "可在source_perspectives的view中注明「该韩文电影术语词典以韩文给出定义」以保持来源透明度"
+    }
+  ],
+  "corrections": {
+    "mechanism": "宽松改编的运作逻辑在于：改编者将其他媒介（通常为文学）作为来源素材，但最终呈现的影像作品与原作之间仅维持表面上的相似性，而非对原作进行忠实复现。"
+  },
+  "costUsd": 0
+}

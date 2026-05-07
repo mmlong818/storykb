@@ -1,0 +1,18 @@
+{
+  "conceptId": "a8599755715d",
+  "canonical_zh": "冲突触发点",
+  "reviewedAt": "2026-05-05T13:34:09.312Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中将「关键原则」表述为「精准命中，无法逃避」，强调的是「人物只能选择应对或改变」，而条目components将第三要素表述为「触发效果」（情绪爆发、认知转变、行动冲动），属于合理延伸，但原文并未将「触发效果」列为独立构成要素——原文的结构更接近「核心任务 + 关键原则 + 案例」，而非三要素拆解。",
+      "suggestion": "可保留现有表述，但可注明此三要素拆解系编者对原文的结构化整理，而非原文直接归纳。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

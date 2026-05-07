@@ -1,0 +1,18 @@
+{
+  "conceptId": "d068b24dc5d9",
+  "canonical_zh": "性格类型",
+  "reviewedAt": "2026-05-06T00:07:16.817Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确列出「她渴望什么，希望他人如何看待她，她看重什么，她和什么性格类型的人相处融洽，什么人又能激怒她」等细节，条目在components中概括为「人际偏好」尚可，但漏掉了「他人如何看待她」这一公众形象维度。",
+      "suggestion": "可在components中补充「公众形象期待」作为叠加层次之一"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

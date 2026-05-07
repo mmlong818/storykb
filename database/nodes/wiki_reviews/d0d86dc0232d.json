@@ -1,0 +1,20 @@
+{
+  "conceptId": "d0d86dc0232d",
+  "canonical_zh": "读者反应批评",
+  "reviewedAt": "2026-05-06T12:21:29.856Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "medium",
+      "description": "原文明确列出四位「最有力的读者反应理论家」：볼프강 이저、한스 로베르트 야우스、스탠리 피쉬、데이빗 블라이히（Wolfgang Iser、Hans Robert Jauss、Stanley Fish、David Bleich）。条目仅提及伊泽尔与尧斯两人，遗漏了斯坦利·费什（Stanley Fish）和大卫·布莱奇（David Bleich）。",
+      "suggestion": "在代表性理论家列举中补充斯坦利·费什（Stanley Fish）和大卫·布莱奇（David Bleich）"
+    }
+  ],
+  "corrections": {
+    "origins": "1960年代以来，'作者之死'这一概念在文学理论界广泛流行，读者反应批评随之在美国和欧洲文学批评领域以多种形式确立了重要地位。代表性理论家包括沃尔夫冈·伊泽尔（Wolfgang Iser）、汉斯·罗伯特·尧斯（Hans Robert Jauss）、斯坦利·费什（Stanley Fish）和大卫·布莱奇（David Bleich）等人。结构主义、精神分析学、现象学、解释学等多种哲学传统均为该批评路径所采用。"
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "6f668a25ca34",
+  "canonical_zh": "终极对决",
+  "reviewedAt": "2026-05-05T22:57:53.672Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将第二个例子标注来源为「情节与人物」，但证据原文并未明确说明「曾经相爱的两人」是「终极对决」的独立案例，原文只是举例说明高潮形态的多种可能性，并非独立案例命名。表述基本准确但略有过度具体化。",
+      "suggestion": "将该例子的表述改为「情感层面高潮的一种形态」而非独立命名案例，避免暗示原书有专门案例。"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "第三个例子「飞行员孤注一掷舍身阻止轰炸机」被描述为「史诗动作形态」并归类为终极对决案例，但原文仅将其作为高潮可能形态的举例，并非独立命名的案例分析。",
+      "suggestion": "调整表述为「原书列举的高潮形态示例之一」，不单独命名为「史诗动作形态」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

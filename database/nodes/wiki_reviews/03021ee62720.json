@@ -1,0 +1,25 @@
+{
+  "conceptId": "03021ee62720",
+  "canonical_zh": "触发事件",
+  "reviewedAt": "2026-05-05T18:42:49.451Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目在「剧集开篇」应用场景中写道「适用于短剧与长篇剧集的建置期设计」，但两份证据均未提及「短剧」，来源一仅泛指「剧集创作」，来源二聚焦连续剧人物弧光，均无对短剧适用性的任何论述。",
+      "suggestion": "删去「短剧与」，改为「适用于剧集（尤其是集数较多的连续剧）的建置期设计」，与证据措辞保持一致。"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将该结构公式描述为「本土化结构公式」，但证据原文（来源一）仅写「形成适配剧集创作的结构公式」，并无「本土化」一词。虽是合理引申，却超出证据表述范围。",
+      "suggestion": "去掉「本土化」，改为「形成适配剧集创作的结构公式」，直接援引证据原文措辞。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

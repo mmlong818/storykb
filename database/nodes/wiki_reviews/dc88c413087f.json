@@ -1,0 +1,18 @@
+{
+  "conceptId": "dc88c413087f",
+  "canonical_zh": "卡片法",
+  "reviewedAt": "2026-05-06T04:35:07.197Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目将《绳套》译为「Becket」，原文英文即为「Becket」，中文译名通常为《贝克特》而非《绳套》，可能引起歧义，但不影响准确性。另外，原文中明确提到弗兰克·皮尔逊的作品片名为《三伏天的下午》，未附英文原名「Dog Day Afternoon」，条目亦未补充，属轻微遗漏。",
+      "suggestion": "可在《绳套》后括注英文原名「Becket」并说明该译名，或更正为通行译名《贝克特》；可为《三伏天的下午》补充英文原名。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

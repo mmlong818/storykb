@@ -1,0 +1,25 @@
+{
+  "conceptId": "0b37e3c724a0",
+  "canonical_zh": "舞台美术",
+  "reviewedAt": "2026-05-05T03:01:42.354Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到梅耶荷德和布莱希特转向「中国和日本」，条目仅写「东方戏剧」，省略了日本，但这是合理概括，影响轻微。",
+      "suggestion": "可改为「东方的中国和日本戏剧」以更忠实原文。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确提及「当代有些『承应』剧目，为了掩饰内容的贫乏，常以各种美术手段把舞台装点得五彩缤纷」，examples 节未体现，该内容在 pitfalls 节有所提及但归属于误区分析而非例证。",
+      "suggestion": "可在 examples 或 pitfalls 节补充「承应剧目」作为当代反例，与「机关布景戏」并列。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

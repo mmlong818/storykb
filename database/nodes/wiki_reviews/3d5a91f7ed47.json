@@ -1,0 +1,34 @@
+{
+  "conceptId": "3d5a91f7ed47",
+  "canonical_zh": "旅行纪录片",
+  "reviewedAt": "2026-05-06T12:38:06.157Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目在「适用于」中列出了「旅游推广影像、文化展示内容」，但证据原文（기행영화 词条）仅提及「극장용 영화 상영 프로그램의 단편 영화」（剧场放映程序中的短片），并未提及旅游推广或文化展示等应用场合。",
+      "suggestion": "删除「旅游推广影像、文化展示内容」，仅保留证据支持的「剧场短片节目」用途描述。"
+    },
+    {
+      "section": "diagnostics",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "判断标准第三条「影片长度是否符合短片规格」系从历史形态推断而来，证据原文仅陈述事实（1950年代中期以前常作为短片出现），并未将片长作为判断旅行纪录片的诊断性标准。",
+      "suggestion": "将该条改为描述性说明（「历史上多以短片形态出现于院线」），而非判断标准。"
+    },
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「满足其对外部世界的好奇心与观赏欲望」属于编辑推断，证据仅陈述功能为「오락적 목적」（娱乐目的），未进一步阐述心理机制。",
+      "suggestion": "机制描述可保留，但应作为合理推断处理，避免表述为证据直接支持的结论。"
+    }
+  ],
+  "corrections": {
+    "applications": "适用于剧场短片节目。历史上曾作为正片放映前的配套短片广泛应用于商业院线，此形态在1950年代中期以前尤为普遍。"
+  },
+  "costUsd": 0
+}

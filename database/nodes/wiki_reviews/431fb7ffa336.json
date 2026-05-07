@@ -1,0 +1,25 @@
+{
+  "conceptId": "431fb7ffa336",
+  "canonical_zh": "因果关系",
+  "reviewedAt": "2026-05-05T03:21:13.608Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目在《三种语言》示例中提到「听懂狗吠」，但证据中男孩实际学会三门本领：狗语、鸟语、蛙鸣。条目仅举了「听懂狗吠」一例，未提及鸟语和蛙鸣同样在第二部分派上用场（证据原文：「他学会的每一门本领都能派上用场」）。",
+      "suggestion": "可补充说明男孩学会的三门本领（狗语、鸟语、蛙鸣）均在后续情节中发挥作用，以更完整呈现证据原意"
+    },
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "applications第3点提到「雪莉·杰克逊《彩票》的手法」作为悬念铺垫例子，但证据中《彩票》被用于说明「隐蔽性」机制，而非「将重要的因以低调方式植入早期场景」——证据的重点是作者引导读者看错方向，而非提前植入线索待后续揭晓。两者方向有细微差别。",
+      "suggestion": "《彩票》的手法更准确地描述为「误导读者注意力」而非「低调植入伏笔」，建议在applications中调整表述，或将其移至mechanism的隐蔽性说明中"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

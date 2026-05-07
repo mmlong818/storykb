@@ -1,0 +1,18 @@
+{
+  "conceptId": "2f972340ee8a",
+  "canonical_zh": "小情节",
+  "reviewedAt": "2026-05-04T20:55:00.074Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《纳什维尔》作为奥尔特曼「坚硬」多情节的具体例证（「其各个单一的故事常常转折出强烈的外在后果（《纳什维尔》）」），条目仅泛述图谱而未点出片名，信息略有损失。",
+      "suggestion": "可在 applications 中补充：「如《纳什维尔》代表趋向大情节的「坚硬」端，《三女性》代表趋向小情节的「柔软」端」，使图谱描述更具体。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

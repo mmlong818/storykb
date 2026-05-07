@@ -1,0 +1,18 @@
+{
+  "conceptId": "fe96508ad0fa",
+  "canonical_zh": "情感执念",
+  "reviewedAt": "2026-05-06T11:59:25.434Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目称朴修夏是「过孤独生活」，原文为「普通高中生」，条目未提及「高中生」身份，但这是次要细节，整体表述无误。",
+      "suggestion": "可补充「普通高中生」身份以更贴近原文，如：「男主朴修夏是普通高中生，因能听见他人心声而遭同学排斥……」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

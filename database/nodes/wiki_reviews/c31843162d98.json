@@ -1,0 +1,18 @@
+{
+  "conceptId": "c31843162d98",
+  "canonical_zh": "主题锚定",
+  "reviewedAt": "2026-05-06T11:57:56.379Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据来源二明确提到主题锚定与「角色塑造」「动作节奏设计」并列为核心模块，条目中虽有提及角色塑造，但未提及动作节奏设计这一并列关系。",
+      "suggestion": "可补充说明主题锚定是整个创作框架的第一步，与角色塑造、动作与节奏设计并列为三大核心模块。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

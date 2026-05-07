@@ -1,0 +1,18 @@
+{
+  "conceptId": "37eebad01e51",
+  "canonical_zh": "故事脊椎",
+  "reviewedAt": "2026-05-06T13:04:09.985Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《末代皇帝》《猎爱的人》《霸王别姬》《闪亮的风采》等影片作为传记性叙事的对比案例，条目examples部分未提及，但这些案例在原文中属于传记解说讨论的延伸例子，非「故事脊椎」的直接示例，遗漏影响较小。",
+      "suggestion": "可在examples末尾补充一句：「原文还列举《末代皇帝》等传记性影片作为对照，说明并非所有长时间跨度叙事都拥有持久脊椎。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

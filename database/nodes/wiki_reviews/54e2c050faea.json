@@ -1,0 +1,25 @@
+{
+  "conceptId": "54e2c050faea",
+  "canonical_zh": "特写镜头",
+  "reviewedAt": "2026-05-05T13:05:16.327Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "证据原文为「如表现绝望可选用俯拍全景展现人物渺小」，即俯拍全景对应的核心情绪是「绝望」，「人物渺小」是该镜头产生的视觉效果，而非情绪方向本身。条目将其改写为「若情绪方向是『渺小感』，则应选用俯拍全景」，把视觉效果（渺小）误置为情绪方向，与原文逻辑有出入。",
+      "suggestion": "将「若情绪方向是『渺小感』」改为「若核心情绪是绝望、需展现人物渺小感时」，以贴合证据原意。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目末句「此案例是证据中明确援引的特写镜头经典应用范例」是对来源的元描述，属于编辑注释语言，不应出现在面向读者的wiki正文中，且原证据本身并无此类概括性表述。",
+      "suggestion": "删除该元注释句，或将其改写为对案例价值的实质性说明，如「该场景被广泛视为特写镜头强化人物内心挣扎的典型示范」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

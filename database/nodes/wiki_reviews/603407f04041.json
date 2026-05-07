@@ -1,0 +1,18 @@
+{
+  "conceptId": "603407f04041",
+  "canonical_zh": "非亚里士多德式戏剧",
+  "reviewedAt": "2026-05-05T03:33:58.810Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到史诗体戏剧在风格上与「古老的亚洲戏剧」「中世纪的神秘剧」相似，同时还明确列出「古典西班牙戏剧及耶稣戏剧」，但条目仅写「古老的亚洲戏剧以及中世纪神秘剧」，遗漏了「古典西班牙戏剧及耶稣戏剧」两项。原文：「教育的倾向在中世纪的神秘剧和古典西班牙戏剧及耶稣戏剧里就已经有所表现了」",
+      "suggestion": "在 origins 段补充「以及古典西班牙戏剧与耶稣戏剧」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "c08e1c9a3049",
+  "canonical_zh": "故事三阶段结构",
+  "reviewedAt": "2026-05-06T04:29:45.205Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「几乎回到家中与妻子重聚」，但原文幻觉叙事中法夸尔实际上「走到家的时候……他的妻子就在那里等着他」，即在幻觉中他已完整抵达家门并伸手拥抱妻子，并非「几乎」到达。「几乎」一词从现实视角看可以自圆其说（因为他实际上已死），但若读者将其理解为幻觉叙事本身未走完全程，则与原文有出入。",
+      "suggestion": "可改为「在临死幻觉中抵达家中与妻子相拥」以更准确区分幻觉层与现实层，避免歧义。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

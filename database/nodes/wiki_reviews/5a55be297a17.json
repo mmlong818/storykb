@@ -1,0 +1,18 @@
+{
+  "conceptId": "5a55be297a17",
+  "canonical_zh": "情节",
+  "reviewedAt": "2026-05-05T03:31:07.392Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "原文证据（解构故事）明确写的是「双门洞邻里的亲情与友情」，「双门洞」（쌍문동）是《请回答1988》剧中首尔的具体街区地名，条目将其改写为「胡同邻里的亲情与友情」，用中国特有地理词汇「胡同」替换了韩国专有地名，导致文化与地理信息失真。",
+      "suggestion": "将「胡同邻里」改回「双门洞邻里」，保留原作的具体地名。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

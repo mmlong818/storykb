@@ -1,0 +1,18 @@
+{
+  "conceptId": "faab40aedacd",
+  "canonical_zh": "幻灭情节",
+  "reviewedAt": "2026-05-05T02:57:13.608Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目引用原文为「生活有一千条通往绝望之路」，但证据原文为「生活认识一千条通往绝望之路」。动词「有」与「认识」含义不同，前者陈述客观存在，后者强调认知／领悟维度，原文语义更接近「生活让人认识到一千条通往绝望之路」。",
+      "suggestion": "将引用改为「生活认识一千条通往绝望之路」，或注明此为意译而非直接引用"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

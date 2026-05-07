@@ -1,0 +1,25 @@
+{
+  "conceptId": "94c5c475f692",
+  "canonical_zh": "沉浸感",
+  "reviewedAt": "2026-05-05T23:41:36.777Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "证据原文描述学生「戴耳机听K-pop」，条目写成「学生戴耳机」，省略了「听K-pop」这一细节，属轻微删减而非幻觉，但「耳机线缠绕中倒下的学生」在证据中确有记载，条目表述准确。整体examples章节与证据高度吻合，无实质性幻觉。",
+      "suggestion": "可补充「听K-pop」细节以更贴近原文，但非必须修正。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins字段为空字符串。证据中未提供起源信息，故此处空白属合理处理，非遗漏问题。",
+      "suggestion": "无需修改，留空是正确选择。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

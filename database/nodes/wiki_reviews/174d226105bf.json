@@ -1,0 +1,25 @@
+{
+  "conceptId": "174d226105bf",
+  "canonical_zh": "三段式结构",
+  "reviewedAt": "2026-05-05T03:07:49.753Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目在《公民凯恩》案例中写道「飘雪的水晶球成为第一幕铺垫」，原文证据（麦基）的表述是「在电影第一幕用飘雪的水晶球做了铺垫」，含义接近但条目把「第一幕铺垫」解释为「开端选取点」的论据，逻辑上稍有引申，并非严重幻觉。",
+      "suggestion": "保持原文表述即可，无需过度解读水晶球与开端选取点的关系。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据（编剧步步为营）提到「唱片小说、短篇小说和散文也许会有明显的开端、中间和结局，但也可能没有；这一点并不是对描述性文字的硬性要求，但对戏剧和电影而言却是必备部分」。条目未体现三段式对戏剧/电影是「必备」而对其他文体是「可选」这一重要区分。",
+      "suggestion": "可在definition或origins中补充：三段式对戏剧和电影是必备要求，对小说散文则非硬性规定。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

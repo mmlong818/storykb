@@ -1,0 +1,20 @@
+{
+  "conceptId": "efa5192023da",
+  "canonical_zh": "关键选择",
+  "reviewedAt": "2026-05-05T08:07:11.462Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "inconsistency",
+      "severity": "high",
+      "description": "origins 章节正确描述关键选择为「四步公式」的第四步（核心困境→冲突触发→试错挣扎→关键选择与最终和解），与第二条证据「第四步：设置『关键选择与最终和解』」完全吻合。但 source_perspectives 章节却将其表述为「第三步」（「将关键选择定位为人物成长线『四步公式』中的第三步」），两者直接矛盾，且与证据不符。",
+      "suggestion": "将 source_perspectives 中的「第三步」改为「第四步」，与 origins 和证据保持一致。"
+    }
+  ],
+  "corrections": {
+    "source_perspectives": "该来源将关键选择定位为人物成长线「四步公式」中的第四步，强调其在结构上承接试错挣扎、引领最终和解的枢纽作用。分析侧重情感重量与道德考量的双重维度，并以《黑暗荣耀》文东恩的具体决策为核心案例，详细拆解选择如何将「复仇执念」转化为「自我救赎」，体现出对人物内在逻辑的精细化操作取向。"
+  },
+  "costUsd": 0
+}

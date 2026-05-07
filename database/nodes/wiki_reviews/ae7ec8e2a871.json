@@ -1,0 +1,18 @@
+{
+  "conceptId": "ae7ec8e2a871",
+  "canonical_zh": "净化",
+  "reviewedAt": "2026-05-06T11:36:40.326Z",
+  "verdict": "issues_found",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将剧名译为《俄狄浦斯王》，而证据原文使用的是《奥狄浦斯王》。两者均为 Oedipus Rex 的中文译名，但与证据来源不一致，如需引用该书原文时应保持一致。",
+      "suggestion": "与来源保持一致，统一使用《奥狄浦斯王》，或在括号内注明两种译名并存。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

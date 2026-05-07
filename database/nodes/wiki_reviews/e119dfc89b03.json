@@ -1,0 +1,25 @@
+{
+  "conceptId": "e119dfc89b03",
+  "canonical_zh": "脸谱",
+  "reviewedAt": "2026-05-05T17:54:32.326Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "missing",
+      "severity": "low",
+      "description": "定义部分提到「象征」手法，但原文明确是「夸张和象征的手法，把角色的品类、身份模写在脸上」，条目将「品类、身份」扩展为「品类、身份、性情」，原文此处未列「性情」（性情在功能部分单独说明）。虽无大误，但略有扩展。",
+      "suggestion": "定义中可保留「性情」，但可注明该信息来自功能描述，或直接引用原文措辞「品类、身份」"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文「蓝色妖异，桀骜不驯」，条目写为「蓝色暗示妖异桀骜」，省略了「不驯」二字，语义略有压缩但不构成误译。",
+      "suggestion": "可补全为「妖异桀骜不驯」以忠实原文"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

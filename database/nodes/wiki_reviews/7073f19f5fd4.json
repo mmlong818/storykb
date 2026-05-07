@@ -1,0 +1,32 @@
+{
+  "conceptId": "7073f19f5fd4",
+  "canonical_zh": "情感递进脉络",
+  "reviewedAt": "2026-05-05T08:52:29.866Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据第二段末尾包含「父子情感递进」案例：儿子因父亲反对追求音乐梦想而离家出走，地震后父亲冲进废墟徒手挖掘营救，体现「灾难前矛盾+灾难中守护=情感和解」的完整递进。条目 examples 列举了5个案例，未纳入此案例。",
+      "suggestion": "可在 examples 末尾补充第6个案例：父子音乐梦想矛盾→地震废墟守护→情感和解，以更全面呈现证据中的递进类型。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「同学情谊递进」案例明确提到男生「主动借她课本」是关系起步的第一步，条目仅从「分组做项目」开始描述，省略了这一初始触发行为。",
+      "suggestion": "可在案例描述中补充「男生主动借课本」作为陌生关系破冰的起点，使递进链条更完整。"
+    },
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目使用「专程为女儿准备的发箍」，证据原文为「特意买了女儿喜欢的卡通发箍，放在抽屉里准备给她惊喜」。「专程」含义偏向「特地跑一趟」，而原文强调的是「特意挑选+藏起来惊喜」的情感细节，语义略有偏差。",
+      "suggestion": "改为「特意为女儿挑选的卡通发箍」更贴近原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

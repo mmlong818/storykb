@@ -1,0 +1,32 @@
+{
+  "conceptId": "75a97cbbb5b6",
+  "canonical_zh": "形象系统",
+  "reviewedAt": "2026-05-05T01:30:42.627Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "证据原文为「一个人文维——建筑物、机器、艺术」，条目将「艺术」扩写为「艺术作品」，改变了原文的措辞。",
+      "suggestion": "将「艺术作品」改回「艺术」以保持与原文一致"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "《遮蔽的天空》的主题在证据中描述为「枯燥乏味，一种令人绝望的无意义——也就是人们过去所说的那种存在危机」，条目将其简化为「存在危机式的内心苦难」，「内心苦难」带有痛苦色彩，原文更强调「无意义感/枯燥乏味」这一存在主义维度，语义有偏移。",
+      "suggestion": "改为「影片主题是一种令人绝望的无意义感——即存在危机」，更贴近原文"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中麦基列举了三个「露骨处理象征」的具体案例：《海角惊魂》《吸血僵尸惊情四百年》《钢琴课》，条目pitfalls部分未提及这些具体反例，仅保留了《维莉迪安娜》。这些案例是麦基论证「象征外露」危害的重要例证。",
+      "suggestion": "可在第2条「象征外露」中补充：「麦基另举《海角惊魂》《吸血僵尸惊情四百年》《钢琴课》为同类反例」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

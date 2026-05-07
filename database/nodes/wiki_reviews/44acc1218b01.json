@@ -1,0 +1,18 @@
+{
+  "conceptId": "44acc1218b01",
+  "canonical_zh": "低落结局",
+  "reviewedAt": "2026-05-04T21:02:10.925Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目对《与陌生人共舞》的描述基本准确，但原文明确说明「阶级问题已经被无数对恋人所克服」，暗示阶级并非深层冲突根源，条目未体现这一层递进逻辑。",
+      "suggestion": "可补充「尽管表面看似阶级冲突，但深层在于互相占有的欲望」这一麦基的具体分析角度。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

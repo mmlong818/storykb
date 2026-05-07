@@ -1,0 +1,25 @@
+{
+  "conceptId": "098c60aadbca",
+  "canonical_zh": "人生重大事件",
+  "reviewedAt": "2026-05-05T08:16:21.814Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目称该概念「被置于家庭出身、热情与渴望、爱的语言、天赋才能等人物核心要素之后」，原文还提到「家中的排行」，条目未列出此项，但影响不大。",
+      "suggestion": "可在列举要素时加入「家中的排行」以完整还原原文枚举"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文提到好事类重大事件包括「赢得彩票大奖或变身为电影明星」，条目examples节未体现电影明星案例，仅在applications节提到「彩票中奖、突然成名」，两处描述略有不均。",
+      "suggestion": "可在examples节或applications节保持一致，原文是「赢得彩票大奖或变身为电影明星」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

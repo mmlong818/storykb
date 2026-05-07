@@ -1,0 +1,25 @@
+{
+  "conceptId": "cd93ed608ee6",
+  "canonical_zh": "环境戏剧",
+  "reviewedAt": "2026-05-06T00:01:21.860Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目examples中引用了「造成裹挟互动之势，效果很好」并用引号包裹，但原文并无此引号内文字完全对应的原句——原文是「造成裹挟互动之势，效果很好」，核查吻合，无问题。但条目中未提及该段在原文中明确属于「实验性质」的舞台，而非与环境戏剧并列的正式形态，可能给读者造成等同印象。",
+      "suggestion": "可补充说明熊佛西定县实验被原文归类为「实验性质」的舞台形式，以与正文语境保持一致。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文《戏剧艺术十五讲》明确指出这类演出形式「随机性强，舞台和演区都不固定，做实验可以，却很难成为主流形态」，并补充「如果没有这些实验，人类的戏剧艺术也许就不会像今天这样丰富多彩……其价值是不能简单否定的」。条目在pitfalls中有所体现，但origins段未交代这一整体定性背景。",
+      "suggestion": "origins无需修改，pitfalls已覆盖，低优先级。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "a8411f1e8882",
+  "canonical_zh": "西部片",
+  "reviewedAt": "2026-05-04T21:42:13.113Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「直接导致该类型进入约二十年的休眠」，原文麦基为「当梅尔·布鲁克斯的《神枪小子》暴露了西部片的法西斯主义心态时，这一类型实际上便进入了一个长达二十年的休眠期」。原文用「实际上便进入」，语气为描述性伴随关系；条目「直接导致」将其强化为明确因果，略微过度。",
+      "suggestion": "改为「使该类型实际上进入了长达约二十年的休眠期」，与原文语气更贴近。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "「电影类型与类型电影」证据中提及伍德罗·威尔逊（Woodrow Wilson）名字，暗示其政治氛围亦与类型生成有关，条目未作任何呈现。证据文字虽因OCR损坏难以确认具体论述，但该名字确实出现在证据段落中。",
+      "suggestion": "可在origins末尾酌情补充「部分来源亦将威尔逊时代的政治氛围纳入西部片生成语境」，或保持现状（因证据文字损坏，无法确认具体论点，不补也合理）。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

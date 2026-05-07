@@ -1,0 +1,25 @@
+{
+  "conceptId": "aa2536574df1",
+  "canonical_zh": "人设塑造",
+  "reviewedAt": "2026-05-05T13:35:43.809Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据「灾难片创作公式与实操」中「失去与成长」示例明确提到「在志愿者的帮助下」女孩才开始参与重建，条目将此细节省略，略微弱化了外部推动力的作用。",
+      "suggestion": "可在例3中补充「在志愿者帮助下」作为转变触发点，更贴近原文。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据「灾难片创作公式与实操」中提及「英雄式救援者人设」（专业能力＋责任担当＋个人软肋）作为独立人设类型，条目components未涵盖「软肋/缺陷」作为人设要素。",
+      "suggestion": "可在components中补充「反差特质/个人软肋」作为可选要素，丰富框架完整性。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

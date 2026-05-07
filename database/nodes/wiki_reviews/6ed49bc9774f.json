@@ -1,0 +1,25 @@
+{
+  "conceptId": "6ed49bc9774f",
+  "canonical_zh": "段落",
+  "reviewedAt": "2026-05-04T21:16:09.344Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中欧纳斯特·莱曼的作品列表还包括《家庭计划》（Family Plot），条目仅写「《西北偏北》《音乐之声》等片」，用「等片」隐去了第三部，信息轻微缺失但不构成错误。",
+      "suggestion": "可改为「《西北偏北》《音乐之声》《家庭计划》等片」以完整呈现证据内容。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将 Diane Keaton 译为「黛安·基顿」，而证据原文使用「狄安娜·基顿」。两者均是常见译名，但与同一来源文本不一致，可能引起混淆。",
+      "suggestion": "统一使用证据来源中出现的译名「狄安娜·基顿」，或在首次出现时注明两种译名。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

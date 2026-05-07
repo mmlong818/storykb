@@ -1,0 +1,34 @@
+{
+  "conceptId": "6355fa2bfda9",
+  "canonical_zh": "创作性表达",
+  "reviewedAt": "2026-05-06T12:45:02.685Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "high",
+      "description": "条目将来源标注为麦基的《故事》，但证据来源标题明确为「3、剧本-罗伯特麦基」，即《剧本》而非《故事》。这是两部不同著作，《故事》（Story）与《剧本》（Screenplay）是麦基不同的作品。原文中未出现「故事」书名。",
+      "suggestion": "将「罗伯特·麦基的《故事》」改为「罗伯特·麦基的《剧本》」"
+    },
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将贝斯手的乐器描述为「贝斯手用马尾摩擦羊肠」，但原文「马鬃」与「马尾」在原文中均有出现（「他用马鬃摩擦羊肠」），条目在components中只写「马尾」，在examples中补充了「马鬃」，两处表述不一致，虽均出现于原文，但前后小节用词未统一。",
+      "suggestion": "components与examples统一使用「马尾（马鬃）」或单一表述"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「原理52」（权威人士拒绝学习新知）是麦基通过童年「大提琴/低音提琴」命名事件引出的，这段个人成长经历在条目中仅被笼统概括为「个人成长经历」，未体现该具体事件对「创作性表达」原理推导的铺垫作用。",
+      "suggestion": "可在origins中简要提及童年乐器命名故事作为原理引出的背景，完整呈现麦基的论证脉络"
+    }
+  ],
+  "corrections": {
+    "origins": "该概念在罗伯特·麦基的《剧本》（剧本写作理论著作）中作为写作原理被系统阐述。麦基通过个人成长经历与对音乐、体育等艺术形式的类比，将创作性表达界定为所有艺术实践的共同底色。"
+  },
+  "costUsd": 0
+}

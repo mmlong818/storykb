@@ -1,0 +1,18 @@
+{
+  "conceptId": "e338ec27ad44",
+  "canonical_zh": "创伤溯源",
+  "reviewedAt": "2026-05-05T18:07:13.524Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据明确说明体系共有35个公式，覆盖「氛围铺垫、复仇推进、冲突升级、人设塑造」四大维度，条目仅提及「氛围铺垫类十个公式」而未说明总量35个及四大维度全貌，信息不完整但不影响本条目主题。",
+      "suggestion": "可在origins中补充「属于35个核心公式体系中氛围铺垫维度的首个公式，体系覆盖氛围铺垫、复仇推进、冲突升级、人设塑造四大维度」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

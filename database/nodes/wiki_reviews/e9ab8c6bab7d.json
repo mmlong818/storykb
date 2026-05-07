@@ -1,0 +1,18 @@
+{
+  "conceptId": "e9ab8c6bab7d",
+  "canonical_zh": "换位思考",
+  "reviewedAt": "2026-05-05T23:12:59.820Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「温情题材」来源明确列举了「邻里小纠纷+互相体谅」和「朋友间小误会+主动沟通」两种场景，条目applications仅提及职场与人际冲突，未覆盖邻里和朋友场景，略有遗漏，但这属于细节层面的取舍，不影响整体准确性。",
+      "suggestion": "可在第3点补充「邻里纠纷与朋友误会」等场景，或说明温情题材中换位思考适用于各类日常人际摩擦。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

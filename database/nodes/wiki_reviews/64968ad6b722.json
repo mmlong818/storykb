@@ -1,0 +1,25 @@
+{
+  "conceptId": "64968ad6b722",
+  "canonical_zh": "对立观点",
+  "reviewedAt": "2026-05-05T12:53:30.598Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到约翰·契弗（John Cheever）的引言，谈论人物不受作者控制的问题，条目origins和其他章节均未提及。该引言虽非核心论点，但属于证据中出现的具名引用。",
+      "suggestion": "可在mechanism或pitfalls章节中补充约翰·契弗的观点，或在origins中注明该书援引了多位作家的洞见。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中明确提到「罗伊诉韦德」案作为堕胎议题不可调和性的具体例证，条目applications章节虽列出堕胎等议题，但未提及该案例。属于细节遗漏，影响较小。",
+      "suggestion": "可选择性补充，不影响整体准确性。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

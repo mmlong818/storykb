@@ -1,0 +1,39 @@
+{
+  "conceptId": "a1540cac0936",
+  "canonical_zh": "邪典电影",
+  "reviewedAt": "2026-05-04T21:37:31.436Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据第一段提到安东尼·曼（Anthony Mann）作为B级片转型A级片的代表性导演案例，以及唐·西格尔（Don Siegel）在50年代B级片中的地位，条目在梳理B级片向邪典电影演化路径时完全略去这些具体导演案例，使历史脉络较为空泛。",
+      "suggestion": "可在origins节补充「部分B级片导演如安东尼·曼、唐·西格尔在低成本制作中积累了个人风格，为后来邪典导演崇拜的形成奠定先例」以增强史料支撑。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据第二段出现「（         , 1958 ）」的括号格式，与周边案例（Reservoir Dogs 1992、Face/Off 1997、Star Wars 1977）并列，暗示1958年有一部影片被作者提及作为例证，但因文字OCR严重损毁无法辨认片名。条目examples节未作任何说明，亦未标注该处证据不完整。",
+      "suggestion": "可在examples末尾注明「证据原文另有一部1958年影片被列为相关案例，因原始文本损毁无法核实片名，暂不收录」，避免给读者造成证据已被完整引用的误解。"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将《落水狗》定性为「被视为具有邪典气质的作品」，证据原文表述为昆汀·塔伦蒂诺凭借该片确立了cult figure地位，侧重点在于导演本人成为崇拜对象，而非影片本身被归类为邪典电影。措辞偏移虽轻微，但存在语义滑动。",
+      "suggestion": "改为「昆汀·塔伦蒂诺凭借《落水狗》（1992）建立起cult figure地位，该片被视为其个人崇拜现象的起点」，与证据原意更吻合。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目称「『奇异』的先入印象源于邪典影片倾向于直接呈现残酷场景」，证据韩文原文为「잔혹한 장면들을 그대로 보여줌으로써 컬트 영화는 이상한 영화라는 선입견을 갖게 하였다」，直译为「通过原样展现残酷场景，使人对邪典电影产生『奇怪电影』的先入之见」。条目将「이상한（奇怪的）」译作「奇异」，语义偏文艺化，略失贬义色彩，但不构成严重误译。",
+      "suggestion": "「奇异」可改为「奇怪」或「怪异」，更贴近原文带有轻微负面含义的「이상한」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

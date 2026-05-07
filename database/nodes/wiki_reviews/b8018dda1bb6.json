@@ -1,0 +1,18 @@
+{
+  "conceptId": "b8018dda1bb6",
+  "canonical_zh": "讽刺喜剧",
+  "reviewedAt": "2026-05-05T23:05:18.256Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中还提到了美国戏剧家布罗凯特（Oscar G. Brockett，1923—）及其《世界戏剧艺术欣赏——世界戏剧史》中的三分法（情景喜剧、人物喜剧、思想喜剧），条目origins部分仅介绍尼柯尔的六分法，未提及布罗凯特的分类作为对照。不过该信息属于补充背景，非核心内容。",
+      "suggestion": "可在origins中简要提及布罗凯特的分类体系作为对照，以更完整呈现证据内容，但非必须。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "900911c8a7be",
+  "canonical_zh": "权力曲线图",
+  "reviewedAt": "2026-05-05T13:25:54.946Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到犹大「被禁锢在一艘罗马舰船上长达三年之久」，条目未提及这一时间细节，略有信息丢失，但属次要细节。",
+      "suggestion": "可在转机事件描述中补充「被囚三年后」以增加准确性。"
+    },
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将原文「澄清故事脉络中的道德因素」作为引用，但原文语境是「通常，我们会通过澄清故事脉络中的道德因素而达到此目的（激发读者同情心）」，条目中将其表述为「证据中以…来实现这一效果」略显生硬，但不构成实质曲解。",
+      "suggestion": "改为「原文指出，通过澄清道德因素来激发同情心」表述更自然。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "3bb43aabf394",
+  "canonical_zh": "人物心路历程",
+  "reviewedAt": "2026-05-05T18:51:20.607Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「她做出选择」（固定用女性代词），但原文证据中既用「她」也用「他」，代词随例子变化，并非特指女性角色。",
+      "suggestion": "将「她做出选择」改为「主人公做出选择」以保持中性表述"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

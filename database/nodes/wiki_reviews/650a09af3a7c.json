@@ -1,0 +1,25 @@
+{
+  "conceptId": "650a09af3a7c",
+  "canonical_zh": "主题",
+  "reviewedAt": "2026-05-05T03:40:34.466Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目在「基本动作」后附注英文「(basic action)」，但证据原文（编剧步步为营）中仅使用中文术语「基本动作」，未出现对应英文括注。",
+      "suggestion": "删除括号内的英文「basic action」，或保留但注明系编者添加的对照术语。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据《解构故事》原文明确写出观众从《未生》中自行领悟的是「努力与坚持的意义」，但mechanism段落仅写「让观众在跟随主角经历困境时自行领悟」，未点出这一具体表述。",
+      "suggestion": "可补充「让观众在跟随主角经历职场困境时，自行领悟努力与坚持的意义」，与原文更吻合。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "658504de6e66",
+  "canonical_zh": "道具隐喻",
+  "reviewedAt": "2026-05-04T17:19:28.093Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「当年反派殴打父亲时留下的划痕」概括为「钢笔上的划痕所记录的暴力时刻」，「暴力时刻」属于轻度抽象化表述，原文更具体为「反派殴打父亲」这一特定施害事件，而非泛指暴力。虽不构成误导，但削弱了原文的具体性。",
+      "suggestion": "可改为「钢笔上的划痕所记录的反派施暴时刻」或直接保留「当年反派殴打父亲时留下的划痕」以贴近原文。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

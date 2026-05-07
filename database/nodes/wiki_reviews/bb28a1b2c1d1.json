@@ -1,0 +1,25 @@
+{
+  "conceptId": "bb28a1b2c1d1",
+  "canonical_zh": "人物同情",
+  "reviewedAt": "2026-05-05T23:51:00.866Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据中明确以「阿尔奇·邦克」（诺曼·李尔《全家福》）作为人物同情的典型案例，详细阐述了「尽管我们憎恨偏执，但我们还是渐渐喜欢上了这个偏执的人」及其机制——观众透过阿尔奇的行为看见自身的偏见，产生同情与包容。该案例在条目的 examples 和 applications 段均未出现。",
+      "suggestion": "在 examples 段补充阿尔奇·邦克案例：他固执偏见且不太聪明，但观众因在他身上照见自身偏见而产生同情，体现了「普通人性弱点」这一同情机制的另一维度。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目将「将同情等同于道德认同」列为一个独立的常见误区，但证据原文中并无对应的明确表述，该观点系编写者自行归纳推断，并非来自麦基原文。",
+      "suggestion": "将此条标注为「编者归纳」，或删除，以避免与证据范围不符。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

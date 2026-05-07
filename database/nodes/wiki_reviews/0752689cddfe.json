@@ -1,0 +1,41 @@
+{
+  "conceptId": "0752689cddfe",
+  "canonical_zh": "配角",
+  "reviewedAt": "2026-05-05T03:00:01.354Z",
+  "verdict": "issues_found",
+  "score": 6,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "high",
+      "description": "证据来源标题「专业术语자」末尾含韩文字符「자」，条目中 source_perspectives 和 evidence 的 sourceTitle 字段均保留了该韩文字符，属于韩文混入问题。",
+      "suggestion": "将 sourceTitle 统一改为「专业术语」，去除末尾韩文字符「자」。"
+    },
+    {
+      "section": "definition",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "原文韩文为「주연급보다 매력과 명성이 덜한 영화에서의 조역」，直译为「在电影中魅力与名声不及主演级别的配角」。条目将「매력（魅力/吸引力）」译为「知名度与吸引力」，加入了「知名度」一词，而原文仅为「매력（魅力）과 명성（名声）」，即魅力与名声两个维度，条目将「명성」译作「知名度」尚可接受，但将「매력」与「知名度」并列表述与原文语序略有出入，整体仍在可接受范围内，但「知名度与吸引力」的顺序与原文「매력과 명성」（吸引力与名声）相反。",
+      "suggestion": "调整为「吸引力与名声低于主演级别的次要角色」，更贴近原文语序。"
+    },
+    {
+      "section": "mechanism",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目 mechanism 节称「配角通过在剧情中扮演辅助角色来推动叙事」，但原文证据仅定义了配角的地位对比（魅力与名声不及主演），并未提及「推动叙事」的功能性描述。「推动叙事」属于对原文无依据的延伸。",
+      "suggestion": "删除「推动叙事」的表述，改为「配角在电影中以辅助功能为主，其吸引力与名声不及主演级别」。"
+    },
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称配角概念「常用于制作、选角及片单分工等实际操作场景」，但证据仅为词典简明定义，未涉及任何实际应用场景，此内容无证据支撑。",
+      "suggestion": "删除具体应用场景列举，改为「配角是区分主演与次要演员层级的基本电影术语」。"
+    }
+  ],
+  "corrections": {
+    "definition": "配角（Character Roles）指电影中吸引力与名声不及主演级别的次要角色扮演者。配角在叙事中承担辅助功能，为主角的故事线提供支撑，但其本身的明星效应与商业号召力相对有限。"
+  },
+  "costUsd": 0
+}

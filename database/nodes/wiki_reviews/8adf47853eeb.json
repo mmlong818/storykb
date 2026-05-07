@@ -1,0 +1,18 @@
+{
+  "conceptId": "8adf47853eeb",
+  "canonical_zh": "反讽结局",
+  "reviewedAt": "2026-05-04T21:24:48.897Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将第二个案例主人公称为「索菲」，证据原文为「索菲太太」，丢失了称谓信息，细节轻微不准确。",
+      "suggestion": "将「索菲」改为「索菲太太」以与原文一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

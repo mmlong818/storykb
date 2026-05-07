@@ -1,0 +1,25 @@
+{
+  "conceptId": "41a423edc0ad",
+  "canonical_zh": "娱乐",
+  "reviewedAt": "2026-05-06T04:06:44.801Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称词根来自「缠绕」（intertwine），但原文拼写为「interwine」（原书如此）。此处条目用了标准拼写，问题不大，但原文确实写的是「interwine」而非「intertwine」。",
+      "suggestion": "保持原文拼写或加注说明，无需强行修正"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称「麦基还以莎士比亚的《麦克白》为例，指出其中包含……以此反驳制片人布洛柯里将《麦克白》与'娱乐'对立的错误认知」。原文中布洛柯里的说法是「他完全明白他的007电影不是《麦克白》，而只是娱乐」——即布洛柯里是将《麦克白》置于「娱乐」之上，而非将两者对立。条目表述「将《麦克白》与娱乐对立」基本准确，但「错误认知」的归因稍显简化，原文语气是布洛柯里贬低了娱乐一词，而非贬低《麦克白》。",
+      "suggestion": "可改为：「以此反驳布洛柯里将007电影定性为'只是娱乐'、暗示《麦克白》超越娱乐的错误预设」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,18 @@
+{
+  "conceptId": "00e8b5c223db",
+  "canonical_zh": "动作点",
+  "reviewedAt": "2026-05-05T02:55:09.656Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "证据原文中人物名为「贝尔」，条目中统一写成「贝儿」。虽是同一角色的不同译法，但与证据来源用字不一致。",
+      "suggestion": "统一使用证据原文的「贝尔」，或在首次出现时注明两种译名并存"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,39 @@
+{
+  "conceptId": "614311e90c6e",
+  "canonical_zh": "人物塑造",
+  "reviewedAt": "2026-05-05T19:02:06.641Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将「被裁员的中年程序员」例子归入examples段，并标注「来自「编剧写作练习」一句话故事训练」，这是准确的。但条目在examples中称其展示「主角处境与内在欲望完成人物定位」——而证据原文该例子属于「创意与灵感类练习（解决没想法）」中的「一句话故事训练」，目的是「锻炼提炼故事核心的能力，避免情节散乱」，并非人物塑造类练习。将其作为人物塑造的典型例子存在归类误导。",
+      "suggestion": "将该例子移至applications或说明其为创意练习的延伸示例，或补充说明其原本属于创意类练习，仅作结构说明用途"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins字段为空，但这并非问题——证据本身未提供历史起源信息，留空是合理处理。",
+      "suggestion": "可保持为空，或标注「证据未涉及历史起源」"
+    },
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "applications第3点写「情节先行型写作者需主动补足人物塑造能力，才能使作品「唱起来」」。证据原文是「每一位小说家都可以因为实现完美人物和精彩情节之间的平衡而成为更优秀的小说家。那个时候，你的小说就真正被「唱起来」了。」——「唱起来」是对两者平衡后的描述，并非专指情节先行型写作者的结果。条目缩小了适用范围，产生了方向性偏差。",
+      "suggestion": "改为「当人物塑造与情节构建达到平衡时，作品才能真正『唱起来』——这是所有写作者的目标，情节先行型写作者尤需主动补足人物塑造能力」"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "components第3点「存在可操作的人物塑造系统，不同于零散技巧的积累，强调方法论层面的完整性」——证据原文是「我有我关于人物塑造的系统方法，和别的书或你知道的方法不太一样」，这是作者个人声明，并非对系统方法内容的描述。条目将其抽象为一个独立构成要素略显牵强，但无严重失实。",
+      "suggestion": "可改为在source_perspectives中体现，而非作为components的独立要素"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

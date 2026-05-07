@@ -1,0 +1,32 @@
+{
+  "conceptId": "51d8cb719744",
+  "canonical_zh": "假结尾",
+  "reviewedAt": "2026-05-04T21:05:40.647Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《迷魂记》条目中写「随后她以另一名字重新出现」，原文明确指出是「以朱迪的名义重新出现」，省略了具体名字。",
+      "suggestion": "将「随后她以另一名字重新出现」改为「随后她以朱迪的名义重新出现」"
+    },
+    {
+      "section": "applications",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将希区柯克的早置假结尾效果描述为「制造震惊和类型转换效果」，但原文只说「为了达到震惊效果甚至不顾常规地把它放在很早的地方」，「类型转换」是针对《惊魂记》具体案例的描述，并非麦基对希区柯克早置假结尾的通论性概括。",
+      "suggestion": "删去「和类型转换效果」，保留「以制造震惊效果」；或将类型转换的说明移至《惊魂记》具体案例处"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《惊魂记》的描述简化为「类型与主人公的双重转换」，原文明确说明类型从「罪行片」转换为「精神分析惊险片」，主人公从玛丽昂转换为「由死者的妹妹、恋人和私人侦探构成的复合主人公」。细节有所丢失，但不影响核心准确性。",
+      "suggestion": "可酌情补充：「类型从罪行片转为精神分析惊险片，主人公亦由玛丽昂转为复合主人公」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

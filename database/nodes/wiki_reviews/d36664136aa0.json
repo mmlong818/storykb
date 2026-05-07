@@ -1,0 +1,39 @@
+{
+  "conceptId": "d36664136aa0",
+  "canonical_zh": "话剧",
+  "reviewedAt": "2026-05-05T23:54:53.466Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称日本同类剧种称「科白剧」，并「也曾以『正剧』称呼西方传入的莎士比亚演出」，暗示「科白剧」和「正剧」是并列的两个日本称谓。但证据原文说的是：以演员动作与对话为主干的戏剧「在日本叫『科白剧』」，「正剧」只是1903年上演《奥赛罗》时广告上标榜的称法，并非日本对该剧种的通行称谓。条目将两者并列叙述，易造成「正剧」是日本对话剧的固定称谓这一误解。",
+      "suggestion": "修改为：日本同类剧种称「科白剧」；1903年上演莎士比亚《奥赛罗》时，广告标榜为「正剧」，言下之意是「这才是真正的戏剧」，是话剧形态的早期实践之一。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据提到日本「新剧」时期影响最大的剧作家是武者小路实笃、秋田雨雀（1883—1962）与菊池宽（1889—1948）三人，但条目examples节只提到武者小路实笃，遗漏了秋田雨雀和菊池宽。",
+      "suggestion": "在examples中补充：「此外，秋田雨雀（1883—1962）与菊池宽（1889—1948）也是这一时期影响深远的重要剧作家。」"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称武者小路实笃代表作为《他的妹妹》，证据原文同时列举了《他的妹妹》与《一个青年的梦》两部作品，条目仅取其一，虽非错误，但略显不完整。严格说不构成幻觉，仅为遗漏，severity定low。",
+      "suggestion": "可补充《一个青年的梦》作为并列代表作。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到中国早期对drama的称呼包括「戏曲」，但条目origins节列举的称法为「戏剧」「新剧」「新戏」「新派演艺」，漏掉了「戏曲」这一称法。",
+      "suggestion": "在origins的称法列表中补入「戏曲」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

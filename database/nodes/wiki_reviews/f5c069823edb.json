@@ -1,0 +1,25 @@
+{
+  "conceptId": "f5c069823edb",
+  "canonical_zh": "旁白/画外音",
+  "reviewedAt": "2026-05-05T02:52:35.872Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《我的婚礼》旁白原文「大学时是윤근이哥，那时是민경」，条目译作「大学时是允根哥，那时是民京」，翻译基本准确，但「민경(民京)」在条目中写作「民京」，而非更常见的「闵京」，属轻微翻译选择问题，不构成实质错误。",
+      "suggestion": "可保持现状，或注明原文人名以备参考。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《神之一手》还有第三条旁白「난다 긴다 하는 놈들. 최하 사범급들은 돼（厉害的人物，最低也是教练级别）」以及第四条「한 달 만에 10억이 털렸어（一个月被卷走10亿）」，条目examples仅引用了前两条旁白，未涵盖全部旁白片段，但这不影响概念的说明，属轻微遗漏。",
+      "suggestion": "如需更全面展示，可补充第三、四条旁白示例，但现有引用已足够说明概念。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

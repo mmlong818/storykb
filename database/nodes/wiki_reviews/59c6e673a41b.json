@@ -1,0 +1,18 @@
+{
+  "conceptId": "59c6e673a41b",
+  "canonical_zh": "立体反派",
+  "reviewedAt": "2026-05-06T05:52:40.154Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称「全在俊等角色通过深层次的心理变化描绘」，原文证据仅提到「朴妍珍、全在俊等角色」构建了令人憎恨的反派，并探讨了「个体在恶劣环境下的心理变化」，并未单独强调全在俊的心理变化描绘，措辞略有过度解读。",
+      "suggestion": "将「全在俊等角色通过深层次的心理变化描绘」改为「朴妍珍、全在俊等角色的深层次描绘」，与原文保持一致"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

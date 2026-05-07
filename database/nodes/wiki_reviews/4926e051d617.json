@@ -1,0 +1,25 @@
+{
+  "conceptId": "4926e051d617",
+  "canonical_zh": "五部分结构",
+  "reviewedAt": "2026-05-06T05:42:18.859Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到结局有「三种可能的用途」，条目仅提及其一（处理次情节收尾场景），未说明另外两种用途，但证据本身也未列出另两种，属证据范围内的合理省略。",
+      "suggestion": "可在applications或components中注明「结局共有三种用途，证据仅展开论述了其一」，避免读者误以为已穷举。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中《妙亲家与俏冤家》编剧署名为「安德鲁·伯格曼」，条目examples节括号内已正确标注，但applications节写为「安德鲁·伯格曼」，两处一致，无误。另外，证据中文森特·里卡多扮演者为「彼得·福克」，谢尔登由「艾伦·阿金」饰演，条目未提及演员姓名，属合理省略而非遗漏。",
+      "suggestion": "无需修改，仅供参考。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

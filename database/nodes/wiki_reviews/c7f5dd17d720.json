@@ -1,0 +1,18 @@
+{
+  "conceptId": "c7f5dd17d720",
+  "canonical_zh": "光圈开合",
+  "reviewedAt": "2026-05-06T05:25:16.189Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "diagnostics",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目中提及「圆形黑边」这一视觉细节，但证据原文（아이리스 인·아웃 条目）仅描述「열어주는 것이 인, 닫는 것이 아웃으로 씬이나 시퀀스를 시작하고 끝낸다」，即「打开为开、关闭为合，用于场景或段落的开始与结束」，并未涉及「圆形」或「黑边」的具体外观描述。",
+      "suggestion": "将「从圆形黑边向内扩展」改为「画面亮部区域逐渐扩大至全画幅」，或删去对圆形外观的具体描述，以免超出证据范围。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

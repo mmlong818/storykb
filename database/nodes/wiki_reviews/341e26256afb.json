@@ -1,0 +1,18 @@
+{
+  "conceptId": "341e26256afb",
+  "canonical_zh": "辅助语言",
+  "reviewedAt": "2026-05-05T08:35:54.424Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文为「闻着女子从头到胯到脚的味道」，条目改写为「闻着女子从头到脚的气息」，省略了「到胯」这一关键细节。「胯」字正是这场引诱戏情色张力的核心所在，删去后使场景的挑逗性大幅削弱，与伯格曼原意不符。",
+      "suggestion": "恢复「到胯」，改为「闻着女子从头到胯到脚的气息（原文：味道）」，以还原场景的情色层次"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

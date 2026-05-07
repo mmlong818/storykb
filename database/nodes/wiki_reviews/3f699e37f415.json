@@ -1,0 +1,25 @@
+{
+  "conceptId": "3f699e37f415",
+  "canonical_zh": "故事手艺",
+  "reviewedAt": "2026-05-04T20:57:44.314Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目未提及女同事名字「海伦」（Helen），原文有明确引用：「上帝，没错，海伦，我那帮孩子也是这样。」虽非关键信息，但属于原文细节。",
+      "suggestion": "可在examples中提及「海伦」这一细节，增加还原度，但非必要。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文明确区分「故事天才是首要的，文学天才是次要的」，且指出该原则对电影、电视是「绝对的」，对戏剧和小说也比大多数人愿意承认的重要得多。条目origins未体现这一媒介层级差异。",
+      "suggestion": "可在origins中补充麦基对不同叙事媒介（影视vs文学）中故事手艺重要性的差异表述。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

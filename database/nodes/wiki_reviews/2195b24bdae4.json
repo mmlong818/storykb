@@ -1,0 +1,25 @@
+{
+  "conceptId": "2195b24bdae4",
+  "canonical_zh": "救赎情节",
+  "reviewedAt": "2026-05-06T12:56:14.227Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提到「简单设计」与「复杂设计」的区分来自亚里士多德，条目在components第4点仅说「通常属于复杂设计」，但未说明简单设计同样在理论上存在。这是轻微遗漏，不影响准确性。",
+      "suggestion": "可补充一句「虽理论上也存在简单设计，但救赎情节更常见于复杂设计」以更完整呈现原文框架。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文列举了弗里德曼勾画的具体情节类型为「教育情节、赎罪情节和幻灭情节」，条目中写为「教育情节、赎罪情节、幻灭情节等」，措辞基本一致，但原文明确是「赎罪情节」而非「救赎情节」——两者在中文语境下略有差异，条目在origins章节混用两种称谓未加说明。",
+      "suggestion": "可在origins中注明原著中弗里德曼体系使用「赎罪情节」一词，麦基将其纳入并以「救赎情节」统称。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

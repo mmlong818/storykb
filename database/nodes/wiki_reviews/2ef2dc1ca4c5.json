@@ -1,0 +1,25 @@
+{
+  "conceptId": "2ef2dc1ca4c5",
+  "canonical_zh": "解救情节",
+  "reviewedAt": "2026-05-06T12:46:21.520Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确提到解救情节「像复仇情节和诱惑情节一样，是最能打动情感的情节之一」，并说明其「通过战胜邪恶确定世界的道德秩序，让混乱的世界回归秩序，也重申了爱的力量」，条目applications节未体现这一情感感召力定位。",
+      "suggestion": "可在applications节末尾补充：解救情节与复仇、诱惑情节并列为最能打动情感的类型之一，其核心价值在于通过战胜邪恶重申爱的力量，让世界回归道德秩序。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文对《搜索者》案例的描述是「大家一直在全力解救的那个女人根本不想被解救出来……她突然离家只是想离开她的丈夫」，条目表述为「最终被发现根本不想被解救——她并非被绑架，只是想离开丈夫」，省略了「大家一直在全力解救」这一前置铺垫，略微削弱了反转的戏剧感，但无实质错误。",
+      "suggestion": "可补充「大家全力寻找」的前提，使反转感更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

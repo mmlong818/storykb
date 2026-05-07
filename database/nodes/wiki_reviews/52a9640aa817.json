@@ -1,0 +1,18 @@
+{
+  "conceptId": "52a9640aa817",
+  "canonical_zh": "人物性格真相",
+  "reviewedAt": "2026-05-06T04:11:05.683Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目将《苏菲的选择》仅描述为「麦基在注释中援引」的案例，但证据中明确指出这是威廉·斯泰伦（William Styron）于1979年出版的小说，并于1982年改编为同名电影，获奥斯卡最佳女主角奖。条目省略了作者姓名和作品年份等基本信息，虽非严重遗漏，但丰富度不足。",
+      "suggestion": "可补充「美国作家威廉·斯泰伦1979年小说」及「1982年改编为同名电影」等背景信息，使举例更具参考价值。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

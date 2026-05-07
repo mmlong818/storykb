@@ -1,0 +1,25 @@
+{
+  "conceptId": "e9f4b8aadf8f",
+  "canonical_zh": "蛇蝎美人",
+  "reviewedAt": "2026-05-05T18:02:04.035Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称「以上均在证据中有明确提及」，但《洛城机密》在证据3（韩文原文）中仅以「L A 컨 피 덴 셜」出现于被截断的文本末尾，未能确认具体角色描述，「同类型的女性角色」系推断而非证据明文。",
+      "suggestion": "将「以上均在证据中有明确提及」改为「艾娃·加德纳与《原始本能》在证据中有明确提及；《洛城机密》仅见于来源索引，具体角色细节未见于现有证据文本」"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据2（韩文）明确指出「femme fatale」这一概念是由50年代末法国《电影手册》（Cahiers du Cinéma）的评论家在将40年代初至60年代初美国B级犯罪/惊悚片归类为Film Noir时所附带界定的，条目的origins部分未提及这一术语溯源语境。",
+      "suggestion": "可在origins段补充：该术语在学术层面的系统化，源于1950年代末法国《电影手册》评论家将彼时美国黑色电影进行回溯性分类时的归纳，属后置命名而非同期创造。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

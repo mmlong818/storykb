@@ -1,0 +1,25 @@
+{
+  "conceptId": "d63a6b460c83",
+  "canonical_zh": "人物刻画",
+  "reviewedAt": "2026-05-05T23:57:58.378Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「经典情节20种」还提到了《灵欲春宵》（爱德华·阿尔比）以及关于「丝」与「埃德加」的作品，条目仅引用《猫》一例，其余未体现。",
+      "suggestion": "如需更完整地展示该书视角，可补充提及《灵欲春宵》作为同类型案例，但考虑到条目主题聚焦，省略亦可接受。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "《猫》中两位主角的名字——埃米尔（Emile）和玛格丽特（Marguerite）——在证据中明确出现，条目仅称「两位主角」未具名。",
+      "suggestion": "可将「两位主角」改为「埃米尔与玛格丽特」以与原文保持一致，增加可查性。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

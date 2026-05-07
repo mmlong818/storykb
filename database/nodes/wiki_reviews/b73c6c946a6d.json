@@ -1,0 +1,32 @@
+{
+  "conceptId": "b73c6c946a6d",
+  "canonical_zh": "剧本格式",
+  "reviewedAt": "2026-05-05T23:03:00.847Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目写道「通常一页约对应一分钟银幕时间」，但三份原始证据均未提及这一换算规则。该说法是业界常识，但在本条目所依赖的证据范围内无据可查，属于无证据支撑的内容引入。",
+      "suggestion": "删除「通常一页约对应一分钟银幕时间」这一括注，或在来源中补充该说法的出处后再保留。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "麦基证据原文明确提及「从来没有过正式规定的剧本格式。格式的不同取决于制片形式的不同：标准故事片，三台摄影机同时拍摄的同期声电视片还是纪录片」，说明格式并非铁板一块的统一标准。条目origins将格式描述为「行业共识」，未体现这一重要的差异化说明，可能给读者留下格式完全固定的误解。",
+      "suggestion": "在origins或components末尾补充：格式因制片形式（故事片、多机位电视片、纪录片等）而有所不同，并无经过正式规定的统一标准。"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目列出「角色名（Character Cue）」作为独立的格式要素，但三份原始证据均未明确提及Character Cue这一术语或将其单独列为格式组成部分。虽然这是业界通识，但超出了所提供证据的覆盖范围。",
+      "suggestion": "保留该要素，但可标注为「格式通识」而非来源于本条目所依赖的具体证据。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

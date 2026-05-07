@@ -1,0 +1,32 @@
+{
+  "conceptId": "501a5f3d041a",
+  "canonical_zh": "群像剧",
+  "reviewedAt": "2026-05-06T05:35:58.393Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文明确提到阿里「前期被张德秀欺骗」，条目中仅写「前期被欺骗」，隐去了欺骗者姓名张德秀，损失了具体性。",
+      "suggestion": "可补充「前期被张德秀欺骗」以保留原文细节。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins 章节为空，证据虽未直接提供起源信息，但作为wiki条目结构完整性而言该字段留空显得突兀。",
+      "suggestion": "可标注「证据未涉及此章节，暂留空」或直接删除该字段。"
+    },
+    {
+      "section": "diagnostics",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文总结提到「每个角色都像身边人，却又比身边人多一点戏剧魅力」这一核心效果目标，条目diagnostics与pitfalls均未体现此判断标准。",
+      "suggestion": "可在diagnostics中补充：角色是否兼具「真实感」与「戏剧魅力」作为检验标准之一。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "c224241210cf",
+  "canonical_zh": "爱的语言",
+  "reviewedAt": "2026-05-06T12:29:11.001Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "原文「修计算机、修剪草坪」被条目简化为「修东西」，虽意思相近但丢失了具体例子的质感。",
+      "suggestion": "可补充「修计算机、修剪草坪」等原文例子，使描述更贴近原文。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文提到「理解不同的爱的语言可以加强甚至是拯救情感关系」，条目origins未体现查普曼理论的实用价值定位，仅说明适用范围。",
+      "suggestion": "可在origins中补充「理论的核心价值在于帮助双方理解差异、加强甚至拯救情感关系」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

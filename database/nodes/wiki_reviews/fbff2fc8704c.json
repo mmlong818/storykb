@@ -1,0 +1,18 @@
+{
+  "conceptId": "fbff2fc8704c",
+  "canonical_zh": "导火索事件",
+  "reviewedAt": "2026-05-05T23:20:30.199Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目提到鲍曼「将车开入沟渠」是导火索事件，但证据原文更强调的是他在农家夫妇处停留时「开始留意从未留意的事情」、「忽然开始想要过一种完全不同的生活」——即导火索更偏向内在触发而非单纯的车辆事故。条目表述基本准确但略简化了这一层次。",
+      "suggestion": "可补充说明：鲍曼停留农家、羡慕夫妇生活状态才是真正触发其内在审视的节点，车辆事故只是让他到达农家的偶发契机。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

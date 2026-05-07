@@ -1,0 +1,25 @@
+{
+  "conceptId": "4a2f635c53e7",
+  "canonical_zh": "故事高潮",
+  "reviewedAt": "2026-05-05T08:44:50.752Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中《午夜惊情》明确提及演员名（阿尔·帕西诺、艾伦·巴金），《闪亮的风采》提及大卫（诺亚·泰勒）和父亲（阿明·缪勒－斯塔尔），条目未收录演员信息，但这属于编辑取舍而非错误。",
+      "suggestion": "可选择性补充演员名以增加可读性，但非必须。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中第二来源（《情节与人物》）使用了「跨河大桥」建筑隐喻来描述高潮的结构必然性，条目origins部分未提及此书对概念来源的补充视角，仅说「未见其他来源提及历史起源」，表述基本准确但可更明确说明两个来源均未追溯历史渊源。",
+      "suggestion": "可保持现状，表述无实质错误。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

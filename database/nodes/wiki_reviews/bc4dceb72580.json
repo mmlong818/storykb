@@ -1,0 +1,25 @@
+{
+  "conceptId": "bc4dceb72580",
+  "canonical_zh": "伏笔",
+  "reviewedAt": "2026-05-05T23:12:55.266Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目在《信号》案例描述中写「主角通过对讲机接近真相时」，原文为「主角通过对讲机连接到过去，逐渐接近真相时」，省略了「连接到过去」这一关键设定细节，但未构成错误，仅略有简化。",
+      "suggestion": "可补充「通过对讲机连接过去与现在，逐渐接近真相时」以还原原文完整表述。"
+    },
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "军医角色案例中，条目将角色描述为「痛恨军队生活、退役后无比高兴的医生」，原文为「军队里的医生，但是他痛恨军队生活，因此退役时他无比高兴」，表述基本一致，无误。但条目称其「展现出兰博式的反击能力」，原文为「会成为兰博的可能性」及「一个敏锐的医生突然变成了兰博」，措辞略有出入但语义相符，不构成实质问题。",
+      "suggestion": "无需修改，描述与原文语义一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

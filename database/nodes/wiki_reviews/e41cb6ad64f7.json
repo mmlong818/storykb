@@ -1,0 +1,18 @@
+{
+  "conceptId": "e41cb6ad64f7",
+  "canonical_zh": "动作类型",
+  "reviewedAt": "2026-05-06T12:57:42.464Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "pitfalls",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "原文「不要繁殖景点」对应的英文概念是「不要堆砌场景/奇观」，条目中「景点的繁殖」表述基本准确，但「退化为景点的繁殖」语义略显生硬，「景点」一词在中文语境中易被误解为旅游景点而非剧本中的「戏剧场景/奇观段落」。",
+      "suggestion": "可改为「退化为奇观场景的堆砌」以更贴近麦基原意"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

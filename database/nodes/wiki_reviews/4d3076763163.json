@@ -1,0 +1,18 @@
+{
+  "conceptId": "4d3076763163",
+  "canonical_zh": "冲突设计",
+  "reviewedAt": "2026-05-05T08:47:49.019Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据「韩国编剧独特风格背后的底层逻辑」中列举的核心情感示例包含「选择中的挣扎」，条目components节仅列举「误解后的愧疚」「跨越身份的爱情」「友情中的牺牲」，未涵盖该示例。",
+      "suggestion": "可在核心情感目标示例中补充「选择中的挣扎」作为第四个例子，以更完整地反映原始证据。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

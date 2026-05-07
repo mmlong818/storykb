@@ -1,0 +1,39 @@
+{
+  "conceptId": "2c0c126ed97d",
+  "canonical_zh": "情感共鸣",
+  "reviewedAt": "2026-05-04T20:52:14.340Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将莎士比亚悲剧译名写作「奥赛罗」，但原始证据（《戏剧艺术十五讲》）全篇统一使用「奥瑟罗」（「莎士比亚的悲剧《奥瑟罗》演到第五幕末场……正直、刚烈的猛将奥瑟罗……」）。「奥赛罗」虽是另一常见译法，与来源文本存在不一致。",
+      "suggestion": "将条目中所有「奥赛罗」统一改为「奥瑟罗」，与引用来源保持一致。"
+    },
+    {
+      "section": "origins",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "origins 节写作「莎士比亚《奥赛罗》第五幕末场」，与证据来源同样不符（来源用「奥瑟罗」）。",
+      "suggestion": "改为「莎士比亚《奥瑟罗》第五幕末场」。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据对欢乐场景的五感描写明确区分了嗅觉（「香甜的气味」）与味觉（「美味的食物」）两个独立元素，而条目在 mechanism 节将其合并为「香甜气味」，丢失了「美味的食物」这一味觉具体表述。原文：「明亮鲜艳的视觉色彩、欢快活泼的背景音乐、香甜的气味、美味的食物以及温暖的触觉」。",
+      "suggestion": "将「香甜气味」扩充为「香甜气味与美食的味觉体验」，与证据保持完整对应。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据《韩国编剧名场面设计技巧》在「引发情感共鸣」一节明确提及《我叫金三顺》（三顺对爱情的执着与勇敢引发共鸣）和《未生》（职场新人奋斗历程），但条目 examples 节未收录这两个案例。",
+      "suggestion": "可在 examples 节补充：「《我叫金三顺》中三顺对爱情的执着与勇敢，让经历过爱情的观众产生共鸣；《未生》以职场新人奋斗历程触动观众（均出自《韩国编剧名场面设计技巧》）。」"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

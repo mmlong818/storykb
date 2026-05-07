@@ -1,0 +1,25 @@
+{
+  "conceptId": "a46de433ad8d",
+  "canonical_zh": "进度",
+  "reviewedAt": "2026-05-04T21:40:09.677Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目写「先快后慢的节奏逻辑」，但原文逻辑是：奔向高潮时先缩短节奏/加快速度，到高潮时才踩刹车放慢。「先快后慢」表述无误，但未能体现这是针对「奔向高潮阶段」与「高潮场景本身」两个不同阶段的描述，容易被误读为整部影片的线性节奏。原文强调的是螺旋式积累后在高潮处延伸，而非简单的先快后慢。",
+      "suggestion": "可改为「奔向高潮阶段加速积累、高潮场景本身踩刹车延伸」的表述，更贴近原文的两阶段逻辑。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "第1条「均匀加压」的描述与原文基本一致，但原文用的是「一点一点地慢慢转动螺丝」的比喻，条目未保留这一形象性表述，语义略有损失，不影响准确性。",
+      "suggestion": "可酌情保留「螺丝」比喻以增加生动性，但非必要修改。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,25 @@
+{
+  "conceptId": "a190c3dc8bd7",
+  "canonical_zh": "正剧",
+  "reviewedAt": "2026-05-06T13:15:00.275Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提及亚里士多德《诗学》中的情感分类（怜悯、恐惧、愤怒、滑稽），以及中西哲人对情感分类各有不同角度，条目仅提及《乐记》而未提及亚里士多德的对应贡献，略显片面。",
+      "suggestion": "可在origins中补充一句：证据同时引述了古希腊亚里士多德《诗学》中的怜悯、恐惧、愤怒、滑稽等情感分类，说明东西方对情感体系的归纳具有相似性。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文提及万比洛夫《外省轶事》第一部《密特朗巴什事件》的具体内容，以及契诃夫笔下「万尼亚舅舅」向教授开枪却打不中的细节，条目未展开这些具体情节细节，但这属于对悲喜剧的举例，并非对正剧的说明，遗漏程度较低。",
+      "suggestion": "无需修改，这些细节本属悲喜剧案例，非正剧范畴，条目已正确归类。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

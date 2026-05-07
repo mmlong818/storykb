@@ -1,0 +1,25 @@
+{
+  "conceptId": "639783b03d89",
+  "canonical_zh": "黑色幽默",
+  "reviewedAt": "2026-05-06T04:15:47.425Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "origins 字段为空字符串，但证据来源本身声明「不涉及理论溯源」，属于有意留空而非遗漏关键信息。",
+      "suggestion": "可在 origins 中注明「该来源不涉及历史溯源，仅提供创作方法论」，或保持空白并在 source_perspectives 中已有说明，无需强制填充。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「重复荒诞」示例第三天乞讨者要的是「100块钱打车去相亲」，条目 examples 仅写「直接要更大金额」，省略了具体金额和理由，削弱了可感知的荒诞细节。",
+      "suggestion": "将「直接要更大金额」补充为「第三天直接要『100块钱打车去相亲』」，与证据一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

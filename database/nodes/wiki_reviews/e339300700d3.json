@@ -1,0 +1,25 @@
+{
+  "conceptId": "e339300700d3",
+  "canonical_zh": "间离方法",
+  "reviewedAt": "2026-05-05T17:54:05.770Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中列宁引文带有脚注编号[3]，说明这是一处有出处的引用，条目未说明这是引用列宁原著。条目写「证据引用了列宁的论断」，表述已较为准确，但未指出该引文在原文中作为辩证法方法论的直接支撑出现，而非仅作为哲学背景。影响较小。",
+      "suggestion": "可补充说明列宁引文在原文中是作为「认识过程自己运动」的方法论依据直接出现的，而非泛指辩证法传统。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中「将一个孕妇交给一个危害人类生存的社会制度，尽管这个社会制度坚决要让她分娩，但是我们却看见她为了消灭胎儿不让他出生而斗争着」这一悖论性图景未在条目examples部分体现，而条目仅列举了劳动者、知识界、艺术家三例。",
+      "suggestion": "可在examples中补充孕妇与社会制度这一悖论图景，使例证更完整。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

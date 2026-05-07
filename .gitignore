@@ -10,12 +10,15 @@ runtime/node/
 # Analyzer-generated content (large, regenerable)
 database/sources/
 database/chunks/
-database/nodes/
-database/queue/
 database/indexes/*.sqlite
 database/indexes/*.bin
 database/templates/_proposed.json
 database/templates/history/
+
+# Queue internals (runtime state, not needed in repo)
+database/queue/concepts/
+database/queue/wiki/in_flight/
+database/queue/wiki/raw_failed/
 
 # Legacy demo backups (keep on disk locally, do not version)
 database/kb.legacy-demo.json

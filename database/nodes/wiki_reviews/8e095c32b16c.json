@@ -1,0 +1,25 @@
+{
+  "conceptId": "8e095c32b16c",
+  "canonical_zh": "障碍",
+  "reviewedAt": "2026-05-05T01:36:01.007Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将《心灵深处的音乐》描述为「主角与社会偏见对抗，推动了立法进程」，原文仅说「男主角的对抗对《美国残障法案》的通过起到了推波助澜的作用」，并未提及「立法进程」这一措辞，但实质含义一致，属轻微表述扩展而非严重幻觉。",
+      "suggestion": "可改为「男主角与社会偏见对抗，对《美国残障法案》的通过起到推波助澜的作用」，更贴近原文"
+    },
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "components第3条「如《唐人街》中主角对恐惧的克服」——原文中提及恐惧作为情绪障碍的例子是「抢劫银行」场景（主人公克服对坐牢的恐惧），而非唐人街主角吉蒂斯。将「恐惧」障碍归因到《唐人街》是误植。",
+      "suggestion": "删除《唐人街》的括号引用，或改为「如银行劫匪须克服对坐牢的恐惧」，对应原文实际案例"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

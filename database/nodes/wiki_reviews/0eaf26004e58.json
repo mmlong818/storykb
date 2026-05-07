@@ -1,0 +1,25 @@
+{
+  "conceptId": "0eaf26004e58",
+  "canonical_zh": "追逐情节",
+  "reviewedAt": "2026-05-05T12:54:25.139Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文在描述终局时写「永远逃之夭夭」或「永远束手就擒」，并特别注明「或至少有'永远'的假象」，暗示续集可以重启追逐。条目components章节的「终局」要素未提及这一「假象」层面。",
+      "suggestion": "可在终局要素后补充：结果须给人「永远」的感觉，但续集可通过重启追逐打破这一假象。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据提到「斯蒂芬·斯皮尔伯格和乔治·卢卡斯拍摄的电影」作为动作不揭示人物内心的例子，条目examples章节未提及此内容。该信息在证据中有明确上下文，虽非核心案例，但被遗漏。",
+      "suggestion": "可在examples末尾补充注释：证据中还以斯皮尔伯格和卢卡斯的电影为例，说明追逐情节中动作纯粹为动作本身服务的现象。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

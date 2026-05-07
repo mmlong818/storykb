@@ -1,0 +1,25 @@
+{
+  "conceptId": "f9baabdcec3c",
+  "canonical_zh": "人物传记",
+  "reviewedAt": "2026-05-05T08:15:48.516Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称萨拉「1954年4月生，天羊宫」，原文确有此表述。但条目称「母亲伊丽莎白：曾是小学教师」，原文中伊丽莎白的星座为摩羯宫、父亲为天秤宫，条目未提及父母星座，属省略而非幻觉，无误。然而条目将萨拉父亲所在大学表述为隐去，但原文明确提到「波士顿大学医学院」，条目未体现这一具体细节。",
+      "suggestion": "可在examples中补充「莱昂尼尔就读于波士顿大学医学院」这一细节，以提升案例精确度。"
+    },
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文提到「如果你束手无策，那就回到你的人物之中去，看一下人物的传记」，条目applications第4点有所体现（「卡死时的参照资源」），表述准确。无严重遗漏。",
+      "suggestion": "无需修改。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

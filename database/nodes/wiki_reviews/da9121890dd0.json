@@ -1,0 +1,25 @@
+{
+  "conceptId": "da9121890dd0",
+  "canonical_zh": "身体情节",
+  "reviewedAt": "2026-05-06T00:02:25.449Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到《午夜快车》的作者为「威廉·海耶斯和威廉·霍弗所著」，条目中只写「比利·海耶斯」，未提及合著者霍弗，且原文人名为「威廉·海耶斯」，条目称「比利·海耶斯」——原文英文名Billy Hayes在证据中亦以「比利·海耶斯」出现，但书籍作者署名为「威廉·海耶斯」，两者指同一人，尚可接受。",
+      "suggestion": "可补充说明《午夜快车》为海耶斯与霍弗合著，后由亚伦·帕克拍成电影，信息更完整。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到多部逃跑情节经典作品（《曾达的囚徒》《泰比》《红酋长的赎金》《鹰溪桥上》《逃离恶魔岛》等），条目仅选取《午夜快车》和《纽约大逃亡》，其余未提及。作为wiki条目可适当扩充，但非错误。",
+      "suggestion": "可在examples中补充其他典型作品列举，增强条目参考价值。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

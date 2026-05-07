@@ -1,0 +1,18 @@
+{
+  "conceptId": "520f928a010b",
+  "canonical_zh": "悲喜剧",
+  "reviewedAt": "2026-05-05T08:51:22.971Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称「其中记载最详的一种是抒情悲喜剧」，但证据原文仅列举「一种是抒情悲喜剧」，并无对三种类型进行详略排序的表述，「记载最详」为条目自行添加的判断。",
+      "suggestion": "删去「其中记载最详的一种是」，改为「其中有一种是抒情悲喜剧」或直接写「近代悲喜剧主要有三种类型，抒情悲喜剧即为其中之一」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

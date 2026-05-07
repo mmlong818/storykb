@@ -1,0 +1,32 @@
+{
+  "conceptId": "824d522540d2",
+  "canonical_zh": "留白",
+  "reviewedAt": "2026-05-06T04:23:32.239Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文中《射雕英雄传》段落明确给出菜名「一碗玉笛谁家听落梅」，条目例子只写「只写『五种肉切条，拌上秘制酱汁』」，省去了菜名，使引用不够完整。",
+      "suggestion": "在该例子中补入菜名：「描写『一碗玉笛谁家听落梅』时只写『五种肉切条，拌上秘制酱汁』……」"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确写出《来自星星的你》台词出自人物「都敏俊」，条目中改为「主角」，丢失了具体人物名，降低了可查证性。",
+      "suggestion": "将「主角说」改为「都敏俊说」以与原文一致。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文将「以『反』代正」列为第3点、「以『断』代全」列为第4点，条目将二者顺序对调（断在前，反在后）。虽然条目未声称保留原编号，但若读者对照原文，顺序差异可能造成混淆。",
+      "suggestion": "若需对应原文结构，可将「以『反』代正」调至「以『断』代全」之前；或在前言中说明条目对要素做了重新排序。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

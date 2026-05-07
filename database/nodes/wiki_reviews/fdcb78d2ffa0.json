@@ -1,0 +1,18 @@
+{
+  "conceptId": "fdcb78d2ffa0",
+  "canonical_zh": "喜剧美感",
+  "reviewedAt": "2026-05-06T13:16:29.407Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文中明确引用了鲁迅的名言「喜剧将那无价值的撕破给人看」，并指出其与黑格尔观点「大抵也是这个意思」，构成重要的理论来源补充。条目origins及mechanism均未提及鲁迅这一论断。",
+      "suggestion": "在origins或mechanism中补充鲁迅的论断：「喜剧将那无价值的撕破给人看」，并说明其与黑格尔观点的呼应关系。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

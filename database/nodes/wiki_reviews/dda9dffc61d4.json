@@ -1,0 +1,25 @@
+{
+  "conceptId": "dda9dffc61d4",
+  "canonical_zh": "中心式舞台",
+  "reviewedAt": "2026-05-06T11:45:41.757Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "low",
+      "description": "条目在components中将老地球剧场的观众席描述为「四面环绕演区」，但原文描述该剧场时并未明确说明四面皆有观众席，仅描述其为「演区呈凹形，观众席拾阶而上」，属中心式舞台的通用特征描述，并非该剧场独有细节。整体无误，但可更严谨。",
+      "suggestion": "可保持原文表述，注明该描述为一般中心式舞台特征，老地球剧场为其典型实现。"
+    },
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文提到中心式舞台「也许最为古老」，条目已正确引用「也许最为古老」加引号，但原文还明确列举了其特征：「观演距离近切，交感性强，容易形成互动；演区无所遮拦，看起来一目了然，也省去了大笔舞台装饰费用」，这些特征在origins中未体现，而是放在了definition中，逻辑分布合理，无严重问题。",
+      "suggestion": "无需修改，信息分布合理。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

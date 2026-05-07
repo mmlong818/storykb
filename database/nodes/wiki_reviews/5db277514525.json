@@ -1,0 +1,18 @@
+{
+  "conceptId": "5db277514525",
+  "canonical_zh": "展示，不要告诉",
+  "reviewedAt": "2026-05-04T21:11:10.608Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提到两条信息扣押原则：「切勿将观众通过常理便能轻易推断出已经发生的事情包括在故事之中」，条目mechanism节未体现这一点，仅体现了第二条原则（缺失事实引起迷惑才传递）。",
+      "suggestion": "在信息扣押机制段落中补充第一条原则：不将观众凭常理即可推断的事实纳入故事。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

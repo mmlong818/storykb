@@ -1,0 +1,32 @@
+{
+  "conceptId": "1411a45b81f8",
+  "canonical_zh": "平行动作",
+  "reviewedAt": "2026-05-05T08:21:15.278Z",
+  "verdict": "pass",
+  "score": 8,
+  "issues": [
+    {
+      "section": "diagnostics",
+      "type": "missing",
+      "severity": "low",
+      "description": "诊断问题清单（镜头切换频率、时间轴同步等）均为编辑推断，原始证据未提供任何对应表述。证据仅说明「추격이 가까워 질 수록 점점 장면을 짧게 끊어 스릴감을 극대화」（随追击接近逐渐缩短场景以极大化刺激感），未展开为可操作的检查问题。",
+      "suggestion": "diagnostics 内容本身合理，但建议在条目元数据中注明该部分为基于概念的推导，非原始来源直接摘录。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "missing",
+      "severity": "low",
+      "description": "常见误区（节奏均匀不递进、空间时间关系交代不清）均为合理推断，原始证据中无对应内容。",
+      "suggestion": "内容本身准确，可保留，但同样属于推导性内容，非来源直接支撑。"
+    },
+    {
+      "section": "mechanism",
+      "type": "missing",
+      "severity": "low",
+      "description": "「信息差张力——观众知道追捕者正在逼近，而逃跑者尚未察觉」是编辑对机制的延伸阐释，原始证据（강도를 추격하는 장면과 강도가 도망치는 장면）仅描述双场景交替，未明确提及信息差概念。",
+      "suggestion": "延伸阐释方向正确，无需删除，属合理诠释范围。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

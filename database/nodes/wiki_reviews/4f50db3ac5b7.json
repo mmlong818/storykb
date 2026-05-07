@@ -1,0 +1,25 @@
+{
+  "conceptId": "4f50db3ac5b7",
+  "canonical_zh": "导演中心论",
+  "reviewedAt": "2026-05-06T11:34:50.134Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "applications",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确指出「只要不是针对戏剧艺术的整体而言，都是有道理的」，即各中心论在特定阶段均有其合理性。条目applications节未点明这一重要限定语。",
+      "suggestion": "可补充说明：在第二度创作阶段，导演中心论「是有道理的」，这是来源的原文措辞，应予体现以保留语境的完整性。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中提及莎士比亚作为具体例证（「莎士比亚只有一个，他无与伦比，更无人可以替代」），以及古希腊悲剧家、歌德、易卜生、契诃夫、关汉卿、汤显祖等人名，均可用于examples节。该节目前为空。",
+      "suggestion": "examples节可引用莎士比亚案例：同一剧本可有无数导演去导、演员去演，但剧作家不可替代，以此说明导演中心论的局限性。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

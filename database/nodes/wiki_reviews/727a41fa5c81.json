@@ -1,0 +1,18 @@
+{
+  "conceptId": "727a41fa5c81",
+  "canonical_zh": "序列",
+  "reviewedAt": "2026-05-04T21:17:15.940Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中麦基引用亚里士多德时提到了具体的幕数结构举例（一幕=短篇/独幕剧，两幕=情境喜剧/中篇，三幕=故事影片），条目未体现这一层次说明，但这属于补充信息而非核心内容。",
+      "suggestion": "可在origins末尾补充：麦基进一步说明，故事长度决定幕数，一幕对应短篇/独幕剧，两幕对应中篇/情境喜剧，三幕或以上对应故事片。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

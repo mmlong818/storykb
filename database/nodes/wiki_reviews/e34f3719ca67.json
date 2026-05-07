@@ -1,0 +1,18 @@
+{
+  "conceptId": "e34f3719ca67",
+  "canonical_zh": "上扬结局",
+  "reviewedAt": "2026-05-05T17:55:27.018Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "原文《东镇女巫》结局描述为「最后在三个胖娃娃身上找到了善良和幸福」，条目改写为「在三个孩子身上找到善良和幸福」，省略了「胖」字，虽无实质性错误，但细节有轻微偏离。",
+      "suggestion": "可保留「胖娃娃」原文措辞以更忠实于原著。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

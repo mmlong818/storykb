@@ -1,0 +1,18 @@
+{
+  "conceptId": "ef887d174e86",
+  "canonical_zh": "过于明白的谈话",
+  "reviewedAt": "2026-05-06T04:38:08.822Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目称该概念「属于他对对白病症的系统性分析之一」，但证据中并无「系统性分析」或「对白病症」等表述，这是对原文的过度推断。",
+      "suggestion": "删去「属于他对对白病症的系统性分析之一」，改为仅说明出处即可。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

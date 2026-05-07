@@ -1,0 +1,25 @@
+{
+  "conceptId": "9e1132ab99f8",
+  "canonical_zh": "对话",
+  "reviewedAt": "2026-05-05T13:39:27.292Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "components",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "证据原文「揭示人物」与条目中「揭示人物性格」略有出入——原文并未加「性格」二字，仅为「揭示人物」；且原文第三条是「揭示人物」，非「揭示人物性格」。虽然语义接近，但略有扩展。",
+      "suggestion": "将「揭示人物性格」改为「揭示人物」以忠实原文"
+    },
+    {
+      "section": "mechanism",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目将「对话是人物的一种机能」译为「对话是人物的一种功能」，原文用词为「机能」（菲尔德原著译文），虽两者意义相近，但definition和mechanism两处均用「功能」，与原文「机能」有细微差异。",
+      "suggestion": "可保留「功能」，但若需忠实原文可改为「机能」，全篇统一即可"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

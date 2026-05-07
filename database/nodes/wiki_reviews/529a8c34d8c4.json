@@ -1,0 +1,25 @@
+{
+  "conceptId": "529a8c34d8c4",
+  "canonical_zh": "落魄之人",
+  "reviewedAt": "2026-05-05T13:03:31.094Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "条目将护士长名字写为「瑞秋」，原文为「瑞秋」——实为Nurse Ratched（拉奇德），中文通译「瑞秋德」或「拉奇德」。原文直接用「护士长瑞秋」，条目沿用此译法本身不算错误，但原著人名是Ratched而非Rachel，存在潜在混淆风险。严格来说与原文一致，无需修正。",
+      "suggestion": "可在括号内注明原名Ratched以避免与Rachel混淆，但非必须。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文对《灰姑娘》格林版本有一个细节：「继母带来的两个女孩也同样貌美如花，后者之所以丑陋，严格意义上是指其内心的丑恶」。条目写「继母与姐姐占据压倒性优势」，未体现格林版本中两姐姐外貌其实也美丽、丑陋仅指内心这一细节。这是原文强调的区分点（格林版有别于迪士尼版），条目未体现。",
+      "suggestion": "可补充说明格林版中两姐姐外表同样貌美，劣势在于内心，以更准确反映原文对版本差异的强调。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,32 @@
+{
+  "conceptId": "4d38c9ab403b",
+  "canonical_zh": "场景构建",
+  "reviewedAt": "2026-05-05T08:49:55.584Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "「黑板报画作」被列为「情感关联锚点」示例。在证据（校园题材来源）中，「在班级黑板报上展现自己的才华」出现于「转学生人设公式」（人设塑造维度），是用来表现人物个人特质与融入过程的，并非被定义为场景构建的情感锚点。将其归入场景构建锚点缺乏直接证据支撑。",
+      "suggestion": "从④情感关联锚点示例中移除「黑板报画作」，保留证据中明确属于空间记忆/场景构建语境的「书架便签」和「猫粮」即可；或注明该细节来自人设塑造维度，兼顾场景功能。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据中温情题材有「家庭日常公式」（周末厨房：妈妈切菜、女儿踮脚递盘子、爸爸修玩具、收音机老唱片、饭菜香味），该公式在 applications 中被点名为四大组合之一，但 examples 章节未单独列出，略显前后不对应。",
+      "suggestion": "可在 examples 中补充⑤「家庭日常公式」示例，与 applications 中的四公式组合保持一致；或在 applications 中将家庭日常公式移至脚注级别，降低其显著性。"
+    },
+    {
+      "section": "definition",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "定义将场景构建目标限定为「可供摄影机捕捉的具体画面」，隐含以影视为唯一形式。但证据明确指出该方法论「适配电影剧本、小说、散文、短视频脚本等创作场景」，包括非视觉化的文学形式。",
+      "suggestion": "将「可供摄影机捕捉的具体画面」改为「可被读者或观众真实感知的具体情境」，或补充「在影像类创作中尤指可摄画面，在文学创作中则指可阅读的感官场景」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

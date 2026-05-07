@@ -1,0 +1,46 @@
+{
+  "conceptId": "097255c05efb",
+  "canonical_zh": "古典剪辑",
+  "reviewedAt": "2026-05-05T23:28:17.999Z",
+  "verdict": "issues_found",
+  "score": 7,
+  "issues": [
+    {
+      "section": "definition",
+      "type": "language",
+      "severity": "low",
+      "description": "条目本身无韩文或日文，但 source_perspectives 中 sourceTitle 标注为「专业术语韩国1」，evidence 原文均为韩文（가-힣字符大量出现）。条目正文已翻译为中文，无语言污染，但需确认审核范围是否包含 source_perspectives 标题。",
+      "suggestion": "若审核范围仅限 sections 正文，则此项可忽略；若包含 source_perspectives，建议将 sourceTitle 改为中性描述如「来源B」。"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "medium",
+      "description": "条目将古典电影时期描述为「大约从1910年代中期至1960年代」，并将格里菲斯定位于该起点。证据原文（专业术语가）写作「대략 1910년대 중반 그리피스로부터 1960년대」，即「大约从1910年代中期格里菲斯起至1960年代」，与条目一致，无问题。但 source_perspectives 中注明来源韩国1写的是「그리피드」（Griffid），与正源「그리피스」（Griffith）拼写略有出入，条目统一使用「格里菲斯」是合理翻译，不构成错误。",
+      "suggestion": "无需修改，仅记录两个来源对格里菲斯名字拼写略有差异（그리피스 vs 그리피드），条目统一译为「格里菲斯」是正确处理。"
+    },
+    {
+      "section": "components",
+      "type": "missing",
+      "severity": "medium",
+      "description": "证据原文在描述「고전영화（古典电影）」时明确提到「스토리, 스타, 투자가치 등을 주로 따진다（主要重视故事、明星、投资价值等）」以及「배우들의 비중은 상대적으로 약화된다（演员的比重相对弱化）」。这些属于古典电影整体范式的组成特征，但条目 components 部分未提及「明星制度」「演员比重弱化」等内容。虽然这些特征严格属于「古典电影」而非「古典剪辑」本身，条目将二者关联描述时可适当提及以完整呈现语境。",
+      "suggestion": "可在 origins 或 components 中补充一句说明：古典电影范式还重视故事、明星与投资价值，演员的视觉比重相对弱化，以服务叙事为优先。"
+    },
+    {
+      "section": "pitfalls",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "条目 pitfalls 中写「古典剪辑的本质是以戏剧性和情感性为优先依据」，这与证据原文一致（극적이고 감정적인 측면 = 戏剧性和情感性），表述准确。但随后写「物理动作只是切点的外在触发」——证据原文实为「물리적 행동에 의해서라기보다는（与其说由物理行动决定，不如说……）」，即物理动作不是主要依据，并非「触发」关系。条目将「非主要依据」改写为「外在触发」，引入了原文没有的逻辑关系，有轻微曲解。",
+      "suggestion": "将「物理动作只是切点的外在触发」改为「物理动作并非镜头切换的主要依据」，更贴近原文「라기보다는」的让步语气。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "examples 字段为空字符串。证据中未提供具体影片示例用于古典剪辑，因此空值与证据一致，不构成幻觉或遗漏问题。",
+      "suggestion": "无需修改，证据本身未提供可引用的具体示例。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

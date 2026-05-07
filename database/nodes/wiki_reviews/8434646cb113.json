@@ -1,0 +1,18 @@
+{
+  "conceptId": "8434646cb113",
+  "canonical_zh": "深层性格",
+  "reviewedAt": "2026-05-06T04:24:36.437Z",
+  "verdict": "pass",
+  "score": 9,
+  "issues": [
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "条目称「麦基援引莎士比亚的《麦克白》与《哈姆雷特》为例」置于origins节，但证据中这两个案例出现在人物理论章节正文，并非作为「深层性格」概念起源的史料援引。表述本身不算错误，但将其放在origins节略有误导。",
+      "suggestion": "origins节聚焦于著作来源即可，莎剧案例移至examples节呈现更准确"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

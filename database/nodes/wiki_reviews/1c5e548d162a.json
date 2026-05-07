@@ -1,0 +1,32 @@
+{
+  "conceptId": "1c5e548d162a",
+  "canonical_zh": "类型常规",
+  "reviewedAt": "2026-05-04T20:36:27.431Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文明确说明印第安纳·琼斯开枪一幕「据说」是哈里森·福特的建议（「据说，这一备受观众喜爱的解决办法是哈里森·福特的建议」），条目将其表述为直接事实「因为哈里森·福特当时身体不适，无法按剧本大打出手」，略去了「据说」的不确定性修饰。",
+      "suggestion": "在描述该细节时加上「据说」或「相传」，以保留原文的不确定语气。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据原文说明哈里森·福特当时「闹痢疾」（dysentery），条目简化为「身体不适」，丢失了具体病因信息，虽不构成误译，但降低了原文的精确度。",
+      "suggestion": "可改为「因为哈里森·福特当时正闹痢疾，身体太虚，无法照剧本大打出手」，与原文保持一致。"
+    },
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "证据明确点名《午夜狂奔》的编剧为「乔治·加洛」（George Gallo），条目未提及，仅泛泛说「通过反复呈现主人公怪诞行为赋予其新的生命力」，失去了原文对创作者的具体归因。",
+      "suggestion": "可补充「编剧乔治·加洛通过反复呈现……」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

@@ -1,0 +1,32 @@
+{
+  "conceptId": "2b6f2c877200",
+  "canonical_zh": "政治戏剧",
+  "reviewedAt": "2026-05-04T16:52:58.177Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "components",
+      "type": "inconsistency",
+      "severity": "medium",
+      "description": "「布莱希特将其定位为『立法机构』」——证据原文为「对皮斯卡托来说，剧院是议会，观众是立法机构」，即「立法机构」是皮斯卡托的概念，由布莱希特转述；而同一条目的 mechanism 章节正确写作「皮斯卡托将剧院视为议会，将观众视为立法机构」，两节归属不一致。",
+      "suggestion": "将 components 中「布莱希特将其定位为『立法机构』」改为「皮斯卡托将观众定位为『立法机构』（由布莱希特记录）」，与 mechanism 章节保持一致。"
+    },
+    {
+      "section": "definition",
+      "type": "mistranslation",
+      "severity": "low",
+      "description": "「它不满足于仅让观众在剧院里『审察世界的表象』」——证据原文的主语是新阶级（无产阶级）：「它不再满足于只是在剧院里审察世界的表象」，而非以「政治戏剧」这一艺术形态为主语。条目将阶级意志的表述转换为戏剧形态的属性，存在主语偷换。",
+      "suggestion": "改为「这一戏剧形态源自新阶级（无产阶级）不再满足于仅在剧院里『审察世界的表象』的政治诉求，从而……」，保留原文主语逻辑。"
+    },
+    {
+      "section": "origins",
+      "type": "hallucination",
+      "severity": "low",
+      "description": "「皮斯卡托（Piscator）是政治戏剧最重要的实验者」——「最重要」（most important）这一价值判断在证据原文中并无对应表述；布莱希特仅详细描述了皮斯卡托的实验，未使用此评级措辞。",
+      "suggestion": "删去「最重要的」，改为「皮斯卡托（Piscator）是政治戏剧最具代表性的实践者之一，其一系列演出奠定了政治戏剧的基本形态」，或直接表述为「布莱希特详细记录了皮斯卡托的实验，将其视为政治戏剧的重要实践基础」。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

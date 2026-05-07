@@ -1,0 +1,34 @@
+{
+  "conceptId": "2015ab6cc24a",
+  "canonical_zh": "插入镜头",
+  "reviewedAt": "2026-05-04T20:39:45.799Z",
+  "verdict": "issues_found",
+  "score": 6,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "hallucination",
+      "severity": "high",
+      "description": "《我的婚礼》相关的全部内容（房门未锁缓缓滑开、母亲/姨母/表姐相继撞见的神情、两处Insert的具体描述）在所提供的证据中完全找不到对应原文。证据列表中根本不存在任何来自「내 결혼식」剧本的片段，属于无证据支撑的虚构案例。",
+      "suggestion": "删除《我的婚礼》整段示例，或仅在有原始证据支撑时方可保留。"
+    },
+    {
+      "section": "examples",
+      "type": "mistranslation",
+      "severity": "medium",
+      "description": "边山证据原文「당구장 다이 닦는 중식」意为「中植在台球厅擦台球桌」，是劳动场景而非打台球；但条目将其译述为「打台球」，曲解了原文动作。",
+      "suggestion": "改为「台球厅伙计擦台」或「台球厅清洁劳作」以贴近原文。"
+    },
+    {
+      "section": "source_perspectives",
+      "type": "hallucination",
+      "severity": "high",
+      "description": "source_perspectives 中存在「我的婚礼」视角条目，但证据列表中无任何对应剧本片段，与 examples 节同属无源材料虚构内容。",
+      "suggestion": "删除「我的婚礼」的 source_perspectives 条目。"
+    }
+  ],
+  "corrections": {
+    "examples": "一、《委托人》剧本：在关键情节节点以「Insert」标注，切入客厅餐桌上烛焰剧烈摇曳的特写，以烛光的不安颤动外化主角（正焦虑寻找律师的韩哲民）的心境；同一剧本另一处「Insert」在法庭戏中切入妻子趴在梳妆台前若有所思的画面，使被告的证词获得视觉佐证。二、《边山》剧本：在全村欢庆的歌舞段落中穿插一系列生活插入镜头，涵盖渔村渔夫劳作、水库垂钓、台球厅伙计擦台、乡镇民事窗口工作、地方酒广告牌等场景，构成对地域生活面貌的蒙太奇铺陈。"
+  },
+  "costUsd": 0
+}

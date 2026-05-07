@@ -1,0 +1,18 @@
+{
+  "conceptId": "56c3a70027a8",
+  "canonical_zh": "超意图",
+  "reviewedAt": "2026-05-05T08:52:39.129Z",
+  "verdict": "issues_found",
+  "score": 8,
+  "issues": [
+    {
+      "section": "examples",
+      "type": "missing",
+      "severity": "low",
+      "description": "原文描述《欢乐一家亲》场景意图升级的结果为「手足相残最后导致杀婴闹剧」，条目仅写「手足相残的闹剧」，省略了「杀婴」这一具体且关键的喜剧荒诞细节，削弱了例子说明「盲目痴迷」之极端性的力度。",
+      "suggestion": "将「最终升级为手足相残的闹剧」改为「最终升级为手足相残乃至杀婴的荒诞闹剧」，与原文保持一致。"
+    }
+  ],
+  "corrections": {},
+  "costUsd": 0
+}

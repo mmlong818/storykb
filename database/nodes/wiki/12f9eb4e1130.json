@@ -1,0 +1,50 @@
+{
+  "conceptId": "12f9eb4e1130",
+  "canonical_zh": "宽松改编",
+  "canonical_en": "Loose Adaptation",
+  "aliases": [],
+  "types": [
+    "流程方法"
+  ],
+  "sections": {
+    "definition": "宽松改编（Loose Adaptation）是指以其他媒介（通常为文学作品）为基础创作的电影，但改编后的影片与原作之间仅存在表面上的相似性，并未对原作进行忠实还原或深度呈现。",
+    "origins": "证据未提及该概念的具体起源、提出者或流派背景。",
+    "components": "证据仅说明宽松改编的核心特征为：以其他媒介（通常为文学）为来源素材，且两者之间只保留表面相似性。未列出更细的构成要素。",
+    "mechanism": "宽松改编的运作逻辑在于：改编者并不以忠实复现原作情节、人物或主题为目标，而是将原作作为灵感起点或松散参照，最终呈现的影像作品在结构、叙事或风格上可与原作产生较大偏离，两者之间仅维持可辨识的表层关联。",
+    "applications": "证据未提供具体的应用场景或使用方法说明。",
+    "examples": "证据未列举具体的经典案例。",
+    "diagnostics": "判断一部影片是否属于宽松改编，可以检视：原作与改编作品之间是否仅存在表面相似（如人物名称、背景设定等），而核心叙事、主题或结构已发生根本性变化。",
+    "pitfalls": "证据未描述相关误区或失败模式。"
+  },
+  "source_perspectives": [
+    {
+      "sourceTitle": "专业术语",
+      "view": "该来源以术语词典形式对宽松改编（Loose Adaptation）给出简洁定义：指以其他媒介（通常为文学）为基础的电影，两者之间仅有表面相似性。定义简明，未作延伸讨论或价值判断。"
+    }
+  ],
+  "related_concepts": [
+    "忠实改编",
+    "改编剧本",
+    "跨媒介叙事",
+    "原创剧本"
+  ],
+  "evidence": [
+    {
+      "sourceId": "4a2b1f1b0cb2f1ae01824b00d0bf047cbd5267414274bc069f8f72b3ea1ed966",
+      "chunkId": "4a2b1f1b0cb2-00001",
+      "sourceTitle": "专业术语다",
+      "heading": null,
+      "charStart": 1800,
+      "charEnd": 3600
+    },
+    {
+      "sourceId": "ff43ac15ecda2beff75a4821936cd3071d4651e15fd6415f918f7e0c0e4c6e90",
+      "chunkId": "ff43ac15ecda-00002",
+      "sourceTitle": "专业术语다",
+      "heading": null,
+      "charStart": 2567,
+      "charEnd": 4100
+    }
+  ],
+  "generatedAt": "2026-05-06T12:14:17.626Z"
+}
