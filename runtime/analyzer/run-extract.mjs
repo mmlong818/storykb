@@ -13,6 +13,7 @@ for (const arg of argv) {
 const options = {
   limit: flags.limit ? Number(flags.limit) : undefined,
   dryRun: !!flags.dry,
+  retryFailed: !!flags.retryFailed,
 };
 
 console.log("[extract] options:", options);

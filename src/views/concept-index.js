@@ -11,8 +11,9 @@ export function renderConceptIndex(state) {
           <button data-type-filter="" class="${state.typeFilter ? "" : "active"}">全部 ${state.concepts.length}</button>
           ${raw(types.map(([t, n]) => `<button data-type-filter="${escapeHtml(t)}" class="${state.typeFilter === t ? "active" : ""}">${escapeHtml(t)} ${n}</button>`).join(""))}
         </div>
-        <div class="indexStats">
-          ${filtered.length} / ${state.concepts.length} 条概念
+        <div class="indexFooter">
+          <span class="indexStats">${filtered.length} / ${state.concepts.length} 条概念</span>
+          <button class="exportBtn" data-action="export-all" title="批量导出全部词条">⬇ 批量导出</button>
         </div>
       </div>
       <div class="conceptList">
@@ -43,11 +44,13 @@ function filterConcepts(concepts, query, typeFilter) {
   let result = concepts;
   if (typeFilter) result = result.filter((c) => c.types?.includes(typeFilter));
   const q = query?.trim().toLowerCase();
-  if (!q) return result;
-  return result.filter((c) => {
-    const haystack = [c.canonical_zh, c.canonical_en, ...(c.aliases || [])].join(" ").toLowerCase();
-    return haystack.includes(q);
-  });
+  if (q) {
+    result = result.filter((c) => {
+      const haystack = [c.canonical_zh, c.canonical_en, ...(c.aliases || [])].join(" ").toLowerCase();
+      return haystack.includes(q);
+    });
+  }
+  return result;
 }
 
 function collectTypes(concepts) {

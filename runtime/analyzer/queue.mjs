@@ -11,8 +11,9 @@ export function createQueue(name) {
   const inFlightDir = path.join(dir, "in_flight");
   fs.mkdirSync(inFlightDir, { recursive: true });
 
-  const completedTaskIds = loadCompletedTaskIds(completedPath);
-  const failedTaskIds = loadCompletedTaskIds(failedPath);
+  const completedTaskIds = loadTaskIds(completedPath);
+  const failedTaskIds = loadTaskIds(failedPath);
+  const pendingTaskIds = loadTaskIds(pendingPath);
 
   return {
     dir,
@@ -23,24 +24,36 @@ export function createQueue(name) {
 
     enqueue(task) {
       const id = task.id || hashString(JSON.stringify(task.payload)).slice(0, 16);
-      if (completedTaskIds.has(id) || failedTaskIds.has(id)) return { skipped: true, id };
+      if (completedTaskIds.has(id) || failedTaskIds.has(id) || pendingTaskIds.has(id)) return { skipped: true, id };
       const record = { id, enqueuedAt: new Date().toISOString(), ...task };
       fs.appendFileSync(pendingPath, JSON.stringify(record) + "\n", "utf8");
+      pendingTaskIds.add(id);
       return { skipped: false, id };
     },
 
     listPending() {
       if (!fs.existsSync(pendingPath)) return [];
       const lines = fs.readFileSync(pendingPath, "utf8").split("\n").filter(Boolean);
-      const tasks = lines.map((line) => JSON.parse(line));
-      return tasks.filter((t) => !completedTaskIds.has(t.id) && !failedTaskIds.has(t.id));
+      const seen = new Set();
+      const tasks = [];
+      for (const line of lines) {
+        const t = JSON.parse(line);
+        if (!completedTaskIds.has(t.id) && !failedTaskIds.has(t.id) && !seen.has(t.id)) {
+          seen.add(t.id);
+          tasks.push(t);
+        }
+      }
+      return tasks;
     },
 
     recoverInFlight() {
       const files = fs.readdirSync(inFlightDir).filter((name) => name.endsWith(".json"));
       for (const file of files) {
         const recovered = JSON.parse(fs.readFileSync(path.join(inFlightDir, file), "utf8"));
-        fs.appendFileSync(pendingPath, JSON.stringify(recovered) + "\n", "utf8");
+        if (!pendingTaskIds.has(recovered.id)) {
+          fs.appendFileSync(pendingPath, JSON.stringify(recovered) + "\n", "utf8");
+          pendingTaskIds.add(recovered.id);
+        }
         fs.unlinkSync(path.join(inFlightDir, file));
       }
       return files.length;
@@ -80,10 +93,30 @@ export function createQueue(name) {
       if (!fs.existsSync(completedPath)) return [];
       return fs.readFileSync(completedPath, "utf8").split("\n").filter(Boolean).map((line) => JSON.parse(line));
     },
+
+    retryFailed() {
+      if (!fs.existsSync(failedPath)) return 0;
+      const lines = fs.readFileSync(failedPath, "utf8").split("\n").filter(Boolean);
+      let count = 0;
+      for (const line of lines) {
+        try {
+          const record = JSON.parse(line);
+          if (record.id && !completedTaskIds.has(record.id)) {
+            failedTaskIds.delete(record.id);
+            count += 1;
+          }
+        } catch { /* ignore */ }
+      }
+      if (count > 0) {
+        // Clear failed.jsonl — tasks already exist in pending.jsonl from original enqueue
+        fs.writeFileSync(failedPath, "", "utf8");
+      }
+      return count;
+    },
   };
 }
 
-function loadCompletedTaskIds(filePath) {
+function loadTaskIds(filePath) {
   if (!fs.existsSync(filePath)) return new Set();
   const ids = new Set();
   const lines = fs.readFileSync(filePath, "utf8").split("\n").filter(Boolean);

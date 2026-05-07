@@ -2,25 +2,48 @@ import { spawn } from "node:child_process";
 
 const DEFAULT_TIMEOUT_MS = 180_000;
 const DEFAULT_RETRIES = 1;
+const RATE_LIMIT_RETRIES = 6;
+const RATE_LIMIT_DELAYS_MS = [60_000, 90_000, 120_000, 180_000, 240_000, 300_000];
+const MIN_CALL_INTERVAL_MS = 90_000; // ~1 call/min, well under rate limits
+let lastCallTime = 0;
 
+// Use --output-format text: Claude returns plain text, no outer JSON wrapper to parse.
+// This avoids all JSON-escaping bugs in the outer envelope.
 const BASE_ARGS = [
   "-p",
-  "--output-format", "json",
+  "--output-format", "text",
   "--no-session-persistence",
   "--exclude-dynamic-system-prompt-sections",
 ];
+
+function isRateLimit(error) {
+  return /429|rate.?limit|too many requests/i.test(String(error?.message || error));
+}
 
 export async function callClaude(prompt, options = {}) {
   const timeoutMs = options.timeoutMs ?? DEFAULT_TIMEOUT_MS;
   const retries = options.retries ?? DEFAULT_RETRIES;
   const extraArgs = options.extraArgs || [];
+  const now = Date.now();
+  const wait = MIN_CALL_INTERVAL_MS - (now - lastCallTime);
+  if (wait > 0) await sleep(wait);
+  lastCallTime = Date.now();
   let lastError;
+  let rateLimitAttempt = 0;
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
       return await spawnOnce(prompt, timeoutMs, extraArgs);
     } catch (error) {
       lastError = error;
-      if (attempt < retries) await sleep(2000 * (attempt + 1));
+      if (isRateLimit(error) && rateLimitAttempt < RATE_LIMIT_RETRIES) {
+        const delayMs = RATE_LIMIT_DELAYS_MS[rateLimitAttempt];
+        console.error(`[claude] 429 rate limit — waiting ${delayMs / 1000}s (attempt ${rateLimitAttempt + 1}/${RATE_LIMIT_RETRIES})`);
+        await sleep(delayMs);
+        rateLimitAttempt += 1;
+        attempt -= 1;
+      } else if (attempt < retries) {
+        await sleep(2000 * (attempt + 1));
+      }
     }
   }
   throw lastError;
@@ -53,32 +76,26 @@ function spawnOnce(prompt, timeoutMs, extraArgs) {
       clearTimeout(timer);
       const stdout = Buffer.concat(stdoutChunks).toString("utf8");
       const stderr = Buffer.concat(stderrChunks).toString("utf8");
-      try {
-        const meta = parseFirstJson(stdout);
-        if (!meta) {
-          reject(new Error(`no json in stdout (code=${code}). head=${stdout.slice(0, 300)} err=${stderr.slice(-300)}`));
-          return;
+
+      // With --output-format text, stderr carries errors; check exit code
+      if (code !== 0) {
+        const errMsg = stderr.trim() || stdout.trim();
+        if (/429|rate.?limit|too many/i.test(errMsg)) {
+          reject(new Error(`claude api_error: 429`));
+        } else {
+          reject(new Error(`claude exited ${code}: ${errMsg.slice(0, 200)}`));
         }
-        if (meta.is_error) {
-          reject(new Error(`claude api_error: ${meta.api_error_status || meta.result || "unknown"}`));
-          return;
-        }
-        const result = String(meta.result ?? "");
-        const parsed = parseFirstJson(result);
-        resolve({
-          raw: result,
-          parsed,
-          meta: {
-            durationMs: meta.duration_ms,
-            usage: meta.usage,
-            sessionId: meta.session_id,
-            costUsd: meta.total_cost_usd,
-            stopReason: meta.stop_reason,
-          },
-        });
-      } catch (error) {
-        reject(new Error(`parse error: ${error.message}`));
+        return;
       }
+
+      // stdout is Claude's raw text response
+      const raw = stdout;
+      const parsed = parseFirstJson(raw);
+      resolve({
+        raw,
+        parsed,
+        meta: { costUsd: 0 }, // cost not available in text mode
+      });
     });
 
     child.stdin.write(prompt, "utf8");

@@ -43,33 +43,28 @@ export function renderRightPanel(concepts, query, activeTabId) {
 }
 
 function groupKey(c) {
-  if (c.canonical_en) {
-    const ch = c.canonical_en.trim().charAt(0).toUpperCase();
-    if (/[A-Z]/.test(ch)) return ch;
-  }
   const zh = c.canonical_zh.trim().charAt(0);
   return pinyinInitial(zh);
 }
 
-const PINYIN_BANDS = [
-  [0x554a, "A"], [0x8235, "B"], [0x5693, "C"], [0x5927, "D"],
-  [0x5514, "E"], [0x53d1, "F"], [0x8c77, "G"], [0x54c8, "H"],
-  [0x51fb, "J"], [0x54af, "K"], [0x5783, "L"], [0x5988, "M"],
-  [0x62ff, "N"], [0x5662, "O"], [0x5991, "P"], [0x4e03, "Q"],
-  [0x5982, "R"], [0x6492, "S"], [0x5854, "T"], [0x5c4b, "W"],
-  [0x5699, "X"], [0x4e2b, "Y"], [0x5e00, "Z"],
+// boundary characters: the first character whose pinyin starts with each letter
+const PINYIN_BOUNDARIES = [
+  ["A", "啊"], ["B", "芭"], ["C", "擦"], ["D", "搭"],
+  ["E", "鹅"], ["F", "发"], ["G", "噶"], ["H", "哈"],
+  ["J", "击"], ["K", "喀"], ["L", "垃"], ["M", "妈"],
+  ["N", "拿"], ["O", "哦"], ["P", "啪"], ["Q", "七"],
+  ["R", "然"], ["S", "撒"], ["T", "他"], ["W", "挖"],
+  ["X", "西"], ["Y", "压"], ["Z", "匝"],
 ];
+const collator = new Intl.Collator("zh-Hans-CN", { sensitivity: "base" });
 
 function pinyinInitial(ch) {
   if (!ch) return "#";
-  const code = ch.charCodeAt(0);
-  if (code < 0x4e00 || code > 0x9fff) {
-    const u = ch.toUpperCase();
-    return /[A-Z]/.test(u) ? u : "#";
-  }
+  const u = ch.toUpperCase();
+  if (/[A-Z]/.test(u) && !/[一-鿿]/.test(ch)) return u;
   let label = "#";
-  for (const [start, letter] of PINYIN_BANDS) {
-    if (code >= start) label = letter;
+  for (const [letter, boundary] of PINYIN_BOUNDARIES) {
+    if (collator.compare(ch, boundary) >= 0) label = letter;
   }
   return label;
 }

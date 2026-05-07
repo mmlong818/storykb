@@ -15,6 +15,9 @@ export function renderProgressPanel(progress) {
     return `<div class="progressPanel idle">分析管线未运行</div>`;
   }
   const pct = progress.total ? Math.floor((progress.done / progress.total) * 100) : 0;
+  if (pct >= 100 && (!progress.errors || progress.errors.length === 0)) {
+    return "";
+  }
   const stageLabel = STAGE_LABELS[progress.stage] || escapeHtml(progress.stage);
   const elapsedMs = Date.now() - new Date(progress.startedAt).getTime();
   const rate = progress.done > 0 ? elapsedMs / progress.done : 0;

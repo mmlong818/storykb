@@ -54,6 +54,10 @@ export async function synthesizeWiki(options = {}) {
 
   const queue = createQueue("wiki");
   queue.recoverInFlight();
+  if (options.retryFailed) {
+    const retried = queue.retryFailed();
+    if (retried > 0) console.log(`[wiki] re-queued ${retried} previously failed tasks`);
+  }
   for (const concept of targets) {
     queue.enqueue({ payload: { conceptId: concept.conceptId } });
   }

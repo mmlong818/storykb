@@ -134,7 +134,7 @@ function listWiki() {
       evidenceCount: c.evidence?.length || 0,
       sourceCount: new Set((c.evidence || []).map((e) => e.sourceId)).size,
     }))
-    .sort((a, b) => b.evidenceCount - a.evidenceCount);
+    .sort((a, b) => a.canonical_zh.localeCompare(b.canonical_zh, "zh-Hans-CN", { sensitivity: "base" }));
 }
 
 function readWiki(conceptId) {

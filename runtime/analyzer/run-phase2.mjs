@@ -17,13 +17,13 @@ console.log("[phase2] stages:", stages, "flags:", flags);
 
 async function main() {
   if (stages.includes("extract")) {
-    await extractConcepts({ limit: flags.extractLimit ? Number(flags.extractLimit) : undefined });
+    await extractConcepts({ limit: flags.extractLimit ? Number(flags.extractLimit) : undefined, retryFailed: !!flags.retryFailed });
   }
   if (stages.includes("consolidate")) {
     await consolidateConcepts({ skipClustering: !!flags.skipClustering });
   }
   if (stages.includes("wiki")) {
-    await synthesizeWiki({ limit: flags.wikiLimit ? Number(flags.wikiLimit) : undefined, minEvidence: flags.minEvidence ? Number(flags.minEvidence) : 2 });
+    await synthesizeWiki({ limit: flags.wikiLimit ? Number(flags.wikiLimit) : undefined, minEvidence: flags.minEvidence ? Number(flags.minEvidence) : 2, retryFailed: !!flags.retryFailed });
   }
 }
 
