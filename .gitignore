@@ -19,6 +19,7 @@ database/templates/history/
 database/queue/concepts/
 database/queue/wiki/in_flight/
 database/queue/wiki/raw_failed/
+database/queue/ingest.jsonl
 
 # Legacy demo backups (keep on disk locally, do not version)
 database/kb.legacy-demo.json
