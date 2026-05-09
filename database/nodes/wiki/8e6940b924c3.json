@@ -1,0 +1,52 @@
+{
+  "conceptId": "8e6940b924c3",
+  "canonical_zh": "定场镜头",
+  "canonical_en": "Establishing Shot",
+  "aliases": [],
+  "types": [
+    "场景技巧"
+  ],
+  "sections": {
+    "definition": "定场镜头（Establishing Shot）是为观众提供后续近景镜头之意义语境的一种镜头，通常出现在场景开头，以极远景或远景呈现，帮助观众理解即将展开的叙事空间与关系。",
+    "origins": "证据未提及该概念的历史起源或具体提出者，仅作为电影专业术语收录。",
+    "components": "定场镜头通常采用极远景（Extreme Long Shot）或远景（Long Shot）构图，覆盖足够宽广的画面范围，使观众能够辨认场景的地理位置、空间关系及人物所处环境。",
+    "mechanism": "定场镜头通过在叙事单元开头先呈现整体空间，为随后的近景或特写镜头建立意义框架。观众在看到特写镜头时，已凭借定场镜头获得足够的空间背景信息，从而准确理解该近景镜头的叙事含义。",
+    "applications": "定场镜头一般用于场景的导入部分，在剪辑上充当场景切换的起始镜头，引导观众进入新的叙事空间或时间段落。",
+    "examples": "",
+    "diagnostics": "检查一个镜头是否发挥定场功能，可问：此镜头是否出现在场景开头？画面是否足够宽广以呈现整体空间？后续近景镜头是否依赖此镜头的空间信息才能被理解？",
+    "pitfalls": "证据未涉及定场镜头的常见误区或失败模式。"
+  },
+  "source_perspectives": [
+    {
+      "sourceTitle": "专业术语",
+      "view": "该来源以简洁的词典式定义呈现定场镜头：强调其功能为向观众提供后续近景镜头的意义语境，并明确指出它通常是场景导入部分的极远景或远景镜头。定义侧重功能描述，未涉及美学判断或历史背景。"
+    }
+  ],
+  "related_concepts": [
+    "极远景",
+    "远景",
+    "近景",
+    "特写",
+    "场景转换",
+    "剪辑"
+  ],
+  "evidence": [
+    {
+      "sourceId": "5ce4ef63c1e155a0eb029c9f3bc2a500d87fd92463466c032a84fec4010b2c9a",
+      "chunkId": "5ce4ef63c1e1-00003",
+      "sourceTitle": "专业术语가",
+      "heading": null,
+      "charStart": 5400,
+      "charEnd": 7200
+    },
+    {
+      "sourceId": "a78f55b3a2cff7f8071334729f448290c14e0d10892c6ff80dd21da026e9ce10",
+      "chunkId": "a78f55b3a2cf-00004",
+      "sourceTitle": "专业术语 가",
+      "heading": null,
+      "charStart": 4468,
+      "charEnd": 5349
+    }
+  ],
+  "generatedAt": "2026-05-08T17:22:06.071Z"
+}

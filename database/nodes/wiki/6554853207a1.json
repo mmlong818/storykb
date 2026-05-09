@@ -1,0 +1,51 @@
+{
+  "conceptId": "6554853207a1",
+  "canonical_zh": "极简主义",
+  "canonical_en": "Minimalism",
+  "aliases": [],
+  "types": [
+    "理论原则"
+  ],
+  "sections": {
+    "definition": "极简主义（Minimalism）是一种以严格与节制为特征的电影创作形态，其核心原则是将所有电影元素压缩至信息量的最低限度。",
+    "origins": "",
+    "components": "依据现有证据，极简主义的构成要素体现为对电影语言的最大程度克制——包括叙事信息、视觉元素及剪辑手段的极度精简。",
+    "mechanism": "在极简主义的运作逻辑下，导演主动剔除冗余的电影元素，使每一个画面、剪辑点或叙事单元都承载尽可能少的信息，从而以最少的素材传达最核心的内容。现有原始证据仅提供了该术语的核心定义，未进一步阐释其具体运作机制或相关流派。",
+    "applications": "",
+    "examples": "",
+    "diagnostics": "",
+    "pitfalls": ""
+  },
+  "source_perspectives": [
+    {
+      "sourceTitle": "专业术语",
+      "view": "该来源将极简主义定义为'以严格与节制为特征的电影创作形态，所有电影元素均被压缩至信息的最低限度'，强调的是一种整体性的创作姿态，而非具体的技法清单。定义简短精炼，未进一步展开案例或流派背景。"
+    }
+  ],
+  "related_concepts": [
+    "结构电影",
+    "极简剪辑",
+    "信息节制",
+    "作者主义批评"
+  ],
+  "evidence": [
+    {
+      "sourceId": "5ce4ef63c1e155a0eb029c9f3bc2a500d87fd92463466c032a84fec4010b2c9a",
+      "chunkId": "5ce4ef63c1e1-00003",
+      "sourceTitle": "专业术语가",
+      "heading": null,
+      "charStart": 5400,
+      "charEnd": 7200
+    },
+    {
+      "sourceId": "a78f55b3a2cff7f8071334729f448290c14e0d10892c6ff80dd21da026e9ce10",
+      "chunkId": "a78f55b3a2cf-00004",
+      "sourceTitle": "专业术语 가",
+      "heading": null,
+      "charStart": 4468,
+      "charEnd": 5349
+    }
+  ],
+  "generatedAt": "2026-05-08T17:25:05.966Z",
+  "lastReviewedAt": "2026-05-08T21:56:05.512Z"
+}

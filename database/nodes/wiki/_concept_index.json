@@ -56243,6 +56243,1560 @@
       "types": [],
       "mentionCount": 0,
       "evidence": []
+    },
+    {
+      "conceptId": "092c119c82e9",
+      "canonical_zh": "心动伏笔",
+      "canonical_en": "Romantic Foreshadowing",
+      "aliases": [
+        "情感伏笔",
+        "Emotional Foreshadowing",
+        "romantic foreshadowing"
+      ],
+      "types": [
+        "场景技巧",
+        "结构概念"
+      ],
+      "related_concepts": [
+        "初遇反差公式",
+        "情感积累",
+        "双线并行结构",
+        "情感缓和场景",
+        "高潮回收",
+        "日常细节叙事"
+      ],
+      "evidence": [
+        {
+          "sourceId": "2d74d5a5b994c50e0d04caaefd4ead622a926e531bf2d2133261c0bcbf813aec",
+          "chunkId": "2d74d5a5b994-00001",
+          "sourceTitle": "韩国爱情浪漫题材创作公式与实操",
+          "heading": "1.初遇反差公式：截然不同的状态+意外交集=心动伏笔",
+          "charStart": 153,
+          "charEnd": 259
+        },
+        {
+          "sourceId": "31451fc0942b8276fe5defee20431894a5e92d01da2991b9f1767fed3705fd2e",
+          "chunkId": "31451fc0942b-00004",
+          "sourceTitle": "韩式家庭伦理题材细化创作方法：从日常矛盾到情感共鸣",
+          "heading": "1. 开篇：用 “家庭日常场景” 切入，快速建立 “亲切感”",
+          "charStart": 3500,
+          "charEnd": 5182
+        }
+      ]
+    },
+    {
+      "conceptId": "0d5317b24826",
+      "canonical_zh": "角色崩溃时刻",
+      "canonical_en": "Character / Emotional Breaking Point",
+      "aliases": [
+        "情绪崩溃时刻",
+        "Character Breaking Point",
+        "Emotional Breaking Point"
+      ],
+      "types": [
+        "角色概念",
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "情绪积压与释放",
+        "心理防线",
+        "解离状态",
+        "恐慌发作",
+        "道德困境具身化",
+        "角色核心伤口",
+        "戏剧张力节点",
+        "余震场景"
+      ],
+      "evidence": [
+        {
+          "sourceId": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+          "chunkId": "c4d68280468a-00062",
+          "sourceTitle": "마더",
+          "heading": null,
+          "charStart": 54949,
+          "charEnd": 55835
+        },
+        {
+          "sourceId": "d11c98511ace5593ffb8a984c65a83ff626e3a162b1e2275705f7130f471ba5b",
+          "chunkId": "d11c98511ace-00056",
+          "sourceTitle": "터널",
+          "heading": null,
+          "charStart": 47133,
+          "charEnd": 47812
+        }
+      ]
+    },
+    {
+      "conceptId": "148b47b006a5",
+      "canonical_zh": "共同经历公式",
+      "canonical_en": "Shared Experience Formula",
+      "aliases": [],
+      "types": [
+        "类型公式"
+      ],
+      "related_concepts": [
+        "危机凝聚公式",
+        "情感升温公式",
+        "协作互动",
+        "关系推进结构",
+        "共同记忆"
+      ],
+      "evidence": [
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00022",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": "22.共同经历公式：家庭危机+携手应对=情感加深",
+          "charStart": 2716,
+          "charEnd": 2821
+        },
+        {
+          "sourceId": "2d74d5a5b994c50e0d04caaefd4ead622a926e531bf2d2133261c0bcbf813aec",
+          "chunkId": "2d74d5a5b994-00013",
+          "sourceTitle": "韩国爱情浪漫题材创作公式与实操",
+          "heading": "13.共同经历公式：挑战类事件+相互支持=情感深化",
+          "charStart": 1409,
+          "charEnd": 1512
+        },
+        {
+          "sourceId": "f449ea0ebffd60a6c1deba87468d8fbc0494e83877ccb8b1e8d327b9387a5cf1",
+          "chunkId": "f449ea0ebffd-00013",
+          "sourceTitle": "温情题材创作公式与实操",
+          "heading": "13.共同经历公式：共同小事+协作互动=情感加深",
+          "charStart": 1713,
+          "charEnd": 1837
+        }
+      ]
+    },
+    {
+      "conceptId": "1e815af9650b",
+      "canonical_zh": "首次相遇（邂逅）",
+      "canonical_en": "Meet Cute",
+      "aliases": [
+        "第一次相遇（邂逅）",
+        "首次相遇场景"
+      ],
+      "types": [
+        "结构概念",
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "关系建置场景",
+        "角色登场设计",
+        "情感锚点",
+        "喜剧失态",
+        "性张力对话",
+        "第一幕建置",
+        "道具叙事"
+      ],
+      "evidence": [
+        {
+          "sourceId": "8050b4b60c7b765125beb2958ec1f2889b6d25e607859a156f7cd14a066b08d3",
+          "chunkId": "8050b4b60c7b-00005",
+          "sourceTitle": "나의 결혼식",
+          "heading": "6.과거. 동 교무실 / 낮",
+          "charStart": 2167,
+          "charEnd": 2970
+        },
+        {
+          "sourceId": "86c9753c37438eadc5c81234f25fd1e8a15733400aaaa7bc44067450221e9e14",
+          "chunkId": "86c9753c3743-00007",
+          "sourceTitle": "뜨거운 것이 좋아",
+          "heading": "8. 극단 무대 ( 오후 )",
+          "charStart": 8326,
+          "charEnd": 9338
+        }
+      ]
+    },
+    {
+      "conceptId": "21c131a27a1a",
+      "canonical_zh": "代际观念冲突",
+      "canonical_en": "Generational Value Conflict",
+      "aliases": [
+        "代际碰撞",
+        "Generational Conflict",
+        "代际差异公式",
+        "Generational Gap Formula"
+      ],
+      "types": [
+        "题材类型",
+        "结构概念",
+        "类型公式"
+      ],
+      "related_concepts": [
+        "日常化社会矛盾",
+        "家庭伦理题材",
+        "选择困境",
+        "情感共鸣",
+        "和解治愈",
+        "人设塑造",
+        "氛围铺垫"
+      ],
+      "evidence": [
+        {
+          "sourceId": "092d25b8d1e114b42dab491caed81b33d7d391c3658f264fbc2d94237662d377",
+          "chunkId": "092d25b8d1e1-00002",
+          "sourceTitle": "韩式社会题材细化创作方法：从现实切口到情感共鸣",
+          "heading": "2. 贴近 “日常化的社会矛盾”，拒绝 “极端冲突堆砌”",
+          "charStart": 816,
+          "charEnd": 1156
+        },
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00000",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 153
+        },
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00003",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": "3.代际差异公式：长辈习惯+晚辈行为=观念反差",
+          "charStart": 394,
+          "charEnd": 515
+        }
+      ]
+    },
+    {
+      "conceptId": "28441fabd5a7",
+      "canonical_zh": "追车场景",
+      "canonical_en": "Chase Scene",
+      "aliases": [
+        "机场追赶场景",
+        "Airport Chase Scene"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "机场送别场景",
+        "情感高潮段落",
+        "时间截止结构",
+        "肢体外化情感",
+        "分别与重逢母题"
+      ],
+      "evidence": [
+        {
+          "sourceId": "8050b4b60c7b765125beb2958ec1f2889b6d25e607859a156f7cd14a066b08d3",
+          "chunkId": "8050b4b60c7b-00106",
+          "sourceTitle": "나의 결혼식",
+          "heading": "105.동 교문 앞 – 택시 안 / 낮",
+          "charStart": 53899,
+          "charEnd": 54158
+        },
+        {
+          "sourceId": "86c9753c37438eadc5c81234f25fd1e8a15733400aaaa7bc44067450221e9e14",
+          "chunkId": "86c9753c3743-00085",
+          "sourceTitle": "뜨거운 것이 좋아",
+          "heading": "85. 공항 내부 ( 낮 )",
+          "charStart": 65087,
+          "charEnd": 65662
+        }
+      ]
+    },
+    {
+      "conceptId": "2e298d2d6f80",
+      "canonical_zh": "时间线闪回",
+      "canonical_en": "Flashback",
+      "aliases": [
+        "回忆/闪回",
+        "时间线闪回",
+        "flashback"
+      ],
+      "types": [
+        "结构概念"
+      ],
+      "related_concepts": [
+        "双时间线叙事",
+        "闪前",
+        "触发点",
+        "记忆剧本结构",
+        "主观视角摄影",
+        "非线性叙事"
+      ],
+      "evidence": [
+        {
+          "sourceId": "a54757216a0c609419b0b2dbd7d95999280764e559a7f2c609484c5b847c2b93",
+          "chunkId": "a54757216a0c-00010",
+          "sourceTitle": "阳光姐妹淘（剧本）",
+          "heading": "11. 학교 앞 - 아침 <현재 / 과거>",
+          "charStart": 6088,
+          "charEnd": 6555
+        },
+        {
+          "sourceId": "a54757216a0c609419b0b2dbd7d95999280764e559a7f2c609484c5b847c2b93",
+          "chunkId": "a54757216a0c-00061",
+          "sourceTitle": "阳光姐妹淘（剧本）",
+          "heading": "60. 현재, 춘화의 병실 - 밤",
+          "charStart": 46630,
+          "charEnd": 47151
+        }
+      ]
+    },
+    {
+      "conceptId": "331350a3ca1e",
+      "canonical_zh": "密室推理",
+      "canonical_en": "Locked Room Mystery",
+      "aliases": [
+        "密闭空间公式",
+        "Closed Space Formula"
+      ],
+      "types": [
+        "类型公式"
+      ],
+      "related_concepts": [
+        "连环案件",
+        "身份谜团",
+        "陈年旧案",
+        "悬念钩子",
+        "线索递进",
+        "反转设计"
+      ],
+      "evidence": [
+        {
+          "sourceId": "86f34b3b6e583d65792c0e2e4d2695a8ad7437acdbe14d053dcffb97ecbdc963",
+          "chunkId": "86f34b3b6e58-00000",
+          "sourceTitle": "悬疑题材创作公式与实操",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 238
+        },
+        {
+          "sourceId": "86f34b3b6e583d65792c0e2e4d2695a8ad7437acdbe14d053dcffb97ecbdc963",
+          "chunkId": "86f34b3b6e58-00001",
+          "sourceTitle": "悬疑题材创作公式与实操",
+          "heading": "1.密闭空间公式：封闭场景+异常细节=紧张氛围",
+          "charStart": 238,
+          "charEnd": 386
+        }
+      ]
+    },
+    {
+      "conceptId": "34232afc7050",
+      "canonical_zh": "道具隐喻公式",
+      "canonical_en": "Prop Metaphor Formula",
+      "aliases": [],
+      "types": [
+        "类型公式"
+      ],
+      "related_concepts": [
+        "情感锚点",
+        "物件象征",
+        "道具叙事",
+        "创伤触发物",
+        "闪回结构",
+        "类型公式"
+      ],
+      "evidence": [
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00002",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": "2.道具隐喻公式：家庭老物件+回忆关联=情感锚点",
+          "charStart": 266,
+          "charEnd": 394
+        },
+        {
+          "sourceId": "1e5ad4ce5ceb6a50b5d3ee72278a5c8bc2312d4cb445bcbce234cff7c0ffb0ef",
+          "chunkId": "1e5ad4ce5ceb-00003",
+          "sourceTitle": "韩式复仇片创作公式与实操",
+          "heading": "3.道具隐喻公式：关键信物+创伤记忆=情感锚点",
+          "charStart": 395,
+          "charEnd": 517
+        }
+      ]
+    },
+    {
+      "conceptId": "39f213b8acba",
+      "canonical_zh": "对比",
+      "canonical_en": "Contrast",
+      "aliases": [],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "氛围营造",
+        "场景并置",
+        "孤独感",
+        "反思氛围",
+        "环境叙事"
+      ],
+      "evidence": [
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00009",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": "9.邻里对比公式：邻居家庭状态+自家反差=反思氛围",
+          "charStart": 1087,
+          "charEnd": 1203
+        },
+        {
+          "sourceId": "1e5ad4ce5ceb6a50b5d3ee72278a5c8bc2312d4cb445bcbce234cff7c0ffb0ef",
+          "chunkId": "1e5ad4ce5ceb-00008",
+          "sourceTitle": "韩式复仇片创作公式与实操",
+          "heading": "8.孤独氛围公式：主角独处场景+复仇计划=孤独感",
+          "charStart": 970,
+          "charEnd": 1079
+        }
+      ]
+    },
+    {
+      "conceptId": "561574adb9df",
+      "canonical_zh": "道德选择",
+      "canonical_en": "Moral Choice",
+      "aliases": [
+        "主角道德困境",
+        "Protagonist's Moral Guilt"
+      ],
+      "types": [
+        "角色概念",
+        "理论原则"
+      ],
+      "related_concepts": [
+        "角色弧线",
+        "内在冲突",
+        "代价与牺牲",
+        "原罪叙事",
+        "道德对照人物",
+        "主题揭示场景"
+      ],
+      "evidence": [
+        {
+          "sourceId": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+          "chunkId": "f5fdbde5e293-00081",
+          "sourceTitle": "부산행",
+          "heading": "84.KTX 15-16호 연결부, 화장실 - 아침",
+          "charStart": 45579,
+          "charEnd": 46389
+        },
+        {
+          "sourceId": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+          "chunkId": "f5fdbde5e293-00095",
+          "sourceTitle": "부산행",
+          "heading": "107.동대구역, 끝 선로 - 아침",
+          "charStart": 51389,
+          "charEnd": 52659
+        }
+      ]
+    },
+    {
+      "conceptId": "57b1ca15af12",
+      "canonical_zh": "情绪冲突",
+      "canonical_en": "Emotional Conflict",
+      "aliases": [
+        "情绪冲突缓解",
+        "Emotional Conflict De-escalation"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "动作冲突",
+        "情绪外化",
+        "台词设计",
+        "情感细节",
+        "温情题材",
+        "高潮场景"
+      ],
+      "evidence": [
+        {
+          "sourceId": "eabe265069f332047cf1689bd25570ed95118908884c665dc05d4919d580da86",
+          "chunkId": "eabe265069f3-00002",
+          "sourceTitle": "韩式高潮场景创作分步清单",
+          "heading": null,
+          "charStart": 1320,
+          "charEnd": 2015
+        },
+        {
+          "sourceId": "f449ea0ebffd60a6c1deba87468d8fbc0494e83877ccb8b1e8d327b9387a5cf1",
+          "chunkId": "f449ea0ebffd-00023",
+          "sourceTitle": "温情题材创作公式与实操",
+          "heading": "23.情绪安抚公式：负面情绪爆发+温柔安抚举动=冲突缓解",
+          "charStart": 3077,
+          "charEnd": 3221
+        }
+      ]
+    },
+    {
+      "conceptId": "5a3abb61a634",
+      "canonical_zh": "边缘群体叙事",
+      "canonical_en": "Marginalized Group Narrative",
+      "aliases": [
+        "小众群体困境",
+        "Niche Group Dilemma"
+      ],
+      "types": [
+        "题材类型"
+      ],
+      "related_concepts": [
+        "社会题材",
+        "情感共鸣",
+        "以小见大",
+        "神经多样性",
+        "隐性困境",
+        "角色塑造",
+        "叙事结构"
+      ],
+      "evidence": [
+        {
+          "sourceId": "092d25b8d1e114b42dab491caed81b33d7d391c3658f264fbc2d94237662d377",
+          "chunkId": "092d25b8d1e1-00000",
+          "sourceTitle": "韩式社会题材细化创作方法：从现实切口到情感共鸣",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 423
+        },
+        {
+          "sourceId": "092d25b8d1e114b42dab491caed81b33d7d391c3658f264fbc2d94237662d377",
+          "chunkId": "092d25b8d1e1-00001",
+          "sourceTitle": "韩式社会题材细化创作方法：从现实切口到情感共鸣",
+          "heading": "1. 贴近 “未被充分关注的群体”，避免 “热门题材扎堆”",
+          "charStart": 423,
+          "charEnd": 816
+        }
+      ]
+    },
+    {
+      "conceptId": "63280f2c19ef",
+      "canonical_zh": "主题动机",
+      "canonical_en": "Motif",
+      "aliases": [
+        "모티브",
+        "Motive"
+      ],
+      "types": [
+        "结构概念",
+        "理论原则"
+      ],
+      "related_concepts": [
+        "重放",
+        "蒙太奇",
+        "节奏",
+        "主题",
+        "程式化"
+      ],
+      "evidence": [
+        {
+          "sourceId": "df8e94d77e3c504e276ff8b81504710391c6c8428ed1e56244630b9b91828dcd",
+          "chunkId": "df8e94d77e3c-00002",
+          "sourceTitle": "专业术语韩国1",
+          "heading": null,
+          "charStart": 3137,
+          "charEnd": 4624
+        },
+        {
+          "sourceId": "e1b5f9020269876bf11db13a62c646547c64ec59f4c10db586113b6612ecd6d7",
+          "chunkId": "e1b5f9020269-00002",
+          "sourceTitle": "专业术语라마",
+          "heading": null,
+          "charStart": 2092,
+          "charEnd": 3151
+        }
+      ]
+    },
+    {
+      "conceptId": "6ddee4aae16f",
+      "canonical_zh": "旁白（内心独白）",
+      "canonical_en": "Voiceover / Internal Monologue",
+      "aliases": [
+        "旁白独白",
+        "人物旁白",
+        "Voiceover Narration",
+        "Character Voiceover"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "画外音叙事",
+        "第一人称叙述",
+        "访谈式结构",
+        "情感落差",
+        "间离效果（Verfremdungseffekt）",
+        "场景潜台词"
+      ],
+      "evidence": [
+        {
+          "sourceId": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+          "chunkId": "de8d9165e6a5-00039",
+          "sourceTitle": "연애의 온도",
+          "heading": "38.옥상 / 낮",
+          "charStart": 14579,
+          "charEnd": 15704
+        },
+        {
+          "sourceId": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+          "chunkId": "de8d9165e6a5-00040",
+          "sourceTitle": "연애의 온도",
+          "heading": "39.다른 은행 ATM / 낮",
+          "charStart": 15704,
+          "charEnd": 15951
+        },
+        {
+          "sourceId": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+          "chunkId": "de8d9165e6a5-00099",
+          "sourceTitle": "연애의 온도",
+          "heading": "98.영의 집 앞 / 밤",
+          "charStart": 41589,
+          "charEnd": 42045
+        }
+      ]
+    },
+    {
+      "conceptId": "743a207f6596",
+      "canonical_zh": "盲棋",
+      "canonical_en": "Blindfold Chess/Go",
+      "aliases": [
+        "Blind Chess / Blindfold Go"
+      ],
+      "types": [
+        "其他"
+      ],
+      "related_concepts": [
+        "围棋",
+        "空间记忆",
+        "盲棋（国际象棋）",
+        "隐秘对弈",
+        "棋局复盘",
+        "鬼手"
+      ],
+      "evidence": [
+        {
+          "sourceId": "7b523e7382ecc6b2ded50e693e9331f913ff4c5618f2b2c942082b62b1883a3a",
+          "chunkId": "7b523e7382ec-00068",
+          "sourceTitle": "신의 한수",
+          "heading": "2. 먹방 복도. 끽~ 먹방 문을 여는 교도관.",
+          "charStart": 47513,
+          "charEnd": 48142
+        },
+        {
+          "sourceId": "7b523e7382ecc6b2ded50e693e9331f913ff4c5618f2b2c942082b62b1883a3a",
+          "chunkId": "7b523e7382ec-00073",
+          "sourceTitle": "신의 한수",
+          "heading": "2. 먹방 복도. 끽~ 먹방 문을 여는 교도관.",
+          "charStart": 50925,
+          "charEnd": 51543
+        }
+      ]
+    },
+    {
+      "conceptId": "778ec5545847",
+      "canonical_zh": "证据开示",
+      "canonical_en": "Discovery",
+      "aliases": [
+        "discovery"
+      ],
+      "types": [
+        "其他"
+      ],
+      "related_concepts": [
+        "证据规则",
+        "辩护权",
+        "笔录完整性",
+        "量刑酌减",
+        "过失致死",
+        "控辩对抗原则"
+      ],
+      "evidence": [
+        {
+          "sourceId": "1fee09e08595ed2b2f17153bae7eccddadbb92e7bdfadd4b3561bdf2ec41c41e",
+          "chunkId": "1fee09e08595-00019",
+          "sourceTitle": "의뢰인",
+          "heading": "15.구치소앞거리/낮",
+          "charStart": 7133,
+          "charEnd": 7714
+        },
+        {
+          "sourceId": "1fee09e08595ed2b2f17153bae7eccddadbb92e7bdfadd4b3561bdf2ec41c41e",
+          "chunkId": "1fee09e08595-00020",
+          "sourceTitle": "의뢰인",
+          "heading": "16.테니스장/낮",
+          "charStart": 7714,
+          "charEnd": 8139
+        },
+        {
+          "sourceId": "1fee09e08595ed2b2f17153bae7eccddadbb92e7bdfadd4b3561bdf2ec41c41e",
+          "chunkId": "1fee09e08595-00041",
+          "sourceTitle": "의뢰인",
+          "heading": "33.검찰청,안검사사무실/낮",
+          "charStart": 12999,
+          "charEnd": 13321
+        }
+      ]
+    },
+    {
+      "conceptId": "8069813ab28c",
+      "canonical_zh": "人物关系铺垫",
+      "canonical_en": "Character Relationship Setup",
+      "aliases": [
+        "人物关系铺垫公式",
+        "Relationship Foreshadowing Formula"
+      ],
+      "types": [
+        "场景技巧",
+        "流程方法"
+      ],
+      "related_concepts": [
+        "情感爆发可信度",
+        "人物弧光",
+        "对立关系设计",
+        "共同创伤",
+        "递进式叙事",
+        "仇人变羁绊",
+        "反派人性化处理"
+      ],
+      "evidence": [
+        {
+          "sourceId": "885f833deb5cd878cc4c9f08c193086a2842048f044e8b14ff8bf476872212b3",
+          "chunkId": "885f833deb5c-00000",
+          "sourceTitle": "人物关系铺垫：让韩式高潮情感爆发更具可信度的核心方法",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 1035
+        },
+        {
+          "sourceId": "885f833deb5cd878cc4c9f08c193086a2842048f044e8b14ff8bf476872212b3",
+          "chunkId": "885f833deb5c-00008",
+          "sourceTitle": "人物关系铺垫：让韩式高潮情感爆发更具可信度的核心方法",
+          "heading": null,
+          "charStart": 5789,
+          "charEnd": 6344
+        }
+      ]
+    },
+    {
+      "conceptId": "90ece09f22e0",
+      "canonical_zh": "开场段落",
+      "canonical_en": "Opening Sequence",
+      "aliases": [
+        "Title Sequence",
+        "开场标题序列"
+      ],
+      "types": [
+        "结构概念"
+      ],
+      "related_concepts": [
+        "标题卡",
+        "场景描述",
+        "气氛营造",
+        "叙事铺垫",
+        "视觉化写作"
+      ],
+      "evidence": [
+        {
+          "sourceId": "38114203d6184eb28df40cb21cce64ffb62801e6bb77cdab2e900190d7953d74",
+          "chunkId": "38114203d618-00004",
+          "sourceTitle": "추격자",
+          "heading": "5.초소앞/오후/비",
+          "charStart": 679,
+          "charEnd": 1081
+        },
+        {
+          "sourceId": "38114203d6184eb28df40cb21cce64ffb62801e6bb77cdab2e900190d7953d74",
+          "chunkId": "38114203d618-00005",
+          "sourceTitle": "추격자",
+          "heading": "6.망원동골목길:오프닝시퀀스/오후-밤/비-비그침",
+          "charStart": 1081,
+          "charEnd": 1231
+        }
+      ]
+    },
+    {
+      "conceptId": "915596f50af8",
+      "canonical_zh": "立体人物",
+      "canonical_en": "Three-Dimensional Character",
+      "aliases": [],
+      "types": [
+        "角色概念"
+      ],
+      "related_concepts": [
+        "扁平人物",
+        "反差人设",
+        "人物弧线",
+        "创伤背景",
+        "角色动机",
+        "人设卡"
+      ],
+      "evidence": [
+        {
+          "sourceId": "afd4b1da05e6cb07e7c50df76f8885108e40b4629dd5857d43bd3260b36c6554",
+          "chunkId": "afd4b1da05e6-00030",
+          "sourceTitle": "校园题材创作公式与实操",
+          "heading": "31.学霸人设公式：优异成绩+独特学习方法+性格特质=立体学",
+          "charStart": 4968,
+          "charEnd": 5152
+        },
+        {
+          "sourceId": "cd9d532e5a049f3cd03f9db8494f70be11fa3ce855ae181c26f42f2a83f73572",
+          "chunkId": "cd9d532e5a04-00003",
+          "sourceTitle": "学习与借鉴金恩淑创作风格技巧的实践指南",
+          "heading": "3. 人物塑造拆解：建立 “立体人设卡”",
+          "charStart": 873,
+          "charEnd": 1271
+        }
+      ]
+    },
+    {
+      "conceptId": "98794a683743",
+      "canonical_zh": "牺牲性角色弧线",
+      "canonical_en": "Sacrificial Character Arc",
+      "aliases": [
+        "牺牲弧",
+        "Sacrifice Arc"
+      ],
+      "types": [
+        "角色概念"
+      ],
+      "related_concepts": [
+        "角色弧线",
+        "利他主义叙事",
+        "闪回（Flashback）",
+        "高潮场景",
+        "见证者结构",
+        "主题性死亡"
+      ],
+      "evidence": [
+        {
+          "sourceId": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+          "chunkId": "f5fdbde5e293-00076",
+          "sourceTitle": "부산행",
+          "heading": "79.KTX 15호차 - 아침",
+          "charStart": 43206,
+          "charEnd": 44011
+        },
+        {
+          "sourceId": "f5fdbde5e293a20b14f2f0a0da32244196508da56e5328328725f16e9bdce89e",
+          "chunkId": "f5fdbde5e293-00099",
+          "sourceTitle": "부산행",
+          "heading": "113.무궁화호 기관차, 외부 통로 - 아침",
+          "charStart": 54964,
+          "charEnd": 55501
+        }
+      ]
+    },
+    {
+      "conceptId": "a5e8a88d2ee4",
+      "canonical_zh": "注意力转移",
+      "canonical_en": "Misdirection / Red Herring",
+      "aliases": [
+        "信息转移策略",
+        "Misdirection",
+        "Distraction / Red Herring"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "信息过载",
+        "舆论管理",
+        "红鲱鱼（叙事谬误）",
+        "议程设置",
+        "危机公关",
+        "麦高芬（MacGuffin）"
+      ],
+      "evidence": [
+        {
+          "sourceId": "8c2f19142d1b9bf4f99ebbc100854db23befda9d6d5f04d9d5c78d8e43334b3c",
+          "chunkId": "8c2f19142d1b-00115",
+          "sourceTitle": "더킹",
+          "heading": "112.검찰 내부",
+          "charStart": 47635,
+          "charEnd": 48355
+        },
+        {
+          "sourceId": "8c2f19142d1b9bf4f99ebbc100854db23befda9d6d5f04d9d5c78d8e43334b3c",
+          "chunkId": "8c2f19142d1b-00116",
+          "sourceTitle": "더킹",
+          "heading": "113.야바위 화면",
+          "charStart": 48355,
+          "charEnd": 48750
+        }
+      ]
+    },
+    {
+      "conceptId": "a971d570d27f",
+      "canonical_zh": "情节节奏",
+      "canonical_en": "Plot Pacing",
+      "aliases": [],
+      "types": [
+        "场景技巧",
+        "结构概念"
+      ],
+      "related_concepts": [
+        "情节设计",
+        "人物需求驱动",
+        "冲突构建",
+        "钩子设计",
+        "逻辑闭环",
+        "共情构建",
+        "主题表达"
+      ],
+      "evidence": [
+        {
+          "sourceId": "8a04b9d470cb453131f2fa6659c73f256206497aa4e142891596955204e96622",
+          "chunkId": "8a04b9d470cb-00000",
+          "sourceTitle": "韩国编剧的情节创作：共情与张力的双重编织",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 688
+        },
+        {
+          "sourceId": "8a04b9d470cb453131f2fa6659c73f256206497aa4e142891596955204e96622",
+          "chunkId": "8a04b9d470cb-00006",
+          "sourceTitle": "韩国编剧的情节创作：共情与张力的双重编织",
+          "heading": null,
+          "charStart": 3972,
+          "charEnd": 4851
+        }
+      ]
+    },
+    {
+      "conceptId": "af5a0e8c149b",
+      "canonical_zh": "平行剪辑",
+      "canonical_en": "Parallel Editing / Cross-Cutting",
+      "aliases": [
+        "时间交叉剪辑",
+        "交叉剪辑",
+        "cross-cutting / intercutting",
+        "parallel editing"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "闪回",
+        "交叉叙事",
+        "蒙太奇",
+        "悬念构建",
+        "时间压缩",
+        "多线叙事"
+      ],
+      "evidence": [
+        {
+          "sourceId": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+          "chunkId": "c4d68280468a-00051",
+          "sourceTitle": "마더",
+          "heading": null,
+          "charStart": 44997,
+          "charEnd": 45988
+        },
+        {
+          "sourceId": "c4d68280468a21317a17486e152af006a4bba013db7f6db74721142ae12d1ce3",
+          "chunkId": "c4d68280468a-00053",
+          "sourceTitle": "마더",
+          "heading": null,
+          "charStart": 46865,
+          "charEnd": 47731
+        }
+      ]
+    },
+    {
+      "conceptId": "b589694cac37",
+      "canonical_zh": "细节符号",
+      "canonical_en": "Detail Symbol",
+      "aliases": [],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "行为符号",
+        "物品符号",
+        "场景符号",
+        "核心特质锚定",
+        "说教规避",
+        "价值观渗透",
+        "人物性格具象化",
+        "主题落地"
+      ],
+      "evidence": [
+        {
+          "sourceId": "ab2db60add95d453c36ea1a51f481f3b1b26f56dcb65f605f5952214c93fb5e3",
+          "chunkId": "ab2db60add95-00004",
+          "sourceTitle": "韩国编剧的主题提炼思维：从故事到价值观的细腻转化",
+          "heading": null,
+          "charStart": 2563,
+          "charEnd": 3280
+        },
+        {
+          "sourceId": "bad65a9f8ea26d45d60dc8037dd0b85aec7dde6d7d4d78a8f159b0eaddd47725",
+          "chunkId": "bad65a9f8ea2-00003",
+          "sourceTitle": "韩国编剧人物性格塑造：从标签到鲜活的细节化路径",
+          "heading": null,
+          "charStart": 2292,
+          "charEnd": 3059
+        }
+      ]
+    },
+    {
+      "conceptId": "b8b1ed90c81d",
+      "canonical_zh": "现实隐喻",
+      "canonical_en": "Social Metaphor / Allegory",
+      "aliases": [
+        "Social Allegory",
+        "Social Metaphor"
+      ],
+      "types": [
+        "场景技巧",
+        "理论原则"
+      ],
+      "related_concepts": [
+        "心理恐惧具象化",
+        "情感驱动叙事",
+        "超自然象征",
+        "开放式结局",
+        "人性困境",
+        "社会批判类型片",
+        "陌生化效果（Verfremdungseffekt）"
+      ],
+      "evidence": [
+        {
+          "sourceId": "906edd1360d20d4ee14cea44c082cfedcb213226fe3bf8b0e05e3a73997f4709",
+          "chunkId": "906edd1360d2-00000",
+          "sourceTitle": "韩式惊悚恐怖题材细化创作方法：从心理恐惧到现实隐喻",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 1329
+        },
+        {
+          "sourceId": "906edd1360d20d4ee14cea44c082cfedcb213226fe3bf8b0e05e3a73997f4709",
+          "chunkId": "906edd1360d2-00012",
+          "sourceTitle": "韩式惊悚恐怖题材细化创作方法：从心理恐惧到现实隐喻",
+          "heading": "4. 结局：“情感余韵 + 现实留白”，让恐怖 “留有余味”",
+          "charStart": 9318,
+          "charEnd": 10211
+        }
+      ]
+    },
+    {
+      "conceptId": "cb51c5e9e46b",
+      "canonical_zh": "五感交织沉浸式共情",
+      "canonical_en": "Multi-Sensory Immersive Empathy",
+      "aliases": [
+        "五感融合场景",
+        "Five-Sense Scene Integration"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "场景共情",
+        "感官细节描写",
+        "情感暗示",
+        "沉浸式叙事",
+        "视听语言",
+        "生活质感",
+        "情绪触发"
+      ],
+      "evidence": [
+        {
+          "sourceId": "d97836cce84b326610e790f0bbcdbc93f63550be159c85a7751a68c48bc3200f",
+          "chunkId": "d97836cce84b-00008",
+          "sourceTitle": "韩国剧本的场景共情细腻手法：用五感细节触情绪",
+          "heading": null,
+          "charStart": 5898,
+          "charEnd": 6583
+        },
+        {
+          "sourceId": "d97836cce84b326610e790f0bbcdbc93f63550be159c85a7751a68c48bc3200f",
+          "chunkId": "d97836cce84b-00009",
+          "sourceTitle": "韩国剧本的场景共情细腻手法：用五感细节触情绪",
+          "heading": null,
+          "charStart": 6585,
+          "charEnd": 7274
+        }
+      ]
+    },
+    {
+      "conceptId": "d4f003d3d6c0",
+      "canonical_zh": "死活问题",
+      "canonical_en": "Life and Death Problem",
+      "aliases": [
+        "사활 문제"
+      ],
+      "types": [
+        "其他"
+      ],
+      "related_concepts": [
+        "围棋眼位",
+        "劫争",
+        "征子",
+        "收官",
+        "死棋",
+        "活棋",
+        "密室逃脱叙事",
+        "麦高芬（MacGuffin）"
+      ],
+      "evidence": [
+        {
+          "sourceId": "7b523e7382ecc6b2ded50e693e9331f913ff4c5618f2b2c942082b62b1883a3a",
+          "chunkId": "7b523e7382ec-00059",
+          "sourceTitle": "신의 한수",
+          "heading": "6. 도박장 라운드 형 복도.",
+          "charStart": 41036,
+          "charEnd": 41876
+        },
+        {
+          "sourceId": "7b523e7382ecc6b2ded50e693e9331f913ff4c5618f2b2c942082b62b1883a3a",
+          "chunkId": "7b523e7382ec-00071",
+          "sourceTitle": "신의 한수",
+          "heading": "2. 먹방 복도. 끽~ 먹방 문을 여는 교도관.",
+          "charStart": 49510,
+          "charEnd": 50275
+        }
+      ]
+    },
+    {
+      "conceptId": "d9698ea28810",
+      "canonical_zh": "伪纪录片访谈插段",
+      "canonical_en": "Talking Head / Mockumentary Interview",
+      "aliases": [
+        "人物访谈/伪纪录片旁白",
+        "内心旁白（采访体）",
+        "Talking Head Interview"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "画外音旁白",
+        "内心独白",
+        "伪纪录片形式",
+        "交叉剪辑",
+        "言行矛盾（潜台词）",
+        "第四面墙打破",
+        "闪回"
+      ],
+      "evidence": [
+        {
+          "sourceId": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+          "chunkId": "de8d9165e6a5-00013",
+          "sourceTitle": "연애의 온도",
+          "heading": "14.탈의실 / 아침",
+          "charStart": 4026,
+          "charEnd": 4191
+        },
+        {
+          "sourceId": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+          "chunkId": "de8d9165e6a5-00029",
+          "sourceTitle": "연애의 온도",
+          "heading": "28.영의 방 / 밤",
+          "charStart": 10975,
+          "charEnd": 12133
+        },
+        {
+          "sourceId": "de8d9165e6a5bf5b0f9e4b881bd70665152f74b9bea8e25f72348cbb6e047255",
+          "chunkId": "de8d9165e6a5-00099",
+          "sourceTitle": "연애의 온도",
+          "heading": "98.영의 집 앞 / 밤",
+          "charStart": 41589,
+          "charEnd": 42045
+        }
+      ]
+    },
+    {
+      "conceptId": "dcab4edc1951",
+      "canonical_zh": "台词设计",
+      "canonical_en": "Dialogue Design",
+      "aliases": [
+        "台词金句",
+        "Signature Dialogue"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "高潮场景设计",
+        "人物性格化",
+        "情感具象化",
+        "伏笔与铺垫",
+        "冲突层次设计",
+        "场景细节强化"
+      ],
+      "evidence": [
+        {
+          "sourceId": "eabe265069f332047cf1689bd25570ed95118908884c665dc05d4919d580da86",
+          "chunkId": "eabe265069f3-00002",
+          "sourceTitle": "韩式高潮场景创作分步清单",
+          "heading": null,
+          "charStart": 1320,
+          "charEnd": 2015
+        },
+        {
+          "sourceId": "eabe265069f332047cf1689bd25570ed95118908884c665dc05d4919d580da86",
+          "chunkId": "eabe265069f3-00004",
+          "sourceTitle": "韩式高潮场景创作分步清单",
+          "heading": null,
+          "charStart": 2699,
+          "charEnd": 3516
+        }
+      ]
+    },
+    {
+      "conceptId": "dcec759d5d16",
+      "canonical_zh": "代际温暖公式",
+      "canonical_en": "Intergenerational Warmth Formula",
+      "aliases": [
+        "代际观念差异公式",
+        "Generational Gap Formula"
+      ],
+      "types": [
+        "类型公式"
+      ],
+      "related_concepts": [
+        "利益小冲突妥协公式",
+        "代际观念差异公式",
+        "温情题材公式",
+        "情感流动",
+        "代沟叙事"
+      ],
+      "evidence": [
+        {
+          "sourceId": "f449ea0ebffd60a6c1deba87468d8fbc0494e83877ccb8b1e8d327b9387a5cf1",
+          "chunkId": "f449ea0ebffd-00017",
+          "sourceTitle": "温情题材创作公式与实操",
+          "heading": "17.代际温暖公式：代际互动+理解包容细节=情感流动",
+          "charStart": 2245,
+          "charEnd": 2389
+        },
+        {
+          "sourceId": "f449ea0ebffd60a6c1deba87468d8fbc0494e83877ccb8b1e8d327b9387a5cf1",
+          "chunkId": "f449ea0ebffd-00024",
+          "sourceTitle": "温情题材创作公式与实操",
+          "heading": "24.利益小冲突妥协公式：小利益冲突+互相让步行动=冲突解决",
+          "charStart": 3221,
+          "charEnd": 3514
+        }
+      ]
+    },
+    {
+      "conceptId": "dfcd1bb61f83",
+      "canonical_zh": "时间跳跃",
+      "canonical_en": "Time Cut",
+      "aliases": [
+        "时间线切换",
+        "时间跳跃",
+        "Timeline Cut"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "闪回",
+        "平行剪辑",
+        "场景转换",
+        "叙事时态",
+        "视觉锚点",
+        "回忆段落"
+      ],
+      "evidence": [
+        {
+          "sourceId": "a54757216a0c609419b0b2dbd7d95999280764e559a7f2c609484c5b847c2b93",
+          "chunkId": "a54757216a0c-00039",
+          "sourceTitle": "阳光姐妹淘（剧本）",
+          "heading": "39. 현재, 방과 후 학교 인근 - 저녁",
+          "charStart": 27945,
+          "charEnd": 28137
+        },
+        {
+          "sourceId": "a54757216a0c609419b0b2dbd7d95999280764e559a7f2c609484c5b847c2b93",
+          "chunkId": "a54757216a0c-00071",
+          "sourceTitle": "阳光姐妹淘（剧本）",
+          "heading": "69. 현재, 기차 안 - 낮",
+          "charStart": 52228,
+          "charEnd": 52336
+        }
+      ]
+    },
+    {
+      "conceptId": "e621ef483a3c",
+      "canonical_zh": "旁白／内心独白",
+      "canonical_en": "Voiceover / Inner Monologue",
+      "aliases": [
+        "旁白（内心独白）",
+        "旁白（叙事性旁白）",
+        "内心独白旁白",
+        "内心独白（旁白）",
+        "旁白（画外音）",
+        "旁白",
+        "Narrative Voiceover",
+        "Inner Monologue Narration",
+        "Inner Monologue / Voiceover",
+        "narration / voice-over",
+        "Voiceover Narration"
+      ],
+      "types": [
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "画外音叙事",
+        "台词潜台词",
+        "人物弧线",
+        "场景节奏",
+        "喜剧反差",
+        "闪回",
+        "画面定格"
+      ],
+      "evidence": [
+        {
+          "sourceId": "8050b4b60c7b765125beb2958ec1f2889b6d25e607859a156f7cd14a066b08d3",
+          "chunkId": "8050b4b60c7b-00005",
+          "sourceTitle": "나의 결혼식",
+          "heading": "6.과거. 동 교무실 / 낮",
+          "charStart": 2167,
+          "charEnd": 2970
+        },
+        {
+          "sourceId": "8050b4b60c7b765125beb2958ec1f2889b6d25e607859a156f7cd14a066b08d3",
+          "chunkId": "8050b4b60c7b-00008",
+          "sourceTitle": "나의 결혼식",
+          "heading": "9.과거. 고등학교 뒷마당 - 계단 / 낮",
+          "charStart": 4074,
+          "charEnd": 4562
+        },
+        {
+          "sourceId": "86c9753c37438eadc5c81234f25fd1e8a15733400aaaa7bc44067450221e9e14",
+          "chunkId": "86c9753c3743-00008",
+          "sourceTitle": "뜨거운 것이 좋아",
+          "heading": "9. 호텔 커피숍 ( 오후 )",
+          "charStart": 9338,
+          "charEnd": 10302
+        },
+        {
+          "sourceId": "86c9753c37438eadc5c81234f25fd1e8a15733400aaaa7bc44067450221e9e14",
+          "chunkId": "86c9753c3743-00045",
+          "sourceTitle": "뜨거운 것이 좋아",
+          "heading": "45. 여의도 거리 ( 낮 )",
+          "charStart": 39515,
+          "charEnd": 39820
+        }
+      ]
+    },
+    {
+      "conceptId": "e6f6862a1cf0",
+      "canonical_zh": "信息误导冲突公式",
+      "canonical_en": "False Lead Misdirection Formula",
+      "aliases": [
+        "误导线索",
+        "Red Herring",
+        "虚假线索"
+      ],
+      "types": [
+        "类型公式",
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "悬念构建",
+        "叙事张力",
+        "侦探推理结构",
+        "信息不对称",
+        "反转设计",
+        "线索布局"
+      ],
+      "evidence": [
+        {
+          "sourceId": "86f34b3b6e583d65792c0e2e4d2695a8ad7437acdbe14d053dcffb97ecbdc963",
+          "chunkId": "86f34b3b6e58-00016",
+          "sourceTitle": "悬疑题材创作公式与实操",
+          "heading": "17.信息误导冲突公式：虚假线索+刻意引导=调查偏离",
+          "charStart": 2694,
+          "charEnd": 2854
+        },
+        {
+          "sourceId": "86f34b3b6e583d65792c0e2e4d2695a8ad7437acdbe14d053dcffb97ecbdc963",
+          "chunkId": "86f34b3b6e58-00022",
+          "sourceTitle": "悬疑题材创作公式与实操",
+          "heading": "23.误导线索公式：干扰线索+排除过程=聚焦真线索",
+          "charStart": 3641,
+          "charEnd": 3806
+        }
+      ]
+    },
+    {
+      "conceptId": "e98dd90cf06b",
+      "canonical_zh": "情感爆发",
+      "canonical_en": "Emotional Climax",
+      "aliases": [],
+      "types": [
+        "结构概念",
+        "场景技巧"
+      ],
+      "related_concepts": [
+        "人物关系铺垫",
+        "高潮结构",
+        "真相揭露",
+        "情感积累",
+        "共情机制",
+        "伏笔与呼应",
+        "角色弧线"
+      ],
+      "evidence": [
+        {
+          "sourceId": "885f833deb5cd878cc4c9f08c193086a2842048f044e8b14ff8bf476872212b3",
+          "chunkId": "885f833deb5c-00000",
+          "sourceTitle": "人物关系铺垫：让韩式高潮情感爆发更具可信度的核心方法",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 1035
+        },
+        {
+          "sourceId": "906edd1360d20d4ee14cea44c082cfedcb213226fe3bf8b0e05e3a73997f4709",
+          "chunkId": "906edd1360d2-00009",
+          "sourceTitle": "韩式惊悚恐怖题材细化创作方法：从心理恐惧到现实隐喻",
+          "heading": "3. 高潮：“真相揭露 + 情感爆发”，让恐怖 “有重量”",
+          "charStart": 6915,
+          "charEnd": 7729
+        }
+      ]
+    },
+    {
+      "conceptId": "f054a16e33cd",
+      "canonical_zh": "主题表达",
+      "canonical_en": "Thematic Expression",
+      "aliases": [],
+      "types": [
+        "理论原则"
+      ],
+      "related_concepts": [
+        "人物性格塑造",
+        "性格成长弧线",
+        "故事核心冲突",
+        "剧情逻辑闭环",
+        "细节具象表达"
+      ],
+      "evidence": [
+        {
+          "sourceId": "8b956ede395f123f4e4bb5738b1201ffe5cddf030a0393682887e62abd4017c4",
+          "chunkId": "8b956ede395f-00000",
+          "sourceTitle": "新人编剧避坑清单",
+          "heading": null,
+          "charStart": 0,
+          "charEnd": 357
+        },
+        {
+          "sourceId": "bad65a9f8ea26d45d60dc8037dd0b85aec7dde6d7d4d78a8f159b0eaddd47725",
+          "chunkId": "bad65a9f8ea2-00003",
+          "sourceTitle": "韩国编剧人物性格塑造：从标签到鲜活的细节化路径",
+          "heading": null,
+          "charStart": 2292,
+          "charEnd": 3059
+        }
+      ]
+    },
+    {
+      "conceptId": "fa626bbc9b86",
+      "canonical_zh": "细节关怀公式",
+      "canonical_en": "Detail of Care Formula",
+      "aliases": [],
+      "types": [
+        "类型公式"
+      ],
+      "related_concepts": [
+        "情感破冰公式",
+        "沉默行动叙事",
+        "以小见大原则",
+        "人物关系转折点",
+        "温情细节积累"
+      ],
+      "evidence": [
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00021",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": "21.细节关怀公式：矛盾中的微小关怀+对方察觉=情感缓和",
+          "charStart": 2611,
+          "charEnd": 2716
+        },
+        {
+          "sourceId": "f449ea0ebffd60a6c1deba87468d8fbc0494e83877ccb8b1e8d327b9387a5cf1",
+          "chunkId": "f449ea0ebffd-00012",
+          "sourceTitle": "温情题材创作公式与实操",
+          "heading": "12.细节关怀公式：他人困境+细微关怀举动=情感触动",
+          "charStart": 1581,
+          "charEnd": 1713
+        }
+      ]
+    },
+    {
+      "conceptId": "fd4d5ed2b186",
+      "canonical_zh": "反差魅力",
+      "canonical_en": "Contrast Charm",
+      "aliases": [
+        "反差人设",
+        "Contrast Character Design",
+        "Contrast Charisma"
+      ],
+      "types": [
+        "角色概念"
+      ],
+      "related_concepts": [
+        "立体人设",
+        "外冷内热",
+        "人设公式",
+        "人物弧光",
+        "破碎感与力量感",
+        "软肋设定",
+        "触发情境"
+      ],
+      "evidence": [
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00032",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": "32.沉默父亲人设公式：不善表达+关键时刻担当=反差魅力",
+          "charStart": 3826,
+          "charEnd": 3923
+        },
+        {
+          "sourceId": "2d74d5a5b994c50e0d04caaefd4ead622a926e531bf2d2133261c0bcbf813aec",
+          "chunkId": "2d74d5a5b994-00031",
+          "sourceTitle": "韩国爱情浪漫题材创作公式与实操",
+          "heading": "31.外冷内热人设公式：冷漠外表+温柔内心=反差魅力",
+          "charStart": 3458,
+          "charEnd": 3572
+        },
+        {
+          "sourceId": "e6ba920cb2feefb4a6c71aeaba1e69c47e90c2c1b51ef89593e0d3c1fc395fbc",
+          "chunkId": "e6ba920cb2fe-00031",
+          "sourceTitle": "黑色幽默题材创作公式与实操",
+          "heading": "31.淡定荒诞人设公式：极端处境+淡定反应=反差魅力",
+          "charStart": 3767,
+          "charEnd": 3883
+        },
+        {
+          "sourceId": "0fa32f6bf0ec1d536bc96972b6854573438a11cea6f229e7898c36954727d51f",
+          "chunkId": "0fa32f6bf0ec-00034",
+          "sourceTitle": "韩式家庭伦理题材创作公式与实操",
+          "heading": "34.叛逆子女人设公式：表面反抗+内心孝顺=反差人设",
+          "charStart": 4011,
+          "charEnd": 4108
+        },
+        {
+          "sourceId": "cd9d532e5a049f3cd03f9db8494f70be11fa3ce855ae181c26f42f2a83f73572",
+          "chunkId": "cd9d532e5a04-00003",
+          "sourceTitle": "学习与借鉴金恩淑创作风格技巧的实践指南",
+          "heading": "3. 人物塑造拆解：建立 “立体人设卡”",
+          "charStart": 873,
+          "charEnd": 1271
+        },
+        {
+          "sourceId": "1e5ad4ce5ceb6a50b5d3ee72278a5c8bc2312d4cb445bcbce234cff7c0ffb0ef",
+          "chunkId": "1e5ad4ce5ceb-00031",
+          "sourceTitle": "韩式复仇片创作公式与实操",
+          "heading": "31.隐忍智者人设公式：表面温和+内心缜密=反差魅力",
+          "charStart": 3603,
+          "charEnd": 3727
+        },
+        {
+          "sourceId": "37d8e299a0acbab89181c474b8ea207a62b5a0d1b3dabf32223050b12e362ba6",
+          "chunkId": "37d8e299a0ac-00031",
+          "sourceTitle": "动作爽片创作公式与实操",
+          "heading": "31.硬汉柔情人设公式：强悍实力+柔软软肋=立体角色",
+          "charStart": 3779,
+          "charEnd": 3905
+        }
+      ]
     }
   ]
 }
